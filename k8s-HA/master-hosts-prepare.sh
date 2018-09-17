@@ -12,7 +12,7 @@ yum remove -y docker \
                   docker-engine-selinux \
                   docker-engine
 #docker install
-yum update
+yum update -y
 yum install -y yum-utils \
 	device-mapper-persistent-data \
 	lvm2
@@ -97,5 +97,5 @@ systemctl daemon-reload
 systemctl restart kubelet
 
 #install keepalived
-install -y keepalived
+yum install -y keepalived
 systemctl enable keepalived && systemctl start keepalived
