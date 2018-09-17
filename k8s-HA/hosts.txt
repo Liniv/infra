@@ -1,0 +1,20 @@
+10.90.2.41	hb-master01
+10.90.2.51	hb-master02
+10.90.2.61	hb-master03
+10.90.2.42	hb-node01
+10.90.2.52	hb-node02
+10.90.2.62	hb-node03
+
+cat <<EOF >>  /etc/hosts
+10.90.2.41   hb-master01
+10.90.2.51   hb-master02
+10.90.2.61   hb-master03
+10.90.2.42   hb-node01
+10.90.2.52   hb-node02
+10.90.2.62   hb-node03
+EOF
+
+cat <<EOF >  /etc/hosts
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+EOF
