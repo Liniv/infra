@@ -1,0 +1,16 @@
+FROM jboss/wildfly:10.1.0.Final
+
+RUN /opt/jboss/wildfly/bin/add-user.sh -up mgmt-users.properties admin Admin#70365 --silent \
+&& mkdir -p /opt/jboss/wildfly/modules/system/layers/base/com/oracle/main/ \
+&& mkdir -p /opt/jboss/wildfly/modules/system/layers/base/by/mtis/main/
+
+COPY resources/ojdbc7.jar /opt/jboss/wildfly/modules/system/layers/base/com/oracle/main/
+COPY resources/billing-db-login-module-0.0.1-SNAPSHOT.jar /opt/jboss/wildfly/modules/system/layers/base/by/mtis/main/
+COPY configs/test/module.xml /opt/jboss/wildfly/modules/system/layers/base/com/oracle/main/
+COPY configs/test/auth/module.xml /opt/jboss/wildfly/modules/system/layers/base/by/mtis/main/
+COPY configs/test/standalone.xml /opt/jboss/wildfly/standalone/configuration/
+
+EXPOSE 8080
+EXPOSE 9990
+
+CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-bmanagement", "0.0.0.0"]

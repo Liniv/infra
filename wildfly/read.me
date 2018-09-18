@@ -1,0 +1,10 @@
+#Build
+docker build -t mtis/wildfly:10.1.0.Final -t mtis/wildfly:latest .
+#up new container
+docker run --restart=always -d -p 8081:8080 -p 9990:9990 --name wildfly mtis/wildfly
+#Stop, Restart, Start
+docker restart wildfly
+#Update
+docker stop wildfly
+docker rm wildfly
+docker run --restart=always -d -p 8081:8080 -p 9990:9990 --name wildfly mtis/wildfly
