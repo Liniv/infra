@@ -372,7 +372,7 @@
                     <module-option name="principalsQuery" value="select IBAMVP.PKG_USERS.GET_MTIS_USER_PASSWORD(?) from dual"/>
                     <module-option name="principalClass" value="by.mtis.login.model.CustomPrincipal"/>
                     <module-option name="principalClassModule" value="by.mtis"/>
-                    <module-option name="rolesQuery" value="select * from table(IBAMVP.PKG_USERS.GET_MTIS_USER_ROLE(?))"/>
+                    <module-option name="rolesQuery" value="select * from table(IBAMVP.PKG_USERS.GET_MTIS_USER_ROLE_MS(?))"/>
                     <module-option name="password-stacking" value="useFirstPass"/>
                     <module-option name="hashAlgorithm" value="SHA256"/>
                     <module-option name="hashEncoding" value="base64"/>
