@@ -1,0 +1,49 @@
+  1 # -*- text -*-
+    2 ######################################################################
+    3 #
+    4 #  Sample virtual server for receiving a CoA or Disconnect-Request packet.
+    5 #
+    6 
+    7 #  Listen on the CoA port.
+    8 #
+    9 #  This uses the normal set of clients, with the same secret as for
+   10 #  authentication and accounting.
+   11 #
+   12 listen {
+   13 	type = coa
+   14 	ipaddr = 172.16.0.22
+   15 	port = 3799
+   16 	virtual_server = coa
+   17 }
+   18 
+   19 server coa {
+   20 	#  When a packet is received, it is processed through the
+   21 	#  recv-coa section.  This applies to *both* CoA-Request and
+   22 	#  Disconnect-Request packets.
+   23 	recv-coa {
+   24 		#  CoA && Disconnect packets can be proxied in the same
+   25 		#  way as authentication or accounting packets.
+   26 		#  Just set Proxy-To-Realm, or Home-Server-Pool, and the
+   27 		#  packets will be proxied.
+   28 
+   29 		#  Do proxying based on realms here.  You don't need
+   30 		#  "IPASS" or "ntdomain", as the proxying is based on
+   31 		#  the Operator-Name attribute.  It contains the realm,
+   32 		#  and ONLY the realm (prefixed by a '1')
+   33 		suffix
+   34 
+   35 		#  Insert your own policies here.
+   36 		ok
+   37 	}
+   38 
+   39 	#  When a packet is sent, it is processed through the
+   40 	#  send-coa section.  This applies to *both* CoA-Request and
+   41 	#  Disconnect-Request packets.
+   42 	send-coa {
+   43 		#  Sample module.
+   44 		ok
+   45 	}
+   46 
+   47 	#  You can use pre-proxy and post-proxy sections here, too.
+   48 	#  They will be processed for sending && receiving proxy packets.
+   49 }
