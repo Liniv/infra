@@ -1,0 +1,188 @@
+ "Fossies" - the Fresh Open Source Software Archive 
+Member "freeradius-server-3.0.17/raddb/sites-available/originate-coa" (17 Apr 2018, 4943 Bytes) of package /linux/misc/freeradius-server-3.0.17.tar.bz2:
+As a special service "Fossies" has tried to format the requested text file into HTML format (style: standard) with prefixed line numbers. Alternatively you can here view or download the uninterpreted source code file.
+    1 # -*- text -*-
+    2 ######################################################################
+    3 #
+    4 #  The server can originate Change of Authorization (CoA) or
+    5 #  Disconnect request packets.  These packets are used to dynamically
+    6 #  change the parameters of a users session (bandwidth, etc.), or
+    7 #  to forcibly disconnect the user.
+    8 #
+    9 #  There are some caveats.  Not all NAS vendors support this
+   10 #  functionality.  Even for the ones that do, it may be difficult to
+   11 #  find out what needs to go into a CoA-Request or Disconnect-Request
+   12 #  packet.  All we can suggest is to read the NAS documentation
+   13 #  available from the vendor.  That documentation SHOULD describe
+   14 #  what information their equipment needs to see in a CoA packet.
+   15 #
+   16 #  This information is usually a list of attributes such as:
+   17 #
+   18 #	NAS-IP-Address (or NAS-IPv6 address)
+   19 #	NAS-Identifier
+   20 #	User-Name
+   21 #	Acct-Session-Id
+   22 #
+   23 #  CoA packets can be originated when a normal Access-Request or
+   24 #  Accounting-Request packet is received.  Simply update the
+   25 #  "coa" list:
+   26 #
+   27 #	update coa {
+   28 #	       &User-Name = "%{User-Name}"
+   29 #	       &Acct-Session-Id = "%{Acct-Session-Id}"
+   30 #	       &NAS-IP-Address = "%{NAS-IP-Address}"
+   31 #	}
+   32 #
+   33 #  And the CoA packet will be sent.  You can also send Disconnect
+   34 #  packets by using "update disconnect { ...".
+   35 #
+   36 #  This "update coa" entry can be placed in any section (authorize,
+   37 #  preacct, etc.), EXCEPT for pre-proxy and post-proxy.  The CoA
+   38 #  packets CANNOT be sent if the original request has been proxied.
+   39 #
+   40 #  The CoA functionality works best when the RADIUS server and
+   41 #  the NAS receiving CoA packets are on the same network.
+   42 #
+   43 #  If "update coa { ... " is used, and then later it becomes necessary
+   44 #  to not send a CoA request, the following example can suppress the
+   45 #  CoA packet:
+   46 #
+   47 #	update control {
+   48 #		&Send-CoA-Request = No
+   49 #	}
+   50 #
+   51 #  The default destination of a CoA packet is the NAS (or client)
+   52 #  the sent the original Access-Request or Accounting-Request.  See
+   53 #  raddb/clients.conf for a "coa_server" configuration that ties
+   54 #  a client to a specific home server, or to a home server pool.
+   55 #
+   56 #  If you need to send the packet to a different destination, update
+   57 #  the "coa" list with one of:
+   58 #
+   59 #	Packet-Dst-IP-Address = ...
+   60 #	Packet-Dst-IPv6-Address = ...
+   61 #	Home-Server-Pool = ...
+   62 #
+   63 #  That specifies an Ipv4 or IPv6 address, or a home server pool
+   64 #  (such as the "coa" pool example below).  This use is not
+   65 #  recommended, however,  It is much better to point the client
+   66 #  configuration directly at the CoA server/pool, as outlined
+   67 #  earlier.
+   68 #
+   69 #  If the CoA port is non-standard, you can also set:
+   70 #
+   71 #	Packet-Dst-Port
+   72 #
+   73 #  to have the value of the port.
+   74 #
+   75 ######################################################################
+   76 
+   77 #
+   78 #  When CoA packets are sent to a NAS, the NAS is acting as a
+   79 #  server (see RFC 5176).  i.e. it has a type (accepts CoA and/or
+   80 #  Disconnect packets), an IP address (or IPv6 address), a
+   81 #  destination port, and a shared secret.
+   82 #
+   83 home_server example-coa {
+   84 	type = coa
+   85 
+   86 	#
+   87 	#  Note that a home server of type "coa" MUST be a real NAS,
+   88 	#  with an ipaddr or ipv6addr.  It CANNOT point to a virtual
+   89 	#  server.
+   90 	#
+   91 	#  Change this IP address to the IP address of the NAS.
+   92 	#
+   93 	ipaddr = 172.16.0.22
+   94 	port = 3799
+   95 
+   96 	#  This secret SHOULD NOT be the same as the shared
+   97 	#  secret in a "client" section.
+   98 	secret = nTuB2Q9xRAEfWc
+   99 
+  100 	#  CoA specific parameters.  See raddb/proxy.conf for details.
+  101 	coa {
+  102 		irt = 2
+  103 		mrt = 16
+  104 		mrc = 5
+  105 		mrd = 30
+  106 	}
+  107 }
+  108 
+  109 #
+  110 #  CoA servers can be put into pools, just like normal servers.
+  111 #
+  112 home_server_pool coa {
+  113 	type = fail-over
+  114 
+  115 	# Point to the CoA server above.
+  116 	home_server = example-coa
+  117 
+  118 	#  CoA requests are run through the pre-proxy section.
+  119 	#  CoA responses are run through the post-proxy section.
+  120 	virtual_server = originate-coa.example.com
+  121 
+  122 	#
+  123 	#  Home server pools of type "coa" cannot (currently) have
+  124 	#  a "fallback" configuration.
+  125 	#
+  126 }
+  127 
+  128 #
+  129 #  When this virtual server is run, the original request has FINISHED
+  130 #  processing.  i.e. the reply has already been sent to the NAS.
+  131 #  You can access the attributes in the original packet, reply, and
+  132 #  control items, but changing them will have NO EFFECT.
+  133 #
+  134 #  The CoA packet is in the "proxy-request" attribute list.
+  135 #  The CoA reply (if any) is in the "proxy-reply" attribute list.
+  136 #
+  137 server originate-coa.example.com {
+  138   pre-proxy {
+  139 	update proxy-request {
+  140 		NAS-IP-Address = 192.0.2.42
+  141 	}
+  142   }
+  143 
+  144   #
+  145   # Handle the responses here.
+  146   #
+  147   post-proxy {
+  148 	switch &proxy-reply:Packet-Type {
+  149 		case CoA-ACK {
+  150 			ok
+  151 		}
+  152 
+  153 		case CoA-NAK {
+  154 			# the NAS didn't like the CoA request
+  155 			ok
+  156 		}
+  157 
+  158 		case Disconnect-ACK {
+  159 			ok
+  160 		}
+  161 
+  162 		case Disconnect-NAK {
+  163 			# the NAS didn't like the Disconnect request
+  164 			ok
+  165 		}
+  166 
+  167 		# Invalid packet type.  This shouldn't happen.
+  168 		case {
+  169 		     fail
+  170 		}
+  171 	}
+  172 
+  173 	#
+  174 	#  These methods are run when there is NO response
+  175 	#  to the request.
+  176 	#
+  177 	Post-Proxy-Type Fail-CoA {
+  178 		ok
+  179 	}
+  180 
+  181 	Post-Proxy-Type Fail-Disconnect {
+  182 		ok
+  183 	}
+  184   }
+  185 }
