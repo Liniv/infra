@@ -140,7 +140,7 @@
           </security>
         </datasource>
         <xa-datasource jndi-name="java:jboss/datasources/mtisDS" pool-name="mtisDS" enabled="true" use-ccm="false">
-          <xa-datasource-property name="URL">jdbc:oracle:thin:@3d-ztemtis-ora.iba:1521:ORCL</xa-datasource-property>
+          <xa-datasource-property name="URL">jdbc:oracle:thin:@172.20.236.143:1521:ORCL</xa-datasource-property>
           <driver>oracle</driver>
           <xa-pool>
             <is-same-rm-override>false</is-same-rm-override>
