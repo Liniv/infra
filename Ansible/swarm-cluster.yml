@@ -1,0 +1,141 @@
+# install Docker to all cluster hosts
+- name: install Docker to all cluster hosts
+  hosts: docker-swarm
+  gather_facts: false
+
+# Yum install package
+  tasks:
+  - name: Install yum-ext packages
+    yum:
+      name: "{{ packages }}"
+      state: installed
+    vars:
+      packages: ['yum-utils', 'device-mapper-persistent-data', 'bash-completion', 'lvm2']
+
+# Configure repository
+  - name: Configure docker repo
+    yum_repository:
+      name: docker-ce
+      description: Docker CE Stable - $basearch
+      file: external_repos
+      baseurl: https://download.docker.com/linux/centos/7/$basearch/stable
+      gpgcheck: 1
+      gpgkey: https://download.docker.com/linux/centos/gpg
+      enabled: 1
+      state: present
+# Yum install package
+  - name: Install docker-ce package
+    yum:
+      name: 'docker-ce-18.06.1.ce-3.el7'
+      state: installed
+# Work with services
+- name: Enable and start docker services
+  hosts: docker-swarm
+  gather_facts: false
+  tasks:
+  # create group docker
+  - name: create group docker
+    group:
+      name: docker
+      state: present
+  # add user to docker group
+  - name: add user to docker group
+    shell: >
+      usermod -aG docker $USER
+  # Enable docker service
+  - name: Enable docker service
+    service:
+      name: docker
+      enabled: yes
+  # Reload and restart docker service
+  - name: Restart docker service
+    service:
+      name: docker
+      state: restarted
+      daemon_reload: yes
+  # Check if service is started
+  - name: Start docker service
+    service:
+      name: docker
+      state: started
+# Check if nodes in cluster yet
+- name:  Check nodes not in cluster
+  hosts: docker-swarm
+  become: true
+  tasks:
+    # Get Swarm status from nodes
+    - name: determine swarm status
+      shell: >
+        docker info | egrep '^Swarm' | cut -d ' ' -f2
+      register: swarm_status
+    # Worker Hosts not in swarm cluster - prepare list to bootstrap it
+    - name: create swarm_worker_bootstrap group
+      add_host:
+        hostname: "{{ item }}"
+        groups: swarm_worker_bootstrap
+      with_items:  "{{ groups['docker-swarm-node'] }}"
+      when: "'active' not in swarm_status.stdout_lines"
+      run_once: true
+    # Manager Hosts not in swarm cluster - prepare list to bootstrap it
+    - name: create swarm_manager_bootstrap group
+      add_host:
+        hostname: "{{ item }}"
+        groups: swarm_manager_bootstrap
+      with_items: "{{ groups['docker-swarm-manager'] }}"
+      when: "'active' not in swarm_status.stdout_lines"
+      run_once: true
+# Initiate Docker Swarm Cluster
+- name:  Initiate Docker Swarm Cluster
+  hosts: swarm_manager_bootstrap[0]
+  become: true
+  tasks:
+    - name: initialize swarm cluster
+      shell: >
+        docker swarm init
+      register: new_cluster_initiated
+    - name: add initialized host to first_manager_node tmp group
+      add_host:
+        hostname: "{{ groups['swarm_manager_bootstrap'][0] }}"
+        groups: first_manager_node
+      when: new_cluster_initiated is changed
+# Collect Swarm cluster data (tokens & etc)
+- name:  Collect Swarm cluster data (tokens & etc)
+  hosts: swarm_manager_bootstrap[0]
+  become: true
+  vars:
+    iface: "{{ swarm_iface | default('bond0') }}"
+  tasks:
+    # Get manager token
+    - name: retrieve swarm manager token
+      shell: docker swarm join-token -q manager
+      register: swarm_manager_token
+      when: "'first_manager_node' in groups"
+    # Get worker token
+    - name: retrieve swarm worker token
+      shell: docker swarm join-token -q worker
+      register: swarm_worker_token
+      when: "'first_manager_node' in groups"
+# Join Masters to cluster
+- name: Join Manager nodes to cluster
+  hosts: swarm_manager_bootstrap:!first_manager_node
+  become: true
+  vars:
+    token: "{{ hostvars[groups['first_manager_node'][0]]['swarm_manager_token']['stdout'] }}"
+  tasks:
+    - name: join manager nodes to cluster
+      shell: >
+        docker swarm join
+        --token {{ token }}
+        {{ hostvars[groups['first_manager_node'][0]]['ansible_ssh_host'] }}:2377
+# Join workers to cluster
+- name: Join worker nodes to cluster
+  hosts: swarm_worker_bootstrap
+  become: true
+  vars:
+    token: "{{ hostvars[groups['first_manager_node'][0]]['swarm_worker_token']['stdout'] }}"
+  tasks:
+    - name: join worker nodes to cluster
+      shell: >
+        docker swarm join
+        --token {{ token }}
+        {{ hostvars[groups['first_manager_node'][0]]['ansible_ssh_host'] }}:2377
