@@ -1,17 +1,40 @@
+# all hosts
+- name: all cluster hosts
+  hosts: '3650'
+  gather_facts: false
+  tasks:
+    # update /etc/hosts file
+  - name: update /etc/hosts file
+    become: true
+    blockinfile:
+      dest: /etc/hosts
+      content: "{{ lookup('template', 'templates/etc/hosts.j2') }}"
+      state: present
+    # set timezone to Europe/Minsk
+  - name: set timezone to Europe/Minsk
+    timezone:
+      name: Europe/Minsk
+    register: timezone Europe/Minsk
+    # update system time
+  - name: update system time
+    shell: >
+      ntpdate -u 10.90.11.2
+      hwclock -w
+    register: system time updated
+
 # install Docker to all cluster hosts
 - name: install Docker to all cluster hosts
   hosts: docker-swarm
   gather_facts: false
 
-# Yum install package
   tasks:
+    # Install yum-ext packages
   - name: Install yum-ext packages
     yum:
       name: "{{ packages }}"
       state: installed
     vars:
-      packages: ['yum-utils', 'device-mapper-persistent-data', 'bash-completion', 'lvm2']
-
+      packages: ['yum-utils', 'device-mapper-persistent-data', 'bash-completion', 'lvm2', 'ntp']
 # Configure repository
   - name: Configure docker repo
     yum_repository:
