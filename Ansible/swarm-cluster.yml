@@ -28,19 +28,29 @@
       ntpdate -u 10.90.11.2
       hwclock -w
     register: system time updated
+    # configure /etc/fstab on clients
+  - name: configure /etc/fstab on clients
+    action: mount name='/nfsshares' src='10.90.2.33:/app' fstype='nfs' opts='nfsvers=3,nolock,rw,soft,intr' state='mounted'
+    tags:
+      - nfs
 # install Docker to all cluster hosts
 - name: install Docker to all cluster hosts
   hosts: docker-swarm
   gather_facts: false
   tasks:
-  # update keepalived env
+    # clear /etc/profile.d/keepalivedenv.sh
+  - name: clear /etc/profile.d/keepalivedenv.sh
+    shell: >
+      cat /dev/null > /etc/profile.d/keepalivedenv.sh
+    register: keepalivedenv cleared
+     # update keepalived env
   - name: update keepalived env
     become: true
     blockinfile:
       dest: /etc/profile.d/keepalivedenv.sh
       content: "{{ lookup('template', 'templates/etc/profile.d/keepalivedenv.sh.j2') }}"
       state: present
-   # Stop and disable firewald.
+    # Stop and disable firewald.
   - name: Stop and disable firewald.
     service:
        name: firewalld
@@ -55,6 +65,11 @@
       swapoff -a
       sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
     register: SWAP disabled
+# Permanently SET vm.max_map_count=262144
+  - sysctl:
+      name: vm.max_map_count
+      value: 262144
+      state: present
   # Configure repository
   - name: Configure docker repo
     yum_repository:
