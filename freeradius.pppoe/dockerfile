@@ -1,0 +1,73 @@
+FROM centos:7.4.1708
+
+#ENV LD_LIBRARY_PATH=/opt/oracle/instantclient_11_2:$LD_LIBRARY_PATH
+#ENV PATH=$LD_LIBRARY_PATH:$PATH
+#ENV ORACLE_HOME=/opt/oracle/instantclient_11_2:$ORACLE_HOME
+
+RUN yum install -y \
+	openssl \
+	openssl-devel \
+	gcc \
+	make \
+	bzip2 \
+	unzip \
+	libtalloc-devel \
+	libaio
+RUN mkdir /mtmp \
+	&& chmod 777 -R /mtmp \
+	&& mkdir /opt/oracle \
+	&& chmod 777 -R /opt/oracle
+
+COPY resources /mtmp
+
+RUN cd /mtmp \
+	&& tar -xvf freeradius-server-3.0.17.tar.bz2 \
+	&& unzip -d /opt/oracle/ instantclient-basic-linux.x64-11.2.0.4.0.zip \
+	&& unzip -d /opt/oracle/ instantclient-sdk-linux.x64-11.2.0.4.0.zip	\
+	&&	cd /opt/oracle/instantclient_11_2 \
+	&&	ln -s libclntsh.so.11.1 libclntsh.so \
+	&&	ln -s libocci.so.11.1 libocci.so \
+	&& cp libnnz11.so /usr/local/lib \
+	&& cp libclntsh.so /usr/local/lib \
+	&& cp libclntsh.so.11.1 /usr/local/lib \
+	&& cp libocci.so /usr/local/lib \
+	&& cp libociei.so /usr/local/lib \	
+	&& ldconfig \
+	&& cd /mtmp/freeradius-server-3.0.17 && ./configure \
+		--with-oracle-include-dir=/opt/oracle/instantclient_11_2/sdk/include/ \
+		--with-oracle-lib-dir=/opt/oracle/instantclient_11_2/ \
+	&& make \
+	&& make install
+RUN yum clean all
+
+COPY configs/test /mtmp
+RUN cd /mtmp \
+&& cp radiusd.conf /usr/local/etc/raddb/radiusd.conf \
+&& cp clients.conf /usr/local/etc/raddb/clients.conf \
+&& cp queries.conf /usr/local/etc/raddb/mods-config/sql/ippool-dhcp/oracle/queries.conf \
+&& cp sql /usr/local/etc/raddb/mods-available/sql \
+&& cp linelog /usr/local/etc/raddb/mods-available/linelog \
+&& cp dhcp_sqlippool /usr/local/etc/raddb/mods-available/dhcp_sqlippool \
+&& cp dhcp /usr/local/etc/raddb/sites-enabled/dhcp \
+&& cp policy.d/dhcp /usr/local/etc/raddb/policy.d/dhcp \
+&& cp dynamic-clients /usr/local/etc/raddb/sites-available/dynamic-clients \
+&& cp default /usr/local/etc/raddb/sites-enabled/default
+
+RUN cd /usr/local/etc/raddb/mods-enabled \
+&& ln -s ../mods-available/sql sql \
+&& ln -s ../mods-available/sqlippool sqlippool \
+&& ln -s ../mods-available/dhcp_sqlippool dhcp_sqlippool \
+&& rm -rf /usr/local/etc/raddb/sites-enabled/inner-tunnel
+
+RUN cd /usr/local/etc/raddb/sites-enabled/ \
+&& ln -s ../sites-available/dynamic-clients dynamic-clients
+RUN rm -rf /mtmp
+#RUN radiusd -XC
+
+EXPOSE \
+    1812/udp \
+    1813/udp \
+	67/udp \
+	1700/udp
+
+CMD radiusd -XXX

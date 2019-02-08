@@ -1,0 +1,68 @@
+FROM centos:7
+
+ENV LD_LIBRARY_PATH=/usr/lib/oracle/11.2/client64/lib
+ENV ORACLE_HOME=/usr/include/oracle/11.2/client64
+RUN yum install -y \
+	bzip2 \
+	unzip \
+	openssl \
+	openssl-devel \
+	libtalloc \
+	libtalloc-devel \
+	cap \
+	pcap \
+	collectdclient \
+	snmpget \
+	snmpwalk \
+	libmemcached \
+	libgdbm \
+	libeap-ikev2 \
+	libnaaeap \
+	libldap \
+	libwbclient \
+	libpam \
+	libcurl \
+	json-c \
+	libiodbc \
+	yubikey \
+	ykclient \
+	libhiredis \
+	gcc \
+	glibc \
+	glibc-common \
+	gd \
+	gd-devel
+
+COPY resources /
+RUN tar -xvf freeradius-server-3.0.17.tar.bz2
+COPY configs/test/configure.in /freeradius-3.0.17/src/modules/rlm_sql/drivers/rlm_sql_oracle/configure.ac
+RUN rm -rf freeradius-server-3.0.17.tar.bz2 \
+&& yum localinstall -y oracle-instantclient11.2-basic-11.2.0.4.0-1.x86_64.rpm \
+&& yum localinstall -y oracle-instantclient11.2-devel-11.2.0.4.0-1.x86_64.rpm \
+&& rm oracle-instantclient11.2-basic-11.2.0.4.0-1.x86_64.rpm \
+&& rm oracle-instantclient11.2-devel-11.2.0.4.0-1.x86_64.rpm \
+&& cd /usr/lib/oracle/11.2/client64/lib/ \
+&& cp libnnz11.so /usr/local/lib \
+&& cp libclntsh.so.11.1 /usr/local/lib \
+&& cd /freeradius-server-3.0.17 && ./configure \
+	--with-oracle-include-dir=/usr/include/oracle/11.2/client64/ \
+	--with-oracle-lib-dir=/usr/lib/oracle/11.2/client64/lib/ \
+&& make \
+&& make install \
+&& rm -rf /freeradius-server-3.0.17
+
+RUN cd /usr/local/etc/raddb/mods-enabled \
+&& ln -s ../mods-available/sql sql
+#&& ln -s ../mods-available/sqlippool sqlippool \
+#&& ln -s ../mods-available/dhcp_sqlippool dhcp_sqlippool
+
+COPY configs/test/sql /usr/local/etc/raddb/mods-available/sql
+COPY configs/test/linelog /usr/local/etc/raddb/mods-available/linelog
+COPY configs/test/clients.conf /usr/local/etc/raddb/clients.conf
+
+EXPOSE \
+    1812/udp \
+    1813/udp \
+    18120/udp
+
+CMD radiusd -X

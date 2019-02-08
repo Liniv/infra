@@ -1,0 +1,320 @@
+
+Current configuration : 6507 bytes
+!
+! Last configuration change at 18:23:34 Minsk Wed May 16 2018 by testuser
+!
+upgrade fpd auto
+version 12.4
+no service pad
+service timestamps debug uptime
+service timestamps log datetime localtime
+service password-encryption
+service sequence-numbers
+!
+hostname BRAS_22
+!
+boot-start-marker
+boot system flash disk0:/c7301-adventerprisek9-mz.124-24.T4.bin
+boot-end-marker
+!
+logging message-counter syslog
+no logging reload
+logging rate-limit all 10
+enable secret 5 $1$VT6R$NAGiYT1uTAwYiv09AEvJ4.
+!
+aaa new-model
+aaa session-mib disconnect
+aaa session-mib populate start
+!
+!
+aaa authentication login default local
+aaa authentication ppp VPN group radius
+aaa authorization exec default local
+aaa authorization network VPN group radius
+aaa accounting delay-start
+aaa accounting update periodic 5
+aaa accounting network VPN
+ action-type start-stop
+ group radius
+!
+!
+aaa server radius dynamic-author
+ client 10.90.2.34
+ server-key 7 051B021C2F
+ auth-type any
+!
+aaa session-id unique
+clock timezone Minsk 3
+clock calendar-valid
+!
+flow exporter MAC_EXPORTER
+ destination 10.90.4.2
+ source GigabitEthernet0/0
+ transport udp 2055
+ template data timeout 60
+!
+!
+flow record MAC_RECORD
+ match ipv4 source address
+ collect datalink mac source address input
+ collect timestamp sys-uptime first
+ collect timestamp sys-uptime last
+!
+!
+flow monitor MAC_MONITOR
+ record MAC_RECORD
+ exporter MAC_EXPORTER
+!
+no ip source-route
+no ip gratuitous-arps
+no ip icmp rate-limit unreachable
+ip cef
+!
+!
+ip dhcp relay information option
+!
+!
+no ip bootp server
+no ip domain lookup
+ip domain name mtis.by
+ip name-server 172.16.0.35
+ip name-server 172.16.0.36
+ip inspect name InspectRule icmp
+ip address-pool local
+no ipv6 cef
+!
+multilink bundle-name authenticated
+async-bootp dns-server 93.125.87.227 93.125.87.228
+vpdn enable
+!
+vpdn-group l2tp
+! Default L2TP VPDN group
+ accept-dialin
+  protocol l2tp
+  virtual-template 1
+ no l2tp tunnel authentication
+!
+vpdn-group pptp
+! Default PPTP VPDN group
+ accept-dialin
+  protocol pptp
+  virtual-template 1
+ session-limit 3500
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+username chernysh privilege 15 secret 5 $1$xLR2$B4e.CtJrKZzUQxqhaY6Vb/
+username shall privilege 15 secret 5 $1$HlpR$2YHV14tuPh9ffFlE45EqQ/
+username testuser privilege 15 password 7 0975180F4D3C19
+archive
+ log config
+  hidekeys
+!
+no crypto isakmp enable
+!
+!
+!
+!
+ip ssh time-out 60
+ip ssh logging events
+!
+!
+!
+!
+interface GigabitEthernet0/0
+ description USERS
+ ip address 172.16.0.22 255.255.255.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ ip flow monitor MAC_MONITOR input
+ ip flow ingress
+ duplex full
+ speed auto
+ media-type rj45
+ no negotiation auto
+ no cdp enable
+!
+interface GigabitEthernet0/1
+ ip address 172.16.3.6 255.255.255.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ ip flow ingress
+ no ip mroute-cache
+ ip ospf authentication-key 7 00221614500E34140A
+ ip ospf network point-to-multipoint
+ ip ospf hello-interval 5
+ ip ospf dead-interval 65535
+ duplex full
+ speed 1000
+ media-type rj45
+ no negotiation auto
+ no cdp enable
+!
+interface GigabitEthernet0/2
+ no ip address
+ ip flow ingress
+ duplex auto
+ speed auto
+ media-type rj45
+ no negotiation auto
+!
+interface Virtual-Template1
+ mtu 1492
+ ip unnumbered GigabitEthernet0/0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ ip flow ingress
+ ip flow egress
+ ip policy route-map PBR
+ no logging event link-status
+ no peer default ip address
+ keepalive 200
+ ppp authentication chap VPN
+ ppp authorization VPN
+ ppp accounting VPN
+ no clns route-cache
+!
+router ospf 1
+ router-id 172.16.0.22
+ log-adjacency-changes
+ passive-interface default
+ no passive-interface GigabitEthernet0/0
+ network 172.16.0.0 0.0.0.255 area 0
+!
+router ospf 3
+ router-id 172.16.3.6
+ log-adjacency-changes
+ redistribute connected subnets
+ passive-interface default
+ no passive-interface GigabitEthernet0/1
+ network 172.16.3.0 0.0.0.255 area 3
+ distribute-list OSPF_VPDN_STATIC out
+ distribute-list OSPF_VPDN_STATIC in
+!
+ip local pool vpdn 10.10.0.1 10.10.15.254
+ip default-gateway 172.16.3.8
+no ip forward-protocol nd
+ip route 0.0.0.0 0.0.0.0 172.16.3.8
+ip route 10.1.0.0 255.255.0.0 172.16.0.5
+ip route 10.2.0.0 255.255.0.0 172.16.0.5
+ip route 10.3.0.0 255.255.0.0 172.16.0.5
+ip route 10.90.2.0 255.255.255.0 172.16.0.60
+ip route 10.90.3.0 255.255.255.0 172.16.0.60
+ip route 10.90.4.0 255.255.255.0 172.16.0.236
+ip route 10.90.5.0 255.255.255.0 172.16.0.236
+ip route 10.90.11.0 255.255.255.252 172.16.0.236
+ip route 10.90.101.0 255.255.255.0 172.16.0.236
+ip route 93.158.134.250 255.255.255.255 172.16.0.35
+no ip http server
+no ip http secure-server
+!
+ip flow-egress input-interface
+ip flow-cache timeout active 1
+ip flow-capture fragment-offset
+ip flow-capture packet-length
+ip flow-capture ttl
+ip flow-capture vlan-id
+ip flow-capture icmp
+ip flow-capture ip-id
+ip flow-capture mac-addresses
+ip flow-export source GigabitEthernet0/0
+ip flow-export version 5 peer-as
+ip flow-export destination 10.90.5.68 9995
+ip flow-export destination 10.90.2.35 6006
+!
+!
+ip access-list standard Internetfilter
+ permit any
+ip access-list standard OSPF_VPDN_STATIC
+ permit 91.149.173.0 0.0.0.255
+ permit 93.125.87.0 0.0.0.255
+ deny   any
+ip access-list standard iacl-snmp
+ deny   any log
+!
+ip access-list extended nat_list
+ permit udp any any eq 9995
+ permit udp 192.168.0.0 0.0.0.255 any eq 9995
+!
+logging origin-id string BRASS-04
+logging facility local2
+logging 10.90.11.2
+access-list compiled
+no cdp run
+
+!
+!
+!
+!
+route-map PBR-map permit 10
+ match ip address OSPF_VPDN_STATIC
+ set ip default next-hop 172.16.3.7
+!
+!
+snmp-server group snmp v1 access iacl-snmp
+snmp-server group snmp v2c access iacl-snmp
+snmp-server community gfhjkmpf,,brc RW
+snmp-server ifindex persist
+snmp-server enable traps tty
+radius-server attribute 4 172.16.0.22
+radius-server attribute 31 mac format ietf
+radius-server configure-nas
+radius-server host 10.90.2.34 auth-port 1812 acct-port 1813
+radius-server retransmit 5
+radius-server timeout 10
+radius-server key 7 001417150A
+radius-server vsa send accounting
+radius-server vsa send authentication
+!
+control-plane
+!
+!
+!
+!
+!
+dial-peer cor custom
+!
+!
+!
+!
+gatekeeper
+ shutdown
+!
+!
+line con 0
+ privilege level 15
+ password 7 072834424908115236
+ logging synchronous
+ stopbits 1
+line aux 0
+ transport input ssh
+ stopbits 1
+line vty 0 4
+ privilege level 15
+ password 7 0449040E562343463E
+ logging synchronous
+ transport input telnet ssh
+ transport output telnet ssh
+line vty 5 15
+ logging synchronous
+ transport input ssh
+!
+ntp update-calendar
+ntp server 10.90.11.2
+end

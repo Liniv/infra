@@ -1,0 +1,74 @@
+# -*- text -*-
+######################################################################
+#
+#	Sample configuration file for dynamically updating the list
+#	of RADIUS clients at run time.
+#
+#	Everything is keyed off of a client "network".  (e.g. 192.0.2/24)
+#	This configuration lets the server know that clients within
+#	that network are defined dynamically.
+#
+#	When the server receives a packet from an unknown IP address
+#	within that network, it tries to find a dynamic definition
+#	for that client.  If the definition is found, the IP address
+#	(and other configuration) is added to the server's internal
+#	cache of "known clients", with a configurable lifetime.
+#
+#	Further packets from that IP address result in the client
+#	definition being found in the cache.  Once the lifetime is
+#	reached, the client definition is deleted, and any new requests
+#	from that client are looked up as above.
+#
+#	If the dynamic definition is not found, then the request is
+#	treated as if it came from an unknown client.  i.e. It is
+#	silently discarded.
+#
+#	As part of protection from Denial of Service (DoS) attacks,
+#	the server will add only one new client per second.  This CANNOT
+#	be changed, and is NOT configurable.
+#
+#	$Id: 0459a7f4b1dc824b1684e9d220a0410c69b3248a $
+#
+######################################################################
+
+#
+#  Define a network where clients may be dynamically defined.
+
+#
+#  This is the virtual server referenced above by "dynamic_clients".
+server dynamic_clients {
+
+	#
+	#  The only contents of the virtual server is the "authorize" section.
+	authorize {
+
+		#  Look the clients up in SQL.
+		#
+		#  This requires the SQL module to be configured, of course.
+		if ("%{sql: SELECT nasname FROM nas WHERE nasname = '%{Packet-Src-IP-Address}'}") {
+			update control {
+				#
+				#  Echo the IP.
+				&FreeRADIUS-Client-IP-Address = "%{Packet-Src-IP-Address}"
+
+				#
+				#  Do multiple SELECT statements to grab
+				#  the various definitions.
+				&FreeRADIUS-Client-Shortname = "%{sql: SELECT shortname FROM nas WHERE nasname = '%{Packet-Src-IP-Address}'}"
+
+				&FreeRADIUS-Client-Secret = "%{sql: SELECT secret FROM nas WHERE nasname = '%{Packet-Src-IP-Address}'}"
+
+				&FreeRADIUS-Client-NAS-Type = "%{sql: SELECT type FROM nas WHERE nasname = '%{Packet-Src-IP-Address}'}"
+
+				&FreeRADIUS-Client-Virtual-Server = "%{sql: SELECT server FROM nas WHERE nasname = '%{Packet-Src-IP-Address}'}"
+			}
+
+		}
+		#
+		#  Tell the caller that the client was defined properly.
+		#
+		#  If the authorize section does NOT return "ok", then
+		#  the new client is ignored.
+		ok
+	}
+}
