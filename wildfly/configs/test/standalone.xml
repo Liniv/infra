@@ -175,7 +175,6 @@
     <subsystem xmlns="urn:jboss:domain:ee:4.0">
         <global-modules>
             <module name="org.jboss.modules"/>
-            <module name="by.mtis"/>
         </global-modules>
       <spec-descriptor-property-replacement>false</spec-descriptor-property-replacement>
       <concurrent>
@@ -365,23 +364,22 @@
             <auth-module code="Dummy" />
           </authentication-jaspi>
         </security-domain>
-        <security-domain name="billing-db-auth">
-            <authentication>
-                <login-module code="by.mtis.login.module.DatabaseServerLoginModule" flag="required" module="by.mtis">
-                    <module-option name="dsJndiName" value="java:jboss/datasources/mtisDS"/>
-                    <module-option name="principalsQuery" value="select IBAMVP.PKG_USERS.GET_MTIS_USER_PASSWORD(?) from dual"/>
-                    <module-option name="principalClass" value="by.mtis.login.model.CustomPrincipal"/>
-                    <module-option name="principalClassModule" value="by.mtis"/>
-                    <module-option name="rolesQuery" value="select * from table(IBAMVP.PKG_USERS.GET_MTIS_USER_ROLE_MS(?))"/>
-                    <module-option name="password-stacking" value="useFirstPass"/>
-                    <module-option name="hashAlgorithm" value="SHA256"/>
-                    <module-option name="hashEncoding" value="base64"/>
-                    <module-option name="hashUserPassword" value="false"/>
-                </login-module>
-            </authentication>
-            <authorization>
-                <policy-module code="PermitAll" flag="required"/>
-            </authorization>
+        <security-domain name="billing-db-auth" cache-type="default">
+          <authentication>
+            <login-module code="Database" flag="required">
+              <module-option name="dsJndiName" value="java:jboss/datasources/mtisDS"/>
+              <module-option name="principalsQuery" value="select IBAMVP.PKG_USERS.GET_MTIS_USER_PASSWORD(?) from dual"/>
+              <module-option name="principalClass" value="by.mtis.dto.MtisPrincipal"/>
+              <module-option name="rolesQuery" value="select * from table(IBAMVP.PKG_USERS.GET_MTIS_USER_ROLE_MS(?))"/>
+              <module-option name="password-stacking" value="useFirstPass"/>
+              <module-option name="hashAlgorithm" value="SHA256"/>
+              <module-option name="hashEncoding" value="base64"/>
+              <module-option name="hashUserPassword" value="false"/>
+            </login-module>
+          </authentication>
+          <authorization>
+            <policy-module code="PermitAll" flag="required"/>
+          </authorization>
         </security-domain>
       </security-domains>
     </subsystem>
