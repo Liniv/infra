@@ -366,7 +366,7 @@
         </security-domain>
         <security-domain name="billing-db-auth" cache-type="default">
           <authentication>
-            <login-module code="Database" flag="required">
+            <login-module code="by.mtis.login.module.DatabaseServerLoginModule" flag="required">
               <module-option name="dsJndiName" value="java:jboss/datasources/mtisDS"/>
               <module-option name="principalsQuery" value="select IBAMVP.PKG_USERS.GET_MTIS_USER_PASSWORD(?) from dual"/>
               <module-option name="principalClass" value="by.mtis.dto.MtisPrincipal"/>
