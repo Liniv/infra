@@ -364,7 +364,7 @@
             <auth-module code="Dummy" />
           </authentication-jaspi>
         </security-domain>
-        <security-domain name="billing-db-auth" cache-type="default">
+        <security-domain name="billing-db-auth">
           <authentication>
             <login-module code="by.mtis.login.module.DatabaseServerLoginModule" flag="required">
               <module-option name="dsJndiName" value="java:jboss/datasources/mtisDS"/>
