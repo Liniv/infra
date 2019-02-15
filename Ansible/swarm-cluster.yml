@@ -1,4 +1,4 @@
-# 3650 hosts (NOT AIX)
+# Prepairing 3650 hosts (NOT AIX)
 - name: 3650 hosts (NOT AIX)
   hosts: '3650'
   gather_facts: false
@@ -28,13 +28,13 @@
       ntpdate -u 10.90.11.2
       hwclock -w
     register: system time updated
-    # configure /etc/fstab on clients
+    # configure /etc/fstab on clients (map NFS shared volume)
   - name: configure /etc/fstab on clients
     action: mount name='/nfsshares' src='10.90.2.33:/app' fstype='nfs' opts='nfsvers=3,nolock,rw,soft,intr' state='mounted'
     tags:
       - nfs
-# install Docker to all cluster hosts
-- name: install Docker to all cluster hosts
+# Prepairing all cluster hosts
+- name: Prepairing all cluster hosts
   hosts: docker-swarm
   gather_facts: false
   tasks:
@@ -44,37 +44,37 @@
        name: firewalld
        state: stopped
        enabled: False
-# Disable SELinux
+  # Disable SELinux
   - selinux:
       state: disabled
-#Disable SWAP
+  #Disable SWAP
   - name: Disable SWAP
     shell: |
       swapoff -a
       sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
     register: SWAP disabled
-    # Install yum-ext packages
+  # Install yum-ext packages
   - name: Install yum-ext packages
     yum:
       name: "{{ packages }}"
       state: installed
     vars:
       packages: ['keepalived']
-    # clear keepalived
-  - name: /etc/sysconfig/keepalived
+  # clear keepalived
+  - name: clear keepalived
     shell: |
       cat /dev/null > /etc/sysconfig/keepalived
       cat /dev/null > /etc/keepalived/keepalived.conf
     register: keepalived cleared
-    # update keepalived /etc/sysconfig/keepalived
-  - name: /etc/sysconfig/keepalived
+  # update keepalived /etc/sysconfig/keepalived
+  - name: update keepalived /etc/sysconfig/keepalived
     become: true
     blockinfile:
       dest: /etc/sysconfig/keepalived
       content: "{{ lookup('template', 'templates/etc/sysconfig/keepalived.j2') }}"
       state: present
-    # update keepalived /etc/sysconfig/keepalived
-  - name: /etc/sysconfig/keepalived
+  # update keepalived /etc/keepalived/keepalived.conf
+  - name: update keepalived /etc/keepalived/keepalived.conf
     become: true
     blockinfile:
       dest: /etc/keepalived/keepalived.conf
@@ -86,13 +86,13 @@
       name: keepalived
       enabled: yes
   # Reload and restart keepalived service
-  - name: Restart keepalived service
+  - name: Reload and restart keepalived service
     service:
       name: keepalived
       state: restarted
       daemon_reload: yes
   # Check if keepalived service is started
-  - name: Start keepalived service
+  - name: Check if keepalived service is started
     service:
       name: keepalived
       state: started
@@ -101,8 +101,8 @@
       name: vm.max_map_count
       value: 262144
       state: present
-  # Configure repository
-  - name: Configure docker repo
+  # Configure docker repository
+  - name: Configure docker repository
     yum_repository:
       name: docker-ce
       description: Docker CE Stable - $basearch
@@ -112,16 +112,11 @@
       gpgkey: https://download.docker.com/linux/centos/gpg
       enabled: 1
       state: present
-# Yum install package
+# Yum Install docker-ce package
   - name: Install docker-ce package
     yum:
       name: 'docker-ce-18.06.1.ce-3.el7'
       state: installed
-# Work with services
-- name: Enable and start docker services
-  hosts: docker-swarm
-  gather_facts: false
-  tasks:
   # configure docker deamon json file
   - name: configure docker daemon.json
     template:
