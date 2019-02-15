@@ -60,10 +60,11 @@
       state: installed
     vars:
       packages: ['keepalived']
-    # clear /etc/profile.d/keepalivedenv.sh
+    # clear keepalived
   - name: /etc/sysconfig/keepalived
     shell: |
       cat /dev/null > /etc/sysconfig/keepalived
+      cat /dev/null > /etc/keepalived/keepalived.conf
     register: keepalived cleared
     # update keepalived /etc/sysconfig/keepalived
   - name: /etc/sysconfig/keepalived
@@ -72,7 +73,14 @@
       dest: /etc/sysconfig/keepalived
       content: "{{ lookup('template', 'templates/etc/sysconfig/keepalived.j2') }}"
       state: present
-  # Enable keepalived service
+    # update keepalived /etc/sysconfig/keepalived
+  - name: /etc/sysconfig/keepalived
+    become: true
+    blockinfile:
+      dest: /etc/keepalived/keepalived.conf
+      content: "{{ lookup('template', 'templates/etc/keepalived/keepalived.conf.j2') }}"
+      state: present
+    # Enable keepalived service
   - name: Enable keepalived service
     service:
       name: keepalived
@@ -80,7 +88,7 @@
   # Reload and restart keepalived service
   - name: Restart keepalived service
     service:
-      name: dockkeepaliveder
+      name: keepalived
       state: restarted
       daemon_reload: yes
   # Check if keepalived service is started
