@@ -16,8 +16,8 @@ services:
       - agent_network
     deploy:
       mode: global
-      placement:
-        constraints: [node.platform.os == linux]
+#      placement:
+#        constraints: [node.platform.os == linux]
 
   server:
     image: portainer/portainer
@@ -31,8 +31,8 @@ services:
     deploy:
       mode: replicated
       replicas: 1
-      placement:
-        constraints: [node.role == manager]
+#      placement:
+#        constraints: [node.platform.os == linux]
 
 networks:
   agent_network:

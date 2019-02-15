@@ -38,19 +38,7 @@
   hosts: docker-swarm
   gather_facts: false
   tasks:
-    # clear /etc/profile.d/keepalivedenv.sh
-  - name: clear /etc/profile.d/keepalivedenv.sh
-    shell: >
-      cat /dev/null > /etc/profile.d/keepalivedenv.sh
-    register: keepalivedenv cleared
-     # update keepalived env
-  - name: update keepalived env
-    become: true
-    blockinfile:
-      dest: /etc/profile.d/keepalivedenv.sh
-      content: "{{ lookup('template', 'templates/etc/profile.d/keepalivedenv.sh.j2') }}"
-      state: present
-    # Stop and disable firewald.
+   # Stop and disable firewald.
   - name: Stop and disable firewald.
     service:
        name: firewalld
@@ -65,7 +53,42 @@
       swapoff -a
       sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
     register: SWAP disabled
-# Permanently SET vm.max_map_count=262144
+    # Install yum-ext packages
+  - name: Install yum-ext packages
+    yum:
+      name: "{{ packages }}"
+      state: installed
+    vars:
+      packages: ['keepalived']
+    # clear /etc/profile.d/keepalivedenv.sh
+  - name: /etc/sysconfig/keepalived
+    shell: |
+      cat /dev/null > /etc/sysconfig/keepalived
+    register: keepalived cleared
+    # update keepalived /etc/sysconfig/keepalived
+  - name: /etc/sysconfig/keepalived
+    become: true
+    blockinfile:
+      dest: /etc/sysconfig/keepalived
+      content: "{{ lookup('template', 'templates/etc/sysconfig/keepalived.j2') }}"
+      state: present
+  # Enable keepalived service
+  - name: Enable keepalived service
+    service:
+      name: keepalived
+      enabled: yes
+  # Reload and restart keepalived service
+  - name: Restart keepalived service
+    service:
+      name: dockkeepaliveder
+      state: restarted
+      daemon_reload: yes
+  # Check if keepalived service is started
+  - name: Start keepalived service
+    service:
+      name: keepalived
+      state: started
+  # Permanently SET vm.max_map_count=262144 (portainer)
   - sysctl:
       name: vm.max_map_count
       value: 262144
@@ -91,6 +114,14 @@
   hosts: docker-swarm
   gather_facts: false
   tasks:
+  # configure docker deamon json file
+  - name: configure docker daemon.json
+    template:
+      src: templates/etc/docker/daemon.json.j2
+      dest: /etc/docker/daemon.json
+      mode: 0644
+      owner: root
+      group: root
   # create group docker
   - name: create group docker
     group:

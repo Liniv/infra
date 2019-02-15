@@ -1,9 +1,11 @@
-version: '3.2'
+version: '3.7'
 
 services:
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:5.3.2
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.6.0
     environment:
+      cluster.name: 'docker-cluster'
+      bootstrap.memory_lock: 'false'
       ES_JAVA_OPTS: '-Xms512m -Xmx512m'
       xpack.security.enabled: 'false'
       xpack.monitoring.enabled: 'false'
@@ -12,18 +14,21 @@ services:
     volumes:
       - /nfsshares/elasticsearch_data:/usr/share/elasticsearch/data
     deploy:
-      replicas: 1
-      placement:
-        constraints: [node.role == worker]
+      replicas: 2
+    networks:
+      - ellk
 
   logstash:
-    image: docker.elastic.co/logstash/logstash:5.3.2
+    image: docker.elastic.co/logstash/logstash:6.6.0
     volumes:
       - /nfsshares/logstash_data/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+      - /nfsshares/resources/oracle/client/ojdbc7.jar:/bin/ojdbc7.jar
     depends_on:
       - elasticsearch
     deploy:
-      replicas: 1
+      replicas: 2
+    networks:
+      - ellk
 
   logspout:
     image: bekt/logspout-logstash
@@ -38,11 +43,13 @@ services:
       restart_policy:
         condition: any
         delay: 30s
+    networks:
+      - ellk
 
   kibana:
-    image: docker.elastic.co/kibana/kibana:5.3.2
+    image: docker.elastic.co/kibana/kibana:6.6.0
     ports:
-      - '80:5601'
+      - '88:5601'
     depends_on:
       - elasticsearch
     environment:
@@ -50,4 +57,8 @@ services:
       XPACK_SECURITY_ENABLED: 'false'
       XPACK_MONITORING_ENABLED: 'false'
     deploy:
-      replicas: 1
+      replicas: 2
+    networks:
+      - ellk
+networks:
+  ellk:

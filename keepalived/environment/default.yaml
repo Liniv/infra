@@ -1,0 +1,25 @@
+KEEPALIVED_COMMAND_LINE_ARGUMENTS: --log-detail --dump-conf
+
+KEEPALIVED_INTERFACE: bond0
+KEEPALIVED_PASSWORD: zte-mt1s
+
+# For electing MASTER, highest priority wins.
+# to be MASTER, make 50 more than other machines
+KEEPALIVED_PRIORITY: 150
+
+KEEPALIVED_UNICAST_PEERS:
+  - 10.90.2.41
+  - 10.90.2.42
+  - 10.90.2.51
+  - 10.90.2.52
+  - 10.90.2.61
+  - 10.90.2.62
+  - 10.90.2.71
+KEEPALIVED_VIRTUAL_IPS:
+  - 10.90.2.111
+
+KEEPALIVED_NOTIFY: /container/service/keepalived/assets/notify.sh
+
+KEEPALIVED_ROUTER_ID: 51
+
+KEEPALIVED_STATE: BACKUP
