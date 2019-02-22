@@ -1,0 +1,118 @@
+SGA_TARGET vs SGA_MAX_SIZE
+
+SGA_MAX_SIZE
+
+sga_max_size sets the maximum value for sga_target 
+If sga_max_size is less than the sum of db_cache_size + log_buffer + shared_pool_size + large_pool_size at initialization time, then the value of sga_max_size is ignored. 
+
+SGA_TARGET
+
+This parameter is new with Oracle 10g. It specifies the total amaount of SGA memory available to an instance. Setting this parameter makes Oracle distribute the available memory among various components - such as shared pool (for SQL and PL/SQL), Java pool, large_pool and buffer cache - as required. 
+This new feature is called Automatic Shared Memory Management. With ASMM, the parameters java_pool_size, shared_pool_size, large_pool_size and db_cache_size need not be specified explicitely anymore. 
+sga_target cannot be higher than sga_max_size. 
+
+
+SGA_TARGET is a database initialization parameter (introduced in Oracle 10g) that can be used for automatic SGA memory sizing.
+Parameter description:
+SGA_TARGET
+Property Description
+Parameter type Big integer
+Syntax SGA_TARGET = integer [K | M | G]
+Default value 0 (SGA autotuning is disabled)
+Modifiable ALTER SYSTEM
+Range of values 64 to operating system-dependent
+Basic Yes
+
+SGA_TARGET provides the following: 
+
+• Single parameter for total SGA size 
+• Automatically sizes SGA components
+• Memory is transferred to where most needed
+• Uses workload information 
+• Uses internal advisory predictions 
+• STATISTICS_LEVEL must be set to TYPICAL 
+
+By using one parameter we don't need to use all other SGA parameters like.
+
+• DB_CACHE_SIZE (DEFAULT buffer pool) 
+• SHARED_POOL_SIZE (Shared Pool) 
+• LARGE_POOL_SIZE (Large Pool) 
+• JAVA_POOL_SIZE (Java Pool) 
+
+Enable SGA_TARGET 
+
+SQL> show parameter sga_target
+
+NAME TYPE VALUE
+------------------------------------ ----------- ------------------------------
+sga_target big integer 0
+SQL> show parameter sga_max_size
+NAME TYPE VALUE
+------------------------------------ ----------- ------------------------------
+sga_max_size big integer 600M
+
+As we can see out automatic SGA tuning is not enabled so we can enable it by setting the SGA_TARGET parameter value.
+
+SQL> alter system set sga_target=500m;
+System altered.
+
+SQL> show parameter sga_target
+
+NAME TYPE VALUE
+------------------------------------ -----------
+sga_target big integer 500
+
+Resize SGA_TARGET 
+
+• SGA_TARGET is dynamic 
+• Can be increased till SGA_MAX_SIZE
+• Can be reduced till some component reaches minimum size
+• Change in value of SGA_TARGET affects only automatically sized components
+
+SQL> show parameter sga_max_size
+NAME TYPE VALUE
+------------------------------------ ----------- -----------
+sga_max_size big integer 1G
+
+SQL> show parameter sga_target
+NAME TYPE VALUE
+------------------------------------ ----------- -----------
+sga_target big integer 1G
+
+
+WE can resize it to only 1G  if we will try to increase it from 2G we will get error.
+
+SQL> alter system set sga_target=2G;
+alter system set sga_target=2G *
+ERROR at line 1:
+ORA-02097: parameter cannot be modified because specified value is invalid
+ORA-00823: Specified value of sga_target greater than sga_max_size
+For that we must first increase our SGA_MAX_SIZE parameter value.But we must restart out instance because its STATIC parameter.
+
+SQL> alter system set sga_max_size=2G scope=spfile;
+System altered.
+
+SQL> startup force
+ORACLE instance started.
+Total System Global Area 1000189952 bytes
+Fixed Size 1337492 bytes
+Variable Size 624953196 bytes
+Database Buffers 369098752 bytes
+Redo Buffers 4800512 bytes
+Database mounted.
+Database opened.
+
+SQL> show parameter sga_max_size
+NAME TYPE VALUE
+------------------------------------ ----------- --------
+sga_max_size big integer 2G
+
+SQL> alter system set sga_target=1900m;
+System altered.
+
+
+Disable SGA_TARGET 
+
+We can Disable our automatic SGA tuning by setting the parameter SGA_TARGET to value digit 0. 
+SQL> alter system set sga_target=0;
+System altered.
