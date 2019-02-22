@@ -27,7 +27,7 @@ db_name="IBAPP"
 # File Configuration
 ###########################################
 control_files=("/webapp/IBAPP/control01.ctl", "/webapp/fast_recovery_area_IBAPP/IBAPP/control02.ctl")
-db_recovery_file_dest="/webapp/fast_recovery_area_IBAPP"
+db_recovery_file_dest="/webapp/fast_recovery_area"
 db_recovery_file_dest_size=4385144832
  
 ###########################################
@@ -44,7 +44,7 @@ processes=150
 ###########################################
 # SGA Memory
 ###########################################
-sga_target=1245708288
+sga_target=10429136896
  
 ###########################################
 # Security and Auditing
@@ -61,7 +61,7 @@ dispatchers="(PROTOCOL=TCP) (SERVICE=IBAPPXDB)"
 ###########################################
 # Sort, Hash Joins, Bitmap Indexes
 ###########################################
-pga_aggregate_target=415236096
+pga_aggregate_target=3301965824
  
 ###########################################
 # System Managed Undo and Rollback Segments
