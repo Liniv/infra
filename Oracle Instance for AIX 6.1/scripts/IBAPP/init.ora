@@ -49,7 +49,7 @@ sga_target=10429136896
 ###########################################
 # Security and Auditing
 ###########################################
-audit_file_dest="/oracle/admin/IBAPP/adump"
+audit_file_dest="/webapp/oradata/admin/IBAPP/adump"
 audit_trail=db
 remote_login_passwordfile=EXCLUSIVE
  
