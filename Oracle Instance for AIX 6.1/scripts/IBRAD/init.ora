@@ -5,7 +5,7 @@
 ###########################################
 # Archive
 ###########################################
-log_archive_format=/radius/archive_log/%t_%s_%r.dbf
+log_archive_format=%t_%s_%r.dbf
  
 ###########################################
 # Cache and I/O
@@ -26,15 +26,20 @@ db_name="IBRAD"
 ###########################################
 # File Configuration
 ###########################################
-control_files=("/radius/IBRAD/control01.ctl", "/radius/fast_recovery_area_IBRAD/IBRAD/control02.ctl")
-db_recovery_file_dest="/radius/fast_recovery_area_IBRAD"
+control_files=("/radius/oradata/IBRAD/control01.ctl", "/radius/oradata/fast_recovery_area/IBRAD/control02.ctl")
+db_recovery_file_dest="/radius/oradata/fast_recovery_area"
 db_recovery_file_dest_size=4385144832
  
 ###########################################
 # Miscellaneous
 ###########################################
 compatible=11.2.0.4.0
-diagnostic_dest=/oracle
+diagnostic_dest=/opt/app/oracle
+ 
+###########################################
+# Network Registration
+###########################################
+local_listener=LISTENER_IBRAD
  
 ###########################################
 # Processes and Sessions
@@ -49,7 +54,7 @@ sga_target=1245708288
 ###########################################
 # Security and Auditing
 ###########################################
-audit_file_dest="/oracle/admin/IBRAD/adump"
+audit_file_dest="/radius/oradata/admin/IBRAD/adump"
 audit_trail=db
 remote_login_passwordfile=EXCLUSIVE
  

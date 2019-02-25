@@ -13,12 +13,12 @@ omfname varchar2(512) := NULL;
        :devicename := dbms_backup_restore.deviceAllocate;
     dbms_output.put_line(' Specifing datafiles... ');
     dbms_backup_restore.restoreSetDataFile;
-      dbms_backup_restore.restoreDataFileTo(1, '/radius/IBRAD/system01.dbf', 0, 'SYSTEM');
-      dbms_backup_restore.restoreDataFileTo(2, '/radius/IBRAD/sysaux01.dbf', 0, 'SYSAUX');
-      dbms_backup_restore.restoreDataFileTo(3, '/radius/IBRAD/undotbs01.dbf', 0, 'UNDOTBS1');
-      dbms_backup_restore.restoreDataFileTo(4, '/radius/IBRAD/users01.dbf', 0, 'USERS');
+      dbms_backup_restore.restoreDataFileTo(1, '/radius/oradata/IBRAD/system01.dbf', 0, 'SYSTEM');
+      dbms_backup_restore.restoreDataFileTo(2, '/radius/oradata/IBRAD/sysaux01.dbf', 0, 'SYSAUX');
+      dbms_backup_restore.restoreDataFileTo(3, '/radius/oradata/IBRAD/undotbs01.dbf', 0, 'UNDOTBS1');
+      dbms_backup_restore.restoreDataFileTo(4, '/radius/oradata/IBRAD/users01.dbf', 0, 'USERS');
     dbms_output.put_line(' Restoring ... ');
-    dbms_backup_restore.restoreBackupPiece('/oracle/product/11.2.0.4/assistants/dbca/templates/Seed_Database.dfb', done);
+    dbms_backup_restore.restoreBackupPiece('/opt/app/oracle/product/11.2.0/dbhome_1/assistants/dbca/templates/Seed_Database.dfb', done);
     if done then
         dbms_output.put_line(' Restore done.');
     else
