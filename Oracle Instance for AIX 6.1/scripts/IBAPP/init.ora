@@ -26,8 +26,8 @@ db_name="IBAPP"
 ###########################################
 # File Configuration
 ###########################################
-control_files=("/webapp/IBAPP/control01.ctl", "/webapp/fast_recovery_area/IBAPP/control02.ctl")
-db_recovery_file_dest="/webapp/fast_recovery_area"
+control_files=("/webapp/oradata/IBAPP/control01.ctl", "/webapp/oradata/fast_recovery_area/IBAPP/control02.ctl")
+db_recovery_file_dest="/webapp/oradata/fast_recovery_area"
 db_recovery_file_dest_size=4385144832
  
 ###########################################

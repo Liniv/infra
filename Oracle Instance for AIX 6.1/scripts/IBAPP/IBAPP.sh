@@ -6,10 +6,10 @@ mkdir -p /oracle/admin/IBAPP/adump
 mkdir -p /oracle/admin/IBAPP/dpdump
 mkdir -p /oracle/admin/IBAPP/pfile
 mkdir -p /oracle/cfgtoollogs/dbca/IBAPP
-mkdir -p /webapp/IBAPP
+mkdir -p /webapp/oradata/IBAPP
 mkdir -p /oracle/product/11.2.0.4/dbs
-mkdir -p /webapp/fast_recovery_area
-mkdir -p /webapp/fast_recovery_area/IBAPP
+mkdir -p /webapp/oradata/fast_recovery_area
+mkdir -p /webapp/oradata/fast_recovery_area/IBAPP
 umask ${OLD_UMASK}
 ORACLE_SID=IBAPP; export ORACLE_SID
 PATH=$ORACLE_HOME/bin:$PATH; export PATH
