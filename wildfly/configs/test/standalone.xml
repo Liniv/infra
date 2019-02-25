@@ -24,6 +24,7 @@
     <extension module="org.wildfly.extension.batch.jberet" />
     <extension module="org.wildfly.extension.bean-validation" />
     <extension module="org.wildfly.extension.io" />
+    <extension module="org.wildfly.extension.messaging-activemq"/>
     <extension module="org.wildfly.extension.request-controller" />
     <extension module="org.wildfly.extension.security.manager" />
     <extension module="org.wildfly.extension.undertow" />
@@ -191,7 +192,7 @@
           <managed-scheduled-executor-service name="default" jndi-name="java:jboss/ee/concurrency/scheduler/default" context-service="default" hung-task-threshold="60000" keepalive-time="3000" />
         </managed-scheduled-executor-services>
       </concurrent>
-      <default-bindings context-service="java:jboss/ee/concurrency/context/default" datasource="java:jboss/datasources/ExampleDS" managed-executor-service="java:jboss/ee/concurrency/executor/default" managed-scheduled-executor-service="java:jboss/ee/concurrency/scheduler/default" managed-thread-factory="java:jboss/ee/concurrency/factory/default" />
+      <default-bindings context-service="java:jboss/ee/concurrency/context/default" datasource="java:jboss/datasources/ExampleDS" jms-connection-factory="java:jboss/DefaultJMSConnectionFactory" managed-executor-service="java:jboss/ee/concurrency/executor/default" managed-scheduled-executor-service="java:jboss/ee/concurrency/scheduler/default" managed-thread-factory="java:jboss/ee/concurrency/factory/default" />
     </subsystem>
     <subsystem xmlns="urn:jboss:domain:ejb3:4.0">
       <session-bean>
@@ -201,6 +202,10 @@
         <stateful default-access-timeout="5000" cache-ref="simple" passivation-disabled-cache-ref="simple" />
         <singleton default-access-timeout="5000" />
       </session-bean>
+      <mdb>
+	      <resource-adapter-ref resource-adapter-name="${ejb.resource-adapter-name:activemq-ra.rar}"/>
+	      <bean-instance-pool-ref pool-name="mdb-strict-max-pool"/>
+      </mdb>
       <pools>
         <bean-instance-pools>
           <strict-max-pool name="slsb-strict-max-pool" derive-size="from-worker-pools" instance-acquisition-timeout="5" instance-acquisition-timeout-unit="MINUTES" />
@@ -230,6 +235,31 @@
       <default-security-domain value="billing-db-auth"/>
       <default-missing-method-permissions-deny-access value="true" />
       <log-system-exceptions value="true" />
+    </subsystem>
+    <subsystem xmlns="urn:jboss:domain:messaging-activemq:1.0">
+		<server name="default">
+		    <security-setting name="#">
+		        <role name="guest" send="true" consume="true" create-non-durable-queue="true" delete-non-durable-queue="true"/>
+		    </security-setting>
+		    <address-setting name="#" dead-letter-address="jms.queue.DLQ" expiry-address="jms.queue.ExpiryQueue" max-size-bytes="10485760" page-size-bytes="2097152" message-counter-history-day-limit="10"/>
+		    <http-connector name="http-connector" socket-binding="http" endpoint="http-acceptor"/>
+		    <http-connector name="http-connector-throughput" socket-binding="http" endpoint="http-acceptor-throughput">
+		        <param name="batch-delay" value="50"/>
+		    </http-connector>
+		    <in-vm-connector name="in-vm" server-id="0"/>
+		    <http-acceptor name="http-acceptor" http-listener="default"/>
+		    <http-acceptor name="http-acceptor-throughput" http-listener="default">
+		        <param name="batch-delay" value="50"/>
+		        <param name="direct-deliver" value="false"/>
+		    </http-acceptor>
+		    <in-vm-acceptor name="in-vm" server-id="0"/>
+		    <jms-queue name="OmegaQueue" entries="java:/queue/OmegaQueue"/>
+		    <jms-queue name="ExpiryQueue" entries="java:/jms/queue/ExpiryQueue"/>
+		    <jms-queue name="DLQ" entries="java:/jms/queue/DLQ"/>
+		    <connection-factory name="InVmConnectionFactory" entries="java:/ConnectionFactory" connectors="in-vm"/>
+		    <connection-factory name="RemoteConnectionFactory" connectors="http-connector" entries="java:jboss/exported/jms/RemoteConnectionFactory"/>
+		    <pooled-connection-factory name="activemq-ra" entries="java:/JmsXA java:jboss/DefaultJMSConnectionFactory" connectors="in-vm" transaction="xa"/>
+		</server>
     </subsystem>
     <subsystem xmlns="urn:jboss:domain:io:1.1">
       <worker name="default" />
