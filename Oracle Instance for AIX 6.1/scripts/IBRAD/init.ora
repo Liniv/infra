@@ -34,7 +34,7 @@ db_recovery_file_dest_size=4385144832
 # Miscellaneous
 ###########################################
 compatible=11.2.0.4.0
-diagnostic_dest=/opt/app/oracle
+diagnostic_dest=/oracle
  
 ###########################################
 # Network Registration

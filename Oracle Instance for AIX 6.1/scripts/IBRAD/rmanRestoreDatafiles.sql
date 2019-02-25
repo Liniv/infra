@@ -18,7 +18,7 @@ omfname varchar2(512) := NULL;
       dbms_backup_restore.restoreDataFileTo(3, '/radius/oradata/IBRAD/undotbs01.dbf', 0, 'UNDOTBS1');
       dbms_backup_restore.restoreDataFileTo(4, '/radius/oradata/IBRAD/users01.dbf', 0, 'USERS');
     dbms_output.put_line(' Restoring ... ');
-    dbms_backup_restore.restoreBackupPiece('/opt/app/oracle/product/11.2.0/dbhome_1/assistants/dbca/templates/Seed_Database.dfb', done);
+    dbms_backup_restore.restoreBackupPiece('/oracle/product/11.2.0/dbhome_1/assistants/dbca/templates/Seed_Database.dfb', done);
     if done then
         dbms_output.put_line(' Restore done.');
     else

@@ -1,6 +1,6 @@
 SET VERIFY OFF
 set echo on
-spool /opt/app/oracle/admin/IBRAD/scripts/lockAccount.log append
+spool /oracle/admin/IBRAD/scripts/lockAccount.log append
 BEGIN 
  FOR item IN ( SELECT USERNAME FROM DBA_USERS WHERE ACCOUNT_STATUS IN ('OPEN', 'LOCKED', 'EXPIRED') AND USERNAME NOT IN ( 
 'SYS','SYSTEM') ) 

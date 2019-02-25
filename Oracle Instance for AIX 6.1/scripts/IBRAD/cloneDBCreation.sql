@@ -1,7 +1,7 @@
 SET VERIFY OFF
 connect "SYS"/"&&sysPassword" as SYSDBA
 set echo on
-spool /opt/app/oracle/admin/IBRAD/scripts/cloneDBCreation.log append
+spool /oracle/admin/IBRAD/scripts/cloneDBCreation.log append
 Create controlfile reuse set database "IBRAD"
 MAXINSTANCES 8
 MAXLOGHISTORY 1
@@ -18,7 +18,7 @@ GROUP 2 ('/radius/oradata/IBRAD/redo02.log') SIZE 51200K,
 GROUP 3 ('/radius/oradata/IBRAD/redo03.log') SIZE 51200K RESETLOGS;
 exec dbms_backup_restore.zerodbid(0);
 shutdown immediate;
-startup nomount pfile="/opt/app/oracle/admin/IBRAD/scripts/initIBRADTemp.ora";
+startup nomount pfile="/oracle/admin/IBRAD/scripts/initIBRADTemp.ora";
 Create controlfile reuse set database "IBRAD"
 MAXINSTANCES 8
 MAXLOGHISTORY 1
