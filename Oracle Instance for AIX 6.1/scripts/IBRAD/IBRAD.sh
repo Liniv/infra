@@ -2,9 +2,9 @@
 
 OLD_UMASK=`umask`
 umask 0027
-mkdir -p /opt/app/oracle/admin/IBRAD/adump
-mkdir -p /opt/app/oracle/admin/IBRAD/dpdump
-mkdir -p /opt/app/oracle/admin/IBRAD/pfile
+mkdir -p /radius/oratada/admin/IBRAD/adump
+mkdir -p /radius/oratada/admin/IBRAD/dpdump
+mkdir -p /radius/oratada/admin/IBRAD/pfile
 mkdir -p /opt/app/oracle/cfgtoollogs/dbca/IBRAD
 mkdir -p /radius/oradata/fast_recovery_area
 mkdir -p /radius/oradata/fast_recovery_area/IBRAD
