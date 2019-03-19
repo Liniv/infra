@@ -1,0 +1,54 @@
+https://10.48.26.19/management/client/messaging
+
+Service:
+MESSAGING
+
+Operation:
+sendTextMessageToAllClientsOfDtvOperator
+
+{
+  "host": "mtis-aio",
+  "userTextMessage": {
+    "message": "USER_TEXT",
+    "sequenceNumber": 2,
+    "startDateTime": null,
+    "showMessageDurationInSeconds": 50,
+    "repetitionOccurenceCount": 0,
+    "repetitionIntervalInSeconds": 0
+  },
+  "dtvOperatorId": "2605"
+}
+
+
+https://10.48.26.19/management/client/management
+
+Service:
+SUBSCRIPTION
+
+Operation:
+add
+
+{
+  "host": "mtis-aio",
+  "startDate": "01.Mar.2019 00:00:00",
+  "endDate": null,
+  "caClientId": "2060901480",
+  "productId": "102"
+}
+
+https://10.48.26.19/management/client/management
+
+Service:
+SUBSCRIPTION
+
+Operation:
+cancel
+
+{
+  "host": "mtis-aio",
+  "startDate": null,
+  "endDate": null,
+  "caClientId": "2060901480",
+  "productId": "101"
+}
+
