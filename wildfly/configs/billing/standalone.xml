@@ -345,6 +345,9 @@
       <mail-session name="default" jndi-name="java:jboss/mail/Default">
         <smtp-server outbound-socket-binding-ref="mail-smtp" />
       </mail-session>
+      <mail-session name="java:jboss/mail/gmail" jndi-name="java:jboss/mail/gmail" from="fe.hybris.iba@gmail.com">
+        <smtp-server outbound-socket-binding-ref="mail-smtp-gmail" tls="true" username="fe.hybris.iba@gmail.com" password="hybrisiba"/>
+      </mail-session>
     </subsystem>
     <subsystem xmlns="urn:jboss:domain:naming:2.0">
       <remote-naming />
@@ -474,6 +477,9 @@
     <socket-binding name="txn-status-manager" port="4713" />
     <outbound-socket-binding name="mail-smtp">
       <remote-destination host="localhost" port="25" />
+    </outbound-socket-binding>
+    <outbound-socket-binding name="mail-smtp-gmail">
+      <remote-destination host="smtp.gmail.com" port="587"/>
     </outbound-socket-binding>
   </socket-binding-group>
 </server>
