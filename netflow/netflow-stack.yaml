@@ -1,0 +1,22 @@
+version: "3.7"
+services:
+  netflow:
+     hostname: netflow
+     image: "10.90.2.111:5000/mtis/netflow:latest"
+     volumes:
+       - /etc/localtime:/etc/localtime:ro
+       - /nfsshares/netflow_data:/data
+     #  - /etc/timezone:/etc/timezone
+     ports:
+       - "9996:9996/udp"   
+     networks:
+        bridge:
+     deploy:
+       mode: replicated
+       replicas: 1
+      
+networks:
+  bridge:
+    external: true
+    attachable: true
+    
