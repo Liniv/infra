@@ -1,0 +1,657 @@
+
+################################# ABONENTS
+
+    # CODE:RABOCHIY1-76 LS:3139707612 FIO:Bas A V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-01-18 14:57:05
+    host abonent_2198_0 {
+        hardware ethernet 00:1E:EC:08:C0:08;
+        fixed-address 10.110.8.12;
+    }
+    # CODE:RABOCHIY1-76 LS:3139707612 FIO:Bas A V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-01-18 14:58:33
+    host abonent_2198_1 {
+        hardware ethernet 90:F6:52:7A:BD:C6;
+        fixed-address 10.110.8.12;
+    }
+    # CODE:PARTIZANSKIY21-102 LS:3132010212 FIO:Gavrash D V
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-01-19 12:26:39
+    host abonent_2205_2 {
+        hardware ethernet 00:1D:72:01:04:ED;
+        fixed-address 10.110.8.13;
+    }
+    # CODE:PARTIZANSKIY21-102 LS:3132010212 FIO:Gavrash D V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-07-16 12:52:51
+    host abonent_2205_3 {
+        hardware ethernet 10:FE:ED:B4:12:31;
+        fixed-address 10.110.8.13;
+    }
+    # CODE:PARTIZANSKIY21-176 LS:3132017612 FIO:Litsoev M V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-02-02 17:19:29
+    host abonent_2366_4 {
+        hardware ethernet 08:9E:01:EC:E0:79;
+        fixed-address 10.110.8.14;
+    }
+    # CODE:PARTIZANSKIY21-176 LS:3132017612 FIO:Litsoev M V
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-08-20 15:11:37
+    host abonent_2366_5 {
+        hardware ethernet C0:56:27:3E:78:18;
+        fixed-address 10.110.8.14;
+    }
+    # CODE:PARTIZANSKIY21-176 LS:3132017612 FIO:Litsoev M V
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-08-20 15:18:53
+    host abonent_2366_6 {
+        hardware ethernet C0:56:27:3E:78:19;
+        fixed-address 10.110.8.14;
+    }
+    # CODE:PARTIZANSKIY21-176 LS:3132017612 FIO:Litsoev M V
+    # LAST EDIT BY:STATKEVICH LAST EDIT TIME:2016-12-08 13:24:05
+    host abonent_2366_7 {
+        hardware ethernet EC:08:6B:BE:CA:DF;
+        fixed-address 10.110.8.14;
+    }
+    # CODE:RABOCHIY4-35 LS:3139803512 FIO:Bizunkov P A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-03-23 15:19:42
+    host abonent_2529_8 {
+        hardware ethernet 14:DA:E9:27:BD:5F;
+        fixed-address 10.110.8.71;
+    }
+    # CODE:RABOCHIY4-35 LS:3139803512 FIO:Bizunkov P A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-03-23 15:19:33
+    host abonent_2529_9 {
+        hardware ethernet C0:4A:00:BF:AC:ED;
+        fixed-address 10.110.8.71;
+    }
+    # CODE:RABOCHIY1-85 LS:3139708512 FIO:Bogan A N
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-06-22 10:23:56
+    host abonent_2835_10 {
+        hardware ethernet 18:CF:5E:6E:D1:69;
+        fixed-address 10.110.8.24;
+    }
+    # CODE:RABOCHIY1-85 LS:3139708512 FIO:Bogan A N
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-08-03 16:42:55
+    host abonent_2835_11 {
+        hardware ethernet 2C:AB:25:65:FD:F7;
+        fixed-address 10.110.8.24;
+    }
+    # CODE:RABOCHIY1-85 LS:3139708512 FIO:Bogan A N
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-10-15 19:07:12
+    host abonent_2835_12 {
+        hardware ethernet 78:54:2E:DA:AB:49;
+        fixed-address 10.110.8.24;
+    }
+    # CODE:RABOCHIY1-78 LS:3139707812 FIO:Bardo N A
+    # LAST EDIT BY:ZALOGO LAST EDIT TIME:2016-07-15 16:40:22
+    host abonent_2872_13 {
+        hardware ethernet C0:4A:00:BF:37:1B;
+        fixed-address 10.110.8.26;
+    }
+    # CODE:RABOCHIY4-62 LS:3139806212 FIO:Stelmashenko A A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-02-18 16:23:15
+    host abonent_2896_14 {
+        hardware ethernet C0:4A:00:BF:B6:B9;
+        fixed-address 10.110.8.28;
+    }
+    # CODE:RABOCHIY1-56 LS:3139705612 FIO:Klischenok A E
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-05-14 19:27:43
+    host abonent_2915_15 {
+        hardware ethernet 2C:AB:25:FE:E7:9B;
+        fixed-address 10.110.8.21;
+    }
+    # CODE:PARTIZANSKIY1-16 LS:3136601612 FIO:Manko K A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-12-14 16:34:52
+    host abonent_3044_16 {
+        hardware ethernet 00:25:22:3E:FA:7A;
+        fixed-address 10.110.8.33;
+    }
+    # CODE:PARTIZANSKIY1-16 LS:3136601612 FIO:Manko K A
+    # LAST EDIT BY:PLAHOVA LAST EDIT TIME:2015-12-14 15:15:27
+    host abonent_3044_17 {
+        hardware ethernet C0:4A:00:BF:43:53;
+        fixed-address 10.110.8.33;
+    }
+    # CODE:PARTIZANSKIY1-44 LS:3136604412 FIO:Volodavchik A V
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-09-02 21:15:59
+    host abonent_3045_18 {
+        hardware ethernet 00:24:21:37:F2:A8;
+        fixed-address 10.110.8.34;
+    }
+    # CODE:PARTIZANSKIY1-44 LS:3136604412 FIO:Volodavchik A V
+    # LAST EDIT BY:CHERNUHO LAST EDIT TIME:2017-09-02 14:32:21
+    host abonent_3045_19 {
+        hardware ethernet 84:16:F9:2F:90:AB;
+        fixed-address 10.110.8.34;
+    }
+    # CODE:PARTIZANSKIY1-15 LS:3136601512 FIO:Hizyakin D V
+    # LAST EDIT BY:PLAHOVA LAST EDIT TIME:2015-10-22 16:55:52
+    host abonent_3126_20 {
+        hardware ethernet C0:4A:00:32:52:C5;
+        fixed-address 10.110.8.36;
+    }
+    # CODE:PARTIZANSKIY21-47 LS:3132004712 FIO:Hrabryiy A V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-02-02 10:12:59
+    host abonent_3756_21 {
+        hardware ethernet 10:FE:ED:B4:1E:AF;
+        fixed-address 10.110.8.41;
+    }
+    # CODE:PARTIZANSKIY21-47 LS:3132004712 FIO:Hrabryiy A V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-02-05 20:58:31
+    host abonent_3756_22 {
+        hardware ethernet E8:37:7A:9B:96:43;
+        fixed-address 10.110.8.41;
+    }
+    # CODE:PARTIZANSKIY21-47 LS:3132004712 FIO:Hrabryiy A V
+    # LAST EDIT BY:LOBODA LAST EDIT TIME:2013-12-20 19:35:57
+    host abonent_3756_23 {
+        hardware ethernet F8:1A:67:57:E8:DD;
+        fixed-address 10.110.8.41;
+    }
+    # CODE:PARTIZANSKIY21-105 LS:3132010512 FIO:Savich G V
+    # LAST EDIT BY:BOGDANOVICH LAST EDIT TIME:2014-01-18 12:40:47
+    host abonent_3851_24 {
+        hardware ethernet 00:20:ED:BA:DA:C1;
+        fixed-address 10.110.8.44;
+    }
+    # CODE:PARTIZANSKIY21-105 LS:3132010512 FIO:Savich G V
+    # LAST EDIT BY:STATKEVICH LAST EDIT TIME:2017-10-02 19:22:30
+    host abonent_3851_25 {
+        hardware ethernet 84:16:F9:48:6F:A3;
+        fixed-address 10.110.8.44;
+    }
+    # CODE:PARTIZANSKIY21-105 LS:3132010512 FIO:Savich G V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-10-01 15:33:39
+    host abonent_3851_26 {
+        hardware ethernet B4:B5:2F:8C:D1:3F;
+        fixed-address 10.110.8.44;
+    }
+    # CODE:PARTIZANSKIY21-105 LS:3132010512 FIO:Savich G V
+    # LAST EDIT BY:BOGDANOVICH LAST EDIT TIME:2014-01-18 12:39:32
+    host abonent_3851_27 {
+        hardware ethernet B8:76:3F:60:D8:E3;
+        fixed-address 10.110.8.44;
+    }
+    # CODE:PARTIZANSKIY3-6 LS:3136700612 FIO:Suhotskiy A A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-01-28 17:59:13
+    host abonent_4079_28 {
+        hardware ethernet 00:26:18:DF:E6:BB;
+        fixed-address 10.110.8.30;
+    }
+    # CODE:PARTIZANSKIY3-6 LS:3136700612 FIO:Suhotskiy A A
+    # LAST EDIT BY:CHERNUHO LAST EDIT TIME:2017-09-28 14:24:40
+    host abonent_4079_29 {
+        hardware ethernet 84:16:F9:2F:BB:35;
+        fixed-address 10.110.8.30;
+    }
+    # CODE:PARTIZANSKIY3-15 LS:3136701512 FIO:Branovets I V
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-07-22 17:29:17
+    host abonent_4085_30 {
+        hardware ethernet C0:4A:00:BF:B7:BF;
+        fixed-address 10.110.8.83;
+    }
+    # CODE:PARTIZANSKIY3-19 LS:3136701912 FIO:Vishnyakova I N
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-04-16 12:10:28
+    host abonent_4153_31 {
+        hardware ethernet C0:4A:00:BF:BB:93;
+        fixed-address 10.110.8.46;
+    }
+    # CODE:PARTIZANSKIY3-14 LS:3136701412 FIO:Lahmanenko M A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-04-17 14:53:29
+    host abonent_4163_32 {
+        hardware ethernet 2C:AB:25:66:5F:D4;
+        fixed-address 10.110.8.48;
+    }
+    # CODE:PARTIZANSKIY3-14 LS:3136701412 FIO:Lahmanenko M A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-04-17 14:52:37
+    host abonent_4163_33 {
+        hardware ethernet D4:3D:7E:28:29:53;
+        fixed-address 10.110.8.48;
+    }
+    # CODE:PARTIZANSKIY3-46 LS:3136704612 FIO:Lugovskiy I I
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-04-21 19:31:35
+    host abonent_4169_34 {
+        hardware ethernet C0:4A:00:BF:3E:BD;
+        fixed-address 10.110.8.50;
+    }
+    # CODE:PARTIZANSKIY3-46 LS:3136704612 FIO:Lugovskiy I I
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-04-21 19:32:19
+    host abonent_4169_35 {
+        hardware ethernet E8:03:9A:15:CF:F8;
+        fixed-address 10.110.8.50;
+    }
+    # CODE:PARTIZANSKIY3-9 LS:3136700912 FIO:Manko A A
+    # LAST EDIT BY:ANNA LAST EDIT TIME:2014-05-08 09:54:07
+    host abonent_4228_36 {
+        hardware ethernet C0:4A:00:BF:A2:BD;
+        fixed-address 10.110.8.51;
+    }
+    # CODE:PARTIZANSKIY3-4 LS:3136700412 FIO:Kazyuchits A N
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-07-16 14:35:57
+    host abonent_4237_37 {
+        hardware ethernet C0:4A:00:BF:B4:C9;
+        fixed-address 10.110.8.52;
+    }
+    # CODE:PARTIZANSKIY13-22 LS:3135702212 FIO:Suhareva O S
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-06-18 19:53:26
+    host abonent_4366_38 {
+        hardware ethernet 10:BF:48:06:15:5E;
+        fixed-address 10.110.8.54;
+    }
+    # CODE:PARTIZANSKIY13-22 LS:3135702212 FIO:Suhareva O S
+    # LAST EDIT BY:TUTINAS LAST EDIT TIME:2014-06-18 18:41:20
+    host abonent_4366_39 {
+        hardware ethernet 90:72:40:00:D0:A5;
+        fixed-address 10.110.8.54;
+    }
+    # CODE:PARTIZANSKIY13-22 LS:3135702212 FIO:Suhareva O S
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-06-19 19:24:46
+    host abonent_4366_40 {
+        hardware ethernet EC:43:F6:D7:AE:10;
+        fixed-address 10.110.8.54;
+    }
+    # CODE:PARTIZANSKIY9-65 LS:3137006512 FIO:Pasevin D A
+    # LAST EDIT BY:STATKEVICH LAST EDIT TIME:2017-08-23 11:48:50
+    host abonent_4543_41 {
+        hardware ethernet 84:16:F9:2F:82:BD;
+        fixed-address 10.110.8.56;
+    }
+    # CODE:PARTIZANSKIY25A-40 LS:3132304012 FIO:Desyatnik A A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-09-09 11:19:50
+    host abonent_4587_42 {
+        hardware ethernet C0:4A:00:2E:2C:C7;
+        fixed-address 10.110.8.57;
+    }
+    # CODE:PARTIZANSKIY21-41 LS:3132004112 FIO:Kaparovskiy I V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-09-26 14:09:53
+    host abonent_4633_43 {
+        hardware ethernet C0:4A:00:2E:2C:D1;
+        fixed-address 10.110.8.58;
+    }
+    # CODE:PARTIZANSKIY21-31 LS:3132003112 FIO:Dubrovskiy V V
+    # LAST EDIT BY:SHUBICH LAST EDIT TIME:2014-10-16 17:11:27
+    host abonent_4672_44 {
+        hardware ethernet 74:D4:35:0E:B1:3C;
+        fixed-address 10.110.8.59;
+    }
+    # CODE:PARTIZANSKIY21-31 LS:3132003112 FIO:Dubrovskiy V V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-10-16 16:42:33
+    host abonent_4672_45 {
+        hardware ethernet C0:4A:00:2E:2C:E1;
+        fixed-address 10.110.8.59;
+    }
+    # CODE:PARTIZANSKIY21-30 LS:3132003012 FIO:Myagkaya E S
+    # LAST EDIT BY:STATKEVICH LAST EDIT TIME:2017-08-19 17:38:27
+    host abonent_4700_46 {
+        hardware ethernet 84:16:F9:2F:58:C3;
+        fixed-address 10.110.8.32;
+    }
+    # CODE:PARTIZANSKIY21-149 LS:3132014912 FIO:TSobkalo D V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-11-27 13:03:48
+    host abonent_4830_47 {
+        hardware ethernet C0:4A:00:2D:E3:81;
+        fixed-address 10.110.8.61;
+    }
+    # CODE:PARTIZANSKIY27A-47 LS:3132404712 FIO:Bodikova T V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-11-28 12:13:10
+    host abonent_4866_48 {
+        hardware ethernet D4:6E:0E:D5:23:B7;
+        fixed-address 10.110.8.39;
+    }
+    # CODE:PARTIZANSKIY9-62 LS:3137006212 FIO:Velichko YU I
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2014-12-13 12:12:38
+    host abonent_4894_49 {
+        hardware ethernet C0:4A:00:2D:B6:EB;
+        fixed-address 10.110.8.43;
+    }
+    # CODE:PARTIZANSKIY21-6 LS:3132000612 FIO:Mihaltsov O L
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-12-20 16:04:18
+    host abonent_4908_50 {
+        hardware ethernet C0:4A:00:2D:B8:45;
+        fixed-address 10.110.8.62;
+    }
+    # CODE:RABOCHIY4-41 LS:3139804112 FIO:Ermolenkov L F
+    # LAST EDIT BY:MIHAILOV LAST EDIT TIME:2017-09-28 12:10:16
+    host abonent_4937_51 {
+        hardware ethernet D4:6E:0E:D5:B3:8D;
+        fixed-address 10.110.8.63;
+    }
+    # CODE:PARTIZANSKIY21-158 LS:3132015812 FIO:Guchko E P
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-03-18 12:50:22
+    host abonent_5126_52 {
+        hardware ethernet CC:5D:4E:50:C6:B6;
+        fixed-address 10.110.8.66;
+    }
+    # CODE:PARTIZANSKIY21-158 LS:3132015812 FIO:Guchko E P
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-03-19 10:57:08
+    host abonent_5126_53 {
+        hardware ethernet CC:5D:4E:50:C6:B5;
+        fixed-address 10.110.8.67;
+    }
+    # CODE:PARTIZANSKIY21-42 LS:3132004222 FIO:Azarenko M M
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-06-04 11:45:42
+    host abonent_5282_54 {
+        hardware ethernet C8:BE:19:AF:6A:43;
+        fixed-address 10.110.8.19;
+    }
+    # CODE:PARTIZANSKIY3-37 LS:3136703712 FIO:Samusenko A A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-10-01 10:32:02
+    host abonent_5287_55 {
+        hardware ethernet 00:1F:D0:63:32:35;
+        fixed-address 10.110.8.25;
+    }
+    # CODE:PARTIZANSKIY3-37 LS:3136703712 FIO:Samusenko A A
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-10-02 20:14:00
+    host abonent_5287_56 {
+        hardware ethernet 84:16:F9:2F:A1:7F;
+        fixed-address 10.110.8.25;
+    }
+    # CODE:PARTIZANSKIY21-73 LS:3132007312 FIO:Kolasha K S
+    # LAST EDIT BY:PLAHOVA LAST EDIT TIME:2015-12-16 16:21:13
+    host abonent_5326_57 {
+        hardware ethernet C0:4A:00:BF:8A:E7;
+        fixed-address 10.110.8.35;
+    }
+    # CODE:PARTIZANSKIY9-20 LS:3137002012 FIO:SHulga A N
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-05-18 10:54:29
+    host abonent_5353_58 {
+        hardware ethernet C0:4A:00:BF:BB:C5;
+        fixed-address 10.110.8.27;
+    }
+    # CODE:RABOCHIY1-95 LS:3139709512 FIO:Romanchuk E E
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-08-03 16:29:09
+    host abonent_5374_59 {
+        hardware ethernet 64:66:B3:35:28:6F;
+        fixed-address 10.110.8.70;
+    }
+    # CODE:RABOCHIY1-95 LS:3139709512 FIO:Romanchuk E E
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-08-01 10:54:51
+    host abonent_5374_60 {
+        hardware ethernet E0:3F:49:33:13:1D;
+        fixed-address 10.110.8.70;
+    }
+    # CODE:PARTIZANSKIY21-33 LS:3132003312 FIO:Tatur E V
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-09-21 16:39:18
+    host abonent_5443_61 {
+        hardware ethernet C0:4A:00:BF:C4:EF;
+        fixed-address 10.110.8.72;
+    }
+    # CODE:PARTIZANSKIY9-66 LS:3137006612 FIO:Kryiger I V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-09-16 11:46:14
+    host abonent_5466_62 {
+        hardware ethernet 2C:AB:25:64:82:50;
+        fixed-address 10.110.8.73;
+    }
+    # CODE:RABOCHIY1-48 LS:3139704812 FIO:Golovchik V E
+    # LAST EDIT BY:ZALOGO LAST EDIT TIME:2016-05-26 18:53:52
+    host abonent_5467_63 {
+        hardware ethernet C0:4A:00:BF:AB:7D;
+        fixed-address 10.110.8.74;
+    }
+    # CODE:PARTIZANSKIY19-65 LS:3137106512 FIO:JHmakin P V
+    # LAST EDIT BY:STRUKOVA LAST EDIT TIME:2017-10-02 12:28:58
+    host abonent_5546_64 {
+        hardware ethernet 84:16:F9:48:7C:3B;
+        fixed-address 10.110.8.76;
+    }
+    # CODE:PARTIZANSKIY9-35 LS:3137003512 FIO:Alferovich A V
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-07-19 20:47:02
+    host abonent_5547_65 {
+        hardware ethernet C0:4A:00:2D:CC:0B;
+        fixed-address 10.110.8.47;
+    }
+    # CODE:PARTIZANSKIY21-84 LS:3132008412 FIO:Denisov N V
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-11-14 12:07:05
+    host abonent_5588_66 {
+        hardware ethernet 74:D0:2B:2E:E1:B4;
+        fixed-address 10.110.8.78;
+    }
+    # CODE:PARTIZANSKIY21-8 LS:3132000812 FIO:Vladyiko E V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-11-17 10:40:25
+    host abonent_5592_67 {
+        hardware ethernet C0:4A:00:2D:E9:A3;
+        fixed-address 10.110.8.77;
+    }
+    # CODE:PARTIZANSKIY21-104 LS:3132010422 FIO:SHilkin V G
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-01-24 19:01:24
+    host abonent_5721_68 {
+        hardware ethernet 54:A0:50:B1:0A:38;
+        fixed-address 10.110.8.15;
+    }
+    # CODE:PARTIZANSKIY21-104 LS:3132010422 FIO:SHilkin V G
+    # LAST EDIT BY:BOGODYAZH LAST EDIT TIME:2017-10-25 14:44:56
+    host abonent_5721_69 {
+        hardware ethernet D4:6E:0E:D6:36:79;
+        fixed-address 10.110.8.15;
+    }
+    # CODE:RABOCHIY6-53 LS:3140005312 FIO:Drozd A V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-08-19 18:25:29
+    host abonent_5814_70 {
+        hardware ethernet 58:8B:F3:6A:FD:55;
+        fixed-address 10.110.8.16;
+    }
+    # CODE:PARTIZANSKIY9-22 LS:3137002212 FIO:Gulko O E
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2016-03-29 13:04:50
+    host abonent_5857_71 {
+        hardware ethernet 2C:AB:25:FF:43:3C;
+        fixed-address 10.110.8.20;
+    }
+    # CODE:PARTIZANSKIY9-22 LS:3137002212 FIO:Gulko O E
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-06-22 20:29:25
+    host abonent_5857_72 {
+        hardware ethernet 30:B5:C2:A1:89:6F;
+        fixed-address 10.110.8.20;
+    }
+    # CODE:PARTIZANSKIY27A-14 LS:3132401412 FIO:Konoplyanik T V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-04-06 14:09:01
+    host abonent_5879_73 {
+        hardware ethernet 2C:AB:25:66:03:22;
+        fixed-address 10.110.8.53;
+    }
+    # CODE:PARTIZANSKIY27A-34 LS:3132403412 FIO:Sinevich A I
+    # LAST EDIT BY:YASTREB LAST EDIT TIME:2016-05-12 14:56:20
+    host abonent_5887_74 {
+        hardware ethernet C0:4A:00:BF:41:07;
+        fixed-address 10.110.8.79;
+    }
+    # CODE:PARTIZANSKIY9-kom.20a LS:3137022252 FIO:OOO "Elekmarket Riteyl" 
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-04-15 14:47:54
+    host abonent_5904_75 {
+        hardware ethernet 00:30:67:2F:4A:FE;
+        fixed-address 10.110.8.80;
+    }
+    # CODE:PARTIZANSKIY9-kom.20a LS:3137022252 FIO:OOO "Elekmarket Riteyl" 
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-04-15 13:52:18
+    host abonent_5904_76 {
+        hardware ethernet 00:50:FC:1A:B7:03;
+        fixed-address 10.110.8.80;
+    }
+    # CODE:PARTIZANSKIY9-kom.20a LS:3137022252 FIO:OOO "Elekmarket Riteyl" 
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-05-17 11:23:43
+    host abonent_5904_77 {
+        hardware ethernet 10:FE:ED:01:0F:9A;
+        fixed-address 10.110.8.80;
+    }
+    # CODE:PARTIZANSKIY9-kom.20a LS:3137022252 FIO:OOO "Elekmarket Riteyl" 
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-06-08 14:54:01
+    host abonent_5904_78 {
+        hardware ethernet 6C:3B:6B:9B:7D:A4;
+        fixed-address 10.110.8.80;
+    }
+    # CODE:PARTIZANSKIY9-30 LS:3137003012 FIO:SCHerbakova S A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-05-31 11:29:15
+    host abonent_5960_79 {
+        hardware ethernet 60:E3:27:6E:9C:9F;
+        fixed-address 10.110.8.29;
+    }
+    # CODE:PARTIZANSKIY9-25 LS:3137002512 FIO:Makarevich A O
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2018-02-27 12:12:20
+    host abonent_5990_80 {
+        hardware ethernet C0:4A:00:BF:45:1B;
+        fixed-address 10.110.8.8;
+    }
+    # CODE:PARTIZANSKIY23A-68 LS:3132206812 FIO:Glebko D G
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-09-10 11:47:43
+    host abonent_6025_81 {
+        hardware ethernet 60:E3:27:6E:9C:57;
+        fixed-address 10.110.8.6;
+    }
+    # CODE:PARTIZANSKIY21-188 LS:3132018812 FIO:CHebotareva O V
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-10-15 13:12:40
+    host abonent_6192_82 {
+        hardware ethernet EC:08:6B:BE:CE:BD;
+        fixed-address 10.110.8.5;
+    }
+    # CODE:PARTIZANSKIY3-43 LS:3136704322 FIO:YAlchik M K
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-11-14 13:57:00
+    host abonent_6199_83 {
+        hardware ethernet 00:25:22:C2:AF:21;
+        fixed-address 10.110.8.7;
+    }
+    # CODE:PARTIZANSKIY3-43 LS:3136704322 FIO:YAlchik M K
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-10-24 17:35:07
+    host abonent_6199_84 {
+        hardware ethernet A0:B3:CC:26:14:94;
+        fixed-address 10.110.8.7;
+    }
+    # CODE:PARTIZANSKIY3-43 LS:3136704322 FIO:YAlchik M K
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-10-12 15:00:14
+    host abonent_6199_85 {
+        hardware ethernet EC:08:6B:BE:CF:0D;
+        fixed-address 10.110.8.7;
+    }
+    # CODE:PARTIZANSKIY19-48 LS:3137104812 FIO:Dubik K O
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-12-24 11:22:38
+    host abonent_6325_86 {
+        hardware ethernet EC:08:6B:BE:CD:59;
+        fixed-address 10.110.8.38;
+    }
+    # CODE:RABOCHIY4-18 LS:3139801812 FIO:SHelest O G
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-01-12 14:23:00
+    host abonent_6336_87 {
+        hardware ethernet 84:16:F9:2F:C2:95;
+        fixed-address 10.110.8.40;
+    }
+    # CODE:PARTIZANSKIY9-60 LS:3137006012 FIO:Galchinskaya E L
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-09-22 14:56:39
+    host abonent_6373_88 {
+        hardware ethernet 18:D6:C7:20:90:19;
+        fixed-address 10.110.8.42;
+    }
+    # CODE:PARTIZANSKIY27A-48 LS:3132404812 FIO:Sereda A O
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-01-31 12:46:23
+    host abonent_6388_89 {
+        hardware ethernet 84:16:F9:48:8F:0F;
+        fixed-address 10.110.8.64;
+    }
+    # CODE:PARTIZANSKIY19-16 LS:3137101612 FIO:Mihnevich M I
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-02-04 10:50:23
+    host abonent_6409_90 {
+        hardware ethernet 84:16:F9:2F:BC:0B;
+        fixed-address 10.110.8.65;
+    }
+    # CODE:PARTIZANSKIY23A-65 LS:3132206512 FIO:Starinkov A V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-02-21 15:51:23
+    host abonent_6440_91 {
+        hardware ethernet 84:16:F9:48:94:11;
+        fixed-address 10.110.8.68;
+    }
+    # CODE:RABOCHIY1-73 LS:3139707322 FIO:Usheva A I
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-03-18 10:58:06
+    host abonent_6487_92 {
+        hardware ethernet 84:16:F9:48:98:4F;
+        fixed-address 10.110.8.9;
+    }
+    # CODE:PARTIZANSKIY25A-1 LS:3132300112 FIO:Kurganova T N
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-04-22 14:06:38
+    host abonent_6544_93 {
+        hardware ethernet 84:16:F9:2F:8A:AB;
+        fixed-address 10.110.8.11;
+    }
+    # CODE:PARTIZANSKIY25A-14 LS:3132301412 FIO:Suraenina A A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-04-29 11:05:24
+    host abonent_6547_94 {
+        hardware ethernet 84:16:F9:2F:BB:DD;
+        fixed-address 10.110.8.22;
+    }
+    # CODE:PARTIZANSKIY1-50 LS:3136605022 FIO:Levchuk A YU
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-07-18 11:36:38
+    host abonent_6712_95 {
+        hardware ethernet 10:FE:ED:7F:87:79;
+        fixed-address 10.110.8.23;
+    }
+    # CODE:RABOCHIY6-27 LS:3140002712 FIO:Makaro E R
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-07-19 11:57:45
+    host abonent_6714_96 {
+        hardware ethernet C0:4A:00:F0:06:4B;
+        fixed-address 10.110.8.75;
+    }
+    # CODE:PARTIZANSKIY7-29 LS:3136902912 FIO:Volkonotskiy A V
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-07-22 12:42:56
+    host abonent_6722_97 {
+        hardware ethernet C0:4A:00:BF:95:9B;
+        fixed-address 10.110.8.82;
+    }
+    # CODE:PARTIZANSKIY7-15 LS:3136901512 FIO:Emelyanov A A
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2018-01-15 19:30:27
+    host abonent_6723_98 {
+        hardware ethernet D4:6E:0E:53:5B:D7;
+        fixed-address 10.110.8.81;
+    }
+    # CODE:PARTIZANSKIY17-14 LS:3135901412 FIO:SHaryihin V P
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-07-25 11:14:56
+    host abonent_6727_99 {
+        hardware ethernet C0:4A:00:BF:41:49;
+        fixed-address 10.110.8.45;
+    }
+    # CODE:PARTIZANSKIY17-15 LS:3135901512 FIO:Hmelev V P
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-07-25 12:24:24
+    host abonent_6728_100 {
+        hardware ethernet C0:4A:00:BF:3E:E5;
+        fixed-address 10.110.8.84;
+    }
+    # CODE:PARTIZANSKIY15-5 LS:3135800512 FIO:Strijhak YU M
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-07-26 12:25:39
+    host abonent_6729_101 {
+        hardware ethernet C0:4A:00:BF:94:FB;
+        fixed-address 10.110.8.85;
+    }
+    # CODE:PARTIZANSKIY9-59 LS:3137005912 FIO:Korvatskaya E V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-07-25 11:16:20
+    host abonent_6731_102 {
+        hardware ethernet 90:EF:68:FD:46:0D;
+        fixed-address 10.110.8.69;
+    }
+    # CODE:PARTIZANSKIY3-40 LS:3136704012 FIO:Novitskiy O V
+    # LAST EDIT BY:LOLKABKU LAST EDIT TIME:2017-11-24 14:34:15
+    host abonent_6956_103 {
+        hardware ethernet F8:1A:67:C3:56:FD;
+        fixed-address 10.110.8.55;
+    }
+    # CODE:PARTIZANSKIY19-4 LS:3137100052 FIO:OOO "SERVISBYITSNAB" 
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2018-01-11 12:59:28
+    host abonent_7015_104 {
+        hardware ethernet D4:6E:0E:D5:B1:73;
+        fixed-address 10.110.8.88;
+    }
+    # CODE:PARTIZANSKIY23A-27 LS:3132202712 FIO:Polojhevets G N
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2018-02-03 10:22:26
+    host abonent_7050_105 {
+        hardware ethernet C0:4A:00:BF:B7:8D;
+        fixed-address 10.110.8.89;
+    }
+    # CODE:PARTIZANSKIY7-46 LS:3136904612 FIO:Gotfrid R A
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2018-02-15 12:34:42
+    host abonent_7064_106 {
+        hardware ethernet D4:6E:0E:D5:59:63;
+        fixed-address 10.110.8.90;
+    }
+    # CODE:PARTIZANSKIY1-4 LS:3136600412 FIO:Panarina O A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2018-02-17 11:54:22
+    host abonent_7074_107 {
+        hardware ethernet C0:4A:00:BF:B3:7F;
+        fixed-address 10.110.8.91;
+    }
+    # CODE:PARTIZANSKIY5-3 LS:3136800312 FIO:SHumchik M V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2018-02-20 11:24:06
+    host abonent_7078_108 {
+        hardware ethernet C0:4A:00:BF:7C:53;
+        fixed-address 10.110.8.92;
+    }

@@ -1,0 +1,52 @@
+ host KAHOVSKAJA47-MOD { 
+   hardware ethernet 00:11:e3:9d:40:39; 
+  #  serial 00770-549400231 
+   fixed-address 172.18.1.6; 
+   filename "3m17-5cpe.bin"; 
+  } 
+ 
+  host STUDIA-MOD { 
+   hardware ethernet 00:e0:6f:ae:10:84; 
+  #  serial 403230402534 
+   fixed-address 172.18.1.10; 
+   filename "3m17-5cpe.bin"; 
+  } 
+ 
+  host SURGANOVA-TEST-MOD { 
+   hardware ethernet 00:1e:69:2b:31:a2; 
+  #  serial 00770-836503327 
+   fixed-address 172.18.1.11; 
+   filename "3m17-15cpe.bin"; 
+  } 
+
+
+################################# MODEMS
+
+    # MODEM:1-BAZISNAYA14-1 1-BAZISNAJA ul.14-1
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2016-05-24 13:16:16
+    host modem2068499 { 
+           hardware ethernet 00:24:D1:06:00:60; 
+           fixed-address 172.18.0.58; 
+           filename "3m17.bin";
+    }
+    # MODEM:1-BAZISNAYA14-2 1-BAZISNAJA ul.14-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-07-31 17:23:28
+    host modem2071217 { 
+           hardware ethernet 00:1E:69:2B:4A:A4; 
+           fixed-address 172.18.0.57; 
+           filename "3m17.bin";
+    }
+    # MODEM:TSNYANSKAYA23- CNJANSKAJA ul.23a
+    # LAST EDIT BY:IGOR LAST EDIT TIME:2011-09-15 21:07:57
+    host modem2178114 { 
+           hardware ethernet 00:1E:69:17:B5:C6; 
+           fixed-address 172.18.0.55; 
+           filename "3m17.bin";
+    }
+    # MODEM:KARBYISHEVA13- Uchastok 5 Karbyisheva
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-09-22 10:22:05
+    host modem2226757 { 
+           hardware ethernet 00:26:24:A1:23:16; 
+           fixed-address 172.18.0.12; 
+           filename "3m17.bin";
+    }

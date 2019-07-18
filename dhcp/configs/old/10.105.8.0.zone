@@ -1,0 +1,81 @@
+
+################################# ABONENTS
+
+    # CODE:SERDICHA66-61 LS:2100306112 FIO:CHerepnev S N
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-07-06 14:00:58
+    host abonent_2763_0 {
+        hardware ethernet 00:25:22:84:A7:58;
+        fixed-address 10.105.8.5;
+    }
+    # CODE:SERDICHA66-71 LS:2100307112 FIO:Varvashenya D V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-07-11 17:07:06
+    host abonent_2781_1 {
+        hardware ethernet 00:1E:8C:9D:7F:E2;
+        fixed-address 10.105.8.7;
+    }
+    # CODE:SERDICHA66-18 LS:2100301812 FIO:Lyisenko D A
+    # LAST EDIT BY:YASTREB LAST EDIT TIME:2016-05-13 11:03:28
+    host abonent_2785_2 {
+        hardware ethernet 10:FE:ED:B4:2B:F3;
+        fixed-address 10.105.8.8;
+    }
+    # CODE:SERDICHA66-18 LS:2100301812 FIO:Lyisenko D A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-07-12 13:57:14
+    host abonent_2785_3 {
+        hardware ethernet 90:2B:34:40:3B:94;
+        fixed-address 10.105.8.8;
+    }
+    # CODE:SERDICHA22-17 LS:2100001712 FIO:Deyner A M
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-07-30 14:06:06
+    host abonent_2820_4 {
+        hardware ethernet 2C:AB:25:82:50:AF;
+        fixed-address 10.105.8.10;
+    }
+    # CODE:SERDICHA62-37 LS:2101803712 FIO:Buklanova Z V
+    # LAST EDIT BY:STRUKOVA LAST EDIT TIME:2017-12-12 17:31:31
+    host abonent_2931_5 {
+        hardware ethernet D4:6E:0E:26:CD:77;
+        fixed-address 10.105.8.15;
+    }
+    # CODE:SERDICHA66-69 LS:2100306912 FIO:Myisina O K
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-11-10 12:28:12
+    host abonent_3161_6 {
+        hardware ethernet C0:4A:00:2D:E9:CF;
+        fixed-address 10.105.8.20;
+    }
+    # CODE:SERDICHA66-22 LS:2100302212 FIO:Simonenko E B
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-11-15 12:39:39
+    host abonent_3556_7 {
+        hardware ethernet F8:1A:67:AD:F4:E3;
+        fixed-address 10.105.8.24;
+    }
+    # CODE:SERDICHA60-15 LS:2101701512 FIO:Hraban K S
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-03-13 21:35:37
+    host abonent_3561_8 {
+        hardware ethernet 50:E5:49:CE:82:57;
+        fixed-address 10.105.8.25;
+    }
+    # CODE:SERDICHA60-15 LS:2101701512 FIO:Hraban K S
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-03-18 10:33:02
+    host abonent_3561_9 {
+        hardware ethernet C0:4A:00:32:94:93;
+        fixed-address 10.105.8.25;
+    }
+    # CODE:SERDICHA64-98 LS:2101909812 FIO:Gubar L S
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-10-27 10:22:03
+    host abonent_4892_10 {
+        hardware ethernet C0:4A:00:2D:E3:6D;
+        fixed-address 10.105.8.21;
+    }
+    # CODE:SERDICHA66-53 LS:2100305362 FIO:Sedyukevich N V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-12-30 13:49:34
+    host abonent_6329_11 {
+        hardware ethernet 00:0C:43:30:50:77;
+        fixed-address 10.105.8.9;
+    }
+    # CODE:SERDICHA66-53 LS:2100305362 FIO:Sedyukevich N V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-12-30 13:48:54
+    host abonent_6329_12 {
+        hardware ethernet C0:4A:00:2E:03:49;
+        fixed-address 10.105.8.9;
+    }

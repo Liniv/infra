@@ -1,0 +1,201 @@
+
+################################# ABONENTS
+
+    # CODE:FABRICHNAYA12-17 LS:3137401712 FIO:Vasilev V V
+    # LAST EDIT BY:YASTREB LAST EDIT TIME:2016-08-15 10:37:09
+    host abonent_2105_0 {
+        hardware ethernet C0:4A:00:BF:74:DE;
+        fixed-address 10.110.24.1;
+    }
+    # CODE:FABRICHNAYA12-17 LS:3137401712 FIO:Vasilev V V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-02-26 15:35:23
+    host abonent_2105_1 {
+        hardware ethernet F4:6D:04:8A:5E:67;
+        fixed-address 10.110.24.1;
+    }
+    # CODE:FABRICHNAYA12-38 LS:3137403812 FIO:Kazakevich N I
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-08-13 19:34:49
+    host abonent_2158_2 {
+        hardware ethernet 20:89:84:E1:E5:B0;
+        fixed-address 10.110.24.21;
+    }
+    # CODE:FABRICHNAYA12-38 LS:3137403812 FIO:Kazakevich N I
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-08-13 19:26:13
+    host abonent_2158_3 {
+        hardware ethernet 40:61:86:7C:3A:F5;
+        fixed-address 10.110.24.21;
+    }
+    # CODE:FABRICHNAYA12-38 LS:3137403812 FIO:Kazakevich N I
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-08-13 19:27:06
+    host abonent_2158_4 {
+        hardware ethernet F8:1A:67:AD:EF:13;
+        fixed-address 10.110.24.21;
+    }
+    # CODE:FABRICHNAYA12-34 LS:3137403412 FIO:Molchan V P
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-04-01 18:25:49
+    host abonent_2160_5 {
+        hardware ethernet C0:4A:00:BF:6C:F3;
+        fixed-address 10.110.24.19;
+    }
+    # CODE:FABRICHNAYA12-80 LS:3137408012 FIO:YAskevich N N
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-09-29 20:13:00
+    host abonent_2214_6 {
+        hardware ethernet 2C:AB:25:FE:5C:C0;
+        fixed-address 10.110.24.8;
+    }
+    # CODE:FABRICHNAYA12-80 LS:3137408012 FIO:YAskevich N N
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-04-06 22:31:30
+    host abonent_2214_7 {
+        hardware ethernet 64:66:B3:44:F3:4E;
+        fixed-address 10.110.24.8;
+    }
+    # CODE:FABRICHNAYA12-80 LS:3137408012 FIO:YAskevich N N
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-01-19 15:32:26
+    host abonent_2214_8 {
+        hardware ethernet E8:03:9A:AF:16:C1;
+        fixed-address 10.110.24.8;
+    }
+    # CODE:FABRICHNAYA14-34 LS:3137503412 FIO:Evdokimovich S L
+    # LAST EDIT BY:SAVICH LAST EDIT TIME:2014-02-28 17:42:12
+    host abonent_2298_9 {
+        hardware ethernet 10:1F:74:FD:1F:58;
+        fixed-address 10.110.24.9;
+    }
+    # CODE:FABRICHNAYA14-34 LS:3137503412 FIO:Evdokimovich S L
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-03-01 17:21:43
+    host abonent_2298_10 {
+        hardware ethernet 10:1F:74:FD:1F:5B;
+        fixed-address 10.110.24.9;
+    }
+    # CODE:FABRICHNAYA14-34 LS:3137503412 FIO:Evdokimovich S L
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-02-02 12:25:42
+    host abonent_2298_11 {
+        hardware ethernet C8:BE:19:AF:69:6F;
+        fixed-address 10.110.24.9;
+    }
+    # CODE:FABRICHNAYA12-77 LS:3137407712 FIO:Znak V L
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-08-14 12:48:55
+    host abonent_2346_12 {
+        hardware ethernet 28:92:4A:42:2E:74;
+        fixed-address 10.110.24.10;
+    }
+    # CODE:FABRICHNAYA12-77 LS:3137407712 FIO:Znak V L
+    # LAST EDIT BY:STATKEVICH LAST EDIT TIME:2017-01-03 12:12:17
+    host abonent_2346_13 {
+        hardware ethernet 84:16:F9:2F:9D:03;
+        fixed-address 10.110.24.10;
+    }
+    # CODE:FABRICHNAYA16-39 LS:3137603912 FIO:Davyidovich A V
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-05-23 15:07:30
+    host abonent_2586_14 {
+        hardware ethernet C0:4A:00:BF:A2:F7;
+        fixed-address 10.110.24.11;
+    }
+    # CODE:FABRICHNAYA14-35 LS:3137503512 FIO:Slepchenko E V
+    # LAST EDIT BY:DOROSHKO LAST EDIT TIME:2013-06-19 20:43:49
+    host abonent_2702_15 {
+        hardware ethernet 00:19:DB:CA:E3:B7;
+        fixed-address 10.110.24.12;
+    }
+    # CODE:FABRICHNAYA14-35 LS:3137503512 FIO:Slepchenko E V
+    # LAST EDIT BY:NAUMOVICH LAST EDIT TIME:2013-07-03 19:53:34
+    host abonent_2702_16 {
+        hardware ethernet 00:22:4D:A1:63:E7;
+        fixed-address 10.110.24.12;
+    }
+    # CODE:FABRICHNAYA14-35 LS:3137503512 FIO:Slepchenko E V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-10-04 18:27:46
+    host abonent_2702_17 {
+        hardware ethernet A0:F3:C1:E4:64:5C;
+        fixed-address 10.110.24.12;
+    }
+    # CODE:FABRICHNAYA14-35 LS:3137503512 FIO:Slepchenko E V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-09-25 12:39:43
+    host abonent_2702_18 {
+        hardware ethernet D4:BE:D9:0C:9A:33;
+        fixed-address 10.110.24.12;
+    }
+    # CODE:FABRICHNAYA16-26 LS:3137602612 FIO:Osipovich M N
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-07-27 13:18:02
+    host abonent_2816_19 {
+        hardware ethernet 2C:AB:25:66:4F:96;
+        fixed-address 10.110.24.14;
+    }
+    # CODE:FABRICHNAYA12-18 LS:3137401812 FIO:SHarafutdinova N V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-08-28 09:47:28
+    host abonent_4556_20 {
+        hardware ethernet C0:4A:00:BF:42:C3;
+        fixed-address 10.110.24.15;
+    }
+    # CODE:FABRICHNAYA16-72 LS:3137607212 FIO:Viskushenko I G
+    # LAST EDIT BY:BLIZGAREVA LAST EDIT TIME:2017-12-14 10:48:53
+    host abonent_5272_21 {
+        hardware ethernet 84:16:F9:2F:82:A5;
+        fixed-address 10.110.24.20;
+    }
+    # CODE:FABRICHNAYA14-17 LS:3137501712 FIO:Kolasha S N
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-04-14 12:29:07
+    host abonent_5274_22 {
+        hardware ethernet 18:D6:C7:20:7B:13;
+        fixed-address 10.110.24.7;
+    }
+    # CODE:FABRICHNAYA14-17 LS:3137501712 FIO:Kolasha S N
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-03-17 19:43:36
+    host abonent_5274_23 {
+        hardware ethernet 3C:97:0E:D9:AC:46;
+        fixed-address 10.110.24.7;
+    }
+    # CODE:FABRICHNAYA14-17 LS:3137501712 FIO:Kolasha S N
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-03-17 18:55:00
+    host abonent_5274_24 {
+        hardware ethernet C8:BE:19:AD:20:C1;
+        fixed-address 10.110.24.7;
+    }
+    # CODE:FABRICHNAYA14-24 LS:3137502412 FIO:Moiseenko A V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2016-03-22 10:39:22
+    host abonent_5823_25 {
+        hardware ethernet 2C:AB:25:FE:E6:C9;
+        fixed-address 10.110.24.13;
+    }
+    # CODE:FABRICHNAYA16-76 LS:3137607612 FIO:Drozd A V
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-12-07 12:48:17
+    host abonent_6280_26 {
+        hardware ethernet EC:08:6B:BE:D4:57;
+        fixed-address 10.110.24.5;
+    }
+    # CODE:FABRICHNAYA16-66 LS:3137606612 FIO:Tereschuk A T
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-07-27 10:14:14
+    host abonent_6292_27 {
+        hardware ethernet 14:CC:20:F4:7E:9D;
+        fixed-address 10.110.24.16;
+    }
+    # CODE:FABRICHNAYA16-15 LS:3137601512 FIO:Latushkin V A
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2016-12-22 10:50:27
+    host abonent_6320_28 {
+        hardware ethernet 84:16:F9:2F:8F:01;
+        fixed-address 10.110.24.17;
+    }
+    # CODE:FABRICHNAYA10-5 LS:3136500512 FIO:Hvedchik JH V
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-12-24 12:36:06
+    host abonent_6323_29 {
+        hardware ethernet EC:08:6B:BE:CE:65;
+        fixed-address 10.110.24.18;
+    }
+    # CODE:FABRICHNAYA16-63 LS:3137606312 FIO:Sekatskaya E P
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-02-22 12:43:25
+    host abonent_6443_30 {
+        hardware ethernet 84:16:F9:48:97:2F;
+        fixed-address 10.110.24.22;
+    }
+    # CODE:FABRICHNAYA16-3 LS:3137600312 FIO:Popovich E S
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-06-02 14:44:49
+    host abonent_6623_31 {
+        hardware ethernet 60:E3:27:8C:63:0F;
+        fixed-address 10.110.24.23;
+    }
+    # CODE:FABRICHNAYA10-51 LS:3136505112 FIO:YUjhik V A
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-06-09 12:59:39
+    host abonent_6636_32 {
+        hardware ethernet 60:E3:27:8C:2A:1D;
+        fixed-address 10.110.24.24;
+    }

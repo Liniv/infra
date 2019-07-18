@@ -1,0 +1,75 @@
+
+################################# ABONENTS
+
+    # CODE:GLEBKI126-29 LS:2077102912 FIO:Baranov A A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-11-05 17:55:54
+    host abonent_881_0 {
+        hardware ethernet 00:11:5B:B5:AC:95;
+        fixed-address 10.100.56.6;
+    }
+    # CODE:GLEBKI114-55 LS:2082105512 FIO:Gerasimova L A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-11-05 11:53:12
+    host abonent_1701_1 {
+        hardware ethernet 00:26:18:7E:AD:53;
+        fixed-address 10.100.56.7;
+    }
+    # CODE:GLEBKI126-20 LS:2077102012 FIO:Kashlyak S G
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-01-19 14:36:55
+    host abonent_2211_2 {
+        hardware ethernet 00:0F:EA:18:65:EE;
+        fixed-address 10.100.56.9;
+    }
+    # CODE:GLEBKI126-20 LS:2077102012 FIO:Kashlyak S G
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-01-21 10:39:53
+    host abonent_2211_3 {
+        hardware ethernet C8:BE:19:AD:20:BF;
+        fixed-address 10.100.56.9;
+    }
+    # CODE:GLEBKI114-47 LS:2082104712 FIO:Alekseev A A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-10-01 14:59:30
+    host abonent_2882_4 {
+        hardware ethernet 00:22:15:34:DC:50;
+        fixed-address 10.100.56.11;
+    }
+    # CODE:GLEBKI114-47 LS:2082104712 FIO:Alekseev A A
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-09-23 12:50:59
+    host abonent_2882_5 {
+        hardware ethernet 08:00:27:00:F8:93;
+        fixed-address 10.100.56.11;
+    }
+    # CODE:GLEBKI114-21 LS:2082102112 FIO:Golubkov K V
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-01-06 17:21:30
+    host abonent_4130_6 {
+        hardware ethernet 28:28:5D:94:B3:69;
+        fixed-address 10.100.56.14;
+    }
+    # CODE:GLEBKI114-21 LS:2082102112 FIO:Golubkov K V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-09-29 21:14:10
+    host abonent_4130_7 {
+        hardware ethernet 28:D2:44:49:76:39;
+        fixed-address 10.100.56.14;
+    }
+    # CODE:GLEBKI114-21 LS:2082102112 FIO:Golubkov K V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-09-29 21:14:20
+    host abonent_4130_8 {
+        hardware ethernet C0:4A:00:BF:44:2D;
+        fixed-address 10.100.56.14;
+    }
+    # CODE:GLEBKI108-24 LS:2081802412 FIO:Bugreev O YU
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-07-15 20:28:01
+    host abonent_4331_9 {
+        hardware ethernet 20:89:84:15:2D:AD;
+        fixed-address 10.100.56.15;
+    }
+    # CODE:GLEBKI108-24 LS:2081802412 FIO:Bugreev O YU
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-05-28 16:26:24
+    host abonent_4331_10 {
+        hardware ethernet C0:4A:00:BF:6F:FD;
+        fixed-address 10.100.56.15;
+    }
+    # CODE:GLEBKI114-23 LS:2082102312 FIO:Zavileyskiy V V
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-08-30 14:09:57
+    host abonent_4566_11 {
+        hardware ethernet C0:4A:00:BF:AB:7F;
+        fixed-address 10.100.56.16;
+    }

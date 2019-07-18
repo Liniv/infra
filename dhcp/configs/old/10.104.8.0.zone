@@ -1,0 +1,99 @@
+
+################################# ABONENTS
+
+    # CODE:JHUDRO12-57 LS:2096105712 FIO:Horunjhiy D I
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-05-24 16:41:53
+    host abonent_2644_0 {
+        hardware ethernet 00:22:15:2E:33:5E;
+        fixed-address 10.104.8.7;
+    }
+    # CODE:JHUDRO16-66 LS:2096306612 FIO:Lukyanchik M A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-11-21 12:15:34
+    host abonent_3055_1 {
+        hardware ethernet D4:CA:6D:99:BA:25;
+        fixed-address 10.104.8.14;
+    }
+    # CODE:JHUDRO16-66 LS:2096306612 FIO:Lukyanchik M A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-09-28 17:45:01
+    host abonent_3055_2 {
+        hardware ethernet E4:11:5B:33:08:D6;
+        fixed-address 10.104.8.14;
+    }
+    # CODE:JHUDRO16-66 LS:2096306612 FIO:Lukyanchik M A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-10-05 14:41:29
+    host abonent_3055_3 {
+        hardware ethernet F4:6D:04:EA:FD:31;
+        fixed-address 10.104.8.14;
+    }
+    # CODE:JHUDRO6-70 LS:2096007012 FIO:Moiseev V A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-10-10 17:53:35
+    host abonent_3097_4 {
+        hardware ethernet 2C:AB:25:FE:F4:F7;
+        fixed-address 10.104.8.15;
+    }
+    # CODE:JHUDRO28-72 LS:2096607212 FIO:Surko V I
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-10-19 16:34:20
+    host abonent_3180_5 {
+        hardware ethernet B0:B2:DC:3E:C3:0B;
+        fixed-address 10.104.8.19;
+    }
+    # CODE:JHUDRO6-40 LS:2096004012 FIO:Dranevich A V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-10-18 15:51:26
+    host abonent_3181_6 {
+        hardware ethernet F8:1A:67:B3:5E:8F;
+        fixed-address 10.104.8.18;
+    }
+    # CODE:JHUDRO4-30 LS:2095903012 FIO:Kasperovich N A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-11-09 11:21:14
+    host abonent_3456_7 {
+        hardware ethernet F8:1A:67:AD:F4:53;
+        fixed-address 10.104.8.20;
+    }
+    # CODE:JHUDRO12-58 LS:2096105812 FIO:Buchel M B
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-11-16 14:46:01
+    host abonent_3576_8 {
+        hardware ethernet F8:1A:67:AD:CA:8D;
+        fixed-address 10.104.8.21;
+    }
+    # CODE:JHUDRO12-60 LS:2096106012 FIO:Senkevich T L
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-01-29 13:07:58
+    host abonent_3886_9 {
+        hardware ethernet 10:FE:ED:B4:12:3D;
+        fixed-address 10.104.8.22;
+    }
+    # CODE:JHUDRO4-52 LS:2095905212 FIO:Amaryan O L
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-03-06 15:17:50
+    host abonent_3989_10 {
+        hardware ethernet C0:4A:00:32:53:3F;
+        fixed-address 10.104.8.25;
+    }
+    # CODE:JHUDRO4-19 LS:2095901912 FIO:Dudarenko M B
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-04-11 09:19:12
+    host abonent_5763_11 {
+        hardware ethernet 00:16:D4:B3:6F:91;
+        fixed-address 10.104.8.11;
+    }
+    # CODE:JHUDRO4-19 LS:2095901912 FIO:Dudarenko M B
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-02-16 11:09:36
+    host abonent_5763_12 {
+        hardware ethernet 10:FE:ED:B3:F1:8D;
+        fixed-address 10.104.8.11;
+    }
+    # CODE:JHUDRO12-59 LS:2096105912 FIO:Mozgovaya N E
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-01-24 20:13:18
+    host abonent_5840_13 {
+        hardware ethernet F8:1A:67:C3:56:AD;
+        fixed-address 10.104.8.12;
+    }
+    # CODE:JHUDRO4-33 LS:2095903312 FIO:Kudalenkin V V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-05-06 11:19:54
+    host abonent_5931_14 {
+        hardware ethernet C0:4A:00:BF:41:EB;
+        fixed-address 10.104.8.13;
+    }
+    # CODE:JHUDRO4-6 LS:2095900612 FIO:Stepantseva T V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-08-16 12:28:38
+    host abonent_6070_15 {
+        hardware ethernet F8:1A:67:AD:C9:49;
+        fixed-address 10.104.8.17;
+    }

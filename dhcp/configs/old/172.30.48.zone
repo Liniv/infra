@@ -1,0 +1,1250 @@
+
+
+################################# MODEMS
+
+    # MODEM:KIJHEVATOVA62-231 KIZHEVATOVA ul.62-231
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-12-23 17:07:05
+    host modem2007308 { 
+           hardware ethernet 00:26:24:95:C0:26; 
+           fixed-address 172.30.48.72; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA66-35 ASANALIEVA ul.66-35-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2011-08-11 11:16:47
+    host modem2008399 { 
+           hardware ethernet 00:26:24:95:C3:34; 
+           fixed-address 172.30.48.63; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO14-12 KORZHENEVSKOGO per.14-12
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-04-25 13:47:54
+    host modem2008477 { 
+           hardware ethernet 00:26:24:95:C3:5A; 
+           fixed-address 172.30.48.70; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA64-5 ASANALIEVA ul.64-5
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-09-23 12:15:30
+    host modem2009196 { 
+           hardware ethernet 00:26:24:95:C2:98; 
+           fixed-address 172.30.48.76; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO20-119 KORZHENEVSKOGO per.20-119
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-12 11:05:15
+    host modem2009313 { 
+           hardware ethernet 00:26:24:A1:21:7A; 
+           fixed-address 172.30.48.189; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA60-24 ASANALIEVA ul.60-24
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-09-19 10:35:16
+    host modem2009333 { 
+           hardware ethernet 00:26:24:A1:21:84; 
+           fixed-address 172.30.48.61; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA9-64 ASANALIEVA ul.9-64
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-11-11 11:21:39
+    host modem2009685 { 
+           hardware ethernet 00:26:24:A1:22:30; 
+           fixed-address 172.30.48.169; 
+           filename "3m31.bin";
+    }
+    # MODEM:AVAKYANA19- Uchastok 4 TEST (Avakyana)
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-01-11 10:08:26
+    host modem2065448 { 
+           hardware ethernet 00:11:E3:D3:16:DF; 
+           fixed-address 172.30.48.79; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-276 KIZHEVATOVA ul.64-276
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 19:05:20
+    host modem2065575 { 
+           hardware ethernet 00:24:D1:43:96:68; 
+           fixed-address 172.30.49.92; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA7-122 ASANALIEVA ul.7-122
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-02-28 14:23:48
+    host modem2065903 { 
+           hardware ethernet 00:24:D1:43:98:0E; 
+           fixed-address 172.30.48.96; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA46- IBP Uch4 - Asanalieva-46
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-11-17 09:20:03
+    host modem2066057 { 
+           hardware ethernet 00:26:24:97:E0:D2; 
+           fixed-address 172.30.48.93; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/1-358 ASANALIEVA ul.13/1-358
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-02-02 14:24:00
+    host modem2066312 { 
+           hardware ethernet 00:22:3A:FD:47:3F; 
+           fixed-address 172.30.48.97; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/1-109 ASANALIEVA ul.13/1-109
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-04-23 14:36:37
+    host modem2066636 { 
+           hardware ethernet 00:1E:69:2B:4B:C4; 
+           fixed-address 172.30.48.108; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA60-60 ASANALIEVA ul.60-60
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-09-17 13:16:04
+    host modem2066643 { 
+           hardware ethernet 00:24:D1:20:37:82; 
+           fixed-address 172.30.48.213; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-377 KIZHEVATOVA ul.62-377-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-04-05 13:06:38
+    host modem2067269 { 
+           hardware ethernet 00:1E:69:18:04:84; 
+           fixed-address 172.30.48.202; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA58-66 ASANALIEVA ul.58-66
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-12-21 16:54:33
+    host modem2067277 { 
+           hardware ethernet 00:1E:69:18:00:7E; 
+           fixed-address 172.30.48.65; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO14-27 KORZHENEVSKOGO per.14-27
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-12-03 13:49:16
+    host modem2067617 { 
+           hardware ethernet 00:24:D1:03:B9:70; 
+           fixed-address 172.30.48.195; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA58-1 ASANALIEVA ul.58-1
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-08-13 13:38:43
+    host modem2067900 { 
+           hardware ethernet 00:24:D1:43:9D:6C; 
+           fixed-address 172.30.48.210; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-310 KIZHEVATOVA ul.62-310
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-06-19 19:03:26
+    host modem2068147 { 
+           hardware ethernet 00:1E:69:2B:32:26; 
+           fixed-address 172.30.48.107; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA66-16 ASANALIEVA ul.66-16-2
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-04-13 19:37:01
+    host modem2068201 { 
+           hardware ethernet 00:1E:69:2B:4C:FA; 
+           fixed-address 172.30.48.182; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-472 KIZHEVATOVA ul.62-472
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-12-28 10:49:30
+    host modem2068274 { 
+           hardware ethernet 00:1E:69:2B:42:F4; 
+           fixed-address 172.30.48.116; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-43 KORZHENEVSKOGO per.18-43
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-10-23 18:31:55
+    host modem2068339 { 
+           hardware ethernet 00:24:D1:03:B8:DA; 
+           fixed-address 172.30.48.197; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/2-60 ASANALIEVA ul.13/2-60
+    # LAST EDIT BY:BOGDANOVICH LAST EDIT TIME:2013-07-06 14:25:18
+    host modem2068390 { 
+           hardware ethernet 00:24:D1:05:FE:06; 
+           fixed-address 172.30.48.164; 
+           filename "3m31.bin";
+    }
+    # MODEM:AVAKYANA19-148 AVAKJANA per.19-148
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-03-29 21:55:48
+    host modem2068431 { 
+           hardware ethernet 00:24:D1:06:01:FC; 
+           fixed-address 172.30.48.193; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-25 KIZHEVATOVA ul.62-25
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-05-23 15:31:57
+    host modem2068440 { 
+           hardware ethernet 00:24:D1:06:01:EA; 
+           fixed-address 172.30.49.34; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA7-227 ASANALIEVA ul.7-227
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2018-03-15 14:26:15
+    host modem2068522 { 
+           hardware ethernet 00:24:D1:05:FB:24; 
+           fixed-address 172.30.48.109; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA58-67 ASANALIEVA ul.58-67
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-10-23 23:14:38
+    host modem2068792 { 
+           hardware ethernet 00:22:3A:FD:3D:B7; 
+           fixed-address 172.30.48.74; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62- IBP Uch4 - Kijhevatova-62
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-08 14:51:07
+    host modem2069606 { 
+           hardware ethernet 00:18:9B:EE:2F:CB; 
+           fixed-address 172.30.49.83; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/3-37 ASANALIEVA ul.13/3-37
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-01-04 16:11:10
+    host modem2069609 { 
+           hardware ethernet 00:18:9B:EE:33:83; 
+           fixed-address 172.30.48.91; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-467 KIZHEVATOVA ul.62-467
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-08-25 10:45:23
+    host modem2069764 { 
+           hardware ethernet 00:1E:69:2B:4E:62; 
+           fixed-address 172.30.48.227; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-2 KORZHENEVSKOGO per.18-2
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-11-17 11:29:36
+    host modem2069806 { 
+           hardware ethernet 00:1E:69:2B:4B:6C; 
+           fixed-address 172.30.48.245; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA7-154 ASANALIEVA ul.7-154
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-08-26 16:18:13
+    host modem2069837 { 
+           hardware ethernet 00:1E:69:2B:4C:82; 
+           fixed-address 172.30.48.60; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-71 KIZHEVATOVA ul.64-71
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-03-25 14:42:58
+    host modem2070154 { 
+           hardware ethernet 00:26:24:A1:21:22; 
+           fixed-address 172.30.49.85; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-230 KORGHENEVSKOGO18-230-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-03-23 20:58:05
+    host modem2070229 { 
+           hardware ethernet 00:18:9B:3E:15:AD; 
+           fixed-address 172.30.49.15; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO20-57 KORGHENEVSKOGO20-57-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:29:32
+    host modem2070300 { 
+           hardware ethernet 00:18:9B:45:49:53; 
+           fixed-address 172.30.48.173; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO22-8 KORGHENEVSKOGO22-8-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:41:10
+    host modem2070302 { 
+           hardware ethernet 00:18:9B:45:49:6D; 
+           fixed-address 172.30.48.224; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-170 KORGHENEVSKOGO18-170-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:30:31
+    host modem2070342 { 
+           hardware ethernet 00:18:9B:47:26:1D; 
+           fixed-address 172.30.48.176; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-18 KORZHENEVSKOGO per.18-18
+    # LAST EDIT BY:PLAHOVA LAST EDIT TIME:2016-01-22 14:35:12
+    host modem2070384 { 
+           hardware ethernet 48:44:87:23:4E:D8; 
+           fixed-address 172.30.48.94; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO14-85 KORGHENEVSKOGO14-85-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:31:45
+    host modem2070412 { 
+           hardware ethernet 00:18:9B:EE:39:2B; 
+           fixed-address 172.30.48.183; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-145 KORGHENEVSKOGO18-145-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:32:26
+    host modem2070419 { 
+           hardware ethernet 00:18:9B:EE:32:69; 
+           fixed-address 172.30.48.187; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-232 KIGHEVATOVA64-232-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:01:17
+    host modem2070420 { 
+           hardware ethernet 00:18:9B:EE:32:ED; 
+           fixed-address 172.30.48.124; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO22-143 KORGHENEVSKOGO22-143-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-02-02 15:44:55
+    host modem2070427 { 
+           hardware ethernet 00:18:9B:EE:2F:CF; 
+           fixed-address 172.30.48.229; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-413 KIGHEVATOVA62-413-MOD
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-08 14:47:38
+    host modem2070443 { 
+           hardware ethernet 00:24:D1:43:9A:68; 
+           fixed-address 172.30.49.76; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO14-150 KORGHENEVSKOGO14-150-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:38:09
+    host modem2070477 { 
+           hardware ethernet 00:24:D1:43:99:5A; 
+           fixed-address 172.30.48.212; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-333 KIZHEVATOVA ul.62-333
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-05-28 12:31:30
+    host modem2070495 { 
+           hardware ethernet 00:24:D1:49:93:4C; 
+           fixed-address 172.30.48.58; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA66-25 KIGHEVATOVA66-25-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:12:31
+    host modem2070511 { 
+           hardware ethernet 00:24:D1:43:97:5A; 
+           fixed-address 172.30.48.147; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO14-112 KORGHENEVSKOGO14-112-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:37:10
+    host modem2070546 { 
+           hardware ethernet 00:24:D1:43:9D:26; 
+           fixed-address 172.30.48.211; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO14-19 KORGHENEVSKOGO14-19-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:36:18
+    host modem2070617 { 
+           hardware ethernet 00:26:24:95:C1:CC; 
+           fixed-address 172.30.48.209; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO22-191 KORGHENEVSKOGO22-191-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:50:59
+    host modem2070618 { 
+           hardware ethernet 00:26:24:95:C1:CE; 
+           fixed-address 172.30.49.8; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO20-70 KORGHENEVSKOGO20-70-MOD
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-02-15 20:23:22
+    host modem2070666 { 
+           hardware ethernet 00:24:D1:05:FB:00; 
+           fixed-address 172.30.48.187; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-107 KIGHEVATOVA62-107-MOD
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-02-16 17:24:32
+    host modem2070667 { 
+           hardware ethernet 00:24:D1:05:FA:AA; 
+           fixed-address 172.30.48.89; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-31 KORGHENEVSKOGO18-31-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-09-25 17:53:35
+    host modem2070713 { 
+           hardware ethernet 00:18:9B:EE:39:49; 
+           fixed-address 172.30.48.254; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-277 KIGHEVATOVA62-277-MOD
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-08 14:51:23
+    host modem2070719 { 
+           hardware ethernet 00:24:D1:05:FC:2A; 
+           fixed-address 172.30.49.84; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA66-13 KIGHEVATOVA66-13-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:11:43
+    host modem2070725 { 
+           hardware ethernet 00:24:D1:06:00:14; 
+           fixed-address 172.30.48.146; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO22-154 KORGHENEVSKOGO22-154-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:50:11
+    host modem2070727 { 
+           hardware ethernet 00:22:3A:FC:EA:43; 
+           fixed-address 172.30.49.6; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO20-14 KORZHENEVSKOGO per.20-14
+    # LAST EDIT BY:ANNA LAST EDIT TIME:2014-08-29 14:51:11
+    host modem2070738 { 
+           hardware ethernet 00:24:D1:05:FC:D2; 
+           fixed-address 172.30.48.221; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-412 KIGHEVATOVA62-412-MOD
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-08 14:47:25
+    host modem2070742 { 
+           hardware ethernet 00:24:D1:05:FC:44; 
+           fixed-address 172.30.49.75; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-470 KIGHEVATOVA62-470-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-03-04 10:05:50
+    host modem2070758 { 
+           hardware ethernet 00:24:D1:20:37:92; 
+           fixed-address 172.30.49.81; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-249 KIGHEVATOVA62-249-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-03-25 16:56:13
+    host modem2070784 { 
+           hardware ethernet 00:24:D1:06:00:A6; 
+           fixed-address 172.30.49.63; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-109 KIGHEVATOVA62-109-MOD
+    # LAST EDIT BY:SHUBICH LAST EDIT TIME:2013-08-14 10:49:52
+    host modem2070793 { 
+           hardware ethernet 00:24:D1:43:97:A6; 
+           fixed-address 172.30.49.55; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-185 KIGHEVATOVA64-185-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 19:14:02
+    host modem2070800 { 
+           hardware ethernet 00:24:D1:03:B9:12; 
+           fixed-address 172.30.49.102; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO22-147 KORGHENEVSKOGO22-147-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:48:41
+    host modem2070803 { 
+           hardware ethernet 00:24:D1:03:B9:88; 
+           fixed-address 172.30.49.0; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-100 KIGHEVATOVA62-100-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 12:31:59
+    host modem2070813 { 
+           hardware ethernet 00:24:D1:43:9A:FE; 
+           fixed-address 172.30.48.106; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO22-181 KORGHENEVSKOGO22-181-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2015-02-09 17:10:13
+    host modem2070831 { 
+           hardware ethernet 00:1E:69:08:34:24; 
+           fixed-address 172.30.48.230; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-451 KIGHEVATOVA62-451-MOD
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-08 14:03:52
+    host modem2070849 { 
+           hardware ethernet 00:1E:69:08:A1:00; 
+           fixed-address 172.30.49.18; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-73 KIGHEVATOVA62-73-MOD
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-11-09 12:56:52
+    host modem2070860 { 
+           hardware ethernet 00:1E:69:0D:61:60; 
+           fixed-address 172.30.49.19; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO22-183 KORGHENEVSKOGO22-183-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:43:15
+    host modem2070862 { 
+           hardware ethernet 00:18:9B:EE:33:69; 
+           fixed-address 172.30.48.234; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA66-81 KIGHEVATOVA66-81-MOD
+    # LAST EDIT BY:PLAHOVA LAST EDIT TIME:2016-01-20 14:21:04
+    host modem2070917 { 
+           hardware ethernet 00:1E:69:17:AB:A6; 
+           fixed-address 172.30.48.81; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-76 KIGHEVATOVA62-76-MOD
+    # LAST EDIT BY:DOROSHKO LAST EDIT TIME:2014-06-17 17:36:15
+    host modem2070994 { 
+           hardware ethernet 00:1E:69:18:00:1A; 
+           fixed-address 172.30.49.27; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO22-164 KORGHENEVSKOGO22-164-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-12-13 12:16:24
+    host modem2071000 { 
+           hardware ethernet 00:1E:69:18:00:20; 
+           fixed-address 172.30.48.235; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA66-28 KIZHEVATOVA ul.66-28
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-05-31 19:24:37
+    host modem2071029 { 
+           hardware ethernet 00:1E:69:2B:4F:4E; 
+           fixed-address 172.30.48.130; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-64 KIGHEVATOVA62-64-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-04-02 20:08:29
+    host modem2071030 { 
+           hardware ethernet 00:1E:69:2B:4F:38; 
+           fixed-address 172.30.49.51; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/1-90 ASANALIEVA ul.13/1-90
+    # LAST EDIT BY:BOGODYAZH LAST EDIT TIME:2017-01-30 16:51:51
+    host modem2071101 { 
+           hardware ethernet 00:1E:69:2B:34:02; 
+           fixed-address 172.30.48.95; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-161 KORGHENEVSKOGO18-161-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:41:37
+    host modem2071110 { 
+           hardware ethernet 00:1E:69:2B:34:1A; 
+           fixed-address 172.30.48.226; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA66-26 KIGHEVATOVA66-26-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:09:06
+    host modem2071111 { 
+           hardware ethernet 00:1E:69:2B:35:DC; 
+           fixed-address 172.30.48.140; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-223 KIGHEVATOVA62-223-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-11-10 12:27:45
+    host modem2071140 { 
+           hardware ethernet 00:1E:69:08:34:46; 
+           fixed-address 172.30.48.77; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA58-5 ASANALIEVA ul.58-5
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-10-15 17:08:46
+    host modem2071149 { 
+           hardware ethernet 00:1E:69:2B:4D:C6; 
+           fixed-address 172.30.48.220; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-100 KORGHENEVSKOGO18-100-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:41:55
+    host modem2071161 { 
+           hardware ethernet 00:18:9B:7E:A4:55; 
+           fixed-address 172.30.48.228; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-327 KIGHEVATOVA62-327-MOD
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-08 14:23:53
+    host modem2071171 { 
+           hardware ethernet 00:1E:69:2B:4D:7E; 
+           fixed-address 172.30.49.32; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-220 KORGHENEVSKOGO18-220-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2015-02-09 17:10:39
+    host modem2071183 { 
+           hardware ethernet 00:22:3A:FC:E4:17; 
+           fixed-address 172.30.48.231; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-95 KIGHEVATOVA64-95-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-01-21 15:44:11
+    host modem2071186 { 
+           hardware ethernet 00:1E:69:2B:33:FC; 
+           fixed-address 172.30.48.167; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-69 KORGHENEVSKOGO18-69-MOD
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-01-24 14:51:35
+    host modem2071207 { 
+           hardware ethernet 00:1E:69:2B:4B:06; 
+           fixed-address 172.30.48.243; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-451 KIGHEVATOVA62-451-2-MOD
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-08 14:48:31
+    host modem2071241 { 
+           hardware ethernet 00:1E:69:2B:43:70; 
+           fixed-address 172.30.49.80; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-110 KORGHENEVSKOGO18-110-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:55:23
+    host modem2071246 { 
+           hardware ethernet 00:1E:69:2B:39:3E; 
+           fixed-address 172.30.49.9; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO20-64 KORZHENEVSKOGO per.20-64
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-07-25 15:44:51
+    host modem2071247 { 
+           hardware ethernet 00:1E:69:2B:39:3C; 
+           fixed-address 172.30.48.101; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-433 KIGHEVATOVA62-433-MOD
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-08 14:48:06
+    host modem2071265 { 
+           hardware ethernet 00:1E:69:2B:43:B8; 
+           fixed-address 172.30.49.78; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-61 KIGHEVATOVA62-61-MOD
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-08 14:31:49
+    host modem2071266 { 
+           hardware ethernet 00:1E:69:2B:43:B6; 
+           fixed-address 172.30.49.50; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA66-78 KIZHEVATOVA ul.66-78
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:10:27
+    host modem2071283 { 
+           hardware ethernet 00:1E:69:2B:4B:D6; 
+           fixed-address 172.30.48.143; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO22-187 KORGHENEVSKOGO22-187-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:50:42
+    host modem2071284 { 
+           hardware ethernet 00:1E:69:2B:4B:D4; 
+           fixed-address 172.30.49.7; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-87 KORGHENEVSKOGO18-87-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-04-23 18:17:20
+    host modem2071302 { 
+           hardware ethernet 00:24:D1:05:FC:10; 
+           fixed-address 172.30.49.4; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-98 KIGHEVATOVA64-98-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 19:11:08
+    host modem2071319 { 
+           hardware ethernet 00:24:D1:03:BA:22; 
+           fixed-address 172.30.49.100; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-26 KIGHEVATOVA62-26-MOD
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-08 14:30:29
+    host modem2071322 { 
+           hardware ethernet 00:24:D1:03:B9:B2; 
+           fixed-address 172.30.49.47; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO14-155 KORGHENEVSKOGO14-155-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:38:28
+    host modem2071333 { 
+           hardware ethernet 00:24:D1:03:BA:62; 
+           fixed-address 172.30.48.214; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-160 KIZHEVATOVA ul.62-160
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-06-29 13:24:17
+    host modem2071362 { 
+           hardware ethernet 00:24:D1:03:B8:FE; 
+           fixed-address 172.30.48.66; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA64-71 ASANALIEVA64-71-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-04-19 22:25:37
+    host modem2071371 { 
+           hardware ethernet 00:26:24:95:C3:2E; 
+           fixed-address 172.30.48.205; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO22-30 KORZHENEVSKOGO per.22-30
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:45:57
+    host modem2071383 { 
+           hardware ethernet 00:24:D1:03:B8:24; 
+           fixed-address 172.30.48.242; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA7-72 ASANALIEVA7-72-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:39
+    host modem2071384 { 
+           hardware ethernet 00:1E:69:2B:4D:48; 
+           fixed-address 172.30.48.84; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA9-152 ASANALIEVA9-152-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:40
+    host modem2071386 { 
+           hardware ethernet 00:24:D1:05:FD:F4; 
+           fixed-address 172.30.48.86; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA7-98 ASANALIEVA7-98-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:12
+    host modem2071388 { 
+           hardware ethernet 00:18:9B:36:D5:0D; 
+           fixed-address 172.30.48.88; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA7-193 ASANALIEVA7-193-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:44
+    host modem2071392 { 
+           hardware ethernet 00:24:D1:49:94:CC; 
+           fixed-address 172.30.48.158; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/1-100 ASANALIEVA13-1-100-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-11-22 16:16:02
+    host modem2071393 { 
+           hardware ethernet 00:24:D1:49:94:CA; 
+           fixed-address 172.30.48.159; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA60-48 ASANALIEVA60-48-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:48
+    host modem2071398 { 
+           hardware ethernet 00:1E:69:0E:7D:1E; 
+           fixed-address 172.30.49.5; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/1-75 ASANALIEVA13-1-75-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:04:55
+    host modem2071402 { 
+           hardware ethernet 00:18:9B:47:32:0F; 
+           fixed-address 172.30.49.39; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/1-191 ASANALIEVA13-1-191-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:47
+    host modem2071413 { 
+           hardware ethernet 00:18:9B:EE:32:79; 
+           fixed-address 172.30.49.212; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/2-155 ASANALIEVA13-2-155-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:39
+    host modem2071421 { 
+           hardware ethernet 00:1E:69:2B:3E:E2; 
+           fixed-address 172.30.50.34; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA7-156 ASANALIEVA7-156-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:06
+    host modem2071429 { 
+           hardware ethernet 00:24:D1:49:94:E0; 
+           fixed-address 172.30.50.121; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA64-3 ASANALIEVA64-3-MOD
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-04-24 12:08:09
+    host modem2071430 { 
+           hardware ethernet 00:22:3A:FD:48:23; 
+           fixed-address 172.30.50.124; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/3-8 ASANALIEVA13-3-8-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-03-27 18:31:16
+    host modem2071437 { 
+           hardware ethernet 00:24:D1:03:B9:E6; 
+           fixed-address 172.30.48.114; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/1-266 ASANALIEVA13-1-266-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:17
+    host modem2071439 { 
+           hardware ethernet 00:1E:69:2B:4D:56; 
+           fixed-address 172.30.50.178; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA60-29 ASANALIEVA60-29-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:30
+    host modem2071450 { 
+           hardware ethernet 00:26:24:95:BD:A2; 
+           fixed-address 172.30.50.235; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/2-62 ASANALIEVA13-2-62-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-07-28 15:59:00
+    host modem2071454 { 
+           hardware ethernet 00:24:D1:06:00:A8; 
+           fixed-address 172.30.51.16; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA58-15 ASANALIEVA58-15-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-01-10 12:00:49
+    host modem2071457 { 
+           hardware ethernet 00:24:D1:05:FB:02; 
+           fixed-address 172.30.51.30; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA60-1 ASANALIEVA60-1-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-09-17 12:13:33
+    host modem2071462 { 
+           hardware ethernet 00:24:D1:06:01:92; 
+           fixed-address 172.30.51.65; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA9-15 ASANALIEVA9-15-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:43
+    host modem2071465 { 
+           hardware ethernet 00:24:D1:05:FC:30; 
+           fixed-address 172.30.51.103; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA64-6 ASANALIEVA64-6-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2016-03-03 12:07:02
+    host modem2071468 { 
+           hardware ethernet 00:24:D1:06:00:1E; 
+           fixed-address 172.30.51.109; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA64-30 ASANALIEVA64-30-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-11-19 14:42:57
+    host modem2071472 { 
+           hardware ethernet 00:24:D1:06:01:18; 
+           fixed-address 172.30.51.120; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/1-203 ASANALIEVA13-1-203-MOD
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-12-05 17:13:00
+    host modem2071473 { 
+           hardware ethernet 00:24:D1:06:01:14; 
+           fixed-address 172.30.51.122; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA64-25 ASANALIEVA64-25-MOD
+    # LAST EDIT BY:LUKERCHYK LAST EDIT TIME:2013-10-25 09:18:14
+    host modem2071478 { 
+           hardware ethernet 00:24:D1:20:3D:96; 
+           fixed-address 172.30.51.179; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA66-16 ASANALIEVA66-16-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-04-13 19:34:17
+    host modem2071480 { 
+           hardware ethernet 00:24:D1:20:3A:96; 
+           fixed-address 172.30.51.186; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/1-70 ASANALIEVA13-1-70-2-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:24
+    host modem2071487 { 
+           hardware ethernet 00:24:D1:43:9B:50; 
+           fixed-address 172.30.51.234; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA64-70 ASANALIEVA64-70-MOD
+    # LAST EDIT BY:BLIZGAREVA LAST EDIT TIME:2017-12-26 18:44:26
+    host modem2071489 { 
+           hardware ethernet 00:24:D1:05:FF:D0; 
+           fixed-address 172.30.51.246; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA7/2-20 KIGHEVATOVA7-2-20-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:09
+    host modem2071497 { 
+           hardware ethernet 00:1E:69:0E:7D:C0; 
+           fixed-address 172.30.52.123; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA60-12 ASANALIEVA60-12-MOD
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2012-02-14 12:58:50
+    host modem2071510 { 
+           hardware ethernet 00:1E:69:17:FA:3C; 
+           fixed-address 172.30.52.239; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA7-27 ASANALIEVA7-27-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-03-29 09:26:46
+    host modem2071523 { 
+           hardware ethernet 00:1E:69:2B:32:8C; 
+           fixed-address 172.30.53.118; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA60-52 ASANALIEVA60-52-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-06-05 11:28:04
+    host modem2071539 { 
+           hardware ethernet 00:1E:69:2B:34:06; 
+           fixed-address 172.30.54.87; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA66-27 ASANALIEVA66-27-MOD
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2011-09-04 11:28:57
+    host modem2071545 { 
+           hardware ethernet 00:1E:69:2B:4E:F8; 
+           fixed-address 172.30.54.129; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA66-48 ASANALIEVA66-48-MOD
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-05-26 09:58:36
+    host modem2071547 { 
+           hardware ethernet 00:18:9B:7E:A5:15; 
+           fixed-address 172.30.54.137; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA64-62 ASANALIEVA64-62-MOD
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-07-19 15:04:59
+    host modem2071549 { 
+           hardware ethernet 00:18:9B:7E:A5:13; 
+           fixed-address 172.30.54.177; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/3-40 ASANALIEVA13-3-40-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-10-29 16:36:39
+    host modem2071553 { 
+           hardware ethernet 00:1E:69:2B:4B:3C; 
+           fixed-address 172.30.54.250; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA7/2-18 KIGHEVATOVA7-2-18-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:18
+    host modem2071554 { 
+           hardware ethernet 00:1E:69:2B:3F:6A; 
+           fixed-address 172.30.55.22; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/1-95 ASANALIEVA13-1-95-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-07-15 12:11:26
+    host modem2071556 { 
+           hardware ethernet 00:1E:69:2B:4A:A8; 
+           fixed-address 172.30.55.28; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA66-63 ASANALIEVA66-63-MOD
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-02-14 14:56:29
+    host modem2071562 { 
+           hardware ethernet 00:1E:69:2B:39:10; 
+           fixed-address 172.30.55.63; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA58-20 ASANALIEVA58-20-MOD
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-10-06 18:29:08
+    host modem2071570 { 
+           hardware ethernet 00:1E:69:2B:38:94; 
+           fixed-address 172.30.48.90; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA46-56 ASANALIEVA46-56-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:57
+    host modem2071575 { 
+           hardware ethernet 00:1E:69:2B:4C:60; 
+           fixed-address 172.30.55.160; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/1-128 ASANALIEVA13-1-128-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:02
+    host modem2071578 { 
+           hardware ethernet 00:24:D1:03:BA:1C; 
+           fixed-address 172.30.55.182; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/1-216 ASANALIEVA13-1-216-MOD
+    # LAST EDIT BY:STRUKOVA LAST EDIT TIME:2013-11-19 21:37:42
+    host modem2071579 { 
+           hardware ethernet 00:24:D1:03:BA:02; 
+           fixed-address 172.30.55.192; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA9-154 ASANALIEVA9-154-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:59
+    host modem2071581 { 
+           hardware ethernet 00:24:D1:03:B9:9A; 
+           fixed-address 172.30.51.159; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/1-244 ASANALIEVA13-1-244-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-04-25 21:53:02
+    host modem2071583 { 
+           hardware ethernet 00:24:D1:03:B9:FA; 
+           fixed-address 172.30.55.214; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/1-255 ASANALIEVA13-1-255-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:12
+    host modem2071586 { 
+           hardware ethernet 00:24:D1:03:BC:B4; 
+           fixed-address 172.30.55.236; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-39 KIZHEVATOVA ul.64-39
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:20:51
+    host modem2071974 { 
+           hardware ethernet 00:24:D1:20:3A:E2; 
+           fixed-address 172.30.48.171; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA46-35 ASANALIEVA ul.46-35
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:48
+    host modem2087887 { 
+           hardware ethernet 00:24:D1:20:3B:C0; 
+           fixed-address 172.30.48.54; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA9-307 ASANALIEVA ul.9-307
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-03-10 15:33:22
+    host modem2087897 { 
+           hardware ethernet 00:24:D1:20:3B:BC; 
+           fixed-address 172.30.55.237; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA62-43 ASANALIEVA ul.62-43
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-29 14:54:54
+    host modem2088326 { 
+           hardware ethernet 00:24:D1:43:99:48; 
+           fixed-address 172.30.48.80; 
+           filename "3m31.bin";
+    }
+    # MODEM:VANEEVA46- VANEEVA ul.46-
+    # LAST EDIT BY:BOLZAN LAST EDIT TIME:2018-03-02 12:31:31
+    host modem2088387 { 
+           hardware ethernet 00:1E:69:2B:4E:14; 
+           fixed-address 172.30.48.155; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-203 KORZHENEVSKOGO per.18-203-2
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 13:57:20
+    host modem2088778 { 
+           hardware ethernet 00:18:9B:36:D1:43; 
+           fixed-address 172.30.49.13; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA7-116 ASANALIEVA ul.7-116
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2013-01-24 17:40:54
+    host modem2104591 { 
+           hardware ethernet 48:44:87:23:99:EC; 
+           fixed-address 172.30.48.55; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-224 KIZHEVATOVA ul.64-224
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-08 19:04:19
+    host modem2178173 { 
+           hardware ethernet 00:24:D1:43:98:7E; 
+           fixed-address 172.30.49.89; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/3-10 ASANALIEVA ul.13/3-10
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-01-17 13:06:41
+    host modem2192617 { 
+           hardware ethernet 00:26:24:A1:22:D4; 
+           fixed-address 172.30.48.113; 
+           filename "3m31.bin";
+    }
+    # MODEM:AVAKYANA19-110 AVAKJANA per.19-110
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-04-02 16:53:03
+    host modem2194140 { 
+           hardware ethernet 48:44:87:25:B5:88; 
+           fixed-address 172.30.48.100; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA58-53 ASANALIEVA ul.58-53
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-01-17 15:48:29
+    host modem2204679 { 
+           hardware ethernet 48:44:87:26:0B:E4; 
+           fixed-address 172.30.48.125; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/3-173 ASANALIEVA ul.13/3-173
+    # LAST EDIT BY:BOGODYAZH LAST EDIT TIME:2016-10-27 11:04:15
+    host modem2206113 { 
+           hardware ethernet 48:44:87:26:08:D4; 
+           fixed-address 172.30.48.165; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA13/3-146 ASANALIEVA ul.13/3-146
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-03-27 16:53:54
+    host modem2206119 { 
+           hardware ethernet 48:44:87:26:14:38; 
+           fixed-address 172.30.48.188; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-54 KIZHEVATOVA ul.64-54
+    # LAST EDIT BY:DOROSHKO LAST EDIT TIME:2014-03-02 16:39:05
+    host modem2206120 { 
+           hardware ethernet 48:44:87:26:14:8C; 
+           fixed-address 172.30.48.67; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-166 KIZHEVATOVA ul.64-166
+    # LAST EDIT BY:ANNA LAST EDIT TIME:2014-08-20 18:14:49
+    host modem2220072 { 
+           hardware ethernet 00:26:24:95:BD:44; 
+           fixed-address 172.30.48.151; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO14-72 KORZHENEVSKOGO per.14-72
+    # LAST EDIT BY:PLAHOVA LAST EDIT TIME:2015-05-26 14:18:52
+    host modem2220663 { 
+           hardware ethernet 00:26:24:A1:23:04; 
+           fixed-address 172.30.48.163; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-200 KORZHENEVSKOGO per.18-200
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-05-06 17:39:41
+    host modem2225281 { 
+           hardware ethernet 00:26:24:A1:20:A4; 
+           fixed-address 172.30.48.191; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-6 KIZHEVATOVA ul.62-6
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-05-13 14:03:41
+    host modem2225336 { 
+           hardware ethernet 00:26:24:A1:20:A2; 
+           fixed-address 172.30.48.239; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-177 KIZHEVATOVA ul.64-177
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-10-17 14:56:26
+    host modem2227185 { 
+           hardware ethernet 00:24:D1:43:9C:DA; 
+           fixed-address 172.30.48.56; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-52 KIZHEVATOVA ul.64-52
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-10-18 15:11:36
+    host modem2227199 { 
+           hardware ethernet 00:26:24:95:BE:6A; 
+           fixed-address 172.30.48.57; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA66-80 KIZHEVATOVA ul.66-80
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-10-28 18:28:29
+    host modem2227341 { 
+           hardware ethernet 00:26:24:95:BD:3A; 
+           fixed-address 172.30.48.62; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-229 KIZHEVATOVA ul.62-229
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2015-12-01 15:44:08
+    host modem2227740 { 
+           hardware ethernet 00:26:24:A1:20:A6; 
+           fixed-address 172.30.48.64; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-419 KIZHEVATOVA ul.62-419
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-12-23 14:23:44
+    host modem2227967 { 
+           hardware ethernet 00:26:24:A1:20:B4; 
+           fixed-address 172.30.48.69; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-65 KIZHEVATOVA ul.62-65
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-12-23 14:26:25
+    host modem2227968 { 
+           hardware ethernet 00:26:24:A1:20:B2; 
+           fixed-address 172.30.48.71; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA58-11 ASANALIEVA ul.58-11
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2018-02-08 17:26:09
+    host modem2228219 { 
+           hardware ethernet 00:26:24:A1:21:82; 
+           fixed-address 172.30.48.78; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-299 KIZHEVATOVA ul.62-299
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-01-22 15:01:58
+    host modem2228242 { 
+           hardware ethernet 00:26:24:A1:22:8A; 
+           fixed-address 172.30.48.85; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO20-48 KORZHENEVSKOGO per.20-48-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-01-27 10:35:21
+    host modem2228308 { 
+           hardware ethernet 00:24:D1:20:3B:60; 
+           fixed-address 172.30.48.83; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-233 KIZHEVATOVA ul.64-233
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-07-15 15:44:49
+    host modem2228465 { 
+           hardware ethernet 00:24:D1:20:3B:64; 
+           fixed-address 172.30.48.87; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-82 KIZHEVATOVA ul.64-82
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2016-03-24 11:25:48
+    host modem2228909 { 
+           hardware ethernet 00:24:D1:20:3B:68; 
+           fixed-address 172.30.48.92; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA66-15 KIZHEVATOVA ul.66-15
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-05-03 12:53:01
+    host modem2229382 { 
+           hardware ethernet 00:24:D1:20:3B:5E; 
+           fixed-address 172.30.48.99; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-249 KIZHEVATOVA ul.64-249
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-09-16 12:26:47
+    host modem2230508 { 
+           hardware ethernet 00:24:D1:20:3B:6C; 
+           fixed-address 172.30.48.68; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA7-196 ASANALIEVA ul.7-196
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-02-04 10:26:45
+    host modem2232059 { 
+           hardware ethernet 00:24:D1:20:3B:7C; 
+           fixed-address 172.30.48.73; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA64-135 KIZHEVATOVA ul.64-135
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-02-24 16:43:00
+    host modem2232295 { 
+           hardware ethernet 00:24:D1:20:3B:7E; 
+           fixed-address 172.30.48.98; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA60-2 ASANALIEVA ul.60-2
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-04-26 13:16:15
+    host modem2232798 { 
+           hardware ethernet 00:26:24:97:E0:F8; 
+           fixed-address 172.30.48.75; 
+           filename "3m31.bin";
+    }
+    # MODEM:KORJHENEVSKOGO18-179 KORZHENEVSKOGO per.18-179
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-08-16 11:36:23
+    host modem2233746 { 
+           hardware ethernet 00:26:24:97:E0:C4; 
+           fixed-address 172.30.48.102; 
+           filename "3m31.bin";
+    }
+    # MODEM:KIJHEVATOVA62-344 KIZHEVATOVA ul.62-344
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-11-15 17:33:34
+    host modem2234815 { 
+           hardware ethernet 00:24:D1:03:B8:DE; 
+           fixed-address 172.30.48.104; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA64-21 ASANALIEVA ul.64-21
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2018-01-16 10:52:30
+    host modem2235280 { 
+           hardware ethernet 00:26:24:97:E0:D6; 
+           fixed-address 172.30.48.103; 
+           filename "3m31.bin";
+    }
+    # MODEM:BYIHOVSKAYA14-55 BYKHOVSKAJA ul.14-55
+    # LAST EDIT BY:BOLZAN LAST EDIT TIME:2018-02-28 12:40:21
+    host modem2235607 { 
+           hardware ethernet 00:26:24:97:E0:DA; 
+           fixed-address 172.30.48.82; 
+           filename "3m31.bin";
+    }
+    # MODEM:ASANALIEVA64-54 ASANALIEVA ul.64-54
+    # LAST EDIT BY:BOLZAN LAST EDIT TIME:2018-03-02 12:31:31
+    host modem2235616 { 
+           hardware ethernet 00:26:24:97:E0:DC; 
+           fixed-address 172.30.48.105; 
+           filename "3m31.bin";
+    }

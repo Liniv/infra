@@ -1,0 +1,57 @@
+
+################################# ABONENTS
+
+    # CODE:6-PUTEPROVODNYIY3-93 LS:2079709312 FIO:Savko V G
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-01-05 12:00:49
+    host abonent_2098_0 {
+        hardware ethernet 90:94:E4:39:38:D5;
+        fixed-address 10.100.32.1;
+    }
+    # CODE:6-PUTEPROVODNYIY3-93 LS:2079709312 FIO:Savko V G
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-12-14 12:25:20
+    host abonent_2098_1 {
+        hardware ethernet EC:08:6B:BE:AB:77;
+        fixed-address 10.100.32.1;
+    }
+    # CODE:6-PUTEPROVODNYIY3-75 LS:2079707512 FIO:SHelkovich A M
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-04-04 14:45:23
+    host abonent_2548_2 {
+        hardware ethernet 64:66:B3:35:7C:9B;
+        fixed-address 10.100.32.5;
+    }
+    # CODE:OLSHEVSKOGO34-15 LS:2077001512 FIO:Tushinskiy D I
+    # LAST EDIT BY:DASHKEVICH LAST EDIT TIME:2013-04-30 20:33:40
+    host abonent_2576_3 {
+        hardware ethernet 00:25:22:D7:BF:A2;
+        fixed-address 10.100.32.6;
+    }
+    # CODE:OLSHEVSKOGO32-8 LS:2079400812 FIO:Akulov A G
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-07-31 13:09:33
+    host abonent_2822_4 {
+        hardware ethernet 2C:AB:25:FF:2B:42;
+        fixed-address 10.100.32.9;
+    }
+    # CODE:OLSHEVSKOGO34-45 LS:2077004512 FIO:Argunov G I
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-12-14 18:25:19
+    host abonent_5552_5 {
+        hardware ethernet D4:6E:0E:26:CD:07;
+        fixed-address 10.100.32.11;
+    }
+    # CODE:OLSHEVSKOGO34-11 LS:2077001112 FIO:Zyil N A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2018-02-21 14:55:21
+    host abonent_5566_6 {
+        hardware ethernet D4:6E:0E:D5:6A:83;
+        fixed-address 10.100.32.12;
+    }
+    # CODE:6-PUTEPROVODNYIY3-104 LS:2079710412 FIO:Starkova O R
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-10-27 16:01:41
+    host abonent_6224_7 {
+        hardware ethernet A0:F3:C1:D8:13:D5;
+        fixed-address 10.100.32.14;
+    }
+    # CODE:6-PUTEPROVODNYIY3-15 LS:2079701512 FIO:SHayuk D G
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-09-19 11:37:10
+    host abonent_6821_8 {
+        hardware ethernet D4:6E:0E:D5:5B:6D;
+        fixed-address 10.100.32.7;
+    }

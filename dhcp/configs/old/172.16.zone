@@ -1,0 +1,20 @@
+ host server-ikar-test { 
+   hardware ethernet 00:0e:7f:fe:39:ff; 
+   filename "pxelinux.0";
+   fixed-address 172.16.0.45;
+ } 
+
+ host dunyatew { 
+   hardware ethernet 00:c0:b7:99:3e:48; 
+   fixed-address 172.16.0.90;
+} 
+
+ host chaylytko4 { 
+   hardware ethernet 00:e0:d8:15:5f:73; 
+   fixed-address 172.16.0.150;
+ } 
+
+# host dunyatew2 { 
+#  hardware ethernet 00:c0:b7:c7:e0:d0; 
+#   fixed-address 172.16.0.91;
+# } 

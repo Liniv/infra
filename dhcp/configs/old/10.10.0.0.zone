@@ -1,0 +1,18 @@
+
+
+################################# ABONENTS
+
+    # CODE:HORUJHEY18/1-36 LS:I1217 FIO:Kolibanyich S S
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-20 18:15:12
+#    host modem2107564541 {
+#               hardware ethernet 00:24:D1:43:9C:90; 
+#           fixed-address 10.10.0.2;
+#           filename "3m24.bin";
+#}
+
+
+    host modem2107564654541 {
+               hardware ethernet 00:24:d1:20:38:f8;
+           fixed-address 10.10.0.2;
+           filename "test9.bin";
+}

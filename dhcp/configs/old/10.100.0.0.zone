@@ -1,0 +1,69 @@
+
+################################# ABONENTS
+
+    # CODE:PUSHKINA83-62 LS:2079006212 FIO:Golovatskaya E V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-11-05 18:08:18
+    host abonent_969_0 {
+        hardware ethernet 00:13:8F:CD:59:13;
+        fixed-address 10.100.0.5;
+    }
+    # CODE:PUSHKINA83-62 LS:2079006212 FIO:Golovatskaya E V
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-09-21 16:52:28
+    host abonent_969_1 {
+        hardware ethernet C0:4A:00:2E:03:83;
+        fixed-address 10.100.0.5;
+    }
+    # CODE:PUSHKINA83-135 LS:2079013512 FIO:Kaplistyiy L S
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2013-01-26 16:39:46
+    host abonent_2154_2 {
+        hardware ethernet 64:70:02:3C:44:F5;
+        fixed-address 10.100.0.7;
+    }
+    # CODE:PUSHKINA83-34 LS:2079003412 FIO:Kuzmenkov G N
+    # LAST EDIT BY:YASTREB LAST EDIT TIME:2016-03-22 12:36:06
+    host abonent_2251_3 {
+        hardware ethernet C0:4A:00:BF:3F:5D;
+        fixed-address 10.100.0.8;
+    }
+    # CODE:PUSHKINA85-217 LS:2079121712 FIO:Zaharevich N S
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-07-04 12:25:33
+    host abonent_2308_4 {
+        hardware ethernet C0:4A:00:2D:B8:31;
+        fixed-address 10.100.0.9;
+    }
+    # CODE:PUSHKINA85-202 LS:2079120212 FIO:Sinichin D A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-10-09 19:18:25
+    host abonent_3084_5 {
+        hardware ethernet 2C:AB:25:82:6E:37;
+        fixed-address 10.100.0.14;
+    }
+    # CODE:PUSHKINA83-18 LS:2079001812 FIO:Mahnach M V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-01-28 16:56:11
+    host abonent_3879_6 {
+        hardware ethernet 10:FE:ED:B4:12:23;
+        fixed-address 10.100.0.15;
+    }
+    # CODE:PUSHKINA83-107 LS:2079010712 FIO:Andronchik V N
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-02-08 15:22:04
+    host abonent_3908_7 {
+        hardware ethernet 10:FE:ED:B3:F6:31;
+        fixed-address 10.100.0.16;
+    }
+    # CODE:PUSHKINA85-14 LS:2079101412 FIO:Pzanberov A A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-05-13 15:12:01
+    host abonent_4264_8 {
+        hardware ethernet C0:4A:00:BF:BA:87;
+        fixed-address 10.100.0.18;
+    }
+    # CODE:PUSHKINA85-34 LS:2079103412 FIO:Kulakovskaya YU V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-04-11 12:01:01
+    host abonent_5184_9 {
+        hardware ethernet C0:4A:00:BF:BA:8D;
+        fixed-address 10.100.0.19;
+    }
+    # CODE:PUSHKINA85-231 LS:2079123112 FIO:Ermolovich A A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-12-12 11:15:26
+    host abonent_6978_10 {
+        hardware ethernet D4:6E:0E:D5:5B:7D;
+        fixed-address 10.100.0.6;
+    }

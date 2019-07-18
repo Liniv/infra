@@ -1,0 +1,1680 @@
+ host TEST-CMTS { 
+   hardware ethernet 00:18:9d:36:d4:d9; 
+   fixed-address 172.27.1.1; 
+   filename "3m28.bin"; 
+  } 
+ 
+  host ZVEZDY40-1-MOD { 
+   hardware ethernet 00:10:95:5d:6f:a5; 
+   fixed-address 172.27.1.2; 
+   filename "3m28.bin"; 
+  } 
+ 
+  host ZVEZDY40-2-MOD { 
+   hardware ethernet 00:10:95:5d:73:6a; 
+   fixed-address 172.27.1.4; 
+   filename "3m28.bin"; 
+  } 
+ 
+  host ZVEZDY40-TEST-2-MOD { 
+   hardware ethernet 00:18:9b:45:7a:ff; 
+  #  serial 00770-716107044; 
+   fixed-address 172.27.1.5; 
+   filename "3m28-15cpe.bin"; 
+  } 
+
+
+################################# MODEMS
+
+    # MODEM:ORDYI27-1 VOLS TEST
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-06-04 18:09:20
+    host modem2007496 { 
+           hardware ethernet 48:44:87:23:A0:88; 
+           fixed-address 172.27.0.60; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA18-86 GEDROJCA ul.18-86
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-11-22 13:10:34
+    host modem2007602 { 
+           hardware ethernet 00:26:24:95:C2:A8; 
+           fixed-address 172.27.0.64; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA16-11 CHECHOTA ul.16-11
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-06-06 17:26:59
+    host modem2007722 { 
+           hardware ethernet 00:26:24:95:BC:FC; 
+           fixed-address 172.27.0.66; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI9-82 ORDY ul.9-82
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-01-22 17:16:42
+    host modem2007797 { 
+           hardware ethernet 00:26:24:95:BF:FE; 
+           fixed-address 172.27.0.62; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA12-96 GEDROJCA ul.12-96
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2011-08-14 20:27:32
+    host modem2008213 { 
+           hardware ethernet 00:26:24:A1:22:6A; 
+           fixed-address 172.27.0.70; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45-96 ORDY ul.45-96
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-02-11 11:19:08
+    host modem2008415 { 
+           hardware ethernet 00:26:24:95:C3:3C; 
+           fixed-address 172.27.0.77; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI11-77 ORDY ul.11-77
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-11-18 21:07:30
+    host modem2008455 { 
+           hardware ethernet 00:26:24:95:C3:50; 
+           fixed-address 172.27.0.86; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI27-113 ORDY ul.27-113
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2011-08-31 16:58:08
+    host modem2008459 { 
+           hardware ethernet 00:26:24:95:C3:52; 
+           fixed-address 172.27.0.83; 
+           filename "3m28.bin";
+    }
+    # MODEM:BRYILYA22-20 BRYLJA ul.22-20
+    # LAST EDIT BY:ZALOGO LAST EDIT TIME:2016-09-05 17:03:06
+    host modem2008900 { 
+           hardware ethernet 00:26:24:95:BE:3E; 
+           fixed-address 172.27.0.174; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI9-63 ORDY ul.9-63
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-02-12 18:30:38
+    host modem2009024 { 
+           hardware ethernet 00:26:24:95:BC:7E; 
+           fixed-address 172.27.0.97; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI9-63 ORDY ul.9-63-2
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-10-05 15:06:04
+    host modem2009028 { 
+           hardware ethernet 00:26:24:95:BC:80; 
+           fixed-address 172.27.0.98; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI9-63 ORDY ul.9-63-3
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-10-05 15:06:11
+    host modem2009032 { 
+           hardware ethernet 00:26:24:95:BC:82; 
+           fixed-address 172.27.0.99; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI47-46 ORDY ul.47-46
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2015-02-27 17:56:52
+    host modem2009036 { 
+           hardware ethernet 00:26:24:95:BC:84; 
+           fixed-address 172.27.0.159; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI39-87 ORDY ul.39-87
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-01-22 16:54:51
+    host modem2009064 { 
+           hardware ethernet 00:26:24:95:BC:92; 
+           fixed-address 172.27.0.67; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI39-105 ORDY ul.39-105
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-12-01 16:31:55
+    host modem2065328 { 
+           hardware ethernet 00:22:3A:FC:EA:07; 
+           fixed-address 172.27.0.100; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI31-63 ORDY ul.31-63-2
+    # LAST EDIT BY:SKREBNEV LAST EDIT TIME:2012-02-29 10:08:41
+    host modem2065339 { 
+           hardware ethernet 00:11:E3:9D:40:B5; 
+           fixed-address 172.27.0.131; 
+           filename "3m28.bin";
+    }
+    # MODEM:BRYILYA22-146 BRYLJA ul.22-146
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-05-27 16:32:38
+    host modem2065342 { 
+           hardware ethernet 00:1E:69:17:F9:C0; 
+           fixed-address 172.27.0.184; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA25-41 CHECHOTA ul.25-41
+    # LAST EDIT BY:SKREBNEV LAST EDIT TIME:2013-07-29 17:35:25
+    host modem2065582 { 
+           hardware ethernet 00:24:D1:43:9B:0C; 
+           fixed-address 172.27.0.72; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA6-42 GEDROJCA ul.6-42
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-09-26 11:17:54
+    host modem2065696 { 
+           hardware ethernet 00:1E:69:2B:32:0C; 
+           fixed-address 172.27.0.163; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA25-40 CHECHOTA ul.25-40
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-06-13 11:03:38
+    host modem2065806 { 
+           hardware ethernet 00:24:D1:43:97:E6; 
+           fixed-address 172.27.6.17; 
+           filename "3m28.bin";
+    }
+    # MODEM:BRYILYA24-155 BRYLJA ul.24-155
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-04-03 12:37:02
+    host modem2065834 { 
+           hardware ethernet 00:24:D1:43:9A:96; 
+           fixed-address 172.27.0.176; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI15-190 ORDY ul.15-190
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-12-07 10:00:55
+    host modem2065836 { 
+           hardware ethernet 00:22:3A:FD:47:5B; 
+           fixed-address 172.27.0.110; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI35-90 ORDY ul.35-90
+    # LAST EDIT BY:PLAHOVA LAST EDIT TIME:2015-12-01 11:28:19
+    host modem2065888 { 
+           hardware ethernet 00:24:D1:49:91:BC; 
+           fixed-address 172.27.0.71; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI37-53 ORDY ul.37-53
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-05-08 11:05:42
+    host modem2065970 { 
+           hardware ethernet 00:26:24:95:C3:1C; 
+           fixed-address 172.27.0.191; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA6-45 GEDROJCA ul.6-45
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-07-23 16:21:38
+    host modem2066420 { 
+           hardware ethernet 00:1E:69:0E:7C:DA; 
+           fixed-address 172.27.0.63; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI15-160 ORDY ul.15-160
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-07-30 21:41:57
+    host modem2066461 { 
+           hardware ethernet 00:1E:69:2B:31:98; 
+           fixed-address 172.27.0.74; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA5-7 CHECHOTA ul.5-7-2
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-01-25 14:15:50
+    host modem2066785 { 
+           hardware ethernet 00:24:D1:05:FB:D0; 
+           fixed-address 172.27.0.189; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI37-47 ORDY ul.37-47
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-06-28 12:14:15
+    host modem2066800 { 
+           hardware ethernet 00:24:D1:05:FD:D2; 
+           fixed-address 172.27.0.78; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA16- IBP Uch4 - CHechota-16
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-12-28 16:42:19
+    host modem2066893 { 
+           hardware ethernet 00:24:D1:43:9B:20; 
+           fixed-address 172.27.0.113; 
+           filename "3m28.bin";
+    }
+    # MODEM:GURSKOGO39- IBP Uch4 - Gurskogo-39
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-12-28 16:59:30
+    host modem2067027 { 
+           hardware ethernet 00:24:D1:43:97:C4; 
+           fixed-address 172.27.0.120; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA18- IBP Uch4 - Gedroytsa-18
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-12-28 16:58:02
+    host modem2067145 { 
+           hardware ethernet 00:26:24:A1:21:B4; 
+           fixed-address 172.27.0.112; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA9-105 CHECHOTA ul.9-105
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-08-23 12:56:05
+    host modem2067326 { 
+           hardware ethernet 00:1E:69:2B:31:B8; 
+           fixed-address 172.27.0.94; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA25-114 CHECHOTA ul.25-114
+    # LAST EDIT BY:SKREBNEV LAST EDIT TIME:2012-02-24 11:09:28
+    host modem2068071 { 
+           hardware ethernet 00:26:24:95:BD:B8; 
+           fixed-address 172.27.0.130; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI51-71 ORDY51-71-MOD
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-08-27 12:17:01
+    host modem2068125 { 
+           hardware ethernet 00:1E:69:2B:32:DA; 
+           fixed-address 172.27.0.185; 
+           filename "3m28.bin";
+    }
+    # MODEM:BRYILYA26-33 BRYLJA ul.26-33
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-06-20 11:36:05
+    host modem2068141 { 
+           hardware ethernet 00:1E:69:2B:4D:D8; 
+           fixed-address 172.27.0.154; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI53-62 NORDY53-62-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:53
+    host modem2068153 { 
+           hardware ethernet 00:22:3A:FC:E9:23; 
+           fixed-address 172.27.2.73; 
+           filename "3m31.bin";
+    }
+    # MODEM:CHECHOTA23-4 CHECHETA23-4-MOD
+    # LAST EDIT BY:KROK LAST EDIT TIME:2011-11-25 13:45:16
+    host modem2068160 { 
+           hardware ethernet 00:1E:69:2B:31:62; 
+           fixed-address 172.27.2.80; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI35-124 NORDY35-124-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:58
+    host modem2068161 { 
+           hardware ethernet 00:1E:69:2B:4E:8E; 
+           fixed-address 172.27.2.81; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI47-27 NORDY47-27-MOD
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2012-05-28 22:09:31
+    host modem2068164 { 
+           hardware ethernet 00:1E:69:2B:4E:9E; 
+           fixed-address 172.27.2.89; 
+           filename "3m28.bin";
+    }
+    # MODEM:GURSKOGO44/2- IBP Uch4 - Gurskogo-44/2
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-12-28 16:59:53
+    host modem2068167 { 
+           hardware ethernet 00:1E:69:2B:34:3A; 
+           fixed-address 172.27.0.121; 
+           filename "3m28-2cpe.bin";
+    }
+    # MODEM:ORDYI37-63 NORDY37-63-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:52
+    host modem2068168 { 
+           hardware ethernet 00:1E:69:2B:4E:72; 
+           fixed-address 172.27.2.96; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA23-65 CHECHETA23-65-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:03
+    host modem2068172 { 
+           hardware ethernet 00:1E:69:2B:30:20; 
+           fixed-address 172.27.2.101; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI35-17 NORDY35-17-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:08
+    host modem2068190 { 
+           hardware ethernet 00:1E:69:17:FB:68; 
+           fixed-address 172.27.2.126; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA10-38 GEDROICA10-38-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:10
+    host modem2068193 { 
+           hardware ethernet 00:1E:69:2B:4D:6C; 
+           fixed-address 172.27.2.129; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI31-26 NORDY31-26-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:11
+    host modem2068197 { 
+           hardware ethernet 00:1E:69:2B:4E:C8; 
+           fixed-address 172.27.2.133; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI51-113 NORDY51-113-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:15
+    host modem2068211 { 
+           hardware ethernet 00:1E:69:2B:4B:58; 
+           fixed-address 172.27.2.156; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA10-53 GEDROICA10-53-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:17
+    host modem2068216 { 
+           hardware ethernet 00:1E:69:2B:3F:08; 
+           fixed-address 172.27.2.164; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA23-82 CHECHETA23-82-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-09-27 13:16:53
+    host modem2068218 { 
+           hardware ethernet 00:1E:69:2B:3F:00; 
+           fixed-address 172.27.2.170; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI55-80 NORDY55-80-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:24
+    host modem2068227 { 
+           hardware ethernet 00:18:9B:47:25:D1; 
+           fixed-address 172.27.2.181; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI53-39 NORDY53-39-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:25
+    host modem2068229 { 
+           hardware ethernet 00:18:9B:EE:1F:33; 
+           fixed-address 172.27.2.185; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI51-4 NORDY51-4-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:31
+    host modem2068242 { 
+           hardware ethernet 00:1E:69:2B:50:CC; 
+           fixed-address 172.27.2.206; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA21-288 CHECHETA21-288-MOD-2
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-11-14 12:30:23
+    host modem2068248 { 
+           hardware ethernet 00:1E:69:2B:4A:7E; 
+           fixed-address 172.27.2.214; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA12-49 GEDROICA12-49-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-08-15 11:03:36
+    host modem2068254 { 
+           hardware ethernet 00:1E:69:2B:4C:C4; 
+           fixed-address 172.27.0.93; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI31-31 NORDY31-31-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-07-16 16:01:05
+    host modem2068268 { 
+           hardware ethernet 00:1E:69:2B:42:DA; 
+           fixed-address 172.27.2.239; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA9-273 CHECHETA9-273-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:43
+    host modem2068270 { 
+           hardware ethernet 00:1E:69:2B:42:E2; 
+           fixed-address 172.27.2.242; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI33-113 NORDY33-113-MOD
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-07-06 19:38:16
+    host modem2068275 { 
+           hardware ethernet 00:1E:69:2B:38:F2; 
+           fixed-address 172.27.0.79; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA12-35 GEDROICA12-35-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:47
+    host modem2068280 { 
+           hardware ethernet 00:1E:69:2B:38:DA; 
+           fixed-address 172.27.3.2; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI53-37 NORDY53-37-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:47
+    host modem2068281 { 
+           hardware ethernet 00:1E:69:2B:4B:D0; 
+           fixed-address 172.27.3.3; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA21-123 CHECHETA21-123-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-07-28 18:31:52
+    host modem2068286 { 
+           hardware ethernet 00:1E:69:2B:38:E2; 
+           fixed-address 172.27.3.11; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI53-60 NORDY53-60-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:51
+    host modem2068293 { 
+           hardware ethernet 00:1E:69:2B:4B:92; 
+           fixed-address 172.27.3.19; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA12-67 GEDROICA12-67-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:51
+    host modem2068294 { 
+           hardware ethernet 00:1E:69:2B:4B:8E; 
+           fixed-address 172.27.3.21; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA21-45 CHECHETA21-45-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:51
+    host modem2068296 { 
+           hardware ethernet 00:1E:69:2B:43:3C; 
+           fixed-address 172.27.3.23; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI37-116 NORDY37-116-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:55
+    host modem2068306 { 
+           hardware ethernet 00:1E:69:2B:42:B6; 
+           fixed-address 172.27.3.42; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA44-38 CHECHETA44-38-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:59
+    host modem2068313 { 
+           hardware ethernet 00:11:E3:D3:17:5D; 
+           fixed-address 172.27.3.50; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI33-12 NORDY33-12-MOD
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-07-30 17:45:01
+    host modem2068315 { 
+           hardware ethernet 00:1E:69:2B:35:10; 
+           fixed-address 172.27.3.52; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45-260 NORDY45-260-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:02
+    host modem2068321 { 
+           hardware ethernet 00:24:D1:03:B9:0E; 
+           fixed-address 172.27.3.60; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA9-144 CHECHETA9-144-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-01-11 11:55:42
+    host modem2068329 { 
+           hardware ethernet 00:24:D1:03:BC:7A; 
+           fixed-address 172.27.3.72; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI35-121 NORDY35-121-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:11
+    host modem2068342 { 
+           hardware ethernet 00:24:D1:03:B8:D4; 
+           fixed-address 172.27.3.89; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45-163 NORDY45-163-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:11
+    host modem2068344 { 
+           hardware ethernet 00:24:D1:03:B8:D0; 
+           fixed-address 172.27.3.91; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA26-68 CHECHETA26-68-MOD
+    # LAST EDIT BY:GRAKOVICH LAST EDIT TIME:2011-06-27 12:21:52
+    host modem2068355 { 
+           hardware ethernet 00:24:D1:03:B9:80; 
+           fixed-address 172.27.3.109; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45-44 NORDY45-44-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-05-14 22:59:42
+    host modem2068358 { 
+           hardware ethernet 00:24:D1:03:B9:8A; 
+           fixed-address 172.27.3.114; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA16-27 CHECHETA16-27-MOD
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2012-01-06 08:39:37
+    host modem2068361 { 
+           hardware ethernet 00:24:D1:03:B9:94; 
+           fixed-address 172.27.3.119; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI29-47 NORDY29-47-MOD
+    # LAST EDIT BY:STATKEVICH LAST EDIT TIME:2017-07-22 13:21:34
+    host modem2068362 { 
+           hardware ethernet 00:24:D1:03:B8:9A; 
+           fixed-address 172.27.3.120; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI15-226 NORDY15-226-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:19
+    host modem2068367 { 
+           hardware ethernet 00:24:D1:03:B8:F2; 
+           fixed-address 172.27.3.125; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI33-41 NORDY33-41-MOD
+    # LAST EDIT BY:BOGODYAZH LAST EDIT TIME:2017-01-19 10:54:55
+    host modem2068377 { 
+           hardware ethernet 00:24:D1:05:FD:5C; 
+           fixed-address 172.27.3.135; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI47-84 ORDY ul.47-84
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-08-29 21:54:16
+    host modem2068395 { 
+           hardware ethernet 00:24:D1:05:FC:FE; 
+           fixed-address 172.27.0.136; 
+           filename "3m28.bin";
+    }
+    # MODEM:ZVYAZDA40- IBP Uch4 - Zvezdyi 40-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-06-26 12:31:15
+    host modem2068404 { 
+           hardware ethernet 00:24:D1:06:00:B8; 
+           fixed-address 172.27.0.122; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI25-4 NORDY25-4-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:24
+    host modem2068409 { 
+           hardware ethernet 00:24:D1:05:FB:9E; 
+           fixed-address 172.27.3.177; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA30-32 CHECHETA30-32-MOD
+    # LAST EDIT BY:DASHKEVICH LAST EDIT TIME:2013-05-01 11:56:01
+    host modem2068414 { 
+           hardware ethernet 00:24:D1:05:FB:94; 
+           fixed-address 172.27.3.182; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI11-29 NORDY11-29-MOD
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-10-12 19:06:32
+    host modem2068415 { 
+           hardware ethernet 00:24:D1:05:FB:90; 
+           fixed-address 172.27.3.183; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI29-100 NORDY29-100-MOD
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-02-22 12:30:53
+    host modem2068417 { 
+           hardware ethernet 00:24:D1:06:00:B4; 
+           fixed-address 172.27.3.186; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA16-35 CHECHETA16-35-MOD
+    # LAST EDIT BY:SKREBNEV LAST EDIT TIME:2013-08-02 18:50:15
+    host modem2068418 { 
+           hardware ethernet 00:24:D1:06:00:B6; 
+           fixed-address 172.27.3.187; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA26-2 CHECHETA26-2-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:28
+    host modem2068422 { 
+           hardware ethernet 00:24:D1:05:FC:1C; 
+           fixed-address 172.27.3.196; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA16-37 CHECHETA16-37-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:29
+    host modem2068427 { 
+           hardware ethernet 00:24:D1:06:01:F4; 
+           fixed-address 172.27.3.201; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI39-65 NORDY39-65-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:29
+    host modem2068429 { 
+           hardware ethernet 00:24:D1:06:01:F8; 
+           fixed-address 172.27.3.203; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI15-56 NORDY15-56-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-03-17 20:57:24
+    host modem2068432 { 
+           hardware ethernet 00:24:D1:06:01:FE; 
+           fixed-address 172.27.3.206; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI15-88 NORDY15-88-MOD
+    # LAST EDIT BY:PLAHOVA LAST EDIT TIME:2016-02-04 12:41:39
+    host modem2068444 { 
+           hardware ethernet 00:24:D1:05:FD:9A; 
+           fixed-address 172.27.3.219; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA16-77 CHECHETA16-77-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:32
+    host modem2068448 { 
+           hardware ethernet 00:24:D1:06:01:46; 
+           fixed-address 172.27.3.224; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI35-59 NORDY35-59-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:36
+    host modem2068463 { 
+           hardware ethernet 00:24:D1:05:FF:E6; 
+           fixed-address 172.27.3.247; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI51-42 NORDY51-42-MOD
+    # LAST EDIT BY:KAPUSTA LAST EDIT TIME:2011-07-25 17:28:22
+    host modem2068467 { 
+           hardware ethernet 00:24:D1:05:FF:DC; 
+           fixed-address 172.27.3.252; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI11-42 NORDY11-42-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:36
+    host modem2068468 { 
+           hardware ethernet 00:24:D1:05:FF:DA; 
+           fixed-address 172.27.3.253; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA16-15 CHECHETA16-15-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-01-13 11:31:38
+    host modem2068473 { 
+           hardware ethernet 00:1E:69:17:FF:A6; 
+           fixed-address 172.27.4.5; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA10-37 GEDROICA10-37-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:39
+    host modem2068474 { 
+           hardware ethernet 00:18:9B:EE:32:9F; 
+           fixed-address 172.27.4.6; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA30-17 CHECHETA30-17-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:39
+    host modem2068480 { 
+           hardware ethernet 00:1E:69:0D:79:28; 
+           fixed-address 172.27.4.13; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI11-175 NORDY11-175-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:42
+    host modem2068488 { 
+           hardware ethernet 00:24:D1:06:00:76; 
+           fixed-address 172.27.4.26; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI53-25 NORDY53-25-MOD
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-08-09 20:30:41
+    host modem2068495 { 
+           hardware ethernet 00:24:D1:06:00:68; 
+           fixed-address 172.27.4.33; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA16-56 CHECHETA16-56-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:46
+    host modem2068501 { 
+           hardware ethernet 00:24:D1:05:FF:F2; 
+           fixed-address 172.27.4.40; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI9-32 NORDY9-32-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:46
+    host modem2068503 { 
+           hardware ethernet 00:24:D1:05:FF:F6; 
+           fixed-address 172.27.4.42; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI37-10 NORDY37-10-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:46
+    host modem2068507 { 
+           hardware ethernet 00:24:D1:05:FF:EE; 
+           fixed-address 172.27.4.47; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI37-73 NORDY37-73-MOD
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-09-11 15:51:03
+    host modem2068516 { 
+           hardware ethernet 00:24:D1:05:FF:FC; 
+           fixed-address 172.27.4.56; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45-139 NORDY45-139-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:47
+    host modem2068517 { 
+           hardware ethernet 00:24:D1:06:00:0C; 
+           fixed-address 172.27.4.57; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI11-122 NORDY11-122-MOD
+    # LAST EDIT BY:KAPUSTA LAST EDIT TIME:2011-07-25 17:09:05
+    host modem2068525 { 
+           hardware ethernet 00:24:D1:06:01:62; 
+           fixed-address 172.27.4.67; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI51-63 NORDY51-63-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:52
+    host modem2068545 { 
+           hardware ethernet 00:24:D1:05:FC:5A; 
+           fixed-address 172.27.4.90; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA9-51 CHECHETA9-51-MOD
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-01-13 20:37:27
+    host modem2068550 { 
+           hardware ethernet 00:24:D1:05:FC:9A; 
+           fixed-address 172.27.4.97; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI29-3 NORDY29-3-MOD
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2011-10-12 19:25:23
+    host modem2068555 { 
+           hardware ethernet 00:24:D1:05:FD:BA; 
+           fixed-address 172.27.4.103; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-143 NORDY23-143-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:54
+    host modem2068562 { 
+           hardware ethernet 00:24:D1:05:FD:AC; 
+           fixed-address 172.27.4.110; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA12-17 GEDROICA12-17-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:54
+    host modem2068564 { 
+           hardware ethernet 00:24:D1:05:FD:BE; 
+           fixed-address 172.27.4.112; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-48 NORDY23-48-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:55
+    host modem2068574 { 
+           hardware ethernet 00:24:D1:05:FB:7C; 
+           fixed-address 172.27.4.126; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-1 NORDY23-1-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:57
+    host modem2068585 { 
+           hardware ethernet 00:24:D1:20:37:7E; 
+           fixed-address 172.27.4.142; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-152 NORDY23-152-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-10-29 21:34:25
+    host modem2068587 { 
+           hardware ethernet 00:24:D1:20:37:7C; 
+           fixed-address 172.27.4.145; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA12-22 GEDROICA12-22-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-09-11 11:11:43
+    host modem2068589 { 
+           hardware ethernet 00:24:D1:20:37:70; 
+           fixed-address 172.27.4.151; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45-271 NORDY45-271-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:58
+    host modem2068591 { 
+           hardware ethernet 00:24:D1:20:37:6C; 
+           fixed-address 172.27.4.153; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI53-12 NORDY53-12-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:58
+    host modem2068595 { 
+           hardware ethernet 00:24:D1:20:37:D0; 
+           fixed-address 172.27.4.158; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI47-112 NORDY47-112-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:59
+    host modem2068599 { 
+           hardware ethernet 00:24:D1:20:39:14; 
+           fixed-address 172.27.4.163; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI27-92 NORDY27-92-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:59
+    host modem2068600 { 
+           hardware ethernet 00:24:D1:20:39:12; 
+           fixed-address 172.27.4.164; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-77 NORDY23-77-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:59
+    host modem2068603 { 
+           hardware ethernet 00:24:D1:20:39:0A; 
+           fixed-address 172.27.4.168; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA26-41 CHECHETA26-41-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:01
+    host modem2068614 { 
+           hardware ethernet 00:24:D1:20:3B:EC; 
+           fixed-address 172.27.4.182; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI47-50 NORDY47-50-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:01
+    host modem2068615 { 
+           hardware ethernet 00:24:D1:20:3B:EE; 
+           fixed-address 172.27.4.183; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI25-14 NORDY25-14-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-01-22 15:24:19
+    host modem2068622 { 
+           hardware ethernet 00:1E:69:0E:7D:58; 
+           fixed-address 172.27.4.192; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA12-71 GEDROICA12-71-MOD
+    # LAST EDIT BY:GAPEEVA LAST EDIT TIME:2011-10-26 11:27:36
+    host modem2068627 { 
+           hardware ethernet 00:1E:69:2B:4E:1E; 
+           fixed-address 172.27.4.198; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA12-43 GEDROICA12-43-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-08-02 22:08:57
+    host modem2068640 { 
+           hardware ethernet 00:1E:69:2B:32:5C; 
+           fixed-address 172.27.4.215; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-250 NORDY23-250-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:05
+    host modem2068642 { 
+           hardware ethernet 00:1E:69:2B:30:26; 
+           fixed-address 172.27.4.217; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI9-90 NORDY9-90-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:07
+    host modem2068663 { 
+           hardware ethernet 00:24:D1:20:3D:84; 
+           fixed-address 172.27.4.245; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA18-33 GEDROICA18-33-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-10-06 11:36:51
+    host modem2068666 { 
+           hardware ethernet 00:24:D1:20:3A:FC; 
+           fixed-address 172.27.4.251; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA9-301 CHECHETA9-301-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:11
+    host modem2068678 { 
+           hardware ethernet 00:24:D1:20:3C:B0; 
+           fixed-address 172.27.5.14; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA25-67 CHECHETA25-67-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:11
+    host modem2068681 { 
+           hardware ethernet 00:24:D1:20:3C:A2; 
+           fixed-address 172.27.5.17; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI9-20 NORDY9-20-MOD
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-12-17 15:21:34
+    host modem2068684 { 
+           hardware ethernet 00:24:D1:20:3A:B6; 
+           fixed-address 172.27.5.20; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI11-78 NORDY11-78-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:12
+    host modem2068690 { 
+           hardware ethernet 00:24:D1:20:39:FA; 
+           fixed-address 172.27.5.26; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA6-20 GEDROICA6-20-MOD
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-04-22 10:49:31
+    host modem2068705 { 
+           hardware ethernet 00:1E:69:2B:43:BA; 
+           fixed-address 172.27.5.47; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA6-50 GEDROICA6-50-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:17
+    host modem2068707 { 
+           hardware ethernet 00:24:D1:03:B8:B4; 
+           fixed-address 172.27.5.49; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA40- IBP Uch4 - CHechota-40
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-12-28 16:41:11
+    host modem2068719 { 
+           hardware ethernet 00:24:D1:43:96:DC; 
+           fixed-address 172.27.0.116; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI27-93 NORDY27-93-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-12-01 10:43:38
+    host modem2068725 { 
+           hardware ethernet 00:24:D1:43:96:EC; 
+           fixed-address 172.27.5.70; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA10-103 GEDROICA10-103-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-09-25 10:46:24
+    host modem2068740 { 
+           hardware ethernet 00:24:D1:43:9B:28; 
+           fixed-address 172.27.5.87; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI21-17 NORDY21-17-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:21
+    host modem2068743 { 
+           hardware ethernet 00:24:D1:43:9B:22; 
+           fixed-address 172.27.5.90; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA28-2 CHECHETA28-2-MOD
+    # LAST EDIT BY:ZALOGO LAST EDIT TIME:2016-03-10 12:39:37
+    host modem2068754 { 
+           hardware ethernet 00:24:D1:43:9B:AA; 
+           fixed-address 172.27.5.106; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA9-15 CHECHETA9-15-MOD
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-12-07 10:50:03
+    host modem2068757 { 
+           hardware ethernet 00:24:D1:43:9B:B0; 
+           fixed-address 172.27.5.109; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-178 NORDY23-178-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:26
+    host modem2068758 { 
+           hardware ethernet 00:24:D1:43:9B:A2; 
+           fixed-address 172.27.5.111; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI33-71 NORDY33-71-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:27
+    host modem2068760 { 
+           hardware ethernet 00:24:D1:43:9A:C0; 
+           fixed-address 172.27.5.114; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI51-96 NORDY51-96-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:28
+    host modem2068762 { 
+           hardware ethernet 00:1E:69:2B:3F:16; 
+           fixed-address 172.27.5.118; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI15-58 NORDY15-58-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:29
+    host modem2068766 { 
+           hardware ethernet 00:1E:69:2B:32:50; 
+           fixed-address 172.27.5.123; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA18-7 GEDROICA18-7-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:29
+    host modem2068771 { 
+           hardware ethernet 00:24:D1:43:9C:24; 
+           fixed-address 172.27.5.130; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA21-169 CHECHETA21-169-MOD
+    # LAST EDIT BY:MIHAILOV LAST EDIT TIME:2017-10-13 16:37:03
+    host modem2068788 { 
+           hardware ethernet 00:24:D1:43:9C:AC; 
+           fixed-address 172.27.5.150; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45-146 NORDY45-146-MOD
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2011-09-05 13:25:22
+    host modem2068791 { 
+           hardware ethernet 48:44:87:23:9F:FC; 
+           fixed-address 172.27.5.153; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI33-7 NORDY33-7-MOD
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-05-21 18:26:14
+    host modem2068801 { 
+           hardware ethernet 00:24:D1:20:3C:16; 
+           fixed-address 172.27.5.164; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45-136 NORDY45-136-MOD
+    # LAST EDIT BY:KAPUSTA LAST EDIT TIME:2011-07-22 10:43:57
+    host modem2068804 { 
+           hardware ethernet 00:24:D1:20:3C:1A; 
+           fixed-address 172.27.5.167; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA21-239 CHECHETA21-239-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:38
+    host modem2068807 { 
+           hardware ethernet 00:24:D1:49:95:B2; 
+           fixed-address 172.27.5.173; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI27-43 NORDY27-43-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-07-24 20:45:53
+    host modem2068809 { 
+           hardware ethernet 00:24:D1:49:95:B6; 
+           fixed-address 172.27.5.175; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI33-111 NORDY33-111-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:39
+    host modem2068815 { 
+           hardware ethernet 00:24:D1:43:9C:6C; 
+           fixed-address 172.27.5.181; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI15-159 NORDY15-159-MOD
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-04-17 14:04:58
+    host modem2068816 { 
+           hardware ethernet 00:24:D1:43:9C:6E; 
+           fixed-address 172.27.5.182; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45-84 NORDY45-84-MOD
+    # LAST EDIT BY:ANNA LAST EDIT TIME:2014-08-12 14:23:08
+    host modem2068822 { 
+           hardware ethernet 00:1E:69:2B:4A:EA; 
+           fixed-address 172.27.5.189; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA25-113 CHECHETA25-113-MOD
+    # LAST EDIT BY:SKREBNEV LAST EDIT TIME:2013-07-22 19:46:36
+    host modem2068827 { 
+           hardware ethernet 00:1E:69:2B:42:FC; 
+           fixed-address 172.27.5.194; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-199 ORDY ul.23-199-3
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-11-20 15:41:17
+    host modem2068844 { 
+           hardware ethernet 00:11:E3:95:70:CC; 
+           fixed-address 172.27.0.168; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-239 NORDY23-239-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:50
+    host modem2068862 { 
+           hardware ethernet 00:24:D1:20:3C:80; 
+           fixed-address 172.27.5.240; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45/1-2 NORDY45-1-2-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:51
+    host modem2068866 { 
+           hardware ethernet 00:24:D1:43:98:56; 
+           fixed-address 172.27.5.244; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI55-110 NORDY55-110-MOD
+    # LAST EDIT BY:STATKEVICH LAST EDIT TIME:2016-07-25 20:17:10
+    host modem2068867 { 
+           hardware ethernet 00:24:D1:43:9D:70; 
+           fixed-address 172.27.5.245; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI33-74 NORDY33-74-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:52
+    host modem2068869 { 
+           hardware ethernet 00:18:9B:47:26:8B; 
+           fixed-address 172.27.5.248; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI15-241 NORDY15-241-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:52
+    host modem2068871 { 
+           hardware ethernet 00:24:D1:06:00:B2; 
+           fixed-address 172.27.5.250; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-254 NORDY23-254-MOD
+    # LAST EDIT BY:GRAKOVICH LAST EDIT TIME:2011-09-26 15:36:52
+    host modem2068878 { 
+           hardware ethernet 00:24:D1:49:94:EA; 
+           fixed-address 172.27.6.4; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA16-97 CHECHETA16-97-MOD
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-10-12 16:32:31
+    host modem2068879 { 
+           hardware ethernet 00:24:D1:49:94:F4; 
+           fixed-address 172.27.6.5; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI27-95 NORDY27-95-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-06-13 20:01:50
+    host modem2068898 { 
+           hardware ethernet 00:24:D1:43:99:1A; 
+           fixed-address 172.27.0.193; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI27-81 NORDY27-81-MOD
+    # LAST EDIT BY:GRAKOVICH LAST EDIT TIME:2011-08-17 11:23:49
+    host modem2068903 { 
+           hardware ethernet 00:24:D1:20:3A:A6; 
+           fixed-address 172.27.6.30; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI15-228 NORDY15-228-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:06
+    host modem2068904 { 
+           hardware ethernet 00:24:D1:43:9B:3C; 
+           fixed-address 172.27.6.31; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI51-117 NORDY51-117-MOD
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-05-06 18:24:55
+    host modem2068911 { 
+           hardware ethernet 00:24:D1:20:3A:7A; 
+           fixed-address 172.27.6.39; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-104 NORDY23-104-MOD
+    # LAST EDIT BY:YASTREB LAST EDIT TIME:2016-02-23 11:00:59
+    host modem2068912 { 
+           hardware ethernet 00:24:D1:20:3A:28; 
+           fixed-address 172.27.6.41; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45-236 NORDY45-236-MOD
+    # LAST EDIT BY:SHUBICH LAST EDIT TIME:2013-09-14 16:41:37
+    host modem2068913 { 
+           hardware ethernet 00:24:D1:20:3A:2A; 
+           fixed-address 172.27.0.177; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI47-41 NORDY47-41-MOD
+    # LAST EDIT BY:PAPKO LAST EDIT TIME:2011-10-14 14:27:29
+    host modem2068916 { 
+           hardware ethernet 00:24:D1:20:3A:36; 
+           fixed-address 172.27.6.45; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI29-34 NORDY29-34-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-10-24 12:54:50
+    host modem2068930 { 
+           hardware ethernet 00:22:3A:FD:47:5F; 
+           fixed-address 172.27.6.67; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI33-57 NORDY33-57-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:32
+    host modem2068940 { 
+           hardware ethernet 00:18:9B:3E:15:DF; 
+           fixed-address 172.27.6.81; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45-18 NORDY45-18-MOD
+    # LAST EDIT BY:GRAKOVICH LAST EDIT TIME:2011-08-22 15:45:09
+    host modem2068942 { 
+           hardware ethernet 00:22:3A:FC:E8:6B; 
+           fixed-address 172.27.6.85; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI35-57 NORDY35-57-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:35
+    host modem2068946 { 
+           hardware ethernet 00:26:24:97:E0:2A; 
+           fixed-address 172.27.6.90; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI29-8 NORDY29-8-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:38
+    host modem2068954 { 
+           hardware ethernet 00:26:24:95:BD:EA; 
+           fixed-address 172.27.6.98; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-235 NORDY23-235-MOD
+    # LAST EDIT BY:PLAHOVA LAST EDIT TIME:2015-06-12 15:45:31
+    host modem2068960 { 
+           hardware ethernet 48:44:87:23:A2:E8; 
+           fixed-address 172.27.6.108; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI15-310 NORDY15-310-MOD
+    # LAST EDIT BY:SHUBICH LAST EDIT TIME:2013-05-22 16:41:25
+    host modem2068961 { 
+           hardware ethernet 00:1E:69:19:C7:18; 
+           fixed-address 172.27.6.109; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA16-69 CHECHOTA ul.16-69
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-09-25 12:25:42
+    host modem2069158 { 
+           hardware ethernet 00:1E:69:17:AB:AA; 
+           fixed-address 172.27.0.169; 
+           filename "3m28.bin";
+    }
+    # MODEM:VANEEVA46- Uchastok 4 TEST (Ermolovich)
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-06-26 10:41:49
+    host modem2069372 { 
+           hardware ethernet 00:24:D1:06:00:1A; 
+           fixed-address 172.27.0.68; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA21- IBP Uch4 - CHechota-21
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-12-28 16:41:48
+    host modem2069936 { 
+           hardware ethernet 00:18:9B:EE:33:45; 
+           fixed-address 172.27.0.114; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA5-7 CHECHOTA ul.5-7
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2013-03-23 12:43:24
+    host modem2070134 { 
+           hardware ethernet 00:22:3A:FD:4B:47; 
+           fixed-address 172.27.0.69; 
+           filename "3m28.bin";
+    }
+    # MODEM:ZVYAZDA15- Uchastok 4-TEST
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-09-17 17:21:28
+    host modem2070227 { 
+           hardware ethernet 00:11:E3:D3:17:43; 
+           fixed-address 172.27.0.162; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA9-237 CHECHOTA ul.9-237
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-05-05 15:51:59
+    host modem2070332 { 
+           hardware ethernet 00:26:24:97:E0:24; 
+           fixed-address 172.27.0.75; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA11-48 CHECHOTA ul.11-48
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-11-20 16:42:48
+    host modem2070536 { 
+           hardware ethernet 00:24:D1:43:9A:5C; 
+           fixed-address 172.27.0.158; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-17 ORDY ul.23-17
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-11-24 17:45:51
+    host modem2070554 { 
+           hardware ethernet 00:24:D1:20:3A:DA; 
+           fixed-address 172.27.0.106; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA23-9 CHECHOTA ul.23-9-2
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-11-02 15:52:13
+    host modem2070661 { 
+           hardware ethernet 00:24:D1:05:FA:9C; 
+           fixed-address 172.27.0.164; 
+           filename "3m28.bin";
+    }
+    # MODEM:BERESTYANSKAYA24- CMTS 246
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-01-12 16:17:19
+    host modem2070746 { 
+           hardware ethernet 00:24:D1:05:FB:8C; 
+           fixed-address 172.27.0.126; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA30-3 CHECHOTA ul.30-3
+    # LAST EDIT BY:SKREBNEV LAST EDIT TIME:2012-03-07 15:27:34
+    host modem2070852 { 
+           hardware ethernet 00:1E:69:08:34:92; 
+           fixed-address 172.27.0.134; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI29-11 ORDY ul.29-11
+    # LAST EDIT BY:ZALOGO LAST EDIT TIME:2016-08-16 18:38:02
+    host modem2070874 { 
+           hardware ethernet 00:1E:69:0D:60:FC; 
+           fixed-address 172.27.0.135; 
+           filename "3m28.bin";
+    }
+    # MODEM:BRYILYA21-184 BRYLJA ul.21-184
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-02-01 17:54:46
+    host modem2071495 { 
+           hardware ethernet 00:1E:69:0D:61:5C; 
+           fixed-address 172.27.0.175; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI51-89 ORDY ul.51-89-2
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-07-18 17:29:31
+    host modem2071718 { 
+           hardware ethernet 00:1E:69:2B:31:24; 
+           fixed-address 172.27.0.146; 
+           filename "3m28.bin";
+    }
+    # MODEM:GURSKOGO44/3-6 GURSKOGO ul.44/3-6
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2013-02-27 12:18:56
+    host modem2071979 { 
+           hardware ethernet 00:18:9B:EE:3A:B7; 
+           fixed-address 172.27.0.115; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI51-31 ORDY ul.51-31-2
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:21
+    host modem2088638 { 
+           hardware ethernet 00:1E:69:2B:3E:EE; 
+           fixed-address 172.27.2.173; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA9- CHECHOTA ul.9-pts1-2
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:44
+    host modem2088645 { 
+           hardware ethernet 00:1E:69:2B:42:DE; 
+           fixed-address 172.27.2.240; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-8 ORDY ul.23-8-2
+    # LAST EDIT BY:GAPEEVA LAST EDIT TIME:2011-10-26 11:28:49
+    host modem2088920 { 
+           hardware ethernet 00:1E:69:17:AB:78; 
+           fixed-address 172.27.6.25; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA30-26 CHECHOTA ul.30-26-3
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:39
+    host modem2088936 { 
+           hardware ethernet 00:24:D1:06:01:40; 
+           fixed-address 172.27.6.99; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI51-63 ORDY ul.51-63-2
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:52
+    host modem2088960 { 
+           hardware ethernet 00:24:D1:05:FC:5C; 
+           fixed-address 172.27.4.91; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI35-121 ORDY ul.35-121-2
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:58
+    host modem2088963 { 
+           hardware ethernet 00:24:D1:20:37:D4; 
+           fixed-address 172.27.4.160; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI15-58 ORDY ul.15-58-2
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:28
+    host modem2088987 { 
+           hardware ethernet 00:24:D1:43:9C:7C; 
+           fixed-address 172.27.5.128; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA16-57 CHECHOTA ul.16-57
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:15
+    host modem2089087 { 
+           hardware ethernet 00:22:3A:FD:3D:C7; 
+           fixed-address 172.27.6.54; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI39-71 ORDY ul.39-71
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:49
+    host modem2089116 { 
+           hardware ethernet 00:24:D1:43:99:52; 
+           fixed-address 172.27.0.54; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI35-30 ORDY ul.35-30
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:49
+    host modem2089157 { 
+           hardware ethernet 00:26:24:95:BE:6E; 
+           fixed-address 172.27.0.81; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA21-64 CHECHOTA ul.21-64
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:41
+    host modem2089301 { 
+           hardware ethernet 00:18:9B:EE:32:A5; 
+           fixed-address 172.27.6.102; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA9-167 CHECHOTA ul.9-167
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-01-05 14:14:02
+    host modem2089303 { 
+           hardware ethernet 00:26:24:95:C2:62; 
+           fixed-address 172.27.6.105; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI39-86 ORDY ul.39-86
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-11-21 14:29:46
+    host modem2089311 { 
+           hardware ethernet 00:22:3A:FD:47:9F; 
+           fixed-address 172.27.0.102; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45-144 ORDY ul.45-144
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:50
+    host modem2089479 { 
+           hardware ethernet 00:1E:69:2B:32:18; 
+           fixed-address 172.27.2.70; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI27-98 ORDY ul.27-98-2
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:35
+    host modem2089511 { 
+           hardware ethernet 00:26:24:97:E0:20; 
+           fixed-address 172.27.6.89; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45-151 ORDY ul.45-151
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:51
+    host modem2090626 { 
+           hardware ethernet 00:26:24:95:BD:68; 
+           fixed-address 172.27.0.56; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-13 ORDY ul.23-13
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:52
+    host modem2090641 { 
+           hardware ethernet 00:26:24:95:BD:62; 
+           fixed-address 172.27.0.57; 
+           filename "3m28.bin";
+    }
+    # MODEM:ZVYAZDA40- IBP Uch4 - Zvezdyi 40
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-06-26 12:30:27
+    host modem2104560 { 
+           hardware ethernet 00:24:D1:49:92:D8; 
+           fixed-address 172.27.1.7; 
+           filename "3m28.bin";
+    }
+    # MODEM:VANEEVA46- VOLS TEST IP 5
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-06-02 09:21:36
+    host modem2139713 { 
+           hardware ethernet 00:18:9B:3E:67:43; 
+           fixed-address 172.27.0.5; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA18-146 GEDROJCA ul.18-146
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-07-15 15:50:54
+    host modem2146903 { 
+           hardware ethernet 00:18:9B:47:29:4F; 
+           fixed-address 172.27.0.186; 
+           filename "3m17-5cpe.bin";
+    }
+    # MODEM:ORDYI23-80 ORDY ul.23-80
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-11-13 10:29:56
+    host modem2177745 { 
+           hardware ethernet 00:24:D1:43:98:5C; 
+           fixed-address 172.27.0.87; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI27-1 ORDY ul.27-1
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2011-09-20 12:14:33
+    host modem2178160 { 
+           hardware ethernet 00:24:D1:43:98:64; 
+           fixed-address 172.27.0.88; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-199 ORDY ul.23-199
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-01-13 14:27:28
+    host modem2178161 { 
+           hardware ethernet 00:24:D1:43:98:66; 
+           fixed-address 172.27.0.89; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-199 ORDY ul.23-199-2
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-09-21 10:29:03
+    host modem2178162 { 
+           hardware ethernet 00:24:D1:43:98:68; 
+           fixed-address 172.27.0.90; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45- Avariyka-test
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-10-03 18:14:19
+    host modem2179732 { 
+           hardware ethernet 00:E0:6F:AE:1A:CA; 
+           fixed-address 172.27.0.7; 
+           filename "3m28.bin";
+    }
+    # MODEM:GURSKOGO44/3-29 GURSKOGO ul.44/3-29
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-04-27 12:11:59
+    host modem2188822 { 
+           hardware ethernet 48:44:87:25:B4:5C; 
+           fixed-address 172.27.0.161; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI47-7 ORDY ul.47-7
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-07-27 19:21:05
+    host modem2192622 { 
+           hardware ethernet 00:26:24:A1:22:DE; 
+           fixed-address 172.27.0.92; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI23-152 ORDY ul.23-152-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-04-25 10:21:02
+    host modem2192624 { 
+           hardware ethernet 00:26:24:A1:22:E2; 
+           fixed-address 172.27.0.140; 
+           filename "3m28.bin";
+    }
+    # MODEM:VANEEVA46-44 VANEEVA ul.46-44
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-05-21 12:57:40
+    host modem2194129 { 
+           hardware ethernet 44:48:87:25:BD:EC; 
+           fixed-address 172.27.0.144; 
+           filename "3m28.bin";
+    }
+    # MODEM:GURSKOGO37-142 GURSKOGO ul.37-142
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-08-06 19:08:34
+    host modem2196843 { 
+           hardware ethernet 00:22:3A:FD:47:E3; 
+           fixed-address 172.27.0.119; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI31-56 ORDY ul.31-56
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-02-13 14:30:10
+    host modem2217745 { 
+           hardware ethernet 00:1E:69:0F:66:94; 
+           fixed-address 172.27.0.65; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI37-7 ORDY ul.37-7
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-04-03 15:16:49
+    host modem2218699 { 
+           hardware ethernet 00:26:24:95:BD:3C; 
+           fixed-address 172.27.0.183; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA18-33 GEDROJCA ul.18-33-3
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-01-14 10:08:48
+    host modem2223725 { 
+           hardware ethernet 00:26:24:97:E0:44; 
+           fixed-address 172.27.0.165; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI45-86 ORDY ul.45-86
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-02-27 10:56:04
+    host modem2224420 { 
+           hardware ethernet 00:26:24:97:E0:4A; 
+           fixed-address 172.27.0.172; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI35-21 ORDY ul.35-21
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-10-14 14:25:07
+    host modem2227121 { 
+           hardware ethernet 00:26:24:97:E0:40; 
+           fixed-address 172.27.0.55; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI37-21 ORDY ul.37-21
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-12-12 18:55:44
+    host modem2227187 { 
+           hardware ethernet 00:24:D1:43:98:24; 
+           fixed-address 172.27.0.101; 
+           filename "3m28.bin";
+    }
+    # MODEM:GEDROYTSA18-102 GEDROJCA ul.18-102
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-10-19 18:59:06
+    host modem2227216 { 
+           hardware ethernet 00:24:D1:03:B8:C4; 
+           fixed-address 172.27.0.58; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI21-37 ORDY ul.21-37
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-11-28 10:09:08
+    host modem2227665 { 
+           hardware ethernet 00:26:24:A1:20:AC; 
+           fixed-address 172.27.0.61; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA21-93 CHECHOTA ul.21-93
+    # LAST EDIT BY:YASTREB LAST EDIT TIME:2016-03-31 12:33:13
+    host modem2228017 { 
+           hardware ethernet 00:26:24:A1:20:B6; 
+           fixed-address 172.27.0.76; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI31-37 ORDY ul.31-37
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-03-25 10:17:11
+    host modem2228665 { 
+           hardware ethernet 00:24:D1:20:3B:66; 
+           fixed-address 172.27.0.73; 
+           filename "3m28.bin";
+    }
+    # MODEM:BRYILYA24-test BRYLJA ul.24-
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-08-06 10:55:54
+    host modem2230092 { 
+           hardware ethernet 00:26:24:A1:23:08; 
+           fixed-address 172.31.72.212; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI11-172 ORDY ul.11-172
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-09-06 10:31:16
+    host modem2230377 { 
+           hardware ethernet 00:24:D1:20:3B:6E; 
+           fixed-address 172.27.0.59; 
+           filename "3m28.bin";
+    }
+    # MODEM:ORDYI35-102 ORDY ul.35-102
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-09-20 10:32:42
+    host modem2230517 { 
+           hardware ethernet 00:24:D1:20:3B:70; 
+           fixed-address 172.27.0.80; 
+           filename "3m28.bin";
+    }
+    # MODEM:BRYILYA24-17 BRYLJA ul.24-17
+    # LAST EDIT BY:STRUKOVA LAST EDIT TIME:2017-03-27 13:45:01
+    host modem2230623 { 
+           hardware ethernet 00:24:D1:20:3B:74; 
+           fixed-address 172.27.0.82; 
+           filename "3m28.bin";
+    }
+    # MODEM:BRYILYA22-40 BRYLJA ul.22-40
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-12-26 13:46:32
+    host modem2231527 { 
+           hardware ethernet 00:26:24:95:BD:E6; 
+           fixed-address 172.27.0.85; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA9-196 CHECHOTA ul.9-196
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-07-14 10:37:06
+    host modem2233647 { 
+           hardware ethernet 00:26:24:97:E0:C6; 
+           fixed-address 172.27.0.91; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA9-234 CHECHOTA ul.9-234
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-09-22 17:06:52
+    host modem2234270 { 
+           hardware ethernet 00:26:24:97:E0:C8; 
+           fixed-address 172.27.0.95; 
+           filename "3m28.bin";
+    }
+    # MODEM:CHECHOTA21-169 CHECHOTA ul.21-169
+    # LAST EDIT BY:MIHAILOV LAST EDIT TIME:2017-10-13 16:36:58
+    host modem2234528 { 
+           hardware ethernet 00:26:24:97:E0:D0; 
+           fixed-address 172.27.0.96; 
+           filename "3m28.bin";
+    }

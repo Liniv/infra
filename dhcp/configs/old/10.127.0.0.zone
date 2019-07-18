@@ -1,0 +1,63 @@
+
+################################# ABONENTS
+
+    # CODE:KAMENNOGORSKAYA72-133 LS:2134313312 FIO:Vashkevich I G
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2015-02-24 12:27:37
+    host abonent_4040_0 {
+        hardware ethernet C0:4A:00:32:53:2D;
+        fixed-address 10.127.0.13;
+    }
+    # CODE:NEMANSKAYA77-95 LS:2133009522 FIO:Kirsanov I I
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-12-15 11:54:10
+    host abonent_4277_1 {
+        hardware ethernet C0:4A:00:BF:8F:73;
+        fixed-address 10.127.0.9;
+    }
+    # CODE:NEMANSKAYA77-143 LS:2133014312 FIO:Kamyishnikov A V
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2015-02-24 12:27:00
+    host abonent_4363_2 {
+        hardware ethernet C0:4A:00:BF:6D:B7;
+        fixed-address 10.127.0.12;
+    }
+    # CODE:NEMANSKAYA77-118 LS:2133011812 FIO:TSobkalo E G
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2015-02-24 12:26:20
+    host abonent_4388_3 {
+        hardware ethernet C0:4A:00:BF:A8:89;
+        fixed-address 10.127.0.10;
+    }
+    # CODE:NEMANSKAYA77-86 LS:2133008622 FIO:Konashenko YU I
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2015-02-24 12:25:30
+    host abonent_4560_4 {
+        hardware ethernet C0:4A:00:BF:AB:79;
+        fixed-address 10.127.0.8;
+    }
+    # CODE:NALIBOKSKAYA17-93 LS:2241409312 FIO:Voyna S V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-02-04 12:08:28
+    host abonent_5005_5 {
+        hardware ethernet C0:4A:00:2D:DE:DD;
+        fixed-address 10.127.0.5;
+    }
+    # CODE:LIDSKAYA6-92 LS:2241309212 FIO:Uvarov B I
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-05-12 15:49:11
+    host abonent_5223_6 {
+        hardware ethernet C0:4A:00:2E:0D:7D;
+        fixed-address 10.127.0.16;
+    }
+    # CODE:LIDSKAYA16-89 LS:2239908912 FIO:Lashuk I P
+    # LAST EDIT BY:BLIZGAREVA LAST EDIT TIME:2018-01-22 13:14:55
+    host abonent_5321_7 {
+        hardware ethernet 10:FE:ED:B4:09:25;
+        fixed-address 10.127.0.7;
+    }
+    # CODE:LIDSKAYA6-91 LS:2241309112 FIO:Demuh E D
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-09-05 12:44:51
+    host abonent_5438_8 {
+        hardware ethernet C0:4A:00:2D:E8:8B;
+        fixed-address 10.127.0.20;
+    }
+    # CODE:NALIBOKSKAYA17-108 LS:2241410812 FIO:YAroshevich N G
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-09-16 11:28:30
+    host abonent_6812_9 {
+        hardware ethernet D4:6E:0E:53:5B:9B;
+        fixed-address 10.127.0.6;
+    }

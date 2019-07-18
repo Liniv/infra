@@ -1,0 +1,99 @@
+
+################################# ABONENTS
+
+    # CODE:BIRYUZOVA9-18 LS:2000201812 FIO:Blembitskiy I A
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-12-14 13:53:03
+    host abonent_1970_0 {
+        hardware ethernet 00:1F:D0:52:1A:36;
+        fixed-address 10.103.8.5;
+    }
+    # CODE:BIRYUZOVA9-18 LS:2000201812 FIO:Blembitskiy I A
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-12-17 20:46:55
+    host abonent_1970_1 {
+        hardware ethernet C8:6C:87:44:29:33;
+        fixed-address 10.103.8.5;
+    }
+    # CODE:BIRYUZOVA5-62 LS:2000106212 FIO:Selitskiy A V
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-01-11 15:52:38
+    host abonent_1998_2 {
+        hardware ethernet 00:1C:F0:DF:59:AA;
+        fixed-address 10.103.8.6;
+    }
+    # CODE:BIRYUZOVA5-62 LS:2000106212 FIO:Selitskiy A V
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-03-08 17:35:03
+    host abonent_1998_3 {
+        hardware ethernet 00:22:68:8E:69:C1;
+        fixed-address 10.103.8.6;
+    }
+    # CODE:SKRYIGANOVA11-55 LS:2001605512 FIO:Goncharik A N
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2013-05-03 18:54:34
+    host abonent_2084_4 {
+        hardware ethernet 00:26:55:BF:E0:BB;
+        fixed-address 10.103.8.10;
+    }
+    # CODE:SKRYIGANOVA11-55 LS:2001605512 FIO:Goncharik A N
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-12-29 13:40:20
+    host abonent_2084_5 {
+        hardware ethernet 90:94:E4:39:39:63;
+        fixed-address 10.103.8.10;
+    }
+    # CODE:SKRYIGANOVA11-55 LS:2001605512 FIO:Goncharik A N
+    # LAST EDIT BY:LOLKABKU LAST EDIT TIME:2018-01-09 12:07:31
+    host abonent_2084_6 {
+        hardware ethernet D4:6E:0E:D5:67:93;
+        fixed-address 10.103.8.10;
+    }
+    # CODE:SKRYIGANOVA13-58 LS:2001705812 FIO:Murkin Murkin S V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-10-25 11:34:52
+    host abonent_3250_7 {
+        hardware ethernet F8:1A:67:AD:CA:E5;
+        fixed-address 10.103.8.14;
+    }
+    # CODE:BIRYUZOVA5-17 LS:2000101712 FIO:Novitskaya E S
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-12-08 10:15:30
+    host abonent_4082_8 {
+        hardware ethernet 00:22:15:2B:E9:D7;
+        fixed-address 10.103.8.16;
+    }
+    # CODE:BIRYUZOVA5-17 LS:2000101712 FIO:Novitskaya E S
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-12-08 10:15:00
+    host abonent_4082_9 {
+        hardware ethernet D4:6E:0E:D5:69:81;
+        fixed-address 10.103.8.16;
+    }
+    # CODE:SKRYIGANOVA11-32 LS:2001603212 FIO:Baranov A N
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-09-06 12:32:07
+    host abonent_4584_10 {
+        hardware ethernet C0:4A:00:BF:C8:AB;
+        fixed-address 10.103.8.19;
+    }
+    # CODE:SKRYIGANOVA13-29 LS:2001702912 FIO:Nasibov Z Z
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-01-23 13:04:57
+    host abonent_4972_11 {
+        hardware ethernet C0:4A:00:2E:29:57;
+        fixed-address 10.103.8.15;
+    }
+    # CODE:SKRYIGANOVA11-31 LS:2001603112 FIO:Murashko A F
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-07-08 16:57:49
+    host abonent_5117_12 {
+        hardware ethernet C0:4A:00:BF:BA:71;
+        fixed-address 10.103.8.20;
+    }
+    # CODE:BIRYUZOVA9-71 LS:2000207122 FIO:Gul T A
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-05-13 12:30:24
+    host abonent_5139_13 {
+        hardware ethernet C0:4A:00:BF:8E:AF;
+        fixed-address 10.103.8.17;
+    }
+    # CODE:SKRYIGANOVA13-49 LS:2001704912 FIO:YAsinskiy YU A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-05-20 14:19:26
+    host abonent_5947_14 {
+        hardware ethernet 64:66:B3:35:7D:67;
+        fixed-address 10.103.8.11;
+    }
+    # CODE:BIRYUZOVA9-48 LS:2000204812 FIO:Bernatskiy S A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-07-28 10:17:40
+    host abonent_6733_15 {
+        hardware ethernet EC:08:6B:BE:BB:3F;
+        fixed-address 10.103.8.7;
+    }

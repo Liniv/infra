@@ -1,0 +1,118 @@
+ host modem2177563534 {
+            hardware ethernet 00:24:D1:05:FA:DC;
+                       fixed-address 172.30.64.64;
+                                  filename "3m31.bin";
+}
+
+
+ host modem2343434 {
+            hardware ethernet 00:1e:69:2b:33:a0;
+                       fixed-address 172.30.64.65;
+                                  filename "3m31.bin";
+}
+
+
+
+ host ignatovskogo4-28  {
+            hardware ethernet 00:1e:69:2b:4e:0e;
+                       fixed-address 172.30.64.66;
+                                  filename "3m31.bin";
+}
+
+ host ignatovskogo12-57-m  {
+            hardware ethernet  00:24:d1:43:97:16;
+                       fixed-address 172.30.64.67;
+                                  filename "3m31.bin";
+}
+
+ host ignatovskogo12-111-m  {
+            hardware ethernet  00:24:d1:43:9b:e2;
+                       fixed-address 172.30.64.68;
+                                  filename "3m31.bin";
+                  
+}
+
+ host ignatovskogo14-31-m  {
+            hardware ethernet  00:24:d1:43:98:94;
+                       fixed-address 172.30.64.69;
+                                  filename "3m31.bin";
+}
+
+ host ignatovskogo12-103-m  {
+            hardware ethernet  00:1e:69:2b:4d:18;
+                       fixed-address 172.30.64.70;
+                                  filename "3m31.bin";
+}
+
+ host ignatovskogo10-59-m  {
+            hardware ethernet  00:1e:69:0e:7d:ca;
+                       fixed-address 172.30.64.71;
+                                  filename "3m31.bin";
+}
+
+ host test111-111-m  {
+            hardware ethernet  00:1E:69:17:EA:DA;
+                       fixed-address 172.30.64.81;
+                                  filename "3m31.bin";
+}
+
+ host test111-222-m  {
+            hardware ethernet  00:24:d1:05:fa:dc;
+                       fixed-address 172.30.64.82;
+                                  filename "3m31.bin";
+}
+
+ host aladovih17-82-m  {
+            hardware ethernet  00:1e:69:2b:33:50;
+                       fixed-address 172.30.64.82;
+                                  filename "3m31.bin";
+}
+
+ host ign12-52-m  {
+            hardware ethernet  00:18:9b:7e:a4:b9;
+                       fixed-address 172.30.64.83;
+                                  filename "3m31.bin";
+}
+
+ host ign4-81-m  {
+            hardware ethernet 00:24:D1:43:99:16;
+                       fixed-address 172.30.64.84;
+                                  filename "3m31.bin";
+}
+host golubka12-64-2-m {
+            hardware ethernet 00:1e:69:2b:39:76;
+                       fixed-address 172.30.64.86;
+                                  filename "3m31.bin";
+}
+host golubka12-81-m {
+            hardware ethernet 00:1e:69:2b:30:fc;
+                       fixed-address 172.30.64.87;
+                                  filename "3m31.bin";
+}
+
+host aladov17-2-m
+{
+            hardware ethernet 00:26:24:95:c1:be;
+                       fixed-address 172.30.64.189;
+                                  filename "3m31.bin";
+}
+
+
+################################# MODEMS
+
+    # MODEM:VANEEVA46- VOLS test
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-04 18:57:17
+    host modem2065282 { 
+           hardware ethernet 00:24:D1:05:FA:DC; 
+           fixed-address 172.30.64.6; 
+           filename "3m31.bin";
+    }
+    # MODEM:IGNATOVSKOGO12-52 VANEEVA ul.-ignatovskogo 12-52
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-12-21 12:24:01
+    host modem2067584 { 
+           hardware ethernet 00:18:9B:7E:A4:B9; 
+           fixed-address 172.30.64.7; 
+           filename "3m31.bin";
+
+    }
+

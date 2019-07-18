@@ -1,0 +1,279 @@
+
+################################# ABONENTS
+
+    # CODE:KOLASA61-37 LS:1043403712 FIO:Kovalev O A
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-10-29 15:56:26
+    host abonent_3050_0 {
+        hardware ethernet F8:1A:67:AD:EE:AF;
+        fixed-address 10.116.8.9;
+    }
+    # CODE:KOLASA59/1-31 LS:1043203112 FIO:Domaryonok G N
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-01-30 21:03:38
+    host abonent_3078_1 {
+        hardware ethernet 00:23:8B:A7:03:7F;
+        fixed-address 10.116.8.10;
+    }
+    # CODE:KOLASA59/1-31 LS:1043203112 FIO:Domaryonok G N
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-01-29 16:32:20
+    host abonent_3078_2 {
+        hardware ethernet 40:4A:03:78:28:0F;
+        fixed-address 10.116.8.10;
+    }
+    # CODE:KOLASA59/1-31 LS:1043203112 FIO:Domaryonok G N
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-10-21 17:07:17
+    host abonent_3078_3 {
+        hardware ethernet F8:1A:67:98:72:D3;
+        fixed-address 10.116.8.10;
+    }
+    # CODE:KOLASA61/1-30 LS:1043403012 FIO:Romanenko-Davyidova V YU
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-12-01 19:00:17
+    host abonent_3121_4 {
+        hardware ethernet 00:14:85:2A:B4:7F;
+        fixed-address 10.116.8.17;
+    }
+    # CODE:KOLASA61/1-30 LS:1043403012 FIO:Romanenko-Davyidova V YU
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-12-12 13:53:18
+    host abonent_3121_5 {
+        hardware ethernet D4:6E:0E:53:21:73;
+        fixed-address 10.116.8.17;
+    }
+    # CODE:KOLASA69-48 LS:1044304812 FIO:Bortnik O I
+    # LAST EDIT BY:BOGDANOVICH LAST EDIT TIME:2014-02-27 21:56:03
+    host abonent_3194_6 {
+        hardware ethernet 1C:C1:DE:A9:42:F9;
+        fixed-address 10.116.8.24;
+    }
+    # CODE:KOLASA69-48 LS:1044304812 FIO:Bortnik O I
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-10-19 20:03:35
+    host abonent_3194_7 {
+        hardware ethernet F8:1A:67:AD:C0:F7;
+        fixed-address 10.116.8.24;
+    }
+    # CODE:KOLASA61/1-6 LS:1043400612 FIO:Alehnovich E L
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-10-25 17:43:20
+    host abonent_3257_8 {
+        hardware ethernet F8:1A:67:B3:5F:4F;
+        fixed-address 10.116.8.28;
+    }
+    # CODE:KOLASA59/2-10 LS:1043301012 FIO:Ryisyuk R V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-01-13 11:35:13
+    host abonent_3260_9 {
+        hardware ethernet 84:16:F9:2F:9E:2B;
+        fixed-address 10.116.8.26;
+    }
+    # CODE:KOLASA45/3-37 LS:1051103712 FIO:Samusevich I G
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-10-25 13:02:40
+    host abonent_3281_10 {
+        hardware ethernet 00:04:61:AB:5B:56;
+        fixed-address 10.116.8.30;
+    }
+    # CODE:KOLASA69-28 LS:1044302812 FIO:Bondar E N
+    # LAST EDIT BY:BLIZGAREVA LAST EDIT TIME:2017-12-29 16:01:39
+    host abonent_3315_11 {
+        hardware ethernet D4:6E:0E:26:CD:7F;
+        fixed-address 10.116.8.32;
+    }
+    # CODE:KOLASA67-47 LS:1043904712 FIO:Ogorodnikov S S
+    # LAST EDIT BY:BOLZAN LAST EDIT TIME:2013-10-31 15:35:11
+    host abonent_3324_12 {
+        hardware ethernet 64:66:B3:35:0A:65;
+        fixed-address 10.116.8.33;
+    }
+    # CODE:KOLASA65/1-64 LS:1043706412 FIO:Kovdya L A
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-03-19 21:30:27
+    host abonent_3355_13 {
+        hardware ethernet 64:66:B3:44:F8:7F;
+        fixed-address 10.116.8.34;
+    }
+    # CODE:KOLASA65/1-58 LS:1043705812 FIO:TSelikova T V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-11-05 11:35:16
+    host abonent_3395_14 {
+        hardware ethernet 64:66:B3:35:7E:49;
+        fixed-address 10.116.8.36;
+    }
+    # CODE:KOLASA63-23 LS:1043602312 FIO:Haritankov S N
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-11-09 16:10:42
+    host abonent_3457_15 {
+        hardware ethernet 64:66:B3:35:78:B7;
+        fixed-address 10.116.8.39;
+    }
+    # CODE:KOLASA59/1-32 LS:1043203212 FIO:Syichev G S
+    # LAST EDIT BY:LOBODA LAST EDIT TIME:2013-11-09 15:25:34
+    host abonent_3461_16 {
+        hardware ethernet F8:1A:67:B3:5E:BD;
+        fixed-address 10.116.8.38;
+    }
+    # CODE:KOLASA67-11 LS:1043901112 FIO:Gulev N T
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-11-13 16:02:06
+    host abonent_3504_17 {
+        hardware ethernet 64:66:B3:35:28:1B;
+        fixed-address 10.116.8.41;
+    }
+    # CODE:KOLASA67-107 LS:1043910712 FIO:Gladkaya O A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-11-15 11:18:57
+    host abonent_3548_18 {
+        hardware ethernet 64:66:B3:35:27:BF;
+        fixed-address 10.116.8.44;
+    }
+    # CODE:KOLASA59/2-63 LS:1043306312 FIO:Parfenchik A I
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-11-15 15:24:05
+    host abonent_3549_19 {
+        hardware ethernet 64:66:B3:35:09:E5;
+        fixed-address 10.116.8.42;
+    }
+    # CODE:KOLASA43/2-32 LS:1052603212 FIO:Byichko A P
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-11-16 16:35:50
+    host abonent_3575_20 {
+        hardware ethernet F8:1A:67:14:71:1D;
+        fixed-address 10.116.8.45;
+    }
+    # CODE:KOLASA67-108 LS:1043910812 FIO:Aksenova A I
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-01-17 20:05:20
+    host abonent_3600_21 {
+        hardware ethernet 00:26:2D:AB:97:28;
+        fixed-address 10.116.8.46;
+    }
+    # CODE:KOLASA67-108 LS:1043910812 FIO:Aksenova A I
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-01-19 12:30:03
+    host abonent_3600_22 {
+        hardware ethernet 64:66:B3:35:78:77;
+        fixed-address 10.116.8.46;
+    }
+    # CODE:KOLASA63-38 LS:1043603812 FIO:CHurbanov D YU
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-10-16 19:13:09
+    host abonent_3614_23 {
+        hardware ethernet 00:16:17:D8:56:05;
+        fixed-address 10.116.8.21;
+    }
+    # CODE:KOLASA63-38 LS:1043603812 FIO:CHurbanov D YU
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-09-09 11:59:25
+    host abonent_3614_24 {
+        hardware ethernet 64:66:B3:35:78:A5;
+        fixed-address 10.116.8.21;
+    }
+    # CODE:KOLASA59/2-19 LS:1043301912 FIO:Kravtsova K G
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-06-07 10:24:50
+    host abonent_3639_25 {
+        hardware ethernet 84:16:F9:2F:6A:05;
+        fixed-address 10.116.8.27;
+    }
+    # CODE:KOLASA59/2-20 LS:1043302012 FIO:Baburskaya I I
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-11-22 11:25:32
+    host abonent_3640_26 {
+        hardware ethernet 64:66:B3:35:28:A9;
+        fixed-address 10.116.8.50;
+    }
+    # CODE:KOLASA69-49 LS:1044304912 FIO:Zakrevskiy I D
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-04-03 20:10:54
+    host abonent_3775_27 {
+        hardware ethernet 00:13:8F:C3:8D:42;
+        fixed-address 10.116.8.12;
+    }
+    # CODE:KOLASA69-49 LS:1044304912 FIO:Zakrevskiy I D
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-06-05 20:53:14
+    host abonent_3775_28 {
+        hardware ethernet F8:1A:67:ED:25:23;
+        fixed-address 10.116.8.12;
+    }
+    # CODE:KOLASA61/2-8 LS:1043500812 FIO:Dunko A A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-04-24 12:10:30
+    host abonent_4196_29 {
+        hardware ethernet 10:FE:ED:B4:11:C1;
+        fixed-address 10.116.8.62;
+    }
+    # CODE:KOLASA69-188 LS:1044318812 FIO:Nedelkin A L
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-09-19 18:49:44
+    host abonent_4510_30 {
+        hardware ethernet C0:25:E9:39:2F:5B;
+        fixed-address 10.116.8.63;
+    }
+    # CODE:KOLASA69-188 LS:1044318812 FIO:Nedelkin A L
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-08-14 15:34:06
+    host abonent_4510_31 {
+        hardware ethernet C0:4A:00:BF:36:8B;
+        fixed-address 10.116.8.63;
+    }
+    # CODE:KOLASA61/2-53 LS:1043505312 FIO:Ivanov A V
+    # LAST EDIT BY:STRUKOVA LAST EDIT TIME:2017-01-16 14:27:40
+    host abonent_4816_32 {
+        hardware ethernet 84:16:F9:48:8B:83;
+        fixed-address 10.116.8.66;
+    }
+    # CODE:KOLASA45/2-50 LS:1052805022 FIO:Muroyan E
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-04-10 12:35:45
+    host abonent_5180_33 {
+        hardware ethernet 2C:AB:25:64:C0:68;
+        fixed-address 10.116.8.13;
+    }
+    # CODE:KOLASA61/2-100 LS:1043510012 FIO:Mitskevich D V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-12-07 20:08:30
+    host abonent_5193_34 {
+        hardware ethernet D4:6E:0E:26:C6:35;
+        fixed-address 10.116.8.14;
+    }
+    # CODE:KOLASA61/1- LS:1043407052 FIO:CHastnoe unitarnoe predpriyatie "Refleks-Sport" 
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-12-01 09:58:18
+    host abonent_5220_35 {
+        hardware ethernet D4:6E:0E:53:0C:71;
+        fixed-address 10.116.8.11;
+    }
+    # CODE:KOLASA69-46 LS:1044304612 FIO:Morozov YU M
+    # LAST EDIT BY:ZALOGO LAST EDIT TIME:2016-04-04 12:31:59
+    host abonent_5366_36 {
+        hardware ethernet 10:FE:ED:B4:12:39;
+        fixed-address 10.116.8.16;
+    }
+    # CODE:KOLASA65/2-12 LS:1043801212 FIO:Davyidovskaya N A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-12-31 11:01:19
+    host abonent_5685_37 {
+        hardware ethernet 60:E3:27:8B:E8:69;
+        fixed-address 10.116.8.43;
+    }
+    # CODE:KOLASA45/1-24 LS:1052702412 FIO:Akulich V S
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-02-26 18:08:44
+    host abonent_5699_38 {
+        hardware ethernet 60:E3:27:8B:E7:A3;
+        fixed-address 10.116.8.48;
+    }
+    # CODE:KOLASA59/2-6 LS:1043300612 FIO:Vorobtsova E E
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-04-22 11:01:55
+    host abonent_5918_39 {
+        hardware ethernet 60:E3:27:8B:CA:49;
+        fixed-address 10.116.8.7;
+    }
+    # CODE:KOLASA69-9 LS:1044300912 FIO:Gretskiy V A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-12-20 11:13:20
+    host abonent_6305_40 {
+        hardware ethernet EC:08:6B:BE:CB:BF;
+        fixed-address 10.116.8.5;
+    }
+    # CODE:KOLASA45/2-39 LS:1052803912 FIO:Samorukova S V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-02-07 10:34:42
+    host abonent_6418_41 {
+        hardware ethernet C0:4A:00:BF:43:99;
+        fixed-address 10.116.8.15;
+    }
+    # CODE:KOLASA69-19 LS:1044301912 FIO:CHernyavskiy A V
+    # LAST EDIT BY:LOLKABKU LAST EDIT TIME:2017-11-02 09:14:04
+    host abonent_6914_42 {
+        hardware ethernet 60:E3:27:71:36:DB;
+        fixed-address 10.116.8.8;
+    }
+    # CODE:KOLASA69-19 LS:1044301912 FIO:CHernyavskiy A V
+    # LAST EDIT BY:LOLKABKU LAST EDIT TIME:2017-11-02 14:18:07
+    host abonent_6914_43 {
+        hardware ethernet D4:6E:0E:53:5C:09;
+        fixed-address 10.116.8.8;
+    }
+    # CODE:KOLASA61/2-15 LS:1043501522 FIO:Pavlovich S A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-12-23 11:22:53
+    host abonent_6993_44 {
+        hardware ethernet 84:16:F9:2F:66:C1;
+        fixed-address 10.116.8.19;
+    }
+    # CODE:KOLASA59/2- LS:1043300052 FIO:OAO "BELKOMPLEKSPROEKT" 
+    # LAST EDIT BY:LOLKABKU LAST EDIT TIME:2018-01-19 15:39:29
+    host abonent_7027_45 {
+        hardware ethernet E4:8D:8C:94:3C:EE;
+        fixed-address 10.116.8.20;
+    }

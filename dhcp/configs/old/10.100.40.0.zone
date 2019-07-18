@@ -1,0 +1,75 @@
+
+################################# ABONENTS
+
+    # CODE:LYINKOVA15G-55 LS:2077905512 FIO:Panalevich D A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-11-05 18:02:50
+    host abonent_1567_0 {
+        hardware ethernet 00:1D:60:8D:A4:85;
+        fixed-address 10.100.40.1;
+    }
+    # CODE:LYINKOVA29/1-21 LS:2078502112 FIO:SHagray V K
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-01-11 15:08:45
+    host abonent_2139_1 {
+        hardware ethernet 00:1D:72:30:35:50;
+        fixed-address 10.100.40.8;
+    }
+    # CODE:LYINKOVA15V-16 LS:2077801612 FIO:SHilin D L
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-01-17 16:17:19
+    host abonent_2175_2 {
+        hardware ethernet DC:0E:A1:4E:5E:6E;
+        fixed-address 10.100.40.9;
+    }
+    # CODE:LYINKOVA29/1-22 LS:2078502212 FIO:YAkimovich T S
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-01-31 11:44:01
+    host abonent_2284_3 {
+        hardware ethernet 00:16:76:07:07:F9;
+        fixed-address 10.100.40.10;
+    }
+    # CODE:LYINKOVA15V-61 LS:2077806112 FIO:Sivtsova E G
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-02-09 11:37:46
+    host abonent_2302_4 {
+        hardware ethernet 50:E5:49:D1:A9:5B;
+        fixed-address 10.100.40.11;
+    }
+    # CODE:LYINKOVA15V-25 LS:2077802512 FIO:Nagin YU A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-05-17 12:53:49
+    host abonent_2582_5 {
+        hardware ethernet C8:0A:A9:9F:ED:EC;
+        fixed-address 10.100.40.15;
+    }
+    # CODE:LYINKOVA15A-1 LS:2077600112 FIO:Lagun I N
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-06-21 15:11:00
+    host abonent_3032_6 {
+        hardware ethernet 2C:AB:25:82:74:B8;
+        fixed-address 10.100.40.18;
+    }
+    # CODE:LYINKOVA15V-38 LS:2077803812 FIO:Kravchonok N N
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-04-02 14:24:14
+    host abonent_4057_7 {
+        hardware ethernet C0:4A:00:32:53:1B;
+        fixed-address 10.100.40.13;
+    }
+    # CODE:LYINKOVA15V-85 LS:2077808512 FIO:Nikolaeva G V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-05-15 11:46:49
+    host abonent_4273_8 {
+        hardware ethernet C0:4A:00:BF:B8:F9;
+        fixed-address 10.100.40.21;
+    }
+    # CODE:LYINKOVA15A-99 LS:2077609912 FIO:Byikov R V
+    # LAST EDIT BY:BOGDANOVICH LAST EDIT TIME:2014-12-21 12:03:22
+    host abonent_4900_9 {
+        hardware ethernet 00:40:F4:72:EA:E5;
+        fixed-address 10.100.40.6;
+    }
+    # CODE:LYINKOVA15A-99 LS:2077609912 FIO:Byikov R V
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-12-16 13:51:03
+    host abonent_4900_10 {
+        hardware ethernet C0:4A:00:2D:EF:6F;
+        fixed-address 10.100.40.6;
+    }
+    # CODE:LYINKOVA15A-30 LS:2077603012 FIO:Semashka T V
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-07-15 16:38:48
+    host abonent_6012_11 {
+        hardware ethernet 10:FE:ED:B3:CF:19;
+        fixed-address 10.100.40.7;
+    }

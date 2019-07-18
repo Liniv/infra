@@ -1,0 +1,89 @@
+ host COMP-KAHOVKA-ADS1 { 
+   hardware ethernet 00:0d:61:a2:b6:09; 
+   fixed-address 172.17.1.25; 
+  } 
+ 
+  host COMP-KAHOVKA-ADS2 { 
+   hardware ethernet 00:15:58:8b:62:c9; 
+   fixed-address 172.17.1.26; 
+  } 
+ 
+  host COMP-UCH1 { 
+   hardware ethernet 00:01:6c:ed:a4:7d; 
+   fixed-address 172.17.1.27; 
+  } 
+ 
+  host ALARM { 
+   hardware ethernet 00:02:44:59:f9:18; 
+   fixed-address 172.17.1.29; 
+  } 
+ 
+  host COMP2-UCH1 { 
+   hardware ethernet 00:0d:61:a0:56:23; 
+   fixed-address 172.17.1.30; 
+  } 
+ 
+  host COMP3-UCH1 { 
+   hardware ethernet 00:1e:8c:d5:60:ce; 
+   fixed-address 172.17.1.30; 
+  } 
+ 
+  host UCHASTOK-5-KARBYSHEVA-13-1CPE { 
+   hardware ethernet 00:1e:8c:d5:60:c2; 
+   fixed-address 172.17.1.32; 
+  } 
+ 
+  host UCHASTOK-1-SURGANOVA { 
+   hardware ethernet 00:25:22:08:29:85; 
+   fixed-address 172.17.1.33; 
+  } 
+ 
+  host AB-OTDEL-2 { 
+   hardware ethernet 00:1e:8c:a5:d0:a0; 
+   fixed-address 172.17.3.2; 
+  } 
+ 
+  host AB-OTDEL-3 { 
+   hardware ethernet 00:1c:c0:0a:09:9c; 
+   fixed-address 172.17.3.3; 
+  } 
+ 
+  host AB-OTDEL-4 { 
+   hardware ethernet 00:1c:c0:0a:09:d1; 
+   fixed-address 172.17.3.4; 
+  } 
+ 
+  host AB-OTDEL-5 { 
+   hardware ethernet 00:1c:c0:0a:09:6d; 
+   fixed-address 172.17.3.5; 
+  } 
+ 
+  host UCH5-7 { 
+   hardware ethernet 00:99:61:2d:de:97; 
+   fixed-address 172.17.3.7; 
+  } 
+ 
+  host UCH5-8 { 
+   hardware ethernet 00:99:61:2d:de:97; 
+   fixed-address 172.17.3.8; 
+  } 
+ 
+  host UCH5-9 { 
+   hardware ethernet 00:99:61:2d:de:97; 
+   fixed-address 172.17.3.9; 
+  } 
+ 
+  host UCH5-10 { 
+   hardware ethernet 00:99:61:2d:de:97; 
+   fixed-address 172.17.3.10; 
+  } 
+
+
+################################# ABONENTS
+
+    # CODE:KARBYISHEVA13-1 LS:5008200112 FIO:Uchastok Pyat 
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-09-22 15:50:37
+    host abonent_5483_0 {
+        hardware ethernet C0:4A:00:F0:06:25;
+        fixed-address 172.17.3.11;
+    }

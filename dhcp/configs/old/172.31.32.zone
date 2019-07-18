@@ -1,0 +1,2594 @@
+ host UPS-ASANALIEVA38 { 
+   hardware ethernet 00:24:d1:05:ff:d5; 
+   fixed-address 172.31.32.3; 
+  } 
+
+
+################################# ABONENTS
+
+    # CODE:KIJHEVATOVA78-2 LS:4008700212 FIO:Darankevich E V
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2011-09-27 10:57:19
+    host abonent_178_0 {
+        hardware ethernet 6C:F0:49:12:E1:5B;
+        fixed-address 172.31.32.240;
+    }
+    # CODE:ASANALIEVA32-152 LS:4003515212 FIO:SHumkenvich T F
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2011-10-10 11:42:05
+    host abonent_258_1 {
+        hardware ethernet 40:61:86:03:AE:FA;
+        fixed-address 172.31.32.243;
+    }
+    # CODE:ASANALIEVA32-152 LS:4003515212 FIO:SHumkenvich T F
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-03-17 17:48:00
+    host abonent_258_2 {
+        hardware ethernet 74:D0:2B:BF:D8:4D;
+        fixed-address 172.31.32.243;
+    }
+    # CODE:ASANALIEVA32-152 LS:4003515212 FIO:SHumkenvich T F
+    # LAST EDIT BY:BOGODYAZH LAST EDIT TIME:2017-10-05 12:19:03
+    host abonent_258_3 {
+        hardware ethernet D4:6E:0E:D6:44:8F;
+        fixed-address 172.31.32.243;
+    }
+    # CODE:ASANALIEVA10-98 LS:4001909812 FIO:Rasstrijhenkova I L
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-10-17 21:07:54
+    host abonent_427_4 {
+        hardware ethernet C0:4A:00:32:4F:E3;
+        fixed-address 172.31.32.110;
+    }
+    # CODE:ASANALIEVA10-98 LS:4001909812 FIO:Rasstrijhenkova I L
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-10-17 21:07:40
+    host abonent_427_5 {
+        hardware ethernet 00:1D:7D:70:74:41;
+        fixed-address 172.31.32.252;
+    }
+    # CODE:ASANALIEVA5-10 LS:4001301012 FIO:Skvortsov YU N
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-11-21 11:05:17
+    host abonent_444_6 {
+        hardware ethernet 00:E0:4D:35:C6:27;
+        fixed-address 172.31.32.255;
+    }
+    # CODE:ASANALIEVA22/2-6 LS:4002900612 FIO:Komosko YA G
+    # LAST EDIT BY:KROK LAST EDIT TIME:2011-11-25 13:41:47
+    host abonent_477_7 {
+        hardware ethernet 00:16:36:33:62:9D;
+        fixed-address 172.31.33.3;
+    }
+    # CODE:ASANALIEVA22/2-6 LS:4002900612 FIO:Komosko YA G
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-01-09 15:05:19
+    host abonent_477_8 {
+        hardware ethernet 00:90:F5:35:ED:6A;
+        fixed-address 172.31.33.3;
+    }
+    # CODE:JHLOBINSKAYA9-4 LS:4007900412 FIO:Danko M V
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-12-20 10:45:49
+    host abonent_599_9 {
+        hardware ethernet 6C:F0:49:DC:4C:9D;
+        fixed-address 172.31.33.21;
+    }
+    # CODE:KORJHENEVSKOGO10-6 LS:4010100612 FIO:Sosnovskaya T V
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2012-01-04 12:06:48
+    host abonent_692_10 {
+        hardware ethernet 00:30:67:8F:A8:49;
+        fixed-address 172.31.32.108;
+    }
+    # CODE:KORJHENEVSKOGO10-6 LS:4010100612 FIO:Sosnovskaya T V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-06-09 21:54:04
+    host abonent_692_11 {
+        hardware ethernet 48:5B:39:4C:C9:0B;
+        fixed-address 172.31.32.108;
+    }
+    # CODE:KORJHENEVSKOGO10-6 LS:4010100612 FIO:Sosnovskaya T V
+    # LAST EDIT BY:SHVEDOVA LAST EDIT TIME:2014-01-30 15:32:14
+    host abonent_692_12 {
+        hardware ethernet E8:03:9A:10:04:37;
+        fixed-address 172.31.32.108;
+    }
+    # CODE:ASANALIEVA4-60 LS:4001206012 FIO:Kovalenko V A
+    # LAST EDIT BY:KROK LAST EDIT TIME:2013-03-06 16:24:16
+    host abonent_714_13 {
+        hardware ethernet 00:22:3A:FD:49:59;
+        fixed-address 172.31.32.146;
+    }
+    # CODE:ASANALIEVA4-60 LS:4001206012 FIO:Kovalenko V A
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-08-26 16:43:27
+    host abonent_714_14 {
+        hardware ethernet C0:4A:00:BF:5F:55;
+        fixed-address 172.31.32.146;
+    }
+    # CODE:ASANALIEVA6/2-157 LS:4001515712 FIO:Sudarkov V V
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2012-02-01 14:48:42
+    host abonent_772_15 {
+        hardware ethernet 10:78:D2:22:AF:90;
+        fixed-address 172.31.32.214;
+    }
+    # CODE:PUHOVICHSKAYA5-15 LS:4011401512 FIO:Oksenyuk S V
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-02-20 10:56:48
+    host abonent_851_16 {
+        hardware ethernet 00:1A:4D:F4:0F:B9;
+        fixed-address 172.31.33.51;
+    }
+    # CODE:KIJHEVATOVA78-68 LS:4008706812 FIO:Andreev A O
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-02-28 18:17:47
+    host abonent_890_17 {
+        hardware ethernet 00:0D:88:37:2B:29;
+        fixed-address 172.31.33.56;
+    }
+    # CODE:ASANALIEVA32-79 LS:4003507912 FIO:Kovel N M
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-03-30 13:01:55
+    host abonent_1009_18 {
+        hardware ethernet 00:13:D4:F3:6B:9A;
+        fixed-address 172.31.33.64;
+    }
+    # CODE:ASANALIEVA32-79 LS:4003507912 FIO:Kovel N M
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-09-24 09:26:43
+    host abonent_1009_19 {
+        hardware ethernet C0:4A:00:BF:94:91;
+        fixed-address 172.31.33.64;
+    }
+    # CODE:PUHOVICHSKAYA15-59 LS:4012305912 FIO:Ivanov V G
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-11-03 10:17:28
+    host abonent_1155_20 {
+        hardware ethernet 00:0B:6A:D0:E2:EC;
+        fixed-address 172.31.33.71;
+    }
+    # CODE:ASANALIEVA22/2-108 LS:4002910812 FIO:Eroshevich A G
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-06-11 17:42:16
+    host abonent_1225_21 {
+        hardware ethernet 00:13:D3:9E:94:24;
+        fixed-address 172.31.33.79;
+    }
+    # CODE:ASANALIEVA22/2-108 LS:4002910812 FIO:Eroshevich A G
+    # LAST EDIT BY:SHUBICH LAST EDIT TIME:2013-07-22 23:39:15
+    host abonent_1225_22 {
+        hardware ethernet 3C:4A:92:02:67:E5;
+        fixed-address 172.31.33.79;
+    }
+    # CODE:ASANALIEVA22/2-108 LS:4002910812 FIO:Eroshevich A G
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-06-11 17:43:55
+    host abonent_1225_23 {
+        hardware ethernet 48:44:87:25:C3:7A;
+        fixed-address 172.31.33.79;
+    }
+    # CODE:ASANALIEVA32-30 LS:4003503012 FIO:Kostrova V A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-01-21 18:27:39
+    host abonent_1384_24 {
+        hardware ethernet 8C:89:A5:6B:5D:CD;
+        fixed-address 172.31.33.93;
+    }
+    # CODE:KORJHENEVSKOGO2A-430 LS:4009143022 FIO:Kuzmenok A P
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-07-17 13:37:25
+    host abonent_1393_25 {
+        hardware ethernet 00:E0:4D:B2:48:EA;
+        fixed-address 172.31.33.100;
+    }
+    # CODE:ASANALIEVA32-70 LS:4003507012 FIO:Lukshits N V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-08-10 14:07:45
+    host abonent_1490_26 {
+        hardware ethernet 00:24:54:6E:68:2D;
+        fixed-address 172.31.33.113;
+    }
+    # CODE:ASANALIEVA22/2-123 LS:4002912312 FIO:Starovoytov A R
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-08-27 16:56:15
+    host abonent_1549_27 {
+        hardware ethernet BC:AE:C5:31:CA:0A;
+        fixed-address 172.31.32.212;
+    }
+    # CODE:KORJHENEVSKOGO2A-35 LS:4009103512 FIO:Grabovskaya S YU
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-09-15 12:45:14
+    host abonent_1617_28 {
+        hardware ethernet 20:89:84:CA:2F:7E;
+        fixed-address 172.31.32.101;
+    }
+    # CODE:KORJHENEVSKOGO2A-35 LS:4009103512 FIO:Grabovskaya S YU
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-09-15 12:44:59
+    host abonent_1617_29 {
+        hardware ethernet 30:85:A9:0C:FD:BF;
+        fixed-address 172.31.32.101;
+    }
+    # CODE:KORJHENEVSKOGO2A-35 LS:4009103512 FIO:Grabovskaya S YU
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-09-15 12:44:43
+    host abonent_1617_30 {
+        hardware ethernet 70:5A:B6:E0:05:8C;
+        fixed-address 172.31.32.101;
+    }
+    # CODE:ASANALIEVA24-119 LS:4003111912 FIO:Afanasenko V A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-04-20 12:20:25
+    host abonent_1634_31 {
+        hardware ethernet 00:13:8F:F4:9A:F5;
+        fixed-address 172.31.32.201;
+    }
+    # CODE:ASANALIEVA24-119 LS:4003111912 FIO:Afanasenko V A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-04-20 12:20:14
+    host abonent_1634_32 {
+        hardware ethernet 00:60:6E:75:AA:75;
+        fixed-address 172.31.32.201;
+    }
+    # CODE:ASANALIEVA24-119 LS:4003111912 FIO:Afanasenko V A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-04-20 12:20:21
+    host abonent_1634_33 {
+        hardware ethernet 6C:62:6D:37:B5:C4;
+        fixed-address 172.31.32.201;
+    }
+    # CODE:ASANALIEVA24-119 LS:4003111912 FIO:Afanasenko V A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-04-20 12:20:09
+    host abonent_1634_34 {
+        hardware ethernet 18:D6:C7:20:7B:79;
+        fixed-address 172.31.32.56;
+    }
+    # CODE:PUHOVICHSKAYA10-23 LS:4011802322 FIO:Volohanova N V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-09-28 13:06:25
+    host abonent_1688_35 {
+        hardware ethernet 00:0B:6A:64:9F:95;
+        fixed-address 172.31.33.129;
+    }
+    # CODE:ASANALIEVA32-192 LS:4003519212 FIO:Kostichenko G B
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-08 11:47:41
+    host abonent_1720_36 {
+        hardware ethernet 00:30:67:27:3E:D9;
+        fixed-address 172.31.32.234;
+    }
+    # CODE:ASANALIEVA8-109 LS:4001710922 FIO:Starokojhaya A A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-30 15:20:43
+    host abonent_1801_37 {
+        hardware ethernet 00:13:8F:C6:AD:63;
+        fixed-address 172.31.32.70;
+    }
+    # CODE:ASANALIEVA8-109 LS:4001710922 FIO:Starokojhaya A A
+    # LAST EDIT BY:BOGDANOVICH LAST EDIT TIME:2013-11-19 16:57:28
+    host abonent_1801_38 {
+        hardware ethernet 00:E0:4D:A8:B8:05;
+        fixed-address 172.31.32.70;
+    }
+    # CODE:ASANALIEVA30-87 LS:4003408712 FIO:Dubitskaya O A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-04-16 12:32:06
+    host abonent_1879_39 {
+        hardware ethernet 00:1E:33:C4:DB:88;
+        fixed-address 172.31.32.84;
+    }
+    # CODE:KORJHENEVSKOGO4-244 LS:4009324422 FIO:Karpovich E A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-01-15 13:45:22
+    host abonent_1941_40 {
+        hardware ethernet C0:4A:00:2D:E9:4B;
+        fixed-address 172.31.32.141;
+    }
+    # CODE:ASANALIEVA8-119 LS:4001711912 FIO:Goncharenko V V
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-11-30 13:44:02
+    host abonent_1942_41 {
+        hardware ethernet 00:1E:68:F3:27:B1;
+        fixed-address 172.31.32.93;
+    }
+    # CODE:ASANALIEVA8-119 LS:4001711912 FIO:Goncharenko V V
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-09-03 12:02:18
+    host abonent_1942_42 {
+        hardware ethernet C0:4A:00:BF:5F:8B;
+        fixed-address 172.31.32.93;
+    }
+    # CODE:PUHOVICHSKAYA8-37 LS:4011703712 FIO:Mamontov R L
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-12-12 09:49:35
+    host abonent_1986_43 {
+        hardware ethernet 48:44:87:23:9D:06;
+        fixed-address 172.31.32.103;
+    }
+    # CODE:ASANALIEVA28-172 LS:4003317212 FIO:SHalupenko V I
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-12-27 16:23:09
+    host abonent_2057_44 {
+        hardware ethernet DC:0E:A1:F8:D5:B2;
+        fixed-address 172.31.32.109;
+    }
+    # CODE:ASANALIEVA22/1-20 LS:4002802012 FIO:Kanash O M
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2017-10-04 15:20:31
+    host abonent_2106_45 {
+        hardware ethernet 00:1D:92:73:E0:0E;
+        fixed-address 172.31.32.115;
+    }
+    # CODE:ASANALIEVA22/1-20 LS:4002802012 FIO:Kanash O M
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2017-10-04 15:20:37
+    host abonent_2106_46 {
+        hardware ethernet F8:1A:67:B3:63:1B;
+        fixed-address 172.31.32.115;
+    }
+    # CODE:ASANALIEVA22/1-107 LS:4002810712 FIO:Tihonov A YU
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-01-10 11:22:44
+    host abonent_2117_47 {
+        hardware ethernet 00:24:54:E0:0E:D1;
+        fixed-address 172.31.32.119;
+    }
+    # CODE:ASANALIEVA22/1-107 LS:4002810712 FIO:Tihonov A YU
+    # LAST EDIT BY:LOBODA LAST EDIT TIME:2013-12-08 14:09:10
+    host abonent_2117_48 {
+        hardware ethernet 10:FE:ED:4A:68:75;
+        fixed-address 172.31.32.119;
+    }
+    # CODE:PUHOVICHSKAYA14-25 LS:4012202522 FIO:Kondakov V D
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-01-16 15:41:06
+    host abonent_2182_49 {
+        hardware ethernet 00:1E:8C:0F:E1:93;
+        fixed-address 172.31.32.124;
+    }
+    # CODE:PUHOVICHSKAYA14-25 LS:4012202522 FIO:Kondakov V D
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-04-06 22:21:55
+    host abonent_2182_50 {
+        hardware ethernet 00:22:15:3D:A5:34;
+        fixed-address 172.31.32.124;
+    }
+    # CODE:ASANALIEVA30-161 LS:4003416112 FIO:Zaytsev D A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-01-24 16:39:25
+    host abonent_2232_51 {
+        hardware ethernet 00:17:31:EC:C9:C8;
+        fixed-address 172.31.32.126;
+    }
+    # CODE:ASANALIEVA30-161 LS:4003416112 FIO:Zaytsev D A
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-12-23 18:23:31
+    host abonent_2232_52 {
+        hardware ethernet 10:FE:ED:B4:2B:45;
+        fixed-address 172.31.32.155;
+    }
+    # CODE:KIJHEVATOVA80/2-234 LS:4008923422 FIO:Bekish M B
+    # LAST EDIT BY:KROK LAST EDIT TIME:2013-04-23 15:35:54
+    host abonent_2567_53 {
+        hardware ethernet 48:44:87:26:13:76;
+        fixed-address 172.31.32.161;
+    }
+    # CODE:KIJHEVATOVA80/2-26 LS:4008902612 FIO:Korol N V
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-10-14 12:09:07
+    host abonent_2790_54 {
+        hardware ethernet 00:26:9E:FB:73:15;
+        fixed-address 172.31.32.181;
+    }
+    # CODE:KIJHEVATOVA80/2-26 LS:4008902612 FIO:Korol N V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-08-15 15:59:54
+    host abonent_2790_55 {
+        hardware ethernet 20:6A:8A:D3:5A:B0;
+        fixed-address 172.31.32.181;
+    }
+    # CODE:KIJHEVATOVA80/2-26 LS:4008902612 FIO:Korol N V
+    # LAST EDIT BY:ANNA LAST EDIT TIME:2014-08-15 12:21:48
+    host abonent_2790_56 {
+        hardware ethernet C0:4A:00:BF:C2:4D;
+        fixed-address 172.31.32.181;
+    }
+    # CODE:KORJHENEVSKOGO2A-345 LS:4009134512 FIO:Myitnik A O
+    # LAST EDIT BY:BOGDANOVICH LAST EDIT TIME:2013-11-04 15:40:55
+    host abonent_2846_57 {
+        hardware ethernet 00:24:54:26:9C:5C;
+        fixed-address 172.31.32.196;
+    }
+    # CODE:KORJHENEVSKOGO2A-345 LS:4009134512 FIO:Myitnik A O
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-08-07 12:03:30
+    host abonent_2846_58 {
+        hardware ethernet 00:C0:9F:07:6F:6D;
+        fixed-address 172.31.32.196;
+    }
+    # CODE:KORJHENEVSKOGO2A-345 LS:4009134512 FIO:Myitnik A O
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-11-05 12:56:15
+    host abonent_2846_59 {
+        hardware ethernet 64:66:B3:35:40:D7;
+        fixed-address 172.31.32.196;
+    }
+    # CODE:KORJHENEVSKOGO4-311 LS:4009331112 FIO:Pilyarskaya I V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-11-13 12:39:26
+    host abonent_3521_60 {
+        hardware ethernet 64:66:B3:44:75:79;
+        fixed-address 172.31.32.238;
+    }
+    # CODE:ASANALIEVA5-171 LS:4001317122 FIO:Podchashinskiy V I
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-03-07 12:39:19
+    host abonent_3994_61 {
+        hardware ethernet 10:FE:ED:B3:F3:41;
+        fixed-address 172.31.33.25;
+    }
+    # CODE:KORJHENEVSKOGO6-164 LS:4009416422 FIO:Brileva N B
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-10-12 18:32:49
+    host abonent_4691_62 {
+        hardware ethernet 00:19:66:F7:F8:2B;
+        fixed-address 172.31.32.121;
+    }
+    # CODE:KORJHENEVSKOGO6-164 LS:4009416422 FIO:Brileva N B
+    # LAST EDIT BY:CHERNUHO LAST EDIT TIME:2017-08-21 08:55:14
+    host abonent_4691_63 {
+        hardware ethernet 18:D6:C7:20:91:39;
+        fixed-address 172.31.32.121;
+    }
+    # CODE:ASANALIEVA28-28 LS:4003302822 FIO:Bratko I A
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-10-13 13:47:45
+    host abonent_5181_64 {
+        hardware ethernet 00:04:61:A9:85:68;
+        fixed-address 172.31.32.61;
+    }
+    # CODE:ASANALIEVA28-28 LS:4003302822 FIO:Bratko I A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-11-17 08:45:36
+    host abonent_5181_65 {
+        hardware ethernet 40:8D:5C:4F:03:EB;
+        fixed-address 172.31.32.61;
+    }
+    # CODE:ASANALIEVA28-28 LS:4003302822 FIO:Bratko I A
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-10-13 13:48:07
+    host abonent_5181_66 {
+        hardware ethernet 84:C9:B2:06:B5:C5;
+        fixed-address 172.31.32.61;
+    }
+    # CODE:ASANALIEVA4-170 LS:4001217012 FIO:Lutsevich A V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-05-15 11:59:48
+    host abonent_5238_67 {
+        hardware ethernet A0:F3:C1:54:AC:77;
+        fixed-address 172.31.32.139;
+    }
+    # CODE:KORJHENEVSKOGO4-49 LS:4009304922 FIO:Minevich N A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-08-15 15:51:35
+    host abonent_6071_68 {
+        hardware ethernet 1C:6F:65:82:D7:5C;
+        fixed-address 172.31.33.164;
+    }
+    # CODE:KIJHEVATOVA80/1-44 LS:4008804422 FIO:SHushket S V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2016-10-04 17:14:22
+    host abonent_6178_69 {
+        hardware ethernet 00:1B:FC:E7:C2:FF;
+        fixed-address 172.31.32.54;
+    }
+    # CODE:KIJHEVATOVA80/1-44 LS:4008804422 FIO:SHushket S V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-10-04 17:41:40
+    host abonent_6178_70 {
+        hardware ethernet 60:E3:27:61:E1:2B;
+        fixed-address 172.31.33.24;
+    }
+    # CODE:KORJHENEVSKOGO2A-184 LS:4009118422 FIO:Kanash V V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-12-28 10:05:45
+    host abonent_7001_71 {
+        hardware ethernet 00:1D:92:75:33:DE;
+        fixed-address 172.31.34.47;
+    }
+    # CODE:KORJHENEVSKOGO2A-184 LS:4009118422 FIO:Kanash V V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-12-28 18:05:36
+    host abonent_7001_72 {
+        hardware ethernet D4:6E:0E:26:CD:7B;
+        fixed-address 172.31.34.47;
+    }
+    # CODE:ASANALIEVA28-56 LS:I1261 FIO:Velichko O V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-10-30 14:48:48
+    host abonent_1000002_73 {
+        hardware ethernet 00:11:11:1B:3F:DF;
+        fixed-address 172.31.36.2;
+    }
+    # CODE:ASANALIEVA28-56 LS:I1261 FIO:Velichko O V
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-11-05 10:38:47
+    host abonent_1000002_74 {
+        hardware ethernet 00:1B:FC:32:1B:40;
+        fixed-address 172.31.36.2;
+    }
+    # CODE:ASANALIEVA28-56 LS:I1261 FIO:Velichko O V
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-05-04 17:59:19
+    host abonent_1000002_75 {
+        hardware ethernet 08:60:6E:08:32:40;
+        fixed-address 172.31.36.2;
+    }
+    # CODE:ASANALIEVA28-56 LS:I1261 FIO:Velichko O V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2014-12-28 13:44:32
+    host abonent_1000002_76 {
+        hardware ethernet 50:B7:C3:73:50:F5;
+        fixed-address 172.31.36.2;
+    }
+    # CODE:KORJHENEVSKOGO6-151 LS:I942 FIO:Grigorova E L
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-05-31 10:20:48
+    host abonent_1000058_77 {
+        hardware ethernet 00:1D:7D:94:69:1D;
+        fixed-address 172.31.33.144;
+    }
+    # CODE:KIJHEVATOVA76-3 LS:I408 FIO:Kalashnikova O A
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-01-28 17:15:37
+    host abonent_1000076_78 {
+        hardware ethernet 10:FE:ED:B3:CF:1D;
+        fixed-address 172.31.32.40;
+    }
+    # CODE:KIJHEVATOVA76-3 LS:I408 FIO:Kalashnikova O A
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-06-13 20:32:11
+    host abonent_1000076_79 {
+        hardware ethernet 5A:18:C6:8F:13:00;
+        fixed-address 172.31.32.40;
+    }
+    # CODE:SEROVA9-8 LS:I724 FIO:Daynyak A N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:04:57
+    host abonent_1000091_80 {
+        hardware ethernet 00:13:77:B0:82:E6;
+        fixed-address 172.31.33.37;
+    }
+    # CODE:SEROVA9-8 LS:I724 FIO:Daynyak A N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:04:57
+    host abonent_1000091_81 {
+        hardware ethernet 00:1B:11:B3:C4:C1;
+        fixed-address 172.31.33.37;
+    }
+    # CODE:PUHOVICHSKAYA15-48 LS:I598 FIO:Tamilka S YU
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:04:58
+    host abonent_1000110_82 {
+        hardware ethernet 00:18:9B:3E:67:52;
+        fixed-address 172.31.32.245;
+    }
+    # CODE:PUHOVICHSKAYA15-48 LS:I598 FIO:Tamilka S YU
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:04:58
+    host abonent_1000110_83 {
+        hardware ethernet 00:24:21:3F:1A:4E;
+        fixed-address 172.31.32.245;
+    }
+    # CODE:SEROVA17-180 LS:I463 FIO:TSeloguz D M
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2012-01-06 10:34:43
+    host abonent_1000165_84 {
+        hardware ethernet 01:00:00:00:00:01;
+        fixed-address 172.31.32.151;
+    }
+    # CODE:SEROVA46-5 LS:I896 FIO:Martsulevich N G
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-06-15 13:33:29
+    host abonent_1000197_85 {
+        hardware ethernet 00:26:5A:70:65:41;
+        fixed-address 172.31.32.135;
+    }
+    # CODE:SEROVA46-5 LS:I896 FIO:Martsulevich N G
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-06-15 13:31:16
+    host abonent_1000197_86 {
+        hardware ethernet E8:11:32:C4:9C:8A;
+        fixed-address 172.31.32.135;
+    }
+    # CODE:SEROVA46-5 LS:I896 FIO:Martsulevich N G
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-06-17 14:52:32
+    host abonent_1000197_87 {
+        hardware ethernet CC:5D:4E:4B:7A:EB;
+        fixed-address 172.31.32.80;
+    }
+    # CODE:ASANALIEVA5-198 LS:I686 FIO:Babitskiy A K
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:06
+    host abonent_1000241_88 {
+        hardware ethernet 00:0E:7B:B0:CA:2A;
+        fixed-address 172.31.33.12;
+    }
+    # CODE:ASANALIEVA5-198 LS:I686 FIO:Babitskiy A K
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:06
+    host abonent_1000241_89 {
+        hardware ethernet 00:30:84:3F:4C:3A;
+        fixed-address 172.31.33.12;
+    }
+    # CODE:ASANALIEVA36/2-209 LS:I879 FIO:Kireeva N I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:07
+    host abonent_1000251_90 {
+        hardware ethernet 00:E0:4D:5D:C0:58;
+        fixed-address 172.31.33.109;
+    }
+    # CODE:ASANALIEVA36/2-179 LS:I283 FIO:Kaplan L M
+    # LAST EDIT BY:BONDARIK LAST EDIT TIME:2013-10-04 18:20:23
+    host abonent_1000269_91 {
+        hardware ethernet 00:A0:CC:D5:60:3B;
+        fixed-address 172.31.32.95;
+    }
+    # CODE:ASANALIEVA36/2-179 LS:I283 FIO:Kaplan L M
+    # LAST EDIT BY:SHVEDOVA LAST EDIT TIME:2014-02-28 14:27:32
+    host abonent_1000269_92 {
+        hardware ethernet E8:40:F2:E8:BF:6D;
+        fixed-address 172.31.32.95;
+    }
+    # CODE:KORJHENEVSKOGO10-27 LS:I468 FIO:Alekseev A A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-04-28 21:40:03
+    host abonent_1000281_93 {
+        hardware ethernet 00:18:9B:45:49:56;
+        fixed-address 172.31.32.130;
+    }
+    # CODE:ASANALIEVA36/1-40 LS:I333 FIO:Kosak V V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:09
+    host abonent_1000283_94 {
+        hardware ethernet 00:18:9B:45:49:86;
+        fixed-address 172.31.32.173;
+    }
+    # CODE:ASANALIEVA32-224 LS:I267 FIO:Spitsa G G
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-07-18 11:21:39
+    host abonent_1000316_95 {
+        hardware ethernet 00:50:22:BB:0E:D2;
+        fixed-address 172.31.38.205;
+    }
+    # CODE:ASANALIEVA32-224 LS:I267 FIO:Spitsa G G
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-07-18 11:20:49
+    host abonent_1000316_96 {
+        hardware ethernet 48:44:87:25:C5:9A;
+        fixed-address 172.31.38.205;
+    }
+    # CODE:ASANALIEVA26-34 LS:I265 FIO:Stepuk I V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:13
+    host abonent_1000342_97 {
+        hardware ethernet 00:15:58:8C:7A:B2;
+        fixed-address 172.31.32.50;
+    }
+    # CODE:ASANALIEVA26-34 LS:I265 FIO:Stepuk I V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:13
+    host abonent_1000342_98 {
+        hardware ethernet 00:16:0A:04:D3:7A;
+        fixed-address 172.31.32.50;
+    }
+    # CODE:ASANALIEVA26-34 LS:I265 FIO:Stepuk I V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:13
+    host abonent_1000342_99 {
+        hardware ethernet 00:1B:FC:32:2D:41;
+        fixed-address 172.31.32.50;
+    }
+    # CODE:ASANALIEVA10-102 LS:I537 FIO:Kolmagorov P L
+    # LAST EDIT BY:MIHAILOV LAST EDIT TIME:2017-10-10 16:36:17
+    host abonent_1000437_100 {
+        hardware ethernet 00:01:80:68:84:DE;
+        fixed-address 172.31.32.197;
+    }
+    # CODE:ASANALIEVA10-102 LS:I537 FIO:Kolmagorov P L
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-01-29 16:12:40
+    host abonent_1000437_101 {
+        hardware ethernet 00:0F:20:C9:01:F6;
+        fixed-address 172.31.32.197;
+    }
+    # CODE:ASANALIEVA10-102 LS:I537 FIO:Kolmagorov P L
+    # LAST EDIT BY:MIHAILOV LAST EDIT TIME:2017-10-10 16:39:14
+    host abonent_1000437_102 {
+        hardware ethernet 00:26:24:97:E0:CE;
+        fixed-address 172.31.32.55;
+    }
+    # CODE:LYUBANSKAYA13-52 LS:I968 FIO:Kirin K A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:27
+    host abonent_1000569_103 {
+        hardware ethernet 00:19:5B:88:C5:18;
+        fixed-address 172.31.33.158;
+    }
+    # CODE:ASANALIEVA32-246 LS:I1342 FIO:Klimov S F
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-12-14 21:18:33
+    host abonent_1000588_104 {
+        hardware ethernet 00:16:17:99:A1:91;
+        fixed-address 172.31.36.25;
+    }
+    # CODE:ASANALIEVA22/1-118 LS:I1289 FIO:Goncharik V P
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:30
+    host abonent_1000607_105 {
+        hardware ethernet 00:E0:4D:43:09:4C;
+        fixed-address 172.31.36.7;
+    }
+    # CODE:ASANALIEVA36/1-105 LS:I1388 FIO:Varaksa YU V
+    # LAST EDIT BY:DOROSHKO LAST EDIT TIME:2014-02-06 12:24:44
+    host abonent_1000624_106 {
+        hardware ethernet 00:1A:4D:93:8C:F7;
+        fixed-address 172.31.36.35;
+    }
+    # CODE:ASANALIEVA36/1-105 LS:I1388 FIO:Varaksa YU V
+    # LAST EDIT BY:DOROSHKO LAST EDIT TIME:2014-02-06 12:24:55
+    host abonent_1000624_107 {
+        hardware ethernet 00:24:54:68:A3:C1;
+        fixed-address 172.31.36.35;
+    }
+    # CODE:LYUBANSKAYA14-6 LS:I1455 FIO:SHargu O
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:34
+    host abonent_1000668_108 {
+        hardware ethernet 00:04:4B:80:80:03;
+        fixed-address 172.31.36.59;
+    }
+    # CODE:LYUBANSKAYA14-6 LS:I1455 FIO:SHargu O
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:34
+    host abonent_1000668_109 {
+        hardware ethernet 00:1A:4D:6F:F8:04;
+        fixed-address 172.31.36.59;
+    }
+    # CODE:KORJHENEVSKOGO4-110 LS:I1483 FIO:Atrashkova V A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-02-18 15:54:42
+    host abonent_1000677_110 {
+        hardware ethernet 00:1E:69:0D:79:43;
+        fixed-address 172.31.32.228;
+    }
+    # CODE:KORJHENEVSKOGO4-110 LS:I1483 FIO:Atrashkova V A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-02-18 15:54:36
+    host abonent_1000677_111 {
+        hardware ethernet 48:44:87:26:07:A6;
+        fixed-address 172.31.32.228;
+    }
+    # CODE:KORJHENEVSKOGO4-110 LS:I1483 FIO:Atrashkova V A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-02-18 15:54:47
+    host abonent_1000677_112 {
+        hardware ethernet 50:AF:73:12:8D:15;
+        fixed-address 172.31.32.228;
+    }
+    # CODE:KORJHENEVSKOGO4-110 LS:I1483 FIO:Atrashkova V A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-02-18 16:20:40
+    host abonent_1000677_113 {
+        hardware ethernet C0:4A:00:BF:B7:9F;
+        fixed-address 172.31.32.228;
+    }
+    # CODE:ASANALIEVA26-190 LS:I428 FIO:Mihalev V S
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-01-16 11:43:11
+    host abonent_1000719_114 {
+        hardware ethernet 00:30:67:82:34:6A;
+        fixed-address 172.31.32.152;
+    }
+    # CODE:ASANALIEVA26-190 LS:I428 FIO:Mihalev V S
+    # LAST EDIT BY:DOROSHKO LAST EDIT TIME:2014-10-15 14:33:27
+    host abonent_1000719_115 {
+        hardware ethernet 50:E5:49:DF:18:01;
+        fixed-address 172.31.32.152;
+    }
+    # CODE:ASANALIEVA36/2-39 LS:I513 FIO:Skibnevskaya O N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:37
+    host abonent_1000721_116 {
+        hardware ethernet 00:30:67:24:C8:E3;
+        fixed-address 172.31.32.183;
+    }
+    # CODE:ASANALIEVA38/1-167 LS:I669 FIO:Dashevich M P
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:37
+    host abonent_1000723_117 {
+        hardware ethernet 00:19:5B:71:1B:39;
+        fixed-address 172.31.33.4;
+    }
+    # CODE:ASANALIEVA36/2-222 LS:I1505 FIO:Vozmitel I G
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-04-30 11:53:53
+    host abonent_1000742_118 {
+        hardware ethernet 00:25:22:7A:42:3D;
+        fixed-address 172.31.36.75;
+    }
+    # CODE:ASANALIEVA2-330 LS:I544 FIO:SHidik YU G
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:39
+    host abonent_1000754_119 {
+        hardware ethernet 00:E0:4D:6F:87:B9;
+        fixed-address 172.31.32.210;
+    }
+    # CODE:ASANALIEVA4-82 LS:I801 FIO:Paseka M L
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:39
+    host abonent_1000755_120 {
+        hardware ethernet 00:18:9B:7E:A4:36;
+        fixed-address 172.31.33.69;
+    }
+    # CODE:KORJHENEVSKOGO8-40 LS:I878 FIO:Efimenko A Z
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-09-04 21:44:23
+    host abonent_1000825_121 {
+        hardware ethernet 00:04:61:4D:0B:4A;
+        fixed-address 172.31.33.107;
+    }
+    # CODE:SEROVA52-15 LS:I546 FIO:Zaguzov D O
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:44
+    host abonent_1000840_122 {
+        hardware ethernet 00:19:66:0E:F0:60;
+        fixed-address 172.31.32.237;
+    }
+    # CODE:ASANALIEVA36/1-91 LS:I261 FIO:Ksendzov A V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-11-30 10:24:11
+    host abonent_1000858_123 {
+        hardware ethernet 30:65:EC:72:F6:C8;
+        fixed-address 172.31.32.46;
+    }
+    # CODE:KIJHEVATOVA76-101 LS:I811 FIO:Pushkin M V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:45
+    host abonent_1000861_124 {
+        hardware ethernet 00:D0:B7:60:7D:CB;
+        fixed-address 172.31.33.75;
+    }
+    # CODE:KIJHEVATOVA76-101 LS:I811 FIO:Pushkin M V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2014-12-29 18:09:59
+    host abonent_1000861_125 {
+        hardware ethernet 00:E0:4D:3B:5C:CA;
+        fixed-address 172.31.33.75;
+    }
+    # CODE:LYUBANSKAYA13-7 LS:I772 FIO:Metlitskaya I V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:45
+    host abonent_1000863_126 {
+        hardware ethernet 00:E0:4D:0A:E8:0B;
+        fixed-address 172.31.33.57;
+    }
+    # CODE:LYUBANSKAYA13-7 LS:I772 FIO:Metlitskaya I V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:45
+    host abonent_1000863_127 {
+        hardware ethernet 48:5B:39:0F:F3:8F;
+        fixed-address 172.31.33.57;
+    }
+    # CODE:ASANALIEVA20/2-112 LS:I559 FIO:JHelnerovskaya T N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:46
+    host abonent_1000879_128 {
+        hardware ethernet 00:E0:4D:3C:8F:0E;
+        fixed-address 172.31.32.203;
+    }
+    # CODE:ASANALIEVA36/1-18 LS:I900 FIO:SHkumatova L B
+    # LAST EDIT BY:MIHAILOV LAST EDIT TIME:2017-10-04 08:53:50
+    host abonent_1000892_129 {
+        hardware ethernet 00:0F:B0:94:82:8B;
+        fixed-address 172.31.33.117;
+    }
+    # CODE:ASANALIEVA36/1-18 LS:I900 FIO:SHkumatova L B
+    # LAST EDIT BY:MIHAILOV LAST EDIT TIME:2017-10-04 08:53:37
+    host abonent_1000892_130 {
+        hardware ethernet C0:4A:00:BF:3C:23;
+        fixed-address 172.31.33.117;
+    }
+    # CODE:ASANALIEVA4-142 LS:I606 FIO:Demyanova YA N
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2012-01-06 10:24:52
+    host abonent_1000895_131 {
+        hardware ethernet 01:00:00:00:00:01;
+        fixed-address 172.31.33.28;
+    }
+    # CODE:ASANALIEVA5-56 LS:I804 FIO:Streltsova V M
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2016-12-07 11:43:29
+    host abonent_1000896_132 {
+        hardware ethernet 00:13:77:06:6C:2D;
+        fixed-address 172.31.32.57;
+    }
+    # CODE:ASANALIEVA5-56 LS:I804 FIO:Streltsova V M
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2016-12-07 11:43:24
+    host abonent_1000896_133 {
+        hardware ethernet 00:19:5B:FE:52:AB;
+        fixed-address 172.31.32.57;
+    }
+    # CODE:ASANALIEVA5-56 LS:I804 FIO:Streltsova V M
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2016-12-07 11:43:19
+    host abonent_1000896_134 {
+        hardware ethernet C0:4A:00:BF:62:B5;
+        fixed-address 172.31.32.57;
+    }
+    # CODE:KIJHEVATOVA76-228 LS:I1386 FIO:Emelyanenko K N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:51
+    host abonent_1000965_135 {
+        hardware ethernet 00:1E:69:08:9B:4D;
+        fixed-address 172.31.36.40;
+    }
+    # CODE:KORJHENEVSKOGO4-95 LS:I383 FIO:Karpova I YU
+    # LAST EDIT BY:GRAKOVICH LAST EDIT TIME:2011-09-27 09:11:48
+    host abonent_1000991_136 {
+        hardware ethernet 46:CE:E2:8F:13:00;
+        fixed-address 172.31.32.99;
+    }
+    # CODE:KORJHENEVSKOGO6B-35 LS:I1546 FIO:Slyunkov G N
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-01-26 11:10:19
+    host abonent_1001079_137 {
+        hardware ethernet 60:A4:4C:5F:1B:B6;
+        fixed-address 172.31.36.95;
+    }
+    # CODE:KORJHENEVSKOGO6B-35 LS:I1546 FIO:Slyunkov G N
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-08-31 17:29:48
+    host abonent_1001079_138 {
+        hardware ethernet A0:F3:C1:F1:F7:B3;
+        fixed-address 172.31.36.95;
+    }
+    # CODE:KORJHENEVSKOGO6B-35 LS:I1546 FIO:Slyunkov G N
+    # LAST EDIT BY:SHVEDOVA LAST EDIT TIME:2013-05-24 13:49:46
+    host abonent_1001079_139 {
+        hardware ethernet BC:5F:F4:99:AE:90;
+        fixed-address 172.31.36.95;
+    }
+    # CODE:KIJHEVATOVA80/2-157 LS:I1579 FIO:Berdnik A I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:03
+    host abonent_1001149_140 {
+        hardware ethernet 00:1E:69:0D:61:DF;
+        fixed-address 172.31.36.113;
+    }
+    # CODE:KIJHEVATOVA80/2-157 LS:I1579 FIO:Berdnik A I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2016-10-04 17:56:52
+    host abonent_1001149_141 {
+        hardware ethernet 11:77:11:77:11:77;
+        fixed-address 172.31.36.113;
+    }
+    # CODE:KORJHENEVSKOGO6-131 LS:I1594 FIO:Polegoshko I V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:05
+    host abonent_1001172_142 {
+        hardware ethernet 00:1D:7D:D7:72:B3;
+        fixed-address 172.31.36.116;
+    }
+    # CODE:KIJHEVATOVA80/1-11 LS:I1602 FIO:Mihadyuk A M
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2012-02-23 14:01:52
+    host abonent_1001182_143 {
+        hardware ethernet 94:0C:6D:C3:06:B7;
+        fixed-address 172.31.36.117;
+    }
+    # CODE:KIJHEVATOVA80/1-11 LS:I1602 FIO:Mihadyuk A M
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-10-16 19:51:10
+    host abonent_1001182_144 {
+        hardware ethernet A0:F3:C1:48:4B:EF;
+        fixed-address 172.31.36.117;
+    }
+    # CODE:KORJHENEVSKOGO6-28 LS:I1623 FIO:Gordeeva O A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-09-30 14:30:38
+    host abonent_1001253_145 {
+        hardware ethernet 01:00:00:00:00:01;
+        fixed-address 172.31.33.30;
+    }
+    # CODE:KIJHEVATOVA78-37 LS:I961 FIO:Degtyarova A I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:12
+    host abonent_1001301_146 {
+        hardware ethernet 00:1B:FC:72:4C:DB;
+        fixed-address 172.31.33.152;
+    }
+    # CODE:SEROVA52-12 LS:I1039 FIO:JHurko YA V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:16
+    host abonent_1001360_147 {
+        hardware ethernet 00:04:61:A3:62:BC;
+        fixed-address 172.31.33.176;
+    }
+    # CODE:ASANALIEVA24-35 LS:I1690 FIO:Abbakumova L N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:19
+    host abonent_1001400_148 {
+        hardware ethernet 00:1D:7D:E5:48:59;
+        fixed-address 172.31.36.137;
+    }
+    # CODE:ASANALIEVA2-260 LS:I1771 FIO:CHepelevich A V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:22
+    host abonent_1001455_149 {
+        hardware ethernet 00:13:8F:F3:ED:B1;
+        fixed-address 172.31.36.153;
+    }
+    # CODE:ASANALIEVA5-248 LS:I295 FIO:Skavinskiy A S
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:24
+    host abonent_1001485_150 {
+        hardware ethernet 00:E0:4C:44:A0:E2;
+        fixed-address 172.31.32.31;
+    }
+    # CODE:ASANALIEVA5-248 LS:I295 FIO:Skavinskiy A S
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:24
+    host abonent_1001485_151 {
+        hardware ethernet 48:5B:39:51:25:A7;
+        fixed-address 172.31.32.31;
+    }
+    # CODE:ASANALIEVA38/1-21 LS:I1749 FIO:Kotlyarenko A V
+    # LAST EDIT BY:GRAKOVICH LAST EDIT TIME:2011-08-22 12:01:26
+    host abonent_1001539_152 {
+        hardware ethernet 00:1D:60:74:E2:5E;
+        fixed-address 172.31.36.162;
+    }
+    # CODE:ASANALIEVA32-50 LS:I1877 FIO:Kardava YA O
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2018-01-28 11:16:06
+    host abonent_1001582_153 {
+        hardware ethernet 10:7B:44:4D:92:78;
+        fixed-address 172.31.36.173;
+    }
+    # CODE:ASANALIEVA32-50 LS:I1877 FIO:Kardava YA O
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-02-16 14:30:26
+    host abonent_1001582_154 {
+        hardware ethernet 90:FB:A6:99:F2:0D;
+        fixed-address 172.31.36.173;
+    }
+    # CODE:ASANALIEVA36/2-55 LS:I1965 FIO:Hrenov O V
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2011-12-16 12:17:09
+    host abonent_1001590_155 {
+        hardware ethernet 00:02:A5:C0:05:CB;
+        fixed-address 172.31.36.174;
+    }
+    # CODE:ASANALIEVA36/2-55 LS:I1965 FIO:Hrenov O V
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2011-12-16 12:17:32
+    host abonent_1001590_156 {
+        hardware ethernet 48:44:87:23:A0:F2;
+        fixed-address 172.31.36.174;
+    }
+    # CODE:ASANALIEVA5-174 LS:I1840 FIO:Abrashkina N N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:31
+    host abonent_1001615_157 {
+        hardware ethernet 00:16:D3:E8:93:F3;
+        fixed-address 172.31.36.183;
+    }
+    # CODE:ASANALIEVA5-174 LS:I1840 FIO:Abrashkina N N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:31
+    host abonent_1001615_158 {
+        hardware ethernet 00:30:67:17:C1:1C;
+        fixed-address 172.31.36.183;
+    }
+    # CODE:ASANALIEVA5-174 LS:I1840 FIO:Abrashkina N N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:31
+    host abonent_1001615_159 {
+        hardware ethernet C8:0A:A9:A9:9E:A8;
+        fixed-address 172.31.36.183;
+    }
+    # CODE:ASANALIEVA2-345 LS:I2003 FIO:SHutko E V
+    # LAST EDIT BY:GRAKOVICH LAST EDIT TIME:2011-06-30 09:27:27
+    host abonent_1001623_160 {
+        hardware ethernet 00:23:54:5E:A6:EB;
+        fixed-address 172.31.36.199;
+    }
+    # CODE:ASANALIEVA20/1-90 LS:I1918 FIO:Galyakevich S E
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:34
+    host abonent_1001659_161 {
+        hardware ethernet 00:11:0A:3D:1C:73;
+        fixed-address 172.31.36.203;
+    }
+    # CODE:ASANALIEVA20/1-90 LS:I1918 FIO:Galyakevich S E
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2011-05-17 16:25:52
+    host abonent_1001659_162 {
+        hardware ethernet 4C:00:10:3A:5E:E6;
+        fixed-address 172.31.36.203;
+    }
+    # CODE:ASANALIEVA20/2-94 LS:I1935 FIO:Soldatenko T O
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-07-30 17:45:38
+    host abonent_1001661_163 {
+        hardware ethernet 00:26:55:C5:7C:53;
+        fixed-address 172.31.36.205;
+    }
+    # CODE:ASANALIEVA20/2-94 LS:I1935 FIO:Soldatenko T O
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-09-09 20:23:28
+    host abonent_1001661_164 {
+        hardware ethernet A4:BA:DB:B9:3C:F6;
+        fixed-address 172.31.36.205;
+    }
+    # CODE:ASANALIEVA10-127 LS:I1896 FIO:Birbash A V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:34
+    host abonent_1001662_165 {
+        hardware ethernet 00:E0:4D:51:2C:71;
+        fixed-address 172.31.36.201;
+    }
+    # CODE:ASANALIEVA10-127 LS:I1896 FIO:Birbash A V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:34
+    host abonent_1001662_166 {
+        hardware ethernet 00:E0:4D:51:2C:72;
+        fixed-address 172.31.36.201;
+    }
+    # CODE:PUHOVICHSKAYA8-151 LS:I2012 FIO:Baranovskiy A A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-06-08 11:13:08
+    host abonent_1001763_167 {
+        hardware ethernet 00:23:54:37:68:4A;
+        fixed-address 172.31.36.250;
+    }
+    # CODE:PUHOVICHSKAYA8-151 LS:I2012 FIO:Baranovskiy A A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-06-08 11:13:14
+    host abonent_1001763_168 {
+        hardware ethernet C0:4A:00:BF:BA:81;
+        fixed-address 172.31.36.250;
+    }
+    # CODE:PUHOVICHSKAYA17-31 LS:I1981 FIO:Miron E V
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-01-12 20:22:27
+    host abonent_1001785_169 {
+        hardware ethernet 54:04:A6:08:0C:23;
+        fixed-address 172.31.36.251;
+    }
+    # CODE:ASANALIEVA28-4 LS:I2162 FIO:Poteryaeva V A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:43
+    host abonent_1001809_170 {
+        hardware ethernet 00:11:E3:95:71:45;
+        fixed-address 172.31.32.128;
+    }
+    # CODE:KORJHENEVSKOGO10-20 LS:I2086 FIO:Turchin O G
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:43
+    host abonent_1001815_171 {
+        hardware ethernet 00:1E:58:AB:1D:A0;
+        fixed-address 172.31.37.4;
+    }
+    # CODE:PUHOVICHSKAYA8-146 LS:I1943 FIO:Kohanovskaya O V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:44
+    host abonent_1001823_172 {
+        hardware ethernet 00:1D:7D:94:83:5D;
+        fixed-address 172.31.37.11;
+    }
+    # CODE:PUHOVICHSKAYA8-146 LS:I1943 FIO:Kohanovskaya O V
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-10-02 14:43:14
+    host abonent_1001823_173 {
+        hardware ethernet C0:4A:00:BF:94:39;
+        fixed-address 172.31.37.11;
+    }
+    # CODE:KIJHEVATOVA78-73 LS:I2170 FIO:Goncharik N F
+    # LAST EDIT BY:GRAKOVICH LAST EDIT TIME:2011-08-22 11:45:30
+    host abonent_1001870_174 {
+        hardware ethernet 00:1A:4D:91:E6:7E;
+        fixed-address 172.31.37.26;
+    }
+    # CODE:KIJHEVATOVA78-73 LS:I2170 FIO:Goncharik N F
+    # LAST EDIT BY:BOGODYAZH LAST EDIT TIME:2018-02-24 13:51:50
+    host abonent_1001870_175 {
+        hardware ethernet C0:4A:00:BF:7B:4B;
+        fixed-address 172.31.37.26;
+    }
+    # CODE:ASANALIEVA26-128 LS:I417 FIO:Golub M O
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-12-01 13:48:15
+    host abonent_1001918_176 {
+        hardware ethernet 00:11:5B:79:8A:26;
+        fixed-address 172.31.32.120;
+    }
+    # CODE:ASANALIEVA26-128 LS:I417 FIO:Golub M O
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-12-01 12:37:32
+    host abonent_1001918_177 {
+        hardware ethernet 00:18:1A:FF:FF:FF;
+        fixed-address 172.31.32.120;
+    }
+    # CODE:ASANALIEVA26-128 LS:I417 FIO:Golub M O
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-12-01 13:48:22
+    host abonent_1001918_178 {
+        hardware ethernet 00:E0:4C:FD:94:B1;
+        fixed-address 172.31.32.120;
+    }
+    # CODE:ASANALIEVA26-128 LS:I417 FIO:Golub M O
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-12-01 12:37:19
+    host abonent_1001918_179 {
+        hardware ethernet 74:D4:35:31:DA:54;
+        fixed-address 172.31.32.120;
+    }
+    # CODE:ASANALIEVA26-128 LS:I417 FIO:Golub M O
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-12-01 12:37:38
+    host abonent_1001918_180 {
+        hardware ethernet FC:8B:97:67:7F:C3;
+        fixed-address 172.31.32.120;
+    }
+    # CODE:ASANALIEVA8-25 LS:I2223 FIO:Garbatsevich V A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-10-29 20:37:09
+    host abonent_1001964_181 {
+        hardware ethernet 00:0A:48:0B:0E:8D;
+        fixed-address 172.31.32.112;
+    }
+    # CODE:ASANALIEVA8-25 LS:I2223 FIO:Garbatsevich V A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-10-29 20:54:58
+    host abonent_1001964_182 {
+        hardware ethernet C0:4A:00:BF:45:27;
+        fixed-address 172.31.32.112;
+    }
+    # CODE:KORJHENEVSKOGO10-29 LS:I2345 FIO:Sokolov A I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-07-28 18:26:16
+    host abonent_1002015_183 {
+        hardware ethernet 70:5A:B6:78:3B:B1;
+        fixed-address 172.31.37.72;
+    }
+    # CODE:KORJHENEVSKOGO10-29 LS:I2345 FIO:Sokolov A I
+    # LAST EDIT BY:SAVICH LAST EDIT TIME:2014-05-10 17:44:54
+    host abonent_1002015_184 {
+        hardware ethernet E8:03:9A:DF:F3:96;
+        fixed-address 172.31.37.72;
+    }
+    # CODE:ASANALIEVA24-154 LS:I2328 FIO:Glavinskaya N E
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:59
+    host abonent_1002059_185 {
+        hardware ethernet 00:16:EC:F4:83:0F;
+        fixed-address 172.31.37.82;
+    }
+    # CODE:ASANALIEVA22/3-27 LS:I2523 FIO:Nehay YU A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-01-19 21:49:50
+    host abonent_1002102_186 {
+        hardware ethernet 00:24:21:9F:02:A4;
+        fixed-address 172.31.32.59;
+    }
+    # CODE:ASANALIEVA22/3-27 LS:I2523 FIO:Nehay YU A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-01-19 21:50:00
+    host abonent_1002102_187 {
+        hardware ethernet C0:4A:00:BF:3E:DB;
+        fixed-address 172.31.32.59;
+    }
+    # CODE:KORJHENEVSKOGO4-255 LS:I2476 FIO:SHaroykin N V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:02
+    host abonent_1002103_188 {
+        hardware ethernet 00:1D:92:3C:33:9B;
+        fixed-address 172.31.37.106;
+    }
+    # CODE:PUHOVICHSKAYA8-65 LS:I2396 FIO:Dyatko O V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:02
+    host abonent_1002111_189 {
+        hardware ethernet 00:1D:92:3F:1D:89;
+        fixed-address 172.31.37.113;
+    }
+    # CODE:ASANALIEVA10-51 LS:I2371 FIO:CHernikov G V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:02
+    host abonent_1002113_190 {
+        hardware ethernet 00:0F:EA:37:22:0E;
+        fixed-address 172.31.37.96;
+    }
+    # CODE:KORJHENEVSKOGO4-206 LS:I2570 FIO:Frolova E V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:05
+    host abonent_1002151_191 {
+        hardware ethernet 00:1E:69:2B:32:95;
+        fixed-address 172.31.37.124;
+    }
+    # CODE:KORJHENEVSKOGO4-206 LS:I2570 FIO:Frolova E V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:05
+    host abonent_1002151_192 {
+        hardware ethernet 00:1F:16:9B:19:E7;
+        fixed-address 172.31.37.124;
+    }
+    # CODE:KORJHENEVSKOGO4-135 LS:I2821 FIO:Savchin A E
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:13
+    host abonent_1002275_193 {
+        hardware ethernet 00:21:91:8A:95:7B;
+        fixed-address 172.31.37.160;
+    }
+    # CODE:PUHOVICHSKAYA15-71 LS:I2539 FIO:SHeluho D A
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-12-25 19:53:53
+    host abonent_1002303_194 {
+        hardware ethernet 14:DA:E9:A2:F5:6A;
+        fixed-address 172.31.37.183;
+    }
+    # CODE:PUHOVICHSKAYA14-87 LS:I2829 FIO:Kozik V P
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2011-11-04 12:21:04
+    host abonent_1002315_195 {
+        hardware ethernet 00:01:6C:D0:E7:DF;
+        fixed-address 172.31.37.182;
+    }
+    # CODE:PUHOVICHSKAYA14-87 LS:I2829 FIO:Kozik V P
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-07-28 18:18:32
+    host abonent_1002315_196 {
+        hardware ethernet 00:23:54:69:0F:89;
+        fixed-address 172.31.37.182;
+    }
+    # CODE:ASANALIEVA10-133 LS:I2841 FIO:Mironov D V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:19
+    host abonent_1002374_197 {
+        hardware ethernet 00:1A:4D:94:FF:5D;
+        fixed-address 172.31.37.185;
+    }
+    # CODE:ASANALIEVA28-187 LS:I2859 FIO:Filimonova E V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:24
+    host abonent_1002471_198 {
+        hardware ethernet 00:30:18:A7:0B:98;
+        fixed-address 172.31.37.225;
+    }
+    # CODE:KIJHEVATOVA78-159 LS:I2672 FIO:Koval E S
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:24
+    host abonent_1002475_199 {
+        hardware ethernet 00:1F:C6:CF:D5:9C;
+        fixed-address 172.31.37.236;
+    }
+    # CODE:KIJHEVATOVA76-253 LS:I2657 FIO:Bondareva V V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:24
+    host abonent_1002476_200 {
+        hardware ethernet 00:1D:7D:90:53:DB;
+        fixed-address 172.31.37.237;
+    }
+    # CODE:ASANALIEVA28-161 LS:I2976 FIO:Gogolyuk A A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:26
+    host abonent_1002499_201 {
+        hardware ethernet 00:16:36:39:F2:F0;
+        fixed-address 172.31.37.238;
+    }
+    # CODE:ASANALIEVA28-161 LS:I2976 FIO:Gogolyuk A A
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-06-15 10:58:07
+    host abonent_1002499_202 {
+        hardware ethernet 00:26:9E:16:1A:26;
+        fixed-address 172.31.37.238;
+    }
+    # CODE:KORJHENEVSKOGO10-232 LS:I2688 FIO:Radovskaya G O
+    # LAST EDIT BY:GRAKOVICH LAST EDIT TIME:2011-06-28 11:38:42
+    host abonent_1002558_203 {
+        hardware ethernet 00:E0:4D:BA:3A:2A;
+        fixed-address 172.31.38.19;
+    }
+    # CODE:KORJHENEVSKOGO6B-59 LS:I2873 FIO:TSyinkevich P V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:30
+    host abonent_1002562_204 {
+        hardware ethernet 00:1A:4D:8B:8D:55;
+        fixed-address 172.31.38.17;
+    }
+    # CODE:KORJHENEVSKOGO10-221 LS:I2881 FIO:Ermakov S N
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2012-01-19 11:47:33
+    host abonent_1002568_205 {
+        hardware ethernet 1C:C1:DE:A9:91:11;
+        fixed-address 172.31.38.18;
+    }
+    # CODE:KORJHENEVSKOGO10-221 LS:I2881 FIO:Ermakov S N
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-03-18 11:26:17
+    host abonent_1002568_206 {
+        hardware ethernet B0:48:7A:DC:75:69;
+        fixed-address 172.31.38.18;
+    }
+    # CODE:KORJHENEVSKOGO6B-36 LS:I2963 FIO:SHpak S N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-07-28 18:28:36
+    host abonent_1002570_207 {
+        hardware ethernet 00:1E:8C:97:ED:CB;
+        fixed-address 172.31.38.16;
+    }
+    # CODE:KORJHENEVSKOGO6B-36 LS:I2963 FIO:SHpak S N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-07-28 18:28:36
+    host abonent_1002570_208 {
+        hardware ethernet 00:E0:4D:50:E4:31;
+        fixed-address 172.31.38.16;
+    }
+    # CODE:KIJHEVATOVA80/2-269 LS:I3086 FIO:Mironovich N S
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:31
+    host abonent_1002575_209 {
+        hardware ethernet 00:23:54:6C:A5:25;
+        fixed-address 172.31.38.14;
+    }
+    # CODE:ASANALIEVA6/2-169 LS:I2678 FIO:Volkova N K
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:33
+    host abonent_1002602_210 {
+        hardware ethernet 00:90:27:1B:26:8E;
+        fixed-address 172.31.38.28;
+    }
+    # CODE:ASANALIEVA36/1-162 LS:I2696 FIO:CHernuho N N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:33
+    host abonent_1002604_211 {
+        hardware ethernet 90:E6:BA:7F:F3:D6;
+        fixed-address 172.31.38.30;
+    }
+    # CODE:SEROVA28/1-10 LS:I3026 FIO:Daynyak V N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:36
+    host abonent_1002662_212 {
+        hardware ethernet 00:22:B0:53:6E:CB;
+        fixed-address 172.31.38.45;
+    }
+    # CODE:KORJHENEVSKOGO4-1 LS:I3023 FIO:Gatovka T V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:38
+    host abonent_1002705_213 {
+        hardware ethernet 00:1E:33:64:64:CF;
+        fixed-address 172.31.38.68;
+    }
+    # CODE:ASANALIEVA24-48 LS:I3083 FIO:YUrel R V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-07-28 18:24:27
+    host abonent_1002804_214 {
+        hardware ethernet 00:21:91:DB:20:A0;
+        fixed-address 172.31.38.96;
+    }
+    # CODE:ASANALIEVA24-48 LS:I3083 FIO:YUrel R V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-07-28 18:24:27
+    host abonent_1002804_215 {
+        hardware ethernet D6:03:D6:8F:13:00;
+        fixed-address 172.31.38.96;
+    }
+    # CODE:SEROVA31-39 LS:I2502_1 FIO:CHapkovskaya T I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-07-28 18:16:53
+    host abonent_1002833_216 {
+        hardware ethernet 00:16:36:50:DE:19;
+        fixed-address 172.31.38.99;
+    }
+    # CODE:SEROVA31-39 LS:I2502_1 FIO:CHapkovskaya T I
+    # LAST EDIT BY:SKREBNEV LAST EDIT TIME:2013-07-22 18:39:18
+    host abonent_1002833_217 {
+        hardware ethernet 2C:AB:25:FF:2B:87;
+        fixed-address 172.31.38.99;
+    }
+    # CODE:KORJHENEVSKOGO6-130 LS:I3204 FIO:Ivanenko V G
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:56
+    host abonent_1002991_218 {
+        hardware ethernet 00:14:85:8B:3C:A6;
+        fixed-address 172.31.38.149;
+    }
+    # CODE:KORJHENEVSKOGO6-130 LS:I3204 FIO:Ivanenko V G
+    # LAST EDIT BY:LUKERCHYK LAST EDIT TIME:2013-06-21 10:45:40
+    host abonent_1002991_219 {
+        hardware ethernet 00:19:21:C7:9B:B7;
+        fixed-address 172.31.38.149;
+    }
+    # CODE:KORJHENEVSKOGO6-130 LS:I3204 FIO:Ivanenko V G
+    # LAST EDIT BY:SHUBICH LAST EDIT TIME:2013-12-27 21:45:59
+    host abonent_1002991_220 {
+        hardware ethernet 20:1A:06:49:E0:46;
+        fixed-address 172.31.38.149;
+    }
+    # CODE:SEROVA33-21 LS:I3284 FIO:Kolotonchik S G
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:01
+    host abonent_1003080_221 {
+        hardware ethernet 00:30:18:A8:6C:4A;
+        fixed-address 172.31.38.167;
+    }
+    # CODE:SEROVA34-7 LS:I3319 FIO:Prudnikova G G
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-04-15 16:49:46
+    host abonent_1003121_222 {
+        hardware ethernet 00:1F:D0:B5:1C:89;
+        fixed-address 172.31.32.68;
+    }
+    # CODE:SEROVA34-7 LS:I3319 FIO:Prudnikova G G
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-03-28 12:30:21
+    host abonent_1003121_223 {
+        hardware ethernet C0:4A:00:58:A4:9F;
+        fixed-address 172.31.32.68;
+    }
+    # CODE:ASANALIEVA2-412 LS:I3357 FIO:Simakova G F
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-07-16 22:46:22
+    host abonent_1003154_224 {
+        hardware ethernet 00:00:17:00:04:12;
+        fixed-address 172.31.38.186;
+    }
+    # CODE:ASANALIEVA2-412 LS:I3357 FIO:Simakova G F
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2012-06-05 19:47:04
+    host abonent_1003154_225 {
+        hardware ethernet 00:1F:E2:5F:E4:A5;
+        fixed-address 172.31.38.186;
+    }
+    # CODE:ASANALIEVA2-412 LS:I3357 FIO:Simakova G F
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:04
+    host abonent_1003154_226 {
+        hardware ethernet 00:24:81:68:4A:D0;
+        fixed-address 172.31.38.186;
+    }
+    # CODE:ASANALIEVA2-412 LS:I3357 FIO:Simakova G F
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-12-30 22:26:49
+    host abonent_1003154_227 {
+        hardware ethernet 20:1A:06:F7:0D:63;
+        fixed-address 172.31.38.186;
+    }
+    # CODE:ASANALIEVA24-114 LS:I3478 FIO:Sergienya O V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:09
+    host abonent_1003255_228 {
+        hardware ethernet 00:04:61:55:D8:30;
+        fixed-address 172.31.38.211;
+    }
+    # CODE:ASANALIEVA24-114 LS:I3478 FIO:Sergienya O V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:09
+    host abonent_1003255_229 {
+        hardware ethernet 00:13:77:95:AC:42;
+        fixed-address 172.31.38.211;
+    }
+    # CODE:KIJHEVATOVA80/2-63 LS:I3523 FIO:Ivanova L A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:12
+    host abonent_1003307_230 {
+        hardware ethernet 00:13:D4:7C:DC:E0;
+        fixed-address 172.31.38.224;
+    }
+    # CODE:ASANALIEVA2-169 LS:I3558 FIO:Stankevich T G
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:13
+    host abonent_1003341_231 {
+        hardware ethernet 00:01:6C:FF:28:7A;
+        fixed-address 172.31.38.236;
+    }
+    # CODE:ASANALIEVA2-169 LS:I3558 FIO:Stankevich T G
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2011-05-05 17:52:13
+    host abonent_1003341_232 {
+        hardware ethernet 20:CF:30:5C:F5:29;
+        fixed-address 172.31.38.236;
+    }
+    # CODE:PUHOVICHSKAYA7-8 LS:I3586 FIO:Lipay A A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:15
+    host abonent_1003373_233 {
+        hardware ethernet 00:1D:7D:09:E7:CB;
+        fixed-address 172.31.38.246;
+    }
+    # CODE:ASANALIEVA6/1-105 LS:I3600 FIO:Stolov A B
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:16
+    host abonent_1003393_234 {
+        hardware ethernet 00:13:D4:EC:0F:A0;
+        fixed-address 172.31.38.251;
+    }
+    # CODE:KIJHEVATOVA78-136 LS:I3599 FIO:SHulgovich A I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:16
+    host abonent_1003395_235 {
+        hardware ethernet 00:1E:69:2B:4B:65;
+        fixed-address 172.31.38.252;
+    }
+    # CODE:KORJHENEVSKOGO2A-325 LS:I3614 FIO:Barantsevich S S
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:16
+    host abonent_1003401_236 {
+        hardware ethernet 00:E0:91:33:D2:1D;
+        fixed-address 172.31.39.2;
+    }
+    # CODE:ASANALIEVA2-248 LS:I4501 FIO:Avlachinskaya I N
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-01-14 11:13:33
+    host abonent_1003406_237 {
+        hardware ethernet 00:E0:4C:ED:1D:43;
+        fixed-address 172.31.39.6;
+    }
+    # CODE:ASANALIEVA2-248 LS:I4501 FIO:Avlachinskaya I N
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-01-14 11:13:27
+    host abonent_1003406_238 {
+        hardware ethernet 10:BF:48:A2:03:7A;
+        fixed-address 172.31.39.6;
+    }
+    # CODE:ASANALIEVA2-248 LS:I4501 FIO:Avlachinskaya I N
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-01-14 11:13:20
+    host abonent_1003406_239 {
+        hardware ethernet 10:FE:ED:B4:2B:C3;
+        fixed-address 172.31.39.6;
+    }
+    # CODE:KORJHENEVSKOGO6A-73 LS:I3626 FIO:Gradovich G P
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-07-28 18:31:29
+    host abonent_1003421_240 {
+        hardware ethernet 4C:00:10:23:32:36;
+        fixed-address 172.31.39.15;
+    }
+    # CODE:SEROVA31-54 LS:I4115 FIO:Kuznetsov P V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:18
+    host abonent_1003453_241 {
+        hardware ethernet 00:1E:69:2B:3F:57;
+        fixed-address 172.31.39.24;
+    }
+    # CODE:PUHOVICHSKAYA15-6 LS:I4706 FIO:Serov I S
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:19
+    host abonent_1003473_242 {
+        hardware ethernet 00:1D:7D:C8:12:F5;
+        fixed-address 172.31.39.35;
+    }
+    # CODE:PUHOVICHSKAYA14-65 LS:I4107 FIO:Otreshko YU I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:20
+    host abonent_1003479_243 {
+        hardware ethernet 00:22:B0:E2:08:40;
+        fixed-address 172.31.39.29;
+    }
+    # CODE:KORJHENEVSKOGO4-65 LS:I4124 FIO:SHilina O V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:28
+    host abonent_1003633_244 {
+        hardware ethernet 00:1B:38:1E:B4:23;
+        fixed-address 172.31.39.54;
+    }
+    # CODE:ASANALIEVA24-77 LS:I4003107712 FIO:Kudasov S I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:38
+    host abonent_1003810_245 {
+        hardware ethernet 00:0D:9D:5D:8C:34;
+        fixed-address 172.31.39.85;
+    }
+    # CODE:ASANALIEVA24-77 LS:I4003107712 FIO:Kudasov S I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:38
+    host abonent_1003810_246 {
+        hardware ethernet 00:1B:11:C3:9F:51;
+        fixed-address 172.31.39.85;
+    }
+    # CODE:ASANALIEVA24-77 LS:I4003107712 FIO:Kudasov S I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:38
+    host abonent_1003810_247 {
+        hardware ethernet 00:1B:FC:65:24:F7;
+        fixed-address 172.31.39.85;
+    }
+    # CODE:ASANALIEVA22/2-24 LS:I4002902412 FIO:Borisevich M G
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-08-29 13:26:58
+    host abonent_1003860_248 {
+        hardware ethernet 48:44:87:25:C5:26;
+        fixed-address 172.31.33.114;
+    }
+    # CODE:ASANALIEVA22/2-24 LS:I4002902412 FIO:Borisevich M G
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-08-29 13:27:32
+    host abonent_1003860_249 {
+        hardware ethernet CE:6C:EF:8F:13:00;
+        fixed-address 172.31.33.114;
+    }
+    # CODE:ASANALIEVA22/1-15 LS:I4002801512 FIO:Kutsuk A I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:48
+    host abonent_1004024_250 {
+        hardware ethernet 00:24:1D:83:CB:6F;
+        fixed-address 172.31.39.126;
+    }
+    # CODE:ASANALIEVA32-48 LS:I4003504812 FIO:YAschenko S B
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-04-14 16:08:39
+    host abonent_1004031_251 {
+        hardware ethernet 00:24:21:DF:ED:BD;
+        fixed-address 172.31.39.129;
+    }
+    # CODE:ASANALIEVA32-48 LS:I4003504812 FIO:YAschenko S B
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-04-08 18:16:30
+    host abonent_1004031_252 {
+        hardware ethernet FC:AA:14:16:6E:56;
+        fixed-address 172.31.39.129;
+    }
+    # CODE:ASANALIEVA11/1-1 LS:I4002000112 FIO:Makrakova S G
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-12-10 15:09:48
+    host abonent_1004206_253 {
+        hardware ethernet 00:30:1B:3B:EC:85;
+        fixed-address 172.31.39.154;
+    }
+    # CODE:ASANALIEVA11/1-1 LS:I4002000112 FIO:Makrakova S G
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-12-10 15:09:41
+    host abonent_1004206_254 {
+        hardware ethernet C0:4A:00:BF:5F:07;
+        fixed-address 172.31.39.154;
+    }
+    # CODE:KIJHEVATOVA78-45 LS:I4008704512 FIO:Katkov V V
+    # LAST EDIT BY:GRAKOVICH LAST EDIT TIME:2011-08-23 15:42:39
+    host abonent_1004221_255 {
+        hardware ethernet 00:18:F3:52:3F:F4;
+        fixed-address 172.31.39.161;
+    }
+    # CODE:KORJHENEVSKOGO6A-1 LS:I4009500112 FIO:Mikryukova T L
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:00
+    host abonent_1004282_256 {
+        hardware ethernet 00:30:67:1E:E0:B8;
+        fixed-address 172.31.39.165;
+    }
+    # CODE:KORJHENEVSKOGO2A-36 LS:I4009103612 FIO:Kuzmitskaya S M
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-01-16 14:25:23
+    host abonent_1004293_257 {
+        hardware ethernet 00:1C:25:AB:76:5A;
+        fixed-address 172.31.39.175;
+    }
+    # CODE:KORJHENEVSKOGO2A-36 LS:I4009103612 FIO:Kuzmitskaya S M
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-01-16 14:25:18
+    host abonent_1004293_258 {
+        hardware ethernet C0:4A:00:32:8D:60;
+        fixed-address 172.31.39.175;
+    }
+    # CODE:KORJHENEVSKOGO2A-36 LS:I4009103612 FIO:Kuzmitskaya S M
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-01-16 18:09:30
+    host abonent_1004293_259 {
+        hardware ethernet C8:60:00:BD:74:D2;
+        fixed-address 172.31.39.175;
+    }
+    # CODE:KORJHENEVSKOGO2A-334 LS:I4009133412 FIO:SHishkevich YU V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:03
+    host abonent_1004346_260 {
+        hardware ethernet 00:1E:33:57:0B:23;
+        fixed-address 172.31.39.183;
+    }
+    # CODE:KORJHENEVSKOGO2A-428 LS:I4009142812 FIO:Sorokin M A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:03
+    host abonent_1004350_261 {
+        hardware ethernet 00:24:01:09:17:90;
+        fixed-address 172.31.39.187;
+    }
+    # CODE:KIJHEVATOVA76-131 LS:I4008613112 FIO:Trifonov V A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:04
+    host abonent_1004373_262 {
+        hardware ethernet 00:21:85:52:18:23;
+        fixed-address 172.31.39.202;
+    }
+    # CODE:KIJHEVATOVA76-131 LS:I4008613112 FIO:Trifonov V A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:04
+    host abonent_1004373_263 {
+        hardware ethernet 00:21:85:97:61:C4;
+        fixed-address 172.31.39.202;
+    }
+    # CODE:KIJHEVATOVA76-131 LS:I4008613112 FIO:Trifonov V A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:04
+    host abonent_1004373_264 {
+        hardware ethernet 48:44:87:23:4F:72;
+        fixed-address 172.31.39.202;
+    }
+    # CODE:KORJHENEVSKOGO4-105 LS:I4009310512 FIO:Levanovich S N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:05
+    host abonent_1004413_265 {
+        hardware ethernet 00:1B:22:05:43:F6;
+        fixed-address 172.31.39.206;
+    }
+    # CODE:ASANALIEVA32-148 LS:I4003514812 FIO:Volotovskaya O S
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:12
+    host abonent_1004555_266 {
+        hardware ethernet 00:26:18:D1:F1:DD;
+        fixed-address 172.31.39.229;
+    }
+    # CODE:ASANALIEVA36/2-95 LS:I4003709512 FIO:Krukovich N E
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-10-01 18:13:25
+    host abonent_1004662_267 {
+        hardware ethernet 60:E3:27:61:DF:1F;
+        fixed-address 172.31.39.240;
+    }
+    # CODE:KIJHEVATOVA80/1-97 LS:I4008809712 FIO:Kibalko P I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:17
+    host abonent_1004672_268 {
+        hardware ethernet 00:0E:A6:17:6F:A3;
+        fixed-address 172.31.39.246;
+    }
+    # CODE:KIJHEVATOVA80/1-97 LS:I4008809712 FIO:Kibalko P I
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-08-29 14:14:19
+    host abonent_1004672_269 {
+        hardware ethernet C0:4A:00:BF:95:9D;
+        fixed-address 172.31.39.246;
+    }
+    # CODE:ASANALIEVA6/1-128 LS:I4001412812 FIO:Sokolov A S
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:17
+    host abonent_1004673_270 {
+        hardware ethernet 00:23:54:1B:D3:B7;
+        fixed-address 172.31.39.247;
+    }
+    # CODE:KORJHENEVSKOGO2A-381 LS:I4009138112 FIO:Okarskaya S V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:17
+    host abonent_1004676_271 {
+        hardware ethernet 00:01:4A:84:F6:7B;
+        fixed-address 172.31.39.250;
+    }
+    # CODE:KORJHENEVSKOGO2A-381 LS:I4009138112 FIO:Okarskaya S V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:17
+    host abonent_1004676_272 {
+        hardware ethernet 00:23:8B:B6:6A:AD;
+        fixed-address 172.31.39.250;
+    }
+    # CODE:PIROGOVA6-7 LS:I4000400712 FIO:TSurkovskiy V A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:17
+    host abonent_1004677_273 {
+        hardware ethernet 00:14:0B:02:F5:7D;
+        fixed-address 172.31.39.251;
+    }
+    # CODE:SEROVA36-6 LS:I4006900612 FIO:Kamenetskaya O I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:18
+    host abonent_1004681_274 {
+        hardware ethernet 00:1E:68:C6:64:1C;
+        fixed-address 172.31.39.253;
+    }
+    # CODE:SEROVA36-6 LS:I4006900612 FIO:Kamenetskaya O I
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-06-23 19:39:54
+    host abonent_1004681_275 {
+        hardware ethernet 64:70:02:52:D0:95;
+        fixed-address 172.31.39.253;
+    }
+    # CODE:KIJHEVATOVA80/2-125 LS:I4008912512 FIO:Velichko O A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:21
+    host abonent_1004774_276 {
+        hardware ethernet 00:04:61:92:29:25;
+        fixed-address 172.31.35.8;
+    }
+    # CODE:ASANALIEVA8-61 LS:I4001706112 FIO:Rudko D M
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:25
+    host abonent_1004867_277 {
+        hardware ethernet 00:1E:8C:6D:85:FB;
+        fixed-address 172.31.35.17;
+    }
+    # CODE:PIROGOVA2-22 LS:I4000202212 FIO:Korobkov V G
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:25
+    host abonent_1004868_278 {
+        hardware ethernet 00:E0:4D:A0:B4:89;
+        fixed-address 172.31.35.18;
+    }
+    # CODE:JHLOBINSKAYA11-6 LS:I4008100612 FIO:Revtovich A I
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-03-04 19:48:34
+    host abonent_1004875_279 {
+        hardware ethernet 90:2B:34:A8:69:D8;
+        fixed-address 172.31.35.23;
+    }
+    # CODE:JHLOBINSKAYA11-6 LS:I4008100612 FIO:Revtovich A I
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-11-29 12:21:34
+    host abonent_1004875_280 {
+        hardware ethernet D4:6E:0E:53:52:49;
+        fixed-address 172.31.35.23;
+    }
+    # CODE:ASANALIEVA22/1-112 LS:I4002811212 FIO:Ivashko S N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:28
+    host abonent_1004932_281 {
+        hardware ethernet 00:24:1D:D5:E6:D5;
+        fixed-address 172.31.35.38;
+    }
+    # CODE:KORJHENEVSKOGO2A-198 LS:I4009119812 FIO:Daschinskaya G P
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:29
+    host abonent_1004964_282 {
+        hardware ethernet 88:AE:1D:56:3A:C8;
+        fixed-address 172.31.35.41;
+    }
+    # CODE:KORJHENEVSKOGO2A-150 LS:I4009115012 FIO:Kabashnikova O YU
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:29
+    host abonent_1004966_283 {
+        hardware ethernet 00:1B:FC:4A:D5:36;
+        fixed-address 172.31.35.43;
+    }
+    # CODE:SEROVA31-63 LS:I4006506312 FIO:Fedorchenko D A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:30
+    host abonent_1004976_284 {
+        hardware ethernet 18:A9:05:CC:C2:B2;
+        fixed-address 172.31.35.50;
+    }
+    # CODE:ASANALIEVA4-79 LS:I4001207912 FIO:Makarov E A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:30
+    host abonent_1004981_285 {
+        hardware ethernet 00:13:77:92:60:F9;
+        fixed-address 172.31.35.39;
+    }
+    # CODE:SEROVA36-2 LS:I4006900212 FIO:Poluyanova N A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:30
+    host abonent_1004989_286 {
+        hardware ethernet 00:25:11:41:8B:84;
+        fixed-address 172.31.35.55;
+    }
+    # CODE:SEROVA36-2 LS:I4006900212 FIO:Poluyanova N A
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-01-13 10:45:18
+    host abonent_1004989_287 {
+        hardware ethernet 64:66:B3:35:0A:EF;
+        fixed-address 172.31.35.55;
+    }
+    # CODE:ASANALIEVA36/2-115 LS:I4003711512 FIO:Kashuba S E
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:34
+    host abonent_1005068_288 {
+        hardware ethernet 00:1D:72:CA:B4:D6;
+        fixed-address 172.31.35.62;
+    }
+    # CODE:KIJHEVATOVA76-273 LS:I4008627312 FIO:Korotkiy S V
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-12-13 19:13:05
+    host abonent_1005076_289 {
+        hardware ethernet 00:1D:7D:A9:49:80;
+        fixed-address 172.31.35.68;
+    }
+    # CODE:KIJHEVATOVA76-273 LS:I4008627312 FIO:Korotkiy S V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:34
+    host abonent_1005076_290 {
+        hardware ethernet 00:1D:7D:A9:49:80;
+        fixed-address 172.31.35.68;
+    }
+    # CODE:ASANALIEVA36/1-224 LS:I4003622412 FIO:JHudro D N
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-08-08 17:51:25
+    host abonent_1005080_291 {
+        hardware ethernet 00:24:81:6C:E0:FB;
+        fixed-address 172.31.35.71;
+    }
+    # CODE:ASANALIEVA36/1-224 LS:I4003622412 FIO:JHudro D N
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-08-28 16:07:52
+    host abonent_1005080_292 {
+        hardware ethernet 00:26:B9:DB:7C:00;
+        fixed-address 172.31.35.71;
+    }
+    # CODE:ASANALIEVA36/1-224 LS:I4003622412 FIO:JHudro D N
+    # LAST EDIT BY:YASTREB LAST EDIT TIME:2016-06-06 10:46:04
+    host abonent_1005080_293 {
+        hardware ethernet C0:4A:00:BF:7C:61;
+        fixed-address 172.31.35.71;
+    }
+    # CODE:ASANALIEVA22/2-77 LS:I4002907712 FIO:Kotova T I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:38
+    host abonent_1005174_294 {
+        hardware ethernet 90:E6:BA:EA:2E:FB;
+        fixed-address 172.31.35.83;
+    }
+    # CODE:KORJHENEVSKOGO2A-145 LS:I4009114512 FIO:Abramovich K K
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:38
+    host abonent_1005176_295 {
+        hardware ethernet 00:21:85:3B:00:6D;
+        fixed-address 172.31.35.85;
+    }
+    # CODE:KORJHENEVSKOGO2A-409 LS:I4009140912 FIO:Babayan E YU
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:41
+    host abonent_1005246_296 {
+        hardware ethernet 00:1E:33:02:3A:E8;
+        fixed-address 172.31.35.89;
+    }
+    # CODE:KORJHENEVSKOGO2A-409 LS:I4009140912 FIO:Babayan E YU
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:41
+    host abonent_1005246_297 {
+        hardware ethernet 00:1E:33:03:1F:4B;
+        fixed-address 172.31.35.89;
+    }
+    # CODE:KORJHENEVSKOGO2A-409 LS:I4009140912 FIO:Babayan E YU
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:41
+    host abonent_1005246_298 {
+        hardware ethernet 00:24:54:A0:2E:0E;
+        fixed-address 172.31.35.89;
+    }
+    # CODE:ASANALIEVA36/1-227 LS:I4003622712 FIO:Balabeshko S V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:43
+    host abonent_1005299_299 {
+        hardware ethernet 00:30:84:0E:FD:AC;
+        fixed-address 172.31.35.96;
+    }
+    # CODE:SEROVA17-44 LS:I4005604412 FIO:Prochakova A P
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-01-27 18:02:49
+    host abonent_1005308_300 {
+        hardware ethernet 00:25:22:3E:01:C0;
+        fixed-address 172.31.35.104;
+    }
+    # CODE:SEROVA17-44 LS:I4005604412 FIO:Prochakova A P
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-10-05 15:32:21
+    host abonent_1005308_301 {
+        hardware ethernet 00:40:F4:BC:12:88;
+        fixed-address 172.31.35.104;
+    }
+    # CODE:ASANALIEVA8-81 LS:I4001708112 FIO:Bakovets A N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:48
+    host abonent_1005385_302 {
+        hardware ethernet 00:E0:4D:62:AA:D2;
+        fixed-address 172.31.35.116;
+    }
+    # CODE:ASANALIEVA8-81 LS:I4001708112 FIO:Bakovets A N
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-03-03 14:32:22
+    host abonent_1005385_303 {
+        hardware ethernet C0:4A:00:BF:A6:9D;
+        fixed-address 172.31.35.116;
+    }
+    # CODE:SEROVA36-5 LS:I4006900512 FIO:CHimbur O I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:48
+    host abonent_1005391_304 {
+        hardware ethernet 00:04:61:53:A1:AB;
+        fixed-address 172.31.35.121;
+    }
+    # CODE:SEROVA36-5 LS:I4006900512 FIO:CHimbur O I
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-02-28 18:58:39
+    host abonent_1005391_305 {
+        hardware ethernet 00:E0:4D:AF:80:B7;
+        fixed-address 172.31.35.121;
+    }
+    # CODE:SEROVA36-5 LS:I4006900512 FIO:CHimbur O I
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2018-02-22 19:34:06
+    host abonent_1005391_306 {
+        hardware ethernet C0:4A:00:BF:B3:FD;
+        fixed-address 172.31.35.121;
+    }
+    # CODE:PUHOVICHSKAYA5-18 LS:I4011401812 FIO:Morozov YU A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-09-23 10:47:40
+    host abonent_1005464_307 {
+        hardware ethernet 60:E3:27:61:E1:3D;
+        fixed-address 172.31.35.128;
+    }
+    # CODE:KIJHEVATOVA80/1-49 LS:I4008804912 FIO:Mostovskiy D A
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-08-30 14:25:36
+    host abonent_1005465_308 {
+        hardware ethernet 00:1D:7D:D5:8A:AC;
+        fixed-address 172.31.35.129;
+    }
+    # CODE:KIJHEVATOVA80/1-49 LS:I4008804912 FIO:Mostovskiy D A
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-10-13 19:43:21
+    host abonent_1005465_309 {
+        hardware ethernet C0:4A:00:BF:C4:D3;
+        fixed-address 172.31.35.129;
+    }
+    # CODE:ASANALIEVA6/1-122 LS:I4001412212 FIO:Hadarovich N V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:56
+    host abonent_1005584_310 {
+        hardware ethernet 00:30:67:30:BB:75;
+        fixed-address 172.31.35.149;
+    }
+    # CODE:ASANALIEVA6/1-122 LS:I4001412212 FIO:Hadarovich N V
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-06-18 13:00:00
+    host abonent_1005584_311 {
+        hardware ethernet F8:1A:67:14:6F:EB;
+        fixed-address 172.31.35.149;
+    }
+    # CODE:KORJHENEVSKOGO6-139 LS:I4009413912 FIO:Evglevskiy A A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:58
+    host abonent_1005632_312 {
+        hardware ethernet 00:1D:92:74:6D:13;
+        fixed-address 172.31.35.157;
+    }
+    # CODE:ASANALIEVA36/2-218 LS:I4003721812 FIO:Starovoytov S A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:58
+    host abonent_1005633_313 {
+        hardware ethernet 00:21:85:31:4C:74;
+        fixed-address 172.31.35.158;
+    }
+    # CODE:KORJHENEVSKOGO4-93 LS:I4009309312 FIO:Sechko T M
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:00
+    host abonent_1005682_314 {
+        hardware ethernet 00:24:D1:20:38:BB;
+        fixed-address 172.31.35.165;
+    }
+    # CODE:KORJHENEVSKOGO4-93 LS:I4009309312 FIO:Sechko T M
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:00
+    host abonent_1005682_315 {
+        hardware ethernet 00:E0:4C:A0:DC:F3;
+        fixed-address 172.31.35.165;
+    }
+    # CODE:KORJHENEVSKOGO2A-163 LS:I4009116312 FIO:Anisenko A S
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-07-14 19:38:56
+    host abonent_1005759_316 {
+        hardware ethernet 00:1F:D0:C9:18:D1;
+        fixed-address 172.31.35.172;
+    }
+    # CODE:KORJHENEVSKOGO2A-163 LS:I4009116312 FIO:Anisenko A S
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-07-14 19:38:48
+    host abonent_1005759_317 {
+        hardware ethernet 90:F6:52:C8:9D:0C;
+        fixed-address 172.31.35.172;
+    }
+    # CODE:KORJHENEVSKOGO2A-163 LS:I4009116312 FIO:Anisenko A S
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-07-14 19:39:00
+    host abonent_1005759_318 {
+        hardware ethernet 90:F6:52:C8:9D:0E;
+        fixed-address 172.31.35.172;
+    }
+    # CODE:ASANALIEVA20/2-84 LS:I4002708412 FIO:Ilenkov A A
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-05-04 17:56:24
+    host abonent_1005828_319 {
+        hardware ethernet 00:1E:68:0B:F3:0A;
+        fixed-address 172.31.35.174;
+    }
+    # CODE:KIJHEVATOVA80/1-74 LS:I4008807412 FIO:Trusevich T N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:09
+    host abonent_1005904_320 {
+        hardware ethernet 00:04:61:44:A2:D7;
+        fixed-address 172.31.35.183;
+    }
+    # CODE:KIJHEVATOVA80/1-74 LS:I4008807412 FIO:Trusevich T N
+    # LAST EDIT BY:BOGDANOVICH LAST EDIT TIME:2013-06-01 17:45:05
+    host abonent_1005904_321 {
+        hardware ethernet 50:B7:C3:6E:BE:00;
+        fixed-address 172.31.35.183;
+    }
+    # CODE:KIJHEVATOVA80/1-74 LS:I4008807412 FIO:Trusevich T N
+    # LAST EDIT BY:YASTREB LAST EDIT TIME:2016-07-16 14:10:51
+    host abonent_1005904_322 {
+        hardware ethernet C0:4A:00:BF:41:AD;
+        fixed-address 172.31.35.183;
+    }
+    # CODE:ASANALIEVA38/1-67 LS:I4003806712 FIO:Makutsevich E F
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:10
+    host abonent_1005947_323 {
+        hardware ethernet 00:30:18:AC:05:F1;
+        fixed-address 172.31.35.193;
+    }
+    # CODE:ASANALIEVA20/2-156 LS:I4002715612 FIO:SHakal N L
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:11
+    host abonent_1005967_324 {
+        hardware ethernet E0:CB:4E:98:66:D0;
+        fixed-address 172.31.35.196;
+    }
+    # CODE:ASANALIEVA6/1-31 LS:I4001403112 FIO:Mikulskaya T V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:13
+    host abonent_1006010_325 {
+        hardware ethernet 00:E0:00:99:CF:4C;
+        fixed-address 172.31.35.200;
+    }
+    # CODE:ASANALIEVA30-239 LS:I4003423912 FIO:Mazanik D M
+    # LAST EDIT BY:KAPUSTA LAST EDIT TIME:2011-05-24 11:32:30
+    host abonent_1006078_326 {
+        hardware ethernet 00:1D:72:DE:0B:85;
+        fixed-address 172.31.35.212;
+    }
+    # CODE:ASANALIEVA36/1-135 LS:I4003613512 FIO:Bereznyatskiy A P
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:22
+    host abonent_1006249_327 {
+        hardware ethernet 00:00:1A:00:02:E0;
+        fixed-address 172.31.35.222;
+    }
+    # CODE:SEROVA52-9 LS:I4007600912 FIO:Dubasova E I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:28
+    host abonent_1006433_328 {
+        hardware ethernet 6C:F0:49:98:18:23;
+        fixed-address 172.31.35.252;
+    }
+    # CODE:LYUBANSKAYA14-10 LS:I4011101012 FIO:CHuhnov E A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:33
+    host abonent_1006537_329 {
+        hardware ethernet 00:04:61:60:83:F7;
+        fixed-address 172.31.34.10;
+    }
+    # CODE:LYUBANSKAYA14-10 LS:I4011101012 FIO:CHuhnov E A
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2012-04-10 22:32:14
+    host abonent_1006537_330 {
+        hardware ethernet 00:21:04:E8:99:A8;
+        fixed-address 172.31.34.10;
+    }
+    # CODE:LYUBANSKAYA14-10 LS:I4011101012 FIO:CHuhnov E A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:33
+    host abonent_1006537_331 {
+        hardware ethernet 00:24:D1:43:9C:B1;
+        fixed-address 172.31.34.10;
+    }
+    # CODE:ASANALIEVA24-55 LS:I4003105512 FIO:Bondarenko V V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:33
+    host abonent_1006538_332 {
+        hardware ethernet 00:E0:4C:F0:A6:FC;
+        fixed-address 172.31.34.11;
+    }
+    # CODE:KIJHEVATOVA76-46 LS:I4008604612 FIO:Solod A S
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:34
+    host abonent_1006561_333 {
+        hardware ethernet 00:25:B3:78:6E:E4;
+        fixed-address 172.31.34.15;
+    }
+    # CODE:KIJHEVATOVA76-46 LS:I4008604612 FIO:Solod A S
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2011-11-25 12:18:54
+    host abonent_1006561_334 {
+        hardware ethernet 90:FB:A6:AF:05:CB;
+        fixed-address 172.31.34.15;
+    }
+    # CODE:KIJHEVATOVA80/2-113 LS:I4008911312 FIO:Zagorskaya M A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:38
+    host abonent_1006642_335 {
+        hardware ethernet 00:14:2A:B3:9C:C3;
+        fixed-address 172.31.34.27;
+    }
+    # CODE:KIJHEVATOVA80/2-113 LS:I4008911312 FIO:Zagorskaya M A
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-09-29 15:41:07
+    host abonent_1006642_336 {
+        hardware ethernet 20:89:84:E1:F8:B5;
+        fixed-address 172.31.34.27;
+    }
+    # CODE:KIJHEVATOVA80/2-113 LS:I4008911312 FIO:Zagorskaya M A
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-03-31 19:48:14
+    host abonent_1006642_337 {
+        hardware ethernet D0:BF:9C:0C:90:98;
+        fixed-address 172.31.34.27;
+    }
+    # CODE:KORJHENEVSKOGO4-323 LS:I4009332312 FIO:Sinyak D P
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:39
+    host abonent_1006656_338 {
+        hardware ethernet 00:30:67:1A:E4:26;
+        fixed-address 172.31.34.29;
+    }
+    # CODE:KORJHENEVSKOGO2A-209 LS:I4009120912 FIO:Reva A B
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:39
+    host abonent_1006658_339 {
+        hardware ethernet 00:E0:4D:71:DA:F6;
+        fixed-address 172.31.34.30;
+    }
+    # CODE:KORJHENEVSKOGO2A-209 LS:I4009120912 FIO:Reva A B
+    # LAST EDIT BY:STRUKOVA LAST EDIT TIME:2013-12-29 21:10:37
+    host abonent_1006658_340 {
+        hardware ethernet 94:DE:80:88:A3:CF;
+        fixed-address 172.31.34.30;
+    }
+    # CODE:KORJHENEVSKOGO2A-209 LS:I4009120912 FIO:Reva A B
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-09-24 11:22:51
+    host abonent_1006658_341 {
+        hardware ethernet C0:4A:00:BF:94:E1;
+        fixed-address 172.31.34.30;
+    }
+    # CODE:KORJHENEVSKOGO2A-327 LS:I4009132712 FIO:Ahmedov V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:40
+    host abonent_1006690_342 {
+        hardware ethernet 00:25:64:4C:D1:C5;
+        fixed-address 172.31.34.38;
+    }
+    # CODE:KORJHENEVSKOGO10-34 LS:I4010103412 FIO:Peshko T N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:42
+    host abonent_1006764_343 {
+        hardware ethernet 00:26:6C:6F:20:F1;
+        fixed-address 172.31.34.46;
+    }
+    # CODE:PUHOVICHSKAYA8-32 LS:I4011703212 FIO:TSvil A N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:43
+    host abonent_1006788_344 {
+        hardware ethernet 00:25:B3:7D:0B:47;
+        fixed-address 172.31.34.52;
+    }
+    # CODE:KIJHEVATOVA76-51 LS:I4008605112 FIO:Suntsova L V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:45
+    host abonent_1006850_345 {
+        hardware ethernet 00:1B:22:05:30:B2;
+        fixed-address 172.31.34.59;
+    }
+    # CODE:KIJHEVATOVA76-51 LS:I4008605112 FIO:Suntsova L V
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-02-25 13:05:52
+    host abonent_1006850_346 {
+        hardware ethernet 00:26:2D:8F:01:EA;
+        fixed-address 172.31.34.59;
+    }
+    # CODE:KIJHEVATOVA76-51 LS:I4008605112 FIO:Suntsova L V
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-11-12 13:21:19
+    host abonent_1006850_347 {
+        hardware ethernet 60:EB:69:63:35:53;
+        fixed-address 172.31.34.59;
+    }
+    # CODE:KIJHEVATOVA76-51 LS:I4008605112 FIO:Suntsova L V
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-09-25 14:48:40
+    host abonent_1006850_348 {
+        hardware ethernet C0:4A:00:BF:95:07;
+        fixed-address 172.31.34.59;
+    }
+    # CODE:ASANALIEVA22/2-83 LS:I4002908312 FIO:Svidovich D P
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-09-11 18:01:10
+    host abonent_1006903_349 {
+        hardware ethernet 00:80:48:43:F4:A4;
+        fixed-address 172.31.34.67;
+    }
+    # CODE:ASANALIEVA22/2-83 LS:I4002908312 FIO:Svidovich D P
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-10-27 11:11:02
+    host abonent_1006903_350 {
+        hardware ethernet 00:E0:4C:99:12:D9;
+        fixed-address 172.31.34.67;
+    }
+    # CODE:ASANALIEVA22/2-83 LS:I4002908312 FIO:Svidovich D P
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-10-27 20:00:02
+    host abonent_1006903_351 {
+        hardware ethernet D0:50:99:9E:93:80;
+        fixed-address 172.31.34.67;
+    }
+    # CODE:ASANALIEVA10-15 LS:I4001901512 FIO:Lashkevich A A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:58
+    host abonent_1007210_352 {
+        hardware ethernet 00:E0:4D:9C:69:13;
+        fixed-address 172.31.34.93;
+    }
+    # CODE:ASANALIEVA6/1-136 LS:I4001413612 FIO:SHapiro N YA
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:59
+    host abonent_1007236_353 {
+        hardware ethernet 1C:C1:DE:0B:15:7C;
+        fixed-address 172.31.34.96;
+    }
+    # CODE:SEROVA31-53 LS:I4006505312 FIO:Peshevich M A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-07-15 19:12:35
+    host abonent_1007292_354 {
+        hardware ethernet 00:30:67:6A:A6:12;
+        fixed-address 172.31.32.188;
+    }
+    # CODE:SEROVA31-53 LS:I4006505312 FIO:Peshevich M A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-07-15 19:13:25
+    host abonent_1007292_355 {
+        hardware ethernet 2C:27:D7:AF:96:E1;
+        fixed-address 172.31.32.188;
+    }
+    # CODE:SEROVA31-53 LS:I4006505312 FIO:Peshevich M A
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2016-01-19 15:12:13
+    host abonent_1007292_356 {
+        hardware ethernet C0:4A:00:BF:3E:F5;
+        fixed-address 172.31.32.188;
+    }
+    # CODE:ASANALIEVA2-319 LS:I4001131922 FIO:Medyankin A N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:03
+    host abonent_1007338_357 {
+        hardware ethernet 00:1C:C0:93:6F:E6;
+        fixed-address 172.31.34.111;
+    }
+    # CODE:KORJHENEVSKOGO4-163 LS:I4009316312 FIO:Zayats T G
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:04
+    host abonent_1007353_358 {
+        hardware ethernet 00:25:22:4B:5A:BB;
+        fixed-address 172.31.34.116;
+    }
+    # CODE:ASANALIEVA64-3 LS:I4004500312 FIO:Medvedeva M V
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-04-24 12:08:09
+    host abonent_1007451_359 {
+        hardware ethernet C0:4A:00:BF:B9:43;
+        fixed-address 172.31.50.124;
+    }
+    # CODE:ASANALIEVA36/2-70 LS:I4003707012 FIO:Belov D A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:08
+    host abonent_1007453_360 {
+        hardware ethernet 00:1D:92:A3:56:FD;
+        fixed-address 172.31.34.126;
+    }
+    # CODE:ASANALIEVA26-123 LS:I4003212312 FIO:Kirik A I
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-06-16 12:33:03
+    host abonent_1007555_361 {
+        hardware ethernet 00:04:61:51:53:7F;
+        fixed-address 172.31.34.137;
+    }
+    # CODE:ASANALIEVA26-123 LS:I4003212312 FIO:Kirik A I
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-06-16 12:33:14
+    host abonent_1007555_362 {
+        hardware ethernet 64:66:B3:35:28:4F;
+        fixed-address 172.31.34.137;
+    }
+    # CODE:ASANALIEVA26-123 LS:I4003212312 FIO:Kirik A I
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-06-16 12:33:09
+    host abonent_1007555_363 {
+        hardware ethernet AC:16:2D:5B:82:D0;
+        fixed-address 172.31.34.137;
+    }
+    # CODE:ASANALIEVA26-123 LS:I4003212312 FIO:Kirik A I
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-06-16 12:32:55
+    host abonent_1007555_364 {
+        hardware ethernet BC:5F:F4:42:26:BD;
+        fixed-address 172.31.34.137;
+    }
+    # CODE:ASANALIEVA20/2-24 LS:I4002702412 FIO:Bogdanova G A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:12
+    host abonent_1007561_365 {
+        hardware ethernet 00:18:9B:45:49:5C;
+        fixed-address 172.31.34.140;
+    }
+    # CODE:ASANALIEVA38/1-48 LS:I4003804812 FIO:CHaykovskaya N A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:12
+    host abonent_1007562_366 {
+        hardware ethernet 00:1D:92:A5:00:35;
+        fixed-address 172.31.34.141;
+    }
+    # CODE:KORJHENEVSKOGO4-291 LS:I4009329112 FIO:Dobryanskiy A L
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-06-23 09:38:45
+    host abonent_1007623_367 {
+        hardware ethernet 4C:CC:6A:09:6C:F2;
+        fixed-address 172.31.34.154;
+    }
+    # CODE:ASANALIEVA8-147 LS:I4001714712 FIO:Belyiy A A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:15
+    host abonent_1007643_368 {
+        hardware ethernet 00:1A:80:21:DB:EE;
+        fixed-address 172.31.34.160;
+    }
+    # CODE:ASANALIEVA22/2-101 LS:I4003710112 FIO:Hatsuk N V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:16
+    host abonent_1007651_369 {
+        hardware ethernet 00:19:DB:B7:7F:0B;
+        fixed-address 172.31.34.162;
+    }
+    # CODE:ASANALIEVA6/2-114 LS:I4001511412 FIO:Gavshina T S
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-06-17 15:27:32
+    host abonent_1007659_370 {
+        hardware ethernet 00:30:67:93:75:91;
+        fixed-address 172.31.34.166;
+    }
+    # CODE:ASANALIEVA6/2-114 LS:I4001511412 FIO:Gavshina T S
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:16
+    host abonent_1007659_371 {
+        hardware ethernet 48:44:87:23:54:72;
+        fixed-address 172.31.34.166;
+    }
+    # CODE:PUHOVICHSKAYA8-22 LS:I4011702212 FIO:Beresnev L A
+    # LAST EDIT BY:GRAKOVICH LAST EDIT TIME:2011-09-06 15:46:29
+    host abonent_1007671_372 {
+        hardware ethernet F0:4D:A2:9B:53:5E;
+        fixed-address 172.31.34.173;
+    }
+    # CODE:PIROGOVA6-19 LS:I4000401912 FIO:Bunas S A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:19
+    host abonent_1007731_373 {
+        hardware ethernet 00:30:67:3D:44:4A;
+        fixed-address 172.31.34.186;
+    }
+    # CODE:PUHOVICHSKAYA5A-16 LS:I4011501612 FIO:SHalavin V V
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-03-02 11:30:59
+    host abonent_1007748_374 {
+        hardware ethernet 00:30:67:2C:F0:15;
+        fixed-address 172.31.34.187;
+    }
+    # CODE:PUHOVICHSKAYA5A-16 LS:I4011501612 FIO:SHalavin V V
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-11-17 12:16:53
+    host abonent_1007748_375 {
+        hardware ethernet 64:66:B3:35:7A:F1;
+        fixed-address 172.31.34.187;
+    }
+    # CODE:ASANALIEVA24-140 LS:I4003114012 FIO:Venskiy V V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:21
+    host abonent_1007796_376 {
+        hardware ethernet 00:19:D1:71:30:8E;
+        fixed-address 172.31.34.198;
+    }
+    # CODE:ASANALIEVA8-160 LS:I4001716012 FIO:Vrublevskaya YU A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-07-17 16:01:00
+    host abonent_1007825_377 {
+        hardware ethernet 1C:C1:DE:0B:28:EB;
+        fixed-address 172.31.34.203;
+    }
+    # CODE:ASANALIEVA8-160 LS:I4001716012 FIO:Vrublevskaya YU A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-07-17 16:03:50
+    host abonent_1007825_378 {
+        hardware ethernet 48:44:87:25:B7:9E;
+        fixed-address 172.31.34.203;
+    }
+    # CODE:ASANALIEVA8-160 LS:I4001716012 FIO:Vrublevskaya YU A
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-11-17 11:59:22
+    host abonent_1007825_379 {
+        hardware ethernet C0:4A:00:2D:E9:A7;
+        fixed-address 172.31.34.203;
+    }
+    # CODE:SEROVA31-52 LS:I4006505212 FIO:Kozich N A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:22
+    host abonent_1007826_380 {
+        hardware ethernet 00:1A:92:6E:33:E7;
+        fixed-address 172.31.34.204;
+    }
+    # CODE:PUHOVICHSKAYA5A-70 LS:I4011507012 FIO:Suhodolov V V
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:22
+    host abonent_1007828_381 {
+        hardware ethernet 1C:6F:65:54:DD:B8;
+        fixed-address 172.31.34.205;
+    }
+    # CODE:PUHOVICHSKAYA5A-70 LS:I4011507012 FIO:Suhodolov V V
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-05-30 18:06:50
+    host abonent_1007828_382 {
+        hardware ethernet 78:84:3C:FF:36:9D;
+        fixed-address 172.31.34.205;
+    }
+    # CODE:PUHOVICHSKAYA5A-70 LS:I4011507012 FIO:Suhodolov V V
+    # LAST EDIT BY:SKREBNEV LAST EDIT TIME:2013-02-21 13:09:50
+    host abonent_1007828_383 {
+        hardware ethernet C8:D3:A3:4B:63:3B;
+        fixed-address 172.31.34.205;
+    }
+    # CODE:ASANALIEVA22/2-5 LS:I4002900512 FIO:Matveychik O I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:23
+    host abonent_1007850_384 {
+        hardware ethernet 00:04:61:4A:2F:B0;
+        fixed-address 172.31.34.206;
+    }
+    # CODE:PUHOVICHSKAYA14-85 LS:I4012208512 FIO:Baydagulov E A
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:30
+    host abonent_1008021_385 {
+        hardware ethernet F0:4D:A2:8F:42:BE;
+        fixed-address 172.31.34.236;
+    }
+    # CODE:ASANALIEVA36/2-120 LS:I4003712012 FIO:JHurkevich YU L
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:30
+    host abonent_1008022_386 {
+        hardware ethernet 00:22:3A:FC:ED:51;
+        fixed-address 172.31.34.237;
+    }
+    # CODE:ASANALIEVA30-137 LS:I4003413712 FIO:Sakovich V V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-03-06 11:47:00
+    host abonent_1008055_387 {
+        hardware ethernet 00:26:2D:87:35:FE;
+        fixed-address 172.31.34.244;
+    }
+    # CODE:ASANALIEVA30-137 LS:I4003413712 FIO:Sakovich V V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2018-03-07 13:34:35
+    host abonent_1008055_388 {
+        hardware ethernet C0:4A:00:BF:7A:ED;
+        fixed-address 172.31.34.244;
+    }
+    # CODE:ASANALIEVA30-137 LS:I4003413712 FIO:Sakovich V V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-03-22 14:10:52
+    host abonent_1008055_389 {
+        hardware ethernet F8:A9:63:2B:09:15;
+        fixed-address 172.31.34.244;
+    }
+    # CODE:ASANALIEVA32-251 LS:I4003525112 FIO:Mamedova I T
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:37
+    host abonent_1008225_390 {
+        hardware ethernet 6C:F0:49:40:89:98;
+        fixed-address 172.31.32.25;
+    }
+    # CODE:KORJHENEVSKOGO4-253 LS:I4009325312 FIO:Gilevich S M
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:37
+    host abonent_1008231_391 {
+        hardware ethernet 00:24:54:CE:E4:17;
+        fixed-address 172.31.32.27;
+    }
+    # CODE:ASANALIEVA7-54 LS:I4001605412 FIO:CHernov S F
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:38
+    host abonent_1008257_392 {
+        hardware ethernet 00:1E:69:17:FA:F9;
+        fixed-address 172.31.32.51;
+    }
+    # CODE:ASANALIEVA26-180 LS:I4003218012 FIO:Belyiy S A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2018-03-13 14:32:11
+    host abonent_1008258_393 {
+        hardware ethernet 94:DE:80:DE:92:5D;
+        fixed-address 172.31.32.62;
+    }
+    # CODE:ASANALIEVA2-460 LS:I4001146012 FIO:Filippova L V
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-07-03 22:13:05
+    host abonent_1008284_394 {
+        hardware ethernet 10:1F:74:FE:D7:CC;
+        fixed-address 172.31.32.60;
+    }
+    # CODE:ASANALIEVA2-460 LS:I4001146012 FIO:Filippova L V
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-04-12 14:16:44
+    host abonent_1008284_395 {
+        hardware ethernet 14:DA:E9:C6:A2:23;
+        fixed-address 172.31.32.60;
+    }
+    # CODE:ASANALIEVA2-460 LS:I4001146012 FIO:Filippova L V
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2013-01-10 18:45:18
+    host abonent_1008284_396 {
+        hardware ethernet B8:BE:DE:8F:13:00;
+        fixed-address 172.31.32.60;
+    }
+    # CODE:SEROVA17-138 LS:I4005613812 FIO:Kondratev S E
+    # LAST EDIT BY:KAPUSTA LAST EDIT TIME:2011-05-24 12:22:41
+    host abonent_1008332_397 {
+        hardware ethernet 00:21:85:6D:4D:A7;
+        fixed-address 172.31.32.76;
+    }
+    # CODE:SEROVA17-138 LS:I4005613812 FIO:Kondratev S E
+    # LAST EDIT BY:SKREBNEV LAST EDIT TIME:2012-10-17 09:22:14
+    host abonent_1008332_398 {
+        hardware ethernet CC:B2:55:92:F0:6F;
+        fixed-address 172.31.32.76;
+    }
+    # CODE:ASANALIEVA22/1-18 LS:I4002801812 FIO:Kovalskaya S A
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-09-10 10:50:11
+    host abonent_1008337_399 {
+        hardware ethernet 00:1F:C6:60:04:2C;
+        fixed-address 172.31.32.73;
+    }
+    # CODE:ASANALIEVA22/1-18 LS:I4002801812 FIO:Kovalskaya S A
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-09-10 10:22:05
+    host abonent_1008337_400 {
+        hardware ethernet 50:E5:49:22:77:20;
+        fixed-address 172.31.32.73;
+    }
+    # CODE:SEROVA46A-33 LS:I4007303312 FIO:Bogdanov A I
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-09-07 14:14:23
+    host abonent_1008361_401 {
+        hardware ethernet 00:0D:61:49:C1:1F;
+        fixed-address 172.31.32.78;
+    }
+    # CODE:SEROVA46A-33 LS:I4007303312 FIO:Bogdanov A I
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:42
+    host abonent_1008361_402 {
+        hardware ethernet 00:E0:4D:48:1B:FE;
+        fixed-address 172.31.32.78;
+    }
+    # CODE:PUHOVICHSKAYA19-35 LS:I4012703512 FIO:Stolyarchuk S M
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:47
+    host abonent_1008489_403 {
+        hardware ethernet 00:25:22:60:14:53;
+        fixed-address 172.31.32.127;
+    }
+    # CODE:PUHOVICHSKAYA19-35 LS:I4012703512 FIO:Stolyarchuk S M
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-12-09 17:43:33
+    host abonent_1008489_404 {
+        hardware ethernet D4:6E:0E:26:C7:DF;
+        fixed-address 172.31.32.127;
+    }
+    # CODE:ASANALIEVA24-136 LS:4003113622 FIO:Abramchik V A
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-07-26 12:55:46
+    host abonent_2000038_405 {
+        hardware ethernet 00:26:22:43:E9:5E;
+        fixed-address 172.31.32.149;
+    }
+    # CODE:ASANALIEVA32-45 LS:4003504510 FIO:JHibul N V
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-12-25 19:40:31
+    host abonent_2000086_406 {
+        hardware ethernet 00:25:22:FA:5C:81;
+        fixed-address 172.31.32.176;
+    }
+    # CODE:ASANALIEVA32-45 LS:4003504510 FIO:JHibul N V
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-12-25 18:14:04
+    host abonent_2000086_407 {
+        hardware ethernet 10:FE:ED:B3:C8:C3;
+        fixed-address 172.31.32.176;
+    }
+    # CODE:KORJHENEVSKOGO2A-371 LS:4009137112 FIO:Koval T E
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-07-28 18:29:45
+    host abonent_2000089_408 {
+        hardware ethernet 00:24:21:B2:C9:E4;
+        fixed-address 172.31.32.179;
+    }
+    # CODE:KORJHENEVSKOGO2A-371 LS:4009137112 FIO:Koval T E
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-10-28 12:20:29
+    host abonent_2000089_409 {
+        hardware ethernet C0:4A:00:BF:C5:2F;
+        fixed-address 172.31.32.179;
+    }
+    # CODE:KIJHEVATOVA76-249 LS:4008624910 FIO:Vashkevich O N
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:52
+    host abonent_2000168_410 {
+        hardware ethernet 18:A9:05:88:FF:3D;
+        fixed-address 172.31.32.165;
+    }
+    # CODE:KIJHEVATOVA76-249 LS:4008624910 FIO:Vashkevich O N
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-04-17 13:07:11
+    host abonent_2000168_411 {
+        hardware ethernet 50:7B:9D:0A:02:42;
+        fixed-address 172.31.32.165;
+    }
+    # CODE:ASANALIEVA28-15 LS:4003301512 FIO:OOO Omnius 
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-07-27 16:03:53
+    host abonent_2000326_412 {
+        hardware ethernet 00:22:15:09:70:A9;
+        fixed-address 172.31.32.195;
+    }
+    # CODE:ASANALIEVA28-15 LS:4003301512 FIO:OOO Omnius 
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-07-30 12:27:54
+    host abonent_2000326_413 {
+        hardware ethernet 14:D6:4D:77:6B:CD;
+        fixed-address 172.31.32.195;
+    }
+    # CODE:ASANALIEVA28-15 LS:4003301512 FIO:OOO Omnius 
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-04-21 14:07:57
+    host abonent_2000326_414 {
+        hardware ethernet 48:44:87:23:55:2E;
+        fixed-address 172.31.32.195;
+    }
+    # CODE:ASANALIEVA2-337 LS:4001133712 FIO:Stelmah O M
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-04-27 18:07:29
+    host abonent_2000364_415 {
+        hardware ethernet 00:1E:90:FB:B7:60;
+        fixed-address 172.31.32.200;
+    }
+    # CODE:ASANALIEVA2-337 LS:4001133712 FIO:Stelmah O M
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-04-27 19:29:57
+    host abonent_2000364_416 {
+        hardware ethernet C0:4A:00:BF:5F:7D;
+        fixed-address 172.31.32.200;
+    }
+    # CODE:ASANALIEVA11/3-5 LS:4002200512 FIO:Vorobeva L E
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2012-04-11 19:07:57
+    host abonent_2000560_417 {
+        hardware ethernet 14:DA:E9:E5:FD:E7;
+        fixed-address 172.31.32.86;
+    }
+    # CODE:KIJHEVATOVA80/2-251 LS:4008925112 FIO:Kotova YU A
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-05-31 11:18:35
+    host abonent_2000561_418 {
+        hardware ethernet 20:CF:30:4F:4B:28;
+        fixed-address 172.31.32.89;
+    }
+    # CODE:KIJHEVATOVA80/2-251 LS:4008925112 FIO:Kotova YU A
+    # LAST EDIT BY:BOGDANOVICH LAST EDIT TIME:2014-01-02 12:05:05
+    host abonent_2000561_419 {
+        hardware ethernet AC:22:0B:07:55:53;
+        fixed-address 172.31.32.89;
+    }
+    # CODE:KIJHEVATOVA80/2-251 LS:4008925112 FIO:Kotova YU A
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-06-26 13:42:53
+    host abonent_2000561_420 {
+        hardware ethernet F4:6D:04:81:3B:29;
+        fixed-address 172.31.32.89;
+    }
+    # CODE:KIJHEVATOVA80/2-251 LS:4008925112 FIO:Kotova YU A
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-01-08 15:24:51
+    host abonent_2000561_421 {
+        hardware ethernet F8:1A:67:C3:48:75;
+        fixed-address 172.31.32.89;
+    }
+    # CODE:ASANALIEVA32-28 LS:4003502812 FIO:Dudko E P
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-01-12 21:40:06
+    host abonent_2000687_422 {
+        hardware ethernet 00:E0:4D:74:4D:85;
+        fixed-address 172.31.32.142;
+    }
+    # CODE:KORJHENEVSKOGO4-153 LS:4009315312 FIO:Kapora M S
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-01-21 15:36:24
+    host abonent_2000697_423 {
+        hardware ethernet F4:6D:04:18:E6:1B;
+        fixed-address 172.31.32.147;
+    }
+    # CODE:KIJHEVATOVA80/1-47 LS:4008804722 FIO:Mironov A A
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-07-08 11:32:51
+    host abonent_2000757_424 {
+        hardware ethernet 40:61:86:65:FA:DE;
+        fixed-address 172.31.32.153;
+    }
+    # CODE:ASANALIEVA4-70 LS:4001207012 FIO:SHatohina M E
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2013-01-12 14:29:41
+    host abonent_2000763_425 {
+        hardware ethernet 00:1E:8C:F6:2A:3E;
+        fixed-address 172.31.32.156;
+    }
+    # CODE:ASANALIEVA4-70 LS:4001207012 FIO:SHatohina M E
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-07-11 12:21:53
+    host abonent_2000763_426 {
+        hardware ethernet 00:24:E8:E8:99:0B;
+        fixed-address 172.31.32.156;
+    }
+    # CODE:ASANALIEVA4-70 LS:4001207012 FIO:SHatohina M E
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-05-10 14:05:43
+    host abonent_2000763_427 {
+        hardware ethernet C0:4A:00:BF:BA:73;
+        fixed-address 172.31.33.156;
+    }
+    # CODE:PUHOVICHSKAYA8-143 LS:4011714312 FIO:Vesnov A G
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-08-17 17:18:06
+    host abonent_2000914_428 {
+        hardware ethernet 00:26:24:95:C3:47;
+        fixed-address 172.31.32.217;
+    }
+    # CODE:KORJHENEVSKOGO4-328 LS:4009332812 FIO:Nahamchik S V
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2011-08-25 17:09:25
+    host abonent_2000940_429 {
+        hardware ethernet 00:24:54:EC:49:3C;
+        fixed-address 172.31.32.223;
+    }
+    # CODE:KORJHENEVSKOGO4-328 LS:4009332812 FIO:Nahamchik S V
+    # LAST EDIT BY:SKREBNEV LAST EDIT TIME:2013-02-21 16:27:13
+    host abonent_2000940_430 {
+        hardware ethernet C8:D3:A3:4B:63:23;
+        fixed-address 172.31.32.223;
+    }

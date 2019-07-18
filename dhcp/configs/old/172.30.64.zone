@@ -1,0 +1,17 @@
+
+################################# MODEMS
+
+    # MODEM:VANEEVA46- VOLS test
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-10-04 18:57:17
+    host modem2065282 { 
+           hardware ethernet 00:24:D1:05:FA:DC; 
+           fixed-address 172.30.64.6; 
+           filename "3m31.bin";
+    }
+    # MODEM:ALADOVYIH17-2 ALADOVYKH ul.17-2
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-08-14 11:46:26
+    host modem2070138 { 
+           hardware ethernet 00:26:24:95:C1:BE; 
+           fixed-address 172.30.64.189; 
+
+    }

@@ -1,0 +1,51 @@
+
+################################# ABONENTS
+
+    # CODE:GOROVTSA32-25 LS:3162902512 FIO:Domanskiy V V
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-05-17 11:27:12
+    host abonent_4287_0 {
+        hardware ethernet C0:4A:00:BF:43:C9;
+        fixed-address 10.124.0.5;
+    }
+    # CODE:GOROVTSA32-49 LS:3162904912 FIO:Molchan A V
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-05-17 14:35:12
+    host abonent_4291_1 {
+        hardware ethernet C0:4A:00:BF:43:6F;
+        fixed-address 10.124.0.6;
+    }
+    # CODE:GOROVTSA32-91 LS:3162909112 FIO:Stelmah D V
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2016-01-26 16:29:27
+    host abonent_5581_2 {
+        hardware ethernet C0:4A:00:BF:B9:DD;
+        fixed-address 10.124.0.7;
+    }
+    # CODE:GOROVTSA32-51 LS:3162905112 FIO:Ragulina D A
+    # LAST EDIT BY:ZALOGO LAST EDIT TIME:2016-10-28 13:18:35
+    host abonent_5791_3 {
+        hardware ethernet EC:08:6B:BE:CF:35;
+        fixed-address 10.124.0.9;
+    }
+    # CODE:VANEEVA46-309 LS:0000030922 FIO:Testovyiy P P
+    # LAST EDIT BY:BOLZAN LAST EDIT TIME:2017-12-18 11:46:21
+    host abonent_5795_4 {
+        hardware ethernet C8:5B:76:0C:FE:F0;
+        fixed-address 10.124.0.10;
+    }
+    # CODE:VANEEVA46-309 LS:0000030922 FIO:Testovyiy P P
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-09-21 11:17:22
+    host abonent_5795_5 {
+        hardware ethernet E4:11:5B:42:5D:6E;
+        fixed-address 10.124.0.10;
+    }
+    # CODE:VANEEVA46-309 LS:0000030922 FIO:Testovyiy P P
+    # LAST EDIT BY:BOLZAN LAST EDIT TIME:2017-09-21 11:51:25
+    host abonent_5795_6 {
+        hardware ethernet F8:1A:67:AD:C0:E5;
+        fixed-address 10.124.0.10;
+    }
+    # CODE:ULYANOVSKAYA31- LS:1155800052 FIO:Krmmunalnoe proektno-izyiskatelnoe unitarnoe predpriyatie "MINSKINJHPROEKT" 
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2018-03-01 12:14:12
+    host abonent_7086_7 {
+        hardware ethernet 80:2A:A8:DE:B0:32;
+        fixed-address 10.124.0.11;
+    }

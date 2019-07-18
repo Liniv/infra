@@ -1,0 +1,606 @@
+
+
+################################# MODEMS
+
+    # MODEM:GINTOVTA5b-145 GINTOVTA ul.5b-145
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-08-12 14:40:50
+    host modem2007674 { 
+           hardware ethernet 00:26:24:95:BC:E4; 
+           fixed-address 172.30.0.56; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-26 GINTOVTA ul.5b-26
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-06-21 13:53:55
+    host modem2009661 { 
+           hardware ethernet 00:26:24:A1:22:24; 
+           fixed-address 172.30.0.138; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-67 GINTOVTA ul.5v-67
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-06-25 18:25:29
+    host modem2009665 { 
+           hardware ethernet 00:26:24:A1:22:26; 
+           fixed-address 172.30.0.142; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-139 GINTOVTA ul.5b-139
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-06-22 16:56:06
+    host modem2009693 { 
+           hardware ethernet 00:26:24:A1:22:34; 
+           fixed-address 172.30.0.146; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-61 GINTOVTA ul.5v-61-2
+    # LAST EDIT BY:LUKERCHYK LAST EDIT TIME:2013-05-24 19:05:56
+    host modem2009697 { 
+           hardware ethernet 00:26:24:A1:22:36; 
+           fixed-address 172.30.0.136; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-32 GINTOVTA ul.5b-32
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-11-22 18:49:07
+    host modem2009701 { 
+           hardware ethernet 00:26:24:A1:22:38; 
+           fixed-address 172.30.0.139; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-35 GINTOVTA ul.5b-35
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-06-22 19:41:02
+    host modem2009705 { 
+           hardware ethernet 00:26:24:A1:22:3A; 
+           fixed-address 172.30.0.143; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-135 GINTOVTA ul.5v-135
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-11-30 13:05:12
+    host modem2009717 { 
+           hardware ethernet 00:26:24:A1:22:40; 
+           fixed-address 172.30.0.157; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-20 GINTOVTA ul.5v-20-2
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-11-25 18:27:45
+    host modem2009729 { 
+           hardware ethernet 00:26:24:A1:21:92; 
+           fixed-address 172.30.0.162; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-59 GINTOVTA ul.5v-59
+    # LAST EDIT BY:DOROSHKO LAST EDIT TIME:2013-10-16 13:09:27
+    host modem2009733 { 
+           hardware ethernet 00:26:24:A1:21:94; 
+           fixed-address 172.30.0.164; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-125 GINTOVTA ul.5v-125
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-11-07 20:13:16
+    host modem2009749 { 
+           hardware ethernet 00:26:24:A1:21:9C; 
+           fixed-address 172.30.0.150; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-91 GINTOVTA ul.5v-91
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-06-28 15:11:00
+    host modem2009753 { 
+           hardware ethernet 00:26:24:A1:21:9E; 
+           fixed-address 172.30.0.152; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-97 GINTOVTA ul.5v-97-2
+    # LAST EDIT BY:LOLKABKU LAST EDIT TIME:2017-11-21 16:13:59
+    host modem2009773 { 
+           hardware ethernet 00:26:24:A1:21:A8; 
+           fixed-address 172.30.0.165; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-117 GINTOVTA ul.5b-117
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-06-21 14:28:34
+    host modem2009781 { 
+           hardware ethernet 00:26:24:A1:21:AC; 
+           fixed-address 172.30.0.141; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-138 GINTOVTA ul.5b-138
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-11-24 18:54:39
+    host modem2009785 { 
+           hardware ethernet 00:26:24:A1:21:AE; 
+           fixed-address 172.30.0.145; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-148 GINTOVTA ul.5v-148
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-06-25 18:06:57
+    host modem2009793 { 
+           hardware ethernet 00:26:24:A1:21:B2; 
+           fixed-address 172.30.0.148; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-78 ROGACHEVSKAJA ul.19-78
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-03-27 12:12:32
+    host modem2065263 { 
+           hardware ethernet 00:1E:69:2B:33:38; 
+           fixed-address 172.30.0.70; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-154 GINTOVTA ul.5v-154
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-06-11 14:28:52
+    host modem2065274 { 
+           hardware ethernet 00:1E:69:2B:2F:DE; 
+           fixed-address 172.30.0.221; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-115 GINTOVTA ul.5b-115
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-06-19 16:17:46
+    host modem2065352 { 
+           hardware ethernet 00:11:E3:95:70:60; 
+           fixed-address 172.30.0.126; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-30 GINTOVTA ul.5v-30
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-12-12 14:24:22
+    host modem2065369 { 
+           hardware ethernet 00:18:9B:EE:32:61; 
+           fixed-address 172.30.0.225; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-121 GINTOVTA ul.5v-121
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-02-21 12:15:04
+    host modem2065637 { 
+           hardware ethernet 00:24:D1:43:9C:00; 
+           fixed-address 172.30.0.238; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-52 GINTOVTA ul.5v-52
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2018-02-17 12:03:30
+    host modem2065673 { 
+           hardware ethernet 00:24:D1:43:97:5C; 
+           fixed-address 172.30.0.63; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-78 GINTOVTA ul.5v-78
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-02-01 10:33:28
+    host modem2065700 { 
+           hardware ethernet 00:24:D1:20:3A:44; 
+           fixed-address 172.30.0.236; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-121 GINTOVTA ul.5b-121
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-11-17 17:31:33
+    host modem2065815 { 
+           hardware ethernet 00:24:D1:43:99:B8; 
+           fixed-address 172.30.0.215; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-76 GINTOVTA ul.5v-76
+    # LAST EDIT BY:NAUMOVICH LAST EDIT TIME:2013-10-13 21:48:26
+    host modem2065938 { 
+           hardware ethernet 00:24:D1:06:00:BA; 
+           fixed-address 172.30.0.212; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-23 GINTOVTA ul.5v-23
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-06-20 20:02:23
+    host modem2066149 { 
+           hardware ethernet 00:1E:69:2B:2F:F8; 
+           fixed-address 172.30.0.134; 
+           filename "3m31.bin";
+    }
+    # MODEM:GEROEV 120-Y-DIVIZII46-5 Uchastok 5 TEST
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-01-03 15:01:35
+    host modem2066342 { 
+           hardware ethernet 00:18:9B:EE:32:55; 
+           fixed-address 172.30.0.208; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5a-136 GINTOVTA ul.5a-136
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-05-08 12:18:35
+    host modem2066725 { 
+           hardware ethernet 00:24:D1:06:00:F0; 
+           fixed-address 172.30.0.54; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-66 GINTOVTA ul.5v-66
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2015-08-18 14:47:53
+    host modem2066727 { 
+           hardware ethernet 00:24:D1:06:00:F4; 
+           fixed-address 172.30.0.119; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5a-72 GINTOVTA ul.5a-72
+    # LAST EDIT BY:BOLZAN LAST EDIT TIME:2013-10-17 18:18:41
+    host modem2066811 { 
+           hardware ethernet 00:1E:69:2B:4E:CE; 
+           fixed-address 172.30.0.239; 
+           filename "3m31.bin";
+    }
+    # MODEM:GEROEV 120-Y-DIVIZII44-110 GEROEV 120-J-DIVIZII ul.44-110
+    # LAST EDIT BY:NAUMOVICH LAST EDIT TIME:2013-08-24 21:49:30
+    host modem2066894 { 
+           hardware ethernet 00:24:D1:43:9B:1E; 
+           fixed-address 172.30.0.194; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-75 GINTOVTA ul.5v-75-3
+    # LAST EDIT BY:MIHAILOV LAST EDIT TIME:2016-09-01 14:27:59
+    host modem2067067 { 
+           hardware ethernet 00:26:24:95:BE:08; 
+           fixed-address 172.30.0.120; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-137 GINTOVTA ul.5b-137
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-02-27 21:21:00
+    host modem2067282 { 
+           hardware ethernet 00:1E:69:18:04:12; 
+           fixed-address 172.30.0.82; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-127 GINTOVTA ul.5v-127-2
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-01-11 18:44:15
+    host modem2067503 { 
+           hardware ethernet 00:1E:69:2B:40:02; 
+           fixed-address 172.30.0.200; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-44 GINTOVTA ul.5v-44-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-09-20 17:02:15
+    host modem2067758 { 
+           hardware ethernet 00:24:D1:20:3D:2C; 
+           fixed-address 172.30.0.199; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-14 GINTOVTA ul.5v-14-2
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-04-12 14:32:37
+    host modem2067967 { 
+           hardware ethernet 00:24:D1:43:9D:3C; 
+           fixed-address 172.30.0.127; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-36 GINTOVTA ul.5v-36
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-12-15 14:40:05
+    host modem2067986 { 
+           hardware ethernet 00:24:D1:20:3B:88; 
+           fixed-address 172.30.0.226; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-12 GINTOVTA ul.5b-12
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-06-13 22:04:36
+    host modem2068428 { 
+           hardware ethernet 00:24:D1:06:01:F6; 
+           fixed-address 172.30.0.91; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-153 GINTOVTA ul.5v-153
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-07-23 15:07:26
+    host modem2068472 { 
+           hardware ethernet 00:18:9B:7E:A4:D3; 
+           fixed-address 172.30.0.181; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-73 GINTOVTA ul.5v-73
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-09-02 19:16:54
+    host modem2068493 { 
+           hardware ethernet 00:24:D1:06:00:6C; 
+           fixed-address 172.30.0.114; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-69 GINTOVTA ul.5v-69
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-06-15 16:28:02
+    host modem2068554 { 
+           hardware ethernet 00:24:D1:05:FD:BC; 
+           fixed-address 172.30.0.113; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-100 ROGACHEVSKAJA ul.19-100
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-03-25 20:33:10
+    host modem2068593 { 
+           hardware ethernet 00:24:D1:20:37:CC; 
+           fixed-address 172.30.0.65; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5a-108 GINTOVTA ul.5a-108
+    # LAST EDIT BY:DOROSHKO LAST EDIT TIME:2013-07-13 19:40:06
+    host modem2068647 { 
+           hardware ethernet 00:24:D1:20:3D:22; 
+           fixed-address 172.30.0.195; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-53 GINTOVTA ul.5v-53
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-02-14 16:25:32
+    host modem2068897 { 
+           hardware ethernet 00:24:D1:43:97:20; 
+           fixed-address 172.30.0.111; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-149 GINTOVTA ul.5b-149
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-07-06 20:10:45
+    host modem2068902 { 
+           hardware ethernet 00:24:D1:49:91:C6; 
+           fixed-address 172.30.0.60; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-97 ROGACHEVSKAYA19-97-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:54
+    host modem2068970 { 
+           hardware ethernet 00:1E:69:17:FA:EC; 
+           fixed-address 172.30.2.1; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-17 ROGACHEVSKAJA ul.19-17
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-08-09 10:42:30
+    host modem2068982 { 
+           hardware ethernet 00:1E:69:2B:2F:D4; 
+           fixed-address 172.30.0.122; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-48 ROGACHEVSKAYA19-48-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-01-16 11:26:20
+    host modem2068983 { 
+           hardware ethernet 00:1E:69:2B:2F:DC; 
+           fixed-address 172.30.2.15; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-62 ROGACHEVSKAJA19-62-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-09-16 11:20:42
+    host modem2068989 { 
+           hardware ethernet 00:24:D1:03:BA:78; 
+           fixed-address 172.30.2.30; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-7 ROGACHEVSKAJA19-7-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:18
+    host modem2068991 { 
+           hardware ethernet 00:24:D1:03:B9:D8; 
+           fixed-address 172.30.2.33; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-99 ROGACHEVSKAJA19-99-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:02
+    host modem2068993 { 
+           hardware ethernet 00:24:D1:20:3C:72; 
+           fixed-address 172.30.2.35; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-74 ROGACHEVSKAJA19-74-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:16
+    host modem2068998 { 
+           hardware ethernet 00:24:D1:20:3D:AE; 
+           fixed-address 172.30.2.40; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-81 GINTOVTA ul.5v-81
+    # LAST EDIT BY:BELSKAYA LAST EDIT TIME:2013-06-07 13:38:40
+    host modem2069011 { 
+           hardware ethernet 00:26:24:95:C3:54; 
+           fixed-address 172.30.0.71; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-31 GINTOVTA ul.5b-31
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-09-14 17:11:30
+    host modem2069028 { 
+           hardware ethernet 00:11:E3:9D:40:99; 
+           fixed-address 172.30.0.196; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-48 GINTOVTA ul.5v-48
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-06-15 13:27:48
+    host modem2069714 { 
+           hardware ethernet 00:1E:69:2B:33:96; 
+           fixed-address 172.30.0.110; 
+           filename "3m31.bin";
+    }
+    # MODEM:GEROEV 120-Y-DIVIZII46-64 GEROEV 120-J-DIVIZII ul.46-64
+    # LAST EDIT BY:NAUMOVICH LAST EDIT TIME:2013-07-10 13:11:54
+    host modem2070383 { 
+           hardware ethernet 00:18:9B:7E:A4:7F; 
+           fixed-address 172.30.0.240; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-24 GINTOVTA ul.5b-24-2
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2012-06-14 12:58:01
+    host modem2070452 { 
+           hardware ethernet 00:24:D1:06:01:72; 
+           fixed-address 172.30.0.99; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-148 GINTOVTA ul.5b-148
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-12-25 20:54:56
+    host modem2070924 { 
+           hardware ethernet 00:1E:69:17:AB:8C; 
+           fixed-address 172.30.0.193; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-24 GINTOVTA ul.5b-24
+    # LAST EDIT BY:STRUKOVA LAST EDIT TIME:2014-03-23 19:23:51
+    host modem2071411 { 
+           hardware ethernet 00:18:9B:EE:32:6F; 
+           fixed-address 172.30.0.98; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-25 GINTOVTA ul.5v-25
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-07-10 12:44:57
+    host modem2071555 { 
+           hardware ethernet 00:1E:69:2B:4A:AA; 
+           fixed-address 172.30.0.169; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-32 GINTOVTA ul.5v-32
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-09-19 11:16:06
+    host modem2071787 { 
+           hardware ethernet 00:24:D1:05:FD:7C; 
+           fixed-address 172.30.0.153; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-51 GINTOVTA ul.5v-51
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-10-08 10:12:38
+    host modem2072015 { 
+           hardware ethernet 00:26:24:97:E0:2C; 
+           fixed-address 172.30.0.84; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-151 GINTOVTA ul.5v-151
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-01-13 19:48:24
+    host modem2072026 { 
+           hardware ethernet 00:24:D1:43:97:32; 
+           fixed-address 172.30.0.90; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-146 GINTOVTA ul.5b-146
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-19 11:58:19
+    host modem2088230 { 
+           hardware ethernet 00:24:D1:03:B9:0A; 
+           fixed-address 172.30.0.105; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-9 GINTOVTA ul.5v-9
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-07-11 14:18:57
+    host modem2088907 { 
+           hardware ethernet 00:24:D1:43:96:D4; 
+           fixed-address 172.30.0.171; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-4 GINTOVTA ul.5v-4
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-08-07 20:24:29
+    host modem2089296 { 
+           hardware ethernet 00:1E:69:2B:4F:3E; 
+           fixed-address 172.30.0.170; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-101 ROGACHEVSKAJA ul.19-101
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:17
+    host modem2089474 { 
+           hardware ethernet 00:1E:69:0E:7C:D0; 
+           fixed-address 172.30.2.4; 
+           filename "3m31.bin";
+    }
+    # MODEM:GEROEV 120-Y-DIVIZII44-95 GEROEV 120-J-DIVIZII ul.44-95
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2014-12-12 13:21:08
+    host modem2089585 { 
+           hardware ethernet 00:1E:69:2B:4E:2C; 
+           fixed-address 172.30.0.198; 
+           filename "3m31.bin";
+    }
+    # MODEM:GEROEV 120-Y-DIVIZII46-108 GEROEV 120-J-DIVIZII ul.46-108
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-08-07 14:10:17
+    host modem2089659 { 
+           hardware ethernet 00:1E:69:2B:34:EE; 
+           fixed-address 172.30.0.69; 
+           filename "3m31.bin";
+    }
+    # MODEM:VANEEVA46- VOLS IBP Nikiforova 31
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-04-06 11:19:00
+    host modem2104564 { 
+           hardware ethernet 00:1E:69:2B:35:E4; 
+           fixed-address 172.30.1.2; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-119 GINTOVTA ul.5b-119
+    # LAST EDIT BY:ANNA LAST EDIT TIME:2014-10-24 14:24:42
+    host modem2139948 { 
+           hardware ethernet 00:18:9B:7E:A5:1B; 
+           fixed-address 172.30.0.219; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-127 ROGACHEVSKAJA ul.19-127
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-06-06 22:59:12
+    host modem2178138 { 
+           hardware ethernet 00:26:24:97:E1:0E; 
+           fixed-address 172.30.0.59; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-59 ROGACHEVSKAJA ul.19-59
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2011-11-17 13:47:01
+    host modem2178158 { 
+           hardware ethernet 00:26:24:97:E1:1C; 
+           fixed-address 172.30.0.58; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-46 ROGACHEVSKAJA ul.19-46
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-03-06 10:05:09
+    host modem2178159 { 
+           hardware ethernet 00:26:24:97:E1:2E; 
+           fixed-address 172.30.0.55; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-22 GINTOVTA ul.5b-22
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-10-12 12:21:30
+    host modem2182126 { 
+           hardware ethernet 00:24:D1:03:B8:58; 
+           fixed-address 172.30.0.92; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5b-38 GINTOVTA ul.5b-38
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-12-29 20:54:12
+    host modem2188658 { 
+           hardware ethernet 00:1E:69:2B:4D:88; 
+           fixed-address 172.30.0.125; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-131 GINTOVTA ul.5v-131
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-02-08 14:31:06
+    host modem2194046 { 
+           hardware ethernet 00:26:24:A1:22:BE; 
+           fixed-address 172.30.0.73; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-79 GINTOVTA ul.5v-79
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-06-11 18:22:53
+    host modem2194053 { 
+           hardware ethernet 00:26:24:A1:22:CC; 
+           fixed-address 172.30.0.77; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-116 GINTOVTA ul.5v-116
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-06-11 13:22:54
+    host modem2194055 { 
+           hardware ethernet 00:26:24:A1:22:D0; 
+           fixed-address 172.30.0.79; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-152 GINTOVTA ul.5v-152
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-07-07 14:46:24
+    host modem2198815 { 
+           hardware ethernet 00:1E:69:2B:4D:90; 
+           fixed-address 172.30.0.140; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-9 ROGACHEVSKAJA ul.19-9
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-08-29 15:58:27
+    host modem2220933 { 
+           hardware ethernet 00:24:D1:05:FD:8E; 
+           fixed-address 172.30.0.61; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-139 ROGACHEVSKAJA ul.19-139
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-10-17 20:29:43
+    host modem2222264 { 
+           hardware ethernet 00:1E:69:18:04:14; 
+           fixed-address 172.30.0.83; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-98 GINTOVTA ul.5v-98
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-10-18 20:04:14
+    host modem2227201 { 
+           hardware ethernet 00:26:24:A1:22:B6; 
+           fixed-address 172.30.0.66; 
+           filename "3m31.bin";
+    }
+    # MODEM:GINTOVTA5v-74 GINTOVTA ul.5v-74
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-10-20 21:27:42
+    host modem2227248 { 
+           hardware ethernet 00:26:24:95:C1:98; 
+           fixed-address 172.30.0.57; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-144 ROGACHEVSKAJA ul.19-144
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-01-28 12:31:41
+    host modem2227287 { 
+           hardware ethernet 00:24:D1:05:FC:D4; 
+           fixed-address 172.30.0.62; 
+           filename "3m31.bin";
+    }
+    # MODEM:ROGACHEVSKAYA19-87 ROGACHEVSKAJA ul.19-87
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-10-31 12:41:03
+    host modem2227362 { 
+           hardware ethernet 00:26:24:A1:23:0E; 
+           fixed-address 172.30.0.64; 
+           filename "3m31.bin";
+    }

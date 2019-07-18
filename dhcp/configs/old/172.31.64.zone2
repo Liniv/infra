@@ -1,0 +1,129 @@
+
+
+
+         host rout_483 {
+                 hardware ethernet 00:13:8f:1e:b9:96;
+                         fixed-address 172.31.64.158;
+                             }
+
+
+     host rout_4832 {
+                 hardware ethernet cc:b2:55:92:ef:79;
+                         fixed-address 172.31.64.159;
+                             }
+
+     host ig4-28 {
+                 hardware ethernet 00:13:8f:de:a6:6f;
+                         fixed-address 172.31.64.160;
+                             }
+
+
+     host ig12-57 {
+                 hardware ethernet cc:b2:55:92:f0:a7;
+                         fixed-address 172.31.64.161;
+                             }
+
+     host ig12-57-2 {
+                 hardware ethernet  00:19:66:d9:83:45;
+                         fixed-address 172.31.64.162;
+                             }
+
+host ignatovskogo12-111-k {
+    hardware ethernet  00:18:9b:7e:aa:04;
+   fixed-address 172.31.64.168;
+
+                         }
+
+
+host ignatovskogo14-31-k {
+    hardware ethernet  cc:b2:55:92:ef:77;
+   fixed-address 172.31.64.169;
+
+                         }
+
+
+host ignatovskogo12-103-k {
+    hardware ethernet  00:1E:33:26:92:4D;
+   fixed-address 172.31.64.170;
+
+                         }
+
+    host ignatovskogo10-59-k-router-2 {
+    hardware ethernet  90:94:e4:39:39:d0;
+   fixed-address 172.31.64.172;
+
+                         }
+
+host ignatovskogo17-82-k-komp {
+    hardware ethernet  00:1d:72:3f:5f:68;
+   fixed-address 172.31.64.192;
+
+                         }
+
+ host ign12-52  {
+             hardware ethernet  00:1a:4d:ff:4b:6b;
+                                    fixed-address 172.31.64.193;
+                                                                      }
+
+ host ign4-81  {
+             hardware ethernet 2C:AB:25:82:40:39;
+                                    fixed-address 172.31.64.194;
+                                                                      }
+ host ig12-57-2-2 {
+                 hardware ethernet cc:b2:55:92:f0:a7;
+                         fixed-address 172.31.64.195;
+                             }
+ host ig10-112 {
+                 hardware ethernet 10:fe:ed:7f:88:53;
+                         fixed-address 172.31.64.8;
+                             }
+
+ host golubka12-64 {
+                 hardware ethernet b8:ac:6f:6d:f0:92;
+                         fixed-address 172.31.64.198;
+                             }
+                    
+                    
+ host golubka12-81 {
+                 hardware ethernet c0:4a:00:bf:6b:d7;
+                         fixed-address 172.31.64.199;
+                             }
+
+
+ host alad17-2-k {
+                 hardware ethernet bc:5f:f4:e2:44:91;
+                         fixed-address 172.31.64.218;
+                             }
+
+################################# ABONENTS
+
+    # CODE:IGNATOVSKOGO12-111 LS:2129111112 FIO:Podberskiy A A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-11-29 13:13:57
+    host abonent_1902_0 {
+        hardware ethernet 00:24:D1:43:9B:E3;
+        fixed-address 172.31.64.7;
+    }
+    # CODE:IGNATOVSKOGO12-52 LS:2129105212 FIO:Ostapuk S N
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-12-21 12:22:57
+    host abonent_2612_1 {
+        hardware ethernet 00:18:9B:7E:A4:BA;
+        fixed-address 172.31.64.193;
+    }
+    # CODE:IGNATOVSKOGO12-52 LS:2129105212 FIO:Ostapuk S N
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-12-21 12:24:01
+    host abonent_2612_2 {
+        hardware ethernet 00:1A:4D:FF:4B:6B;
+        fixed-address 172.31.64.193;
+    }
+    # CODE:IGNATOVSKOGO10-112 LS:2129011212 FIO:CHepiga N V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-12-27 12:47:56
+    host abonent_3766_3 {
+        hardware ethernet 00:24:D1:20:37:AD;
+        fixed-address 172.31.64.6;
+    }
+    # CODE:IGNATOVSKOGO10-112 LS:2129011212 FIO:CHepiga N V
+    # LAST EDIT BY:LOBODA LAST EDIT TIME:2013-12-31 14:56:57
+    #host abonent_3766_4 {
+    #    hardware ethernet 10:FE:ED:7F:88:53;
+    #    fixed-address 172.31.64.6;
+    #}

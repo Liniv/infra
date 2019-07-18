@@ -1,0 +1,87 @@
+
+################################# ABONENTS
+
+    # CODE:PUSHKINA75-12 LS:2103001212 FIO:Bahtov D YU
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-08-13 11:54:48
+    host abonent_2859_0 {
+        hardware ethernet 00:02:44:73:F6:48;
+        fixed-address 10.105.0.7;
+    }
+    # CODE:PUSHKINA75-12 LS:2103001212 FIO:Bahtov D YU
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-12-20 17:00:45
+    host abonent_2859_1 {
+        hardware ethernet D4:6E:0E:D5:5B:63;
+        fixed-address 10.105.0.7;
+    }
+    # CODE:PUSHKINA75-12 LS:2103001212 FIO:Bahtov D YU
+    # LAST EDIT BY:BONDARIK LAST EDIT TIME:2013-09-13 13:32:30
+    host abonent_2859_2 {
+        hardware ethernet 00:18:F3:81:B6:64;
+        fixed-address 10.105.0.9;
+    }
+    # CODE:PUSHKINA75-19 LS:2103001912 FIO:Gerasimenko N A
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-09-05 21:55:07
+    host abonent_2937_3 {
+        hardware ethernet 3C:97:0E:97:D5:43;
+        fixed-address 10.105.0.8;
+    }
+    # CODE:PUSHKINA75-19 LS:2103001912 FIO:Gerasimenko N A
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-04-01 16:15:23
+    host abonent_2937_4 {
+        hardware ethernet C0:4A:00:BF:43:E9;
+        fixed-address 10.105.0.8;
+    }
+    # CODE:PUSHKINA71-5 LS:2102900512 FIO:Godunov V V
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-09-14 17:31:57
+    host abonent_2941_5 {
+        hardware ethernet 2C:AB:25:FF:43:18;
+        fixed-address 10.105.0.10;
+    }
+    # CODE:PUSHKINA69-92 LS:2102809212 FIO:Gusev A A
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-02-23 15:36:50
+    host abonent_3030_6 {
+        hardware ethernet 10:FE:ED:BA:E0:0F;
+        fixed-address 10.105.0.14;
+    }
+    # CODE:PUSHKINA69-92 LS:2102809212 FIO:Gusev A A
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-02-23 16:05:39
+    host abonent_3030_7 {
+        hardware ethernet A0:D3:C1:56:89:BE;
+        fixed-address 10.105.0.14;
+    }
+    # CODE:PUSHKINA69-81 LS:2102808112 FIO:Kaptuk O A
+    # LAST EDIT BY:BOLZAN LAST EDIT TIME:2013-10-31 13:14:01
+    host abonent_3337_8 {
+        hardware ethernet F8:1A:67:AD:F4:BB;
+        fixed-address 10.105.0.20;
+    }
+    # CODE:PUSHKINA69-56 LS:2102805612 FIO:Arinich A V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-01-17 14:05:15
+    host abonent_3845_9 {
+        hardware ethernet 10:FE:ED:B3:CC:B3;
+        fixed-address 10.105.0.22;
+    }
+    # CODE:PUSHKINA67-114 LS:2102711412 FIO:Belinskiy P S
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-12-06 20:10:18
+    host abonent_4639_10 {
+        hardware ethernet 7C:05:07:F2:86:12;
+        fixed-address 10.105.0.5;
+    }
+    # CODE:PUSHKINA67-114 LS:2102711412 FIO:Belinskiy P S
+    # LAST EDIT BY:BLIZGAREVA LAST EDIT TIME:2017-12-07 16:29:14
+    host abonent_4639_11 {
+        hardware ethernet D4:6E:0E:26:C5:7F;
+        fixed-address 10.105.0.5;
+    }
+    # CODE:PUSHKINA69-49 LS:2102804912 FIO:SHevtsova O V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-02-13 12:33:37
+    host abonent_5758_12 {
+        hardware ethernet 64:66:B3:35:7E:DB;
+        fixed-address 10.105.0.6;
+    }
+    # CODE:PUSHKINA79-77 LS:2103207722 FIO:Enikov D O
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-10-07 21:20:42
+    host abonent_6484_13 {
+        hardware ethernet EC:08:6B:BE:BB:BD;
+        fixed-address 10.105.0.13;
+    }

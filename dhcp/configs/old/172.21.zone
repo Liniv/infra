@@ -1,0 +1,1691 @@
+
+
+################################# MODEMS
+
+    # MODEM:KAMENNOGORSKAYA18-223 KAMENNOGORSKAJA ul.18-223
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-10-22 13:47:37
+    host modem2006971 { 
+           hardware ethernet 00:24:D1:49:90:CE; 
+           fixed-address 172.21.0.126; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA14-94 KAMENNOGORSKAJA ul.14-94
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-04-26 20:47:46
+    host modem2007068 { 
+           hardware ethernet 00:24:D1:49:91:20; 
+           fixed-address 172.21.0.74; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA10-71 KAMENNOGORSKAJA ul.10-71
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-12-12 15:32:50
+    host modem2007231 { 
+           hardware ethernet 00:26:24:95:C0:6C; 
+           fixed-address 172.21.0.185; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA30-17 KAMENNOGORSKAJA ul.30-17
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-01-26 21:41:57
+    host modem2007243 { 
+           hardware ethernet 00:26:24:95:C0:72; 
+           fixed-address 172.21.0.110; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA15-140 NEMANSKAJA ul.15-140
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-05-04 11:19:22
+    host modem2007251 { 
+           hardware ethernet 00:26:24:95:C0:76; 
+           fixed-address 172.21.0.109; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA32-70 KAMENNOGORSKAJA ul.32-70
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-09-07 22:41:27
+    host modem2007344 { 
+           hardware ethernet 00:26:24:95:C0:38; 
+           fixed-address 172.21.0.117; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA11-65 NEMANSKAJA ul.11-65
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-05-20 15:04:37
+    host modem2007396 { 
+           hardware ethernet 00:26:24:95:C0:52; 
+           fixed-address 172.21.0.140; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA20-39 NEMANSKAJA ul.20-39
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-05-17 14:32:33
+    host modem2007468 { 
+           hardware ethernet 48:44:87:23:99:A0; 
+           fixed-address 172.21.0.129; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA28-32 KAMENNOGORSKAJA ul.28-32
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2011-12-11 14:26:22
+    host modem2007476 { 
+           hardware ethernet 48:44:87:23:9E:44; 
+           fixed-address 172.21.0.149; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA9-108 NEMANSKAJA ul.9-108
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-05-17 14:30:27
+    host modem2007484 { 
+           hardware ethernet 48:44:87:23:9F:5C; 
+           fixed-address 172.21.0.128; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA30-31 KAMENNOGORSKAJA ul.30-31
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-05-24 13:52:51
+    host modem2007522 { 
+           hardware ethernet 00:26:24:95:BC:BC; 
+           fixed-address 172.21.0.148; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA35-94 NEMANSKAJA ul.35-94
+    # LAST EDIT BY:PLAHOVA LAST EDIT TIME:2015-06-12 16:54:21
+    host modem2007558 { 
+           hardware ethernet 00:26:24:95:BC:CE; 
+           fixed-address 172.21.0.217; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA34-59 KAMENNOGORSKAJA ul.34-59
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-04-21 19:38:55
+    host modem2007630 { 
+           hardware ethernet 00:26:24:95:C2:B6; 
+           fixed-address 172.21.0.154; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA17-66 KUNCEVSHHINA ul.17-66
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-06-07 10:37:13
+    host modem2007654 { 
+           hardware ethernet 00:26:24:95:C2:C2; 
+           fixed-address 172.21.0.162; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA9-110 KUNCEVSHHINA ul.9-110-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-05-06 15:27:23
+    host modem2007666 { 
+           hardware ethernet 00:26:24:95:BC:E0; 
+           fixed-address 172.21.0.223; 
+           filename "3m22.bin";
+    }
+    # MODEM:PRITYITSKOGO91-162 PRITYCKOGO ul.91-162
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-05-16 19:18:55
+    host modem2007785 { 
+           hardware ethernet 00:26:24:95:BF:F8; 
+           fixed-address 172.21.2.28; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA25-173 NEMANSKAJA ul.25-173
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-06-24 13:10:05
+    host modem2007809 { 
+           hardware ethernet 00:26:24:95:C0:0A; 
+           fixed-address 172.21.0.187; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA10-83 KAMENNOGORSKAJA ul.10-83
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-06-24 11:40:58
+    host modem2007817 { 
+           hardware ethernet 00:26:24:95:C0:08; 
+           fixed-address 172.21.0.186; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA25-233 KUNCEVSHHINA ul.25-233
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-10-19 14:33:33
+    host modem2007841 { 
+           hardware ethernet 00:26:24:95:C0:14; 
+           fixed-address 172.21.0.184; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA31-56 KUNCEVSHHINA ul.31-56
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-09-11 22:51:01
+    host modem2008253 { 
+           hardware ethernet 00:26:24:A1:22:7E; 
+           fixed-address 172.21.2.17; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA14-25 KAMENNOGORSKAJA ul.14-25
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-10-22 19:05:48
+    host modem2008912 { 
+           hardware ethernet 00:26:24:95:BC:4C; 
+           fixed-address 172.21.0.236; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA20-165 KAMENNOGORSKAJA ul.20-165
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-09-30 16:40:53
+    host modem2008916 { 
+           hardware ethernet 00:26:24:95:BC:4E; 
+           fixed-address 172.21.1.36; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA25-93 NEMANSKAJA ul.25-93
+    # LAST EDIT BY:DASHKEVICH LAST EDIT TIME:2013-04-15 09:54:47
+    host modem2008968 { 
+           hardware ethernet 00:26:24:95:BC:68; 
+           fixed-address 172.21.1.83; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAZIMIROVSKAYA15-100 KAZIMIROVSKAJA ul.15-100
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-12-05 15:50:54
+    host modem2009000 { 
+           hardware ethernet 00:26:24:95:BC:72; 
+           fixed-address 172.21.1.81; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA35-104 NEMANSKAJA ul.35-104
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-03-15 10:53:39
+    host modem2009048 { 
+           hardware ethernet 00:26:24:95:BC:8A; 
+           fixed-address 172.21.2.79; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA28-75 KAMENNOGORSKAJA ul.28-75
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2011-10-18 11:50:20
+    host modem2009164 { 
+           hardware ethernet 00:26:24:95:C2:88; 
+           fixed-address 172.21.1.145; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA25-233 KUNCEVSHHINA ul.25-233-2
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-10-17 17:29:38
+    host modem2009180 { 
+           hardware ethernet 00:26:24:95:C2:90; 
+           fixed-address 172.21.1.159; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA37-110 NEMANSKAJA ul.37-110
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-05-07 16:50:35
+    host modem2009229 { 
+           hardware ethernet 00:26:24:95:C3:80; 
+           fixed-address 172.21.1.213; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA37-41 NEMANSKAJA ul.37-41
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-10-31 10:38:19
+    host modem2009253 { 
+           hardware ethernet 00:26:24:95:C3:8C; 
+           fixed-address 172.21.1.218; 
+           filename "3m22.bin";
+    }
+    # MODEM:PRITYITSKOGO91-128 PRITYCKOGO ul.91-128
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-03-27 16:12:50
+    host modem2009367 { 
+           hardware ethernet 00:26:24:95:BD:6E; 
+           fixed-address 172.21.1.224; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA25-12 KUNCEVSHHINA ul.25-12
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2011-12-13 13:18:32
+    host modem2009387 { 
+           hardware ethernet 00:26:24:95:BD:78; 
+           fixed-address 172.21.1.87; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA30-134 KAMENNOGORSKAJA ul.30-134
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-02-06 18:20:16
+    host modem2009415 { 
+           hardware ethernet 00:26:24:95:BD:86; 
+           fixed-address 172.21.1.226; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA16-196 KAMENNOGORSKAJA ul.16-196
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-11-14 12:18:48
+    host modem2009423 { 
+           hardware ethernet 00:26:24:95:BD:8A; 
+           fixed-address 172.21.1.228; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA16-330 KAMENNOGORSKAJA ul.16-330
+    # LAST EDIT BY:STRUKOVA LAST EDIT TIME:2017-01-05 11:46:15
+    host modem2009459 { 
+           hardware ethernet 00:26:24:95:BC:34; 
+           fixed-address 172.21.0.237; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA36-6 NEMANSKAJA ul.36-6
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-02-18 19:49:23
+    host modem2009475 { 
+           hardware ethernet 00:26:24:95:BC:3C; 
+           fixed-address 172.21.1.144; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA23-9 NEMANSKAJA ul.23-9
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-12-09 14:34:02
+    host modem2009491 { 
+           hardware ethernet 00:26:24:95:BC:44; 
+           fixed-address 172.21.1.244; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA18-35 KAMENNOGORSKAJA ul.18-35
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-02-21 18:30:17
+    host modem2009503 { 
+           hardware ethernet 00:26:24:95:BC:4A; 
+           fixed-address 172.21.1.113; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA77-70 NEMANSKAJA ul.77-70
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-01-10 14:11:14
+    host modem2009657 { 
+           hardware ethernet 00:26:24:A1:22:22; 
+           fixed-address 172.21.0.204; 
+           filename "3m22.bin";
+    }
+    # MODEM:PRITYITSKOGO91-208 PRITYCKOGO ul.91-208
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-09-03 10:30:01
+    host modem2010046 { 
+           hardware ethernet 00:26:24:A1:21:DA; 
+           fixed-address 172.21.1.39; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA11-47 NEMANSKAJA ul.11-47
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-02-19 11:10:15
+    host modem2010062 { 
+           hardware ethernet 00:26:24:A1:21:E2; 
+           fixed-address 172.21.0.73; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA13-140 KUNCEVSHHINA ul.13-140
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-07-07 13:02:18
+    host modem2010066 { 
+           hardware ethernet 00:26:24:A1:21:E4; 
+           fixed-address 172.21.0.84; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA21-14 NEMANSKAJA ul.21-14-2
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-09-01 11:55:13
+    host modem2010078 { 
+           hardware ethernet 00:26:24:A1:21:EA; 
+           fixed-address 172.21.0.155; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA15-27 NEMANSKAJA ul.15-27
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-11-27 12:19:24
+    host modem2010122 { 
+           hardware ethernet 00:26:24:A1:21:DC; 
+           fixed-address 172.21.0.56; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA13-76 KUNCEVSHHINA ul.13-76
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-02-10 16:36:26
+    host modem2065238 { 
+           hardware ethernet 00:18:9B:3E:15:F1; 
+           fixed-address 172.21.2.27; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA14-117 KAMENNOGORSKAJA ul.14-117
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-03-18 09:04:30
+    host modem2065336 { 
+           hardware ethernet 00:1E:69:17:FB:9A; 
+           fixed-address 172.21.0.78; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAZIMIROVSKAYA17-56 KAZIMIROVSKAJA ul.17-56
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-10-27 16:53:23
+    host modem2065387 { 
+           hardware ethernet 00:1E:69:0D:79:48; 
+           fixed-address 172.21.1.106; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA36-79 NEMANSKAJA ul.36-79-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-05-26 09:56:55
+    host modem2065526 { 
+           hardware ethernet 00:24:D1:05:FC:A8; 
+           fixed-address 172.21.0.202; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA43-45 NEMANSKAJA ul.43-45-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-09-23 12:08:46
+    host modem2065545 { 
+           hardware ethernet 00:24:D1:20:3A:B0; 
+           fixed-address 172.21.0.94; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA10-260 KAMENNOGORSKAJA ul.10-260
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2012-01-27 11:08:15
+    host modem2065654 { 
+           hardware ethernet 00:24:D1:43:99:FE; 
+           fixed-address 172.21.2.15; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA18-213 KAMENNOGORSKAJA ul.18-213
+    # LAST EDIT BY:ANNA LAST EDIT TIME:2014-06-30 15:13:21
+    host modem2065667 { 
+           hardware ethernet 00:24:D1:43:9D:86; 
+           fixed-address 172.21.1.241; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA14-13 KAMENNOGORSKAJA ul.14-13
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2012-05-24 20:20:54
+    host modem2065722 { 
+           hardware ethernet 00:26:24:95:BC:B0; 
+           fixed-address 172.21.0.80; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA14-117 NEMANSKAYA14-117-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:44
+    host modem2065783 { 
+           hardware ethernet 00:24:D1:20:3C:74; 
+           fixed-address 172.21.1.5; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA16-30 NEMANSKAYA16-30-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:46
+    host modem2065786 { 
+           hardware ethernet 00:24:D1:43:99:06; 
+           fixed-address 172.21.1.8; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA34-3 NEMANSKAYA34-3-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:46
+    host modem2065789 { 
+           hardware ethernet 00:1E:69:2B:4C:F4; 
+           fixed-address 172.21.1.12; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA18-31 NEMANSKAYA18-31-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:47
+    host modem2065795 { 
+           hardware ethernet 00:22:3A:FD:47:C7; 
+           fixed-address 172.21.1.19; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA42-5 NEMANSKAYA42-5-MOD
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-11-07 12:20:02
+    host modem2065798 { 
+           hardware ethernet 00:24:D1:43:99:CC; 
+           fixed-address 172.21.1.22; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA77-105 NEMANSKAJA ul.77-105
+    # LAST EDIT BY:KROK LAST EDIT TIME:2013-02-01 14:19:53
+    host modem2065803 { 
+           hardware ethernet 00:22:3A:FC:EA:1F; 
+           fixed-address 172.21.1.14; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA42-41 NEMANSKAYA42-41-MOD
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-09-26 20:53:09
+    host modem2065805 { 
+           hardware ethernet 00:24:D1:43:97:E4; 
+           fixed-address 172.21.1.29; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA25-71 KUNCEVSCHINA25-71-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:51
+    host modem2065817 { 
+           hardware ethernet 00:24:D1:43:98:3A; 
+           fixed-address 172.21.1.42; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA25-150 KUNCEVSCHINA25-150-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:51
+    host modem2065820 { 
+           hardware ethernet 00:24:D1:43:98:40; 
+           fixed-address 172.21.1.45; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA37-41 KUNCEVSCHINA37-41-MOD
+    # LAST EDIT BY:DOROSHKO LAST EDIT TIME:2013-08-18 12:53:04
+    host modem2065823 { 
+           hardware ethernet 00:24:D1:43:98:4A; 
+           fixed-address 172.21.1.48; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA42-48 NEMANSKAYA42-48-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-09-22 11:56:21
+    host modem2065829 { 
+           hardware ethernet 00:18:9B:36:D5:4B; 
+           fixed-address 172.21.1.54; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA37-72 KUNCEVSCHINA37-72-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:52
+    host modem2065830 { 
+           hardware ethernet 00:24:D1:43:9B:1C; 
+           fixed-address 172.21.1.55; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA11-59 KUNCEVSCHINA11-59-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:53
+    host modem2065839 { 
+           hardware ethernet 00:1E:69:0D:79:B2; 
+           fixed-address 172.21.1.64; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA33-123 KUNCEVSCHINA33-123-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:53
+    host modem2065840 { 
+           hardware ethernet 00:22:3A:FD:47:D7; 
+           fixed-address 172.21.1.66; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA37-18 KUNCEVSCHINA37-18-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:53
+    host modem2065843 { 
+           hardware ethernet 00:24:D1:49:94:E4; 
+           fixed-address 172.21.1.69; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA29-111 KUNCEVSCHINA29-111-MOD
+    # LAST EDIT BY:BOGODYAZH LAST EDIT TIME:2016-11-30 18:52:33
+    host modem2065850 { 
+           hardware ethernet 00:24:D1:43:99:94; 
+           fixed-address 172.21.1.76; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA14-138 NEMANSKAYA14-138-MOD
+    # LAST EDIT BY:YASTREB LAST EDIT TIME:2016-07-25 14:03:07
+    host modem2065862 { 
+           hardware ethernet 00:24:D1:43:98:28; 
+           fixed-address 172.21.0.145; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA29-59 KUNCEVSCHINA29-59-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:58
+    host modem2065866 { 
+           hardware ethernet 00:26:24:95:C1:80; 
+           fixed-address 172.21.1.92; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA14-43 NEMANSKAYA14-43-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:58
+    host modem2065867 { 
+           hardware ethernet 00:24:D1:43:98:32; 
+           fixed-address 172.21.1.93; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA32-223 NEMANSKAYA32-223-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:59
+    host modem2065870 { 
+           hardware ethernet 00:22:3A:FC:E9:5B; 
+           fixed-address 172.21.1.96; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA29-33 KUNCEVSCHINA29-33-MOD
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-10-07 10:34:46
+    host modem2065873 { 
+           hardware ethernet 00:24:D1:03:B8:C8; 
+           fixed-address 172.21.1.99; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA10-25 KAMENNOGORSKAJA ul.10-25
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2012-01-26 14:35:23
+    host modem2065885 { 
+           hardware ethernet 00:24:D1:05:FA:C4; 
+           fixed-address 172.21.2.14; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA37-111 KUNCEVSCHINA37-111-MOD
+    # LAST EDIT BY:GRAKOVICH LAST EDIT TIME:2011-07-27 13:59:59
+    host modem2065887 { 
+           hardware ethernet 00:24:D1:49:91:BA; 
+           fixed-address 172.21.1.114; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA50-90 NEMANSKAJA ul.50-90
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-06-21 10:58:14
+    host modem2065893 { 
+           hardware ethernet 00:24:D1:43:9C:D6; 
+           fixed-address 172.21.0.180; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA32-48 NEMANSKAYA32-48-MOD
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-06-23 12:15:25
+    host modem2065901 { 
+           hardware ethernet 00:24:D1:43:97:CA; 
+           fixed-address 172.21.1.128; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA25-249 KUNCEVSCHINA25-249-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:09
+    host modem2065904 { 
+           hardware ethernet 00:24:D1:43:98:0C; 
+           fixed-address 172.21.1.131; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA37-66 KUNCEVSCHINA37-66-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:09
+    host modem2065908 { 
+           hardware ethernet 00:22:3A:FC:ED:07; 
+           fixed-address 172.21.1.135; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA37-69 KUNCEVSCHINA37-69-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:12
+    host modem2065912 { 
+           hardware ethernet 00:24:D1:06:01:66; 
+           fixed-address 172.21.1.139; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA16-216 KAMENNOGORSKAJA ul.16-216
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-04-01 15:42:04
+    host modem2065914 { 
+           hardware ethernet 00:18:9B:45:7B:0D; 
+           fixed-address 172.21.1.236; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA29-85 KUNCEVSCHINA29-85-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:16
+    host modem2065919 { 
+           hardware ethernet 00:24:D1:20:3C:DE; 
+           fixed-address 172.21.1.146; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA11-141 KUNCEVSCHINA11-141-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-02-10 19:39:59
+    host modem2065920 { 
+           hardware ethernet 00:24:D1:20:3C:E2; 
+           fixed-address 172.21.1.147; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA31-1 KUNCEVSCHINA31-1-MOD
+    # LAST EDIT BY:PAPKO LAST EDIT TIME:2011-09-22 16:22:44
+    host modem2065927 { 
+           hardware ethernet 00:26:24:95:BE:0E; 
+           fixed-address 172.21.1.154; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA33-32 KUNCEVSCHINA33-32-MOD
+    # LAST EDIT BY:GRAKOVICH LAST EDIT TIME:2011-08-26 12:12:36
+    host modem2065928 { 
+           hardware ethernet 00:26:24:95:BE:14; 
+           fixed-address 172.21.1.155; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA38-40 NEMANSKAYA38-40-MOD
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-08-18 15:10:51
+    host modem2065933 { 
+           hardware ethernet 00:1E:69:0E:7D:68; 
+           fixed-address 172.21.1.161; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA33-41 KUNCEVSCHINA33-41-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-05-27 19:03:40
+    host modem2065937 { 
+           hardware ethernet 00:18:9B:36:D4:B7; 
+           fixed-address 172.21.1.167; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA9-87 KUNCEVSCHINA9-87-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:29
+    host modem2065941 { 
+           hardware ethernet 00:22:3A:FC:E7:C7; 
+           fixed-address 172.21.1.171; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA17-9 KUNCEVSCHINA17-9-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:30
+    host modem2065943 { 
+           hardware ethernet 00:24:D1:49:93:50; 
+           fixed-address 172.21.1.173; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA34-52 NEMANSKAYA34-52-MOD
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2013-01-24 11:54:03
+    host modem2065945 { 
+           hardware ethernet 00:26:24:95:BD:9E; 
+           fixed-address 172.21.1.175; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA40-49 NEMANSKAYA40-49-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:33
+    host modem2065947 { 
+           hardware ethernet 00:26:24:A1:21:04; 
+           fixed-address 172.21.1.177; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA37-108 KUNCEVSCHINA37-108-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:34
+    host modem2065950 { 
+           hardware ethernet 00:24:D1:03:BA:42; 
+           fixed-address 172.21.1.180; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA29-74 KUNCEVSCHINA29-74-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:35
+    host modem2065951 { 
+           hardware ethernet 00:1E:69:2B:4E:C2; 
+           fixed-address 172.21.1.181; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA10-373 KAMENNOGORSKAJA ul.10-373
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2012-01-20 15:44:44
+    host modem2065956 { 
+           hardware ethernet 00:26:24:A1:21:D4; 
+           fixed-address 172.21.2.11; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA48-62 NEMANSKAYA48-62-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:37
+    host modem2065957 { 
+           hardware ethernet 00:26:24:95:BD:CA; 
+           fixed-address 172.21.1.187; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA17-175 KUNCEVSCHINA17-175-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-03-16 18:13:07
+    host modem2065964 { 
+           hardware ethernet 00:24:D1:49:95:D0; 
+           fixed-address 172.21.1.195; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA50-94 NEMANSKAYA50-94-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-09-19 10:48:36
+    host modem2065971 { 
+           hardware ethernet 00:24:D1:06:00:F8; 
+           fixed-address 172.21.1.202; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA33-114 KUNCEVSCHINA33-114-MOD
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-11-07 19:13:18
+    host modem2065972 { 
+           hardware ethernet 00:24:D1:49:94:BC; 
+           fixed-address 172.21.1.203; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA37-35 KUNCEVSCHINA37-35-MOD
+    # LAST EDIT BY:BELSKAYA LAST EDIT TIME:2013-03-30 17:44:10
+    host modem2065973 { 
+           hardware ethernet 00:18:9B:45:7B:3D; 
+           fixed-address 172.21.1.204; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA17-118 KUNCEVSCHINA17-118-MOD
+    # LAST EDIT BY:KAPUSTA LAST EDIT TIME:2011-05-26 10:31:15
+    host modem2065976 { 
+           hardware ethernet 00:24:D1:43:9A:C2; 
+           fixed-address 172.21.1.207; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA32-50 NEMANSKAJA ul.32-50
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-06-30 11:55:15
+    host modem2065985 { 
+           hardware ethernet 00:24:D1:20:3C:20; 
+           fixed-address 172.21.0.81; 
+           filename "3m22.bin";
+    }
+    # MODEM:PRITYITSKOGO91-310 PRITICKOGO91-310-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:10
+    host modem2065986 { 
+           hardware ethernet 00:24:D1:20:3B:0A; 
+           fixed-address 172.21.8.68; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA20-80 NEMANSKAJA ul.20-80
+    # LAST EDIT BY:ZAPOLSKAYA LAST EDIT TIME:2013-05-17 11:22:49
+    host modem2066072 { 
+           hardware ethernet 00:1E:69:18:03:7A; 
+           fixed-address 172.21.0.178; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA28-68 KAMENNOGORSKAJA ul.28-68
+    # LAST EDIT BY:KROK LAST EDIT TIME:2013-03-05 14:09:20
+    host modem2066148 { 
+           hardware ethernet 00:1E:69:2B:2F:F6; 
+           fixed-address 172.21.1.126; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA32-67 NEMANSKAJA ul.32-67
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-07-10 13:57:06
+    host modem2066209 { 
+           hardware ethernet 00:18:9B:EE:33:5B; 
+           fixed-address 172.21.0.173; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA26-39 KAMENNOGORSKAJA ul.26-39
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-04-16 14:17:54
+    host modem2066265 { 
+           hardware ethernet 00:1E:69:17:FA:A4; 
+           fixed-address 172.21.0.108; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAZIMIROVSKAYA33-53 KAZIMIROVSKAJA ul.33-53
+    # LAST EDIT BY:STATKEVICH LAST EDIT TIME:2017-10-16 10:30:26
+    host modem2066299 { 
+           hardware ethernet 00:1E:69:2B:34:96; 
+           fixed-address 172.21.0.76; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA16-89 NEMANSKAJA ul.16-89
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-11-15 11:41:50
+    host modem2066401 { 
+           hardware ethernet 00:1E:69:0D:79:AE; 
+           fixed-address 172.21.0.65; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA25-223 NEMANSKAJA ul.25-223
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-06-26 20:44:51
+    host modem2066561 { 
+           hardware ethernet 00:1E:69:2B:4F:22; 
+           fixed-address 172.21.0.183; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA77-86 NEMANSKAJA ul.77-86
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-08-29 10:22:26
+    host modem2066589 { 
+           hardware ethernet 00:1E:69:2B:4A:E8; 
+           fixed-address 172.21.2.72; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA37-11 NEMANSKAJA ul.37-11
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-12-18 12:20:24
+    host modem2066610 { 
+           hardware ethernet 00:1E:69:2B:4B:80; 
+           fixed-address 172.21.1.82; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA77-89 NEMANSKAJA ul.77-89
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-03-21 13:40:39
+    host modem2066647 { 
+           hardware ethernet 00:1E:69:2B:43:EA; 
+           fixed-address 172.21.1.134; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA36-39 NEMANSKAJA ul.36-39
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-11-22 16:17:43
+    host modem2066781 { 
+           hardware ethernet 00:24:D1:05:FB:C4; 
+           fixed-address 172.21.1.235; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA30-101 KAMENNOGORSKAJA ul.30-101
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-09-04 18:05:22
+    host modem2066879 { 
+           hardware ethernet 00:24:D1:43:98:CA; 
+           fixed-address 172.21.2.95; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA13-45 KUNCEVSHHINA ul.13-45
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-09-25 19:28:59
+    host modem2066890 { 
+           hardware ethernet 00:24:D1:43:96:84; 
+           fixed-address 172.21.0.77; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA32-8 NEMANSKAJA ul.32-8-2
+    # LAST EDIT BY:YASTREB LAST EDIT TIME:2016-04-25 18:11:40
+    host modem2066897 { 
+           hardware ethernet 00:24:D1:43:9A:38; 
+           fixed-address 172.21.0.75; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA37-15 KUNCEVSHHINA ul.37-15
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-01-22 11:08:25
+    host modem2066906 { 
+           hardware ethernet 00:24:D1:43:9B:54; 
+           fixed-address 172.21.0.195; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA48-20 NEMANSKAJA ul.48-20
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-02-24 11:47:04
+    host modem2066918 { 
+           hardware ethernet 00:24:D1:43:9C:18; 
+           fixed-address 172.21.0.158; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA14-111 KAMENNOGORSKAJA ul.14-111-3
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-11-06 11:47:51
+    host modem2066982 { 
+           hardware ethernet 00:24:D1:43:98:C4; 
+           fixed-address 172.21.0.95; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA28-115 KAMENNOGORSKAJA ul.28-115
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-03-22 19:06:07
+    host modem2067014 { 
+           hardware ethernet 00:24:D1:43:9A:F6; 
+           fixed-address 172.21.0.251; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA33-34 NEMANSKAJA ul.33-34
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2012-01-12 12:11:12
+    host modem2067106 { 
+           hardware ethernet 00:26:24:95:C1:40; 
+           fixed-address 172.21.2.6; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA50-151 NEMANSKAJA ul.50-151
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2013-07-05 23:06:53
+    host modem2067109 { 
+           hardware ethernet 00:1E:69:2B:4B:34; 
+           fixed-address 172.21.1.201; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA13-117 KUNCEVSHHINA ul.13-117
+    # LAST EDIT BY:ZALOGO LAST EDIT TIME:2016-11-08 18:04:44
+    host modem2067121 { 
+           hardware ethernet 00:26:24:95:C1:FE; 
+           fixed-address 172.21.0.156; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA26-1 KAMENNOGORSKAJA ul.26-1
+    # LAST EDIT BY:BOGDANOVICH LAST EDIT TIME:2014-01-26 11:54:14
+    host modem2067463 { 
+           hardware ethernet 00:1E:69:2B:34:D6; 
+           fixed-address 172.21.0.243; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA11-39 NEMANSKAJA ul.11-39
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2012-01-09 12:20:32
+    host modem2067494 { 
+           hardware ethernet 00:1E:69:2B:3F:AE; 
+           fixed-address 172.21.2.3; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA32-242 NEMANSKAJA ul.32-242
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-11-14 13:32:21
+    host modem2067662 { 
+           hardware ethernet 00:24:D1:05:FC:0A; 
+           fixed-address 172.21.2.2; 
+           filename "3m22.bin";
+    }
+    # MODEM:PRITYITSKOGO91-167 PRITYCKOGO ul.91-167
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-07-30 12:42:16
+    host modem2067725 { 
+           hardware ethernet 00:24:D1:05:FA:FA; 
+           fixed-address 172.21.0.232; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA42-12 NEMANSKAJA ul.42-12
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-12-31 12:02:25
+    host modem2067728 { 
+           hardware ethernet 00:24:D1:05:FC:E4; 
+           fixed-address 172.21.1.102; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA16-197 KAMENNOGORSKAJA ul.16-197
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-12-24 13:15:58
+    host modem2067809 { 
+           hardware ethernet 00:11:E3:9D:3F:D3; 
+           fixed-address 172.21.0.227; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA17-128 KUNCEVSHHINA ul.17-128
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-03-25 15:25:00
+    host modem2067861 { 
+           hardware ethernet 00:24:D1:43:99:70; 
+           fixed-address 172.21.0.131; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA24-92 KAMENNOGORSKAJA ul.24-92-3
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-09-24 11:15:15
+    host modem2067883 { 
+           hardware ethernet 00:24:D1:43:99:90; 
+           fixed-address 172.21.0.79; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA42-241 NEMANSKAJA ul.42-241
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-12-23 11:00:26
+    host modem2067890 { 
+           hardware ethernet 00:24:D1:43:99:C8; 
+           fixed-address 172.21.0.62; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA10-29 KAMENNOGORSKAJA ul.10-29
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-02-03 17:53:27
+    host modem2067892 { 
+           hardware ethernet 00:24:D1:43:97:CC; 
+           fixed-address 172.21.0.208; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA11-31 NEMANSKAJA ul.11-31
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-03-14 12:11:58
+    host modem2067924 { 
+           hardware ethernet 00:24:D1:43:9D:84; 
+           fixed-address 172.21.2.41; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA18-36 KAMENNOGORSKAJA ul.18-36
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-11-21 16:05:41
+    host modem2067947 { 
+           hardware ethernet 00:24:D1:43:9D:A2; 
+           fixed-address 172.21.1.100; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA29-123 KUNCEVSHHINA ul.29-123
+    # LAST EDIT BY:ZALOGO LAST EDIT TIME:2016-11-18 14:48:46
+    host modem2067970 { 
+           hardware ethernet 00:24:D1:43:9D:42; 
+           fixed-address 172.21.0.231; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA25-108 NEMANSKAJA ul.25-108
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-03-11 18:47:22
+    host modem2068004 { 
+           hardware ethernet 00:24:D1:20:3A:40; 
+           fixed-address 172.21.0.168; 
+           filename "3m22.bin";
+    }
+    # MODEM:VANEEVA46- Vaneeva-test
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-08-13 15:00:15
+    host modem2068022 { 
+           hardware ethernet 00:26:24:95:C1:A8; 
+           fixed-address 172.21.2.90; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA24-92 KAMENNOGORSKAJA ul.24-92-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-09-28 12:34:18
+    host modem2068163 { 
+           hardware ethernet 00:1E:69:2B:4E:86; 
+           fixed-address 172.21.2.109; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA14-45 NEMANSKAJA ul.14-45
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-09-21 16:33:08
+    host modem2068192 { 
+           hardware ethernet 00:1E:69:2B:4D:68; 
+           fixed-address 172.21.0.114; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA25-128 NEMANSKAJA ul.25-128
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-05-14 16:18:01
+    host modem2068337 { 
+           hardware ethernet 00:24:D1:03:B8:E0; 
+           fixed-address 172.21.0.68; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA42-214 NEMANSKAJA ul.42-214
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-11-05 12:03:59
+    host modem2068345 { 
+           hardware ethernet 00:24:D1:03:B8:CE; 
+           fixed-address 172.21.0.192; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA13-106 KUNCEVSHHINA ul.13-106
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-09-26 17:05:21
+    host modem2068385 { 
+           hardware ethernet 00:24:D1:05:FE:12; 
+           fixed-address 172.21.2.106; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA12-15 NEMANSKAJA ul.12-15
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-08-16 11:26:20
+    host modem2068612 { 
+           hardware ethernet 00:24:D1:20:3C:46; 
+           fixed-address 172.21.0.230; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAZIMIROVSKAYA33-6 KAZIMIROVSKAJA ul.33-6
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-09-25 12:46:45
+    host modem2068731 { 
+           hardware ethernet 00:1E:69:2B:4C:36; 
+           fixed-address 172.21.1.17; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA77-115 NEMANSKAJA ul.77-115
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-08-03 16:55:40
+    host modem2068775 { 
+           hardware ethernet 00:24:D1:43:9B:D2; 
+           fixed-address 172.21.2.89; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA23-109 NEMANSKAJA ul.23-109
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-01-10 14:36:05
+    host modem2068779 { 
+           hardware ethernet 00:24:D1:43:9B:D6; 
+           fixed-address 172.21.0.102; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA39-120 NEMANSKAJA ul.39-120
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-02-17 16:59:26
+    host modem2068806 { 
+           hardware ethernet 00:24:D1:49:95:A8; 
+           fixed-address 172.21.1.77; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA38-25 NEMANSKAJA ul.38-25
+    # LAST EDIT BY:STATKEVICH LAST EDIT TIME:2017-07-12 13:03:24
+    host modem2068854 { 
+           hardware ethernet 00:24:D1:49:95:C4; 
+           fixed-address 172.21.1.4; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA18-1 KAMENNOGORSKAJA ul.18-1
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-07-10 13:56:38
+    host modem2068889 { 
+           hardware ethernet 00:24:D1:43:98:36; 
+           fixed-address 172.21.0.182; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA18-18 KAMENNOGORSKAJA ul.18-18
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-11-25 11:40:41
+    host modem2068939 { 
+           hardware ethernet 00:26:24:95:BD:AC; 
+           fixed-address 172.21.0.197; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA14-85 KAMENNOGORSKAJA ul.14-85
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-12-28 11:58:23
+    host modem2068958 { 
+           hardware ethernet 00:26:24:95:C2:46; 
+           fixed-address 172.21.1.254; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA40-55 NEMANSKAJA ul.40-55
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-04-10 16:16:22
+    host modem2069009 { 
+           hardware ethernet 00:26:24:95:C1:DA; 
+           fixed-address 172.21.2.51; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA77-45 NEMANSKAJA ul.77-45
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2015-01-16 15:43:25
+    host modem2069120 { 
+           hardware ethernet 00:18:9B:EE:39:41; 
+           fixed-address 172.21.2.66; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA18-65 KAMENNOGORSKAJA ul.18-65-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-10-02 11:13:23
+    host modem2069168 { 
+           hardware ethernet 00:1E:69:17:AB:28; 
+           fixed-address 172.21.0.147; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA16-122 KAMENNOGORSKAJA ul.16-122
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-12-26 10:16:57
+    host modem2069178 { 
+           hardware ethernet 00:1E:69:18:03:50; 
+           fixed-address 172.21.0.64; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA30-42 KAMENNOGORSKAJA ul.30-42
+    # LAST EDIT BY:DOROSHKO LAST EDIT TIME:2013-08-14 14:06:35
+    host modem2069210 { 
+           hardware ethernet 00:1E:69:2B:4F:3C; 
+           fixed-address 172.21.1.24; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAZIMIROVSKAYA33-19 KAZIMIROVSKAJA ul.33-19-2
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2012-01-30 12:21:22
+    host modem2069255 { 
+           hardware ethernet 00:18:9B:EE:38:9D; 
+           fixed-address 172.21.2.18; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA10-141 KAMENNOGORSKAJA ul.10-141
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-02-21 11:17:48
+    host modem2069279 { 
+           hardware ethernet 00:1E:69:2B:3F:3A; 
+           fixed-address 172.21.0.143; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA18-136 NEMANSKAJA ul.18-136
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-04-27 10:34:46
+    host modem2069297 { 
+           hardware ethernet 00:1E:69:2B:43:A6; 
+           fixed-address 172.21.0.59; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA9-109 NEMANSKAJA ul.9-109
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-06-05 14:47:28
+    host modem2069347 { 
+           hardware ethernet 00:24:D1:05:FC:CA; 
+           fixed-address 172.21.0.165; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA10-97 KAMENNOGORSKAJA ul.10-97
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-11-27 19:20:13
+    host modem2069439 { 
+           hardware ethernet 00:24:D1:43:97:4E; 
+           fixed-address 172.21.2.22; 
+           filename "3m22.bin";
+    }
+    # MODEM:PRITYITSKOGO91-98 PRITYCKOGO ul.91-98
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-07-26 11:05:06
+    host modem2069521 { 
+           hardware ethernet 00:1E:69:17:FB:A6; 
+           fixed-address 172.21.0.205; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA30-78 KAMENNOGORSKAJA ul.30-78-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-12-18 13:08:17
+    host modem2069539 { 
+           hardware ethernet 00:1E:69:2B:32:EC; 
+           fixed-address 172.21.1.23; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA10-213 KAMENNOGORSKAJA ul.10-213
+    # LAST EDIT BY:PAPKO LAST EDIT TIME:2011-09-22 17:22:07
+    host modem2069615 { 
+           hardware ethernet 00:1E:69:08:34:02; 
+           fixed-address 172.21.0.144; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA14-111 KAMENNOGORSKAJA ul.14-111-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-11-05 15:22:47
+    host modem2069625 { 
+           hardware ethernet 00:18:9B:EE:3A:D5; 
+           fixed-address 172.21.1.0; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA21-51 NEMANSKAJA ul.21-51
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-05-16 12:36:55
+    host modem2069844 { 
+           hardware ethernet 00:24:D1:03:BC:F2; 
+           fixed-address 172.21.0.252; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA16-261 KAMENNOGORSKAJA ul.16-261
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-10-19 13:10:51
+    host modem2069903 { 
+           hardware ethernet 00:1E:69:2B:35:82; 
+           fixed-address 172.21.0.215; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA11-21 NEMANSKAJA ul.11-21
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-01-15 13:24:23
+    host modem2069944 { 
+           hardware ethernet 00:24:D1:20:3C:5A; 
+           fixed-address 172.21.1.38; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA11-46 NEMANSKAJA ul.11-46
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-09-02 14:42:46
+    host modem2069953 { 
+           hardware ethernet 00:18:9B:EE:32:C3; 
+           fixed-address 172.21.0.72; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA28-178 KAMENNOGORSKAJA ul.28-178
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-05-05 14:54:13
+    host modem2069975 { 
+           hardware ethernet 00:24:D1:43:97:7C; 
+           fixed-address 172.21.0.106; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA24-63 KAMENNOGORSKAJA ul.24-63
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-10-22 16:57:48
+    host modem2070029 { 
+           hardware ethernet 00:24:D1:20:3C:8C; 
+           fixed-address 172.21.0.222; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA15-44 NEMANSKAJA ul.15-44
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-06-23 12:16:24
+    host modem2070058 { 
+           hardware ethernet 00:18:9B:EE:33:57; 
+           fixed-address 172.21.0.176; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA39-202 NEMANSKAJA ul.39-202
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-11-17 11:46:52
+    host modem2070076 { 
+           hardware ethernet 00:24:D1:20:39:56; 
+           fixed-address 172.21.1.190; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA16-24 KAMENNOGORSKAJA ul.16-24
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-11-12 11:52:32
+    host modem2070126 { 
+           hardware ethernet 00:26:24:95:BD:F6; 
+           fixed-address 172.21.1.44; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAZIMIROVSKAYA29-51 KAZIMIROVSKAJA ul.29-51
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-04-30 12:18:06
+    host modem2070135 { 
+           hardware ethernet 00:26:24:95:C1:B6; 
+           fixed-address 172.21.1.162; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA17-14 KUNCEVSHHINA ul.17-14
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-04-20 12:08:23
+    host modem2070343 { 
+           hardware ethernet 00:1E:69:0E:BB:32; 
+           fixed-address 172.21.0.85; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA43-42 NEMANSKAJA ul.43-42
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-06-14 15:06:30
+    host modem2070381 { 
+           hardware ethernet 00:18:9B:7E:A9:F7; 
+           fixed-address 172.21.1.49; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA30-102 KAMENNOGORSKAJA ul.30-102
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-09-12 11:35:11
+    host modem2070478 { 
+           hardware ethernet 00:24:D1:43:99:6C; 
+           fixed-address 172.21.0.238; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA16-31 KAMENNOGORSKAJA ul.16-31
+    # LAST EDIT BY:STRUKOVA LAST EDIT TIME:2017-09-18 19:11:56
+    host modem2070568 { 
+           hardware ethernet 00:24:D1:20:3D:B6; 
+           fixed-address 172.21.1.250; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA35-70 NEMANSKAJA ul.35-70
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-06-21 19:31:22
+    host modem2070580 { 
+           hardware ethernet 00:24:D1:20:3C:E0; 
+           fixed-address 172.21.2.59; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA13-80 NEMANSKAJA ul.13-80
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-09-29 18:59:12
+    host modem2070673 { 
+           hardware ethernet 00:24:D1:06:01:F0; 
+           fixed-address 172.21.0.242; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA18-168 KAMENNOGORSKAJA ul.18-168
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-02-25 13:16:39
+    host modem2070694 { 
+           hardware ethernet 00:24:D1:06:01:80; 
+           fixed-address 172.21.0.221; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA15-120 NEMANSKAJA ul.15-120
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-09-13 10:36:16
+    host modem2070715 { 
+           hardware ethernet 00:1E:69:2B:4D:2C; 
+           fixed-address 172.21.0.239; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA16-178 KAMENNOGORSKAJA ul.16-178
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-01-22 14:53:07
+    host modem2070745 { 
+           hardware ethernet 00:24:D1:05:FB:88; 
+           fixed-address 172.21.1.118; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA11-51 NEMANSKAJA ul.11-51
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-12-30 15:19:04
+    host modem2070843 { 
+           hardware ethernet 00:1E:69:08:9B:56; 
+           fixed-address 172.21.2.94; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA25-165 NEMANSKAJA ul.25-165
+    # LAST EDIT BY:SKREBNEV LAST EDIT TIME:2012-02-29 11:26:08
+    host modem2070848 { 
+           hardware ethernet 00:1E:69:08:34:9E; 
+           fixed-address 172.21.1.53; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA23-37 KUNCEVSHHINA ul.23-37
+    # LAST EDIT BY:STRUKOVA LAST EDIT TIME:2013-11-19 20:22:29
+    host modem2071118 { 
+           hardware ethernet 00:1E:69:2B:35:2E; 
+           fixed-address 172.21.0.58; 
+           filename "3m22.bin";
+    }
+    # MODEM:PRITYITSKOGO91-377 PRITYCKOGO ul.91-377
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-12-01 12:05:57
+    host modem2071130 { 
+           hardware ethernet 00:1E:69:2B:4E:EA; 
+           fixed-address 172.21.0.60; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA24-92 KAMENNOGORSKAJA ul.24-92
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-06-03 12:46:02
+    host modem2071181 { 
+           hardware ethernet 00:1E:69:2B:4E:E4; 
+           fixed-address 172.21.0.234; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA25-136 NEMANSKAJA ul.25-136
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-04-16 09:49:06
+    host modem2071477 { 
+           hardware ethernet 00:24:D1:05:FB:8A; 
+           fixed-address 172.21.0.153; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA35-41 NEMANSKAJA ul.35-41
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-05-17 18:45:30
+    host modem2071483 { 
+           hardware ethernet 00:24:D1:20:3A:C0; 
+           fixed-address 172.21.1.6; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAZIMIROVSKAYA33-106 KAZIMIROVSKAJA ul.33-106
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-05-07 16:07:48
+    host modem2071496 { 
+           hardware ethernet 00:18:9B:EE:32:73; 
+           fixed-address 172.21.2.40; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA29-2 KUNCEVSHHINA ul.29-2
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-12-22 19:47:06
+    host modem2071582 { 
+           hardware ethernet 00:24:D1:03:BA:5A; 
+           fixed-address 172.21.1.208; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA37-76 KUNCEVSHHINA ul.37-76
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-06-15 13:31:37
+    host modem2071705 { 
+           hardware ethernet 00:1E:69:2B:43:08; 
+           fixed-address 172.21.2.39; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA34-107 KAMENNOGORSKAJA ul.34-107
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-05-26 16:21:11
+    host modem2071713 { 
+           hardware ethernet 00:1E:69:2B:4B:9E; 
+           fixed-address 172.21.0.150; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAZIMIROVSKAYA17-13 KAZIMIROVSKAJA ul.17-13
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-08-19 11:54:10
+    host modem2071745 { 
+           hardware ethernet 00:24:D1:03:BA:26; 
+           fixed-address 172.21.1.103; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA13-67 NEMANSKAJA ul.13-67
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-03-19 11:26:15
+    host modem2071853 { 
+           hardware ethernet 00:24:D1:20:3C:54; 
+           fixed-address 172.21.0.63; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAZIMIROVSKAYA17-14 KAZIMIROVSKAJA ul.17-14
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-03-09 21:46:47
+    host modem2071887 { 
+           hardware ethernet 00:22:3A:FD:49:0F; 
+           fixed-address 172.21.0.116; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA24-86 KAMENNOGORSKAJA ul.24-86
+    # LAST EDIT BY:SAVICH LAST EDIT TIME:2013-10-31 11:21:20
+    host modem2071930 { 
+           hardware ethernet 00:24:D1:49:95:CA; 
+           fixed-address 172.21.1.21; 
+           filename "3m22.bin";
+    }
+    # MODEM:PRITYITSKOGO91-259 pritickogo91-259-mod
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:48
+    host modem2087318 { 
+           hardware ethernet 48:44:87:23:57:C0; 
+           fixed-address 172.21.0.54; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA25-222 NEMANSKAJA ul.25-222
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-01-13 19:01:28
+    host modem2088213 { 
+           hardware ethernet 00:1E:69:18:03:5C; 
+           fixed-address 172.21.0.194; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA21-40 NEMANSKAJA ul.21-40
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-05-04 14:48:35
+    host modem2088412 { 
+           hardware ethernet 00:24:D1:43:9D:9A; 
+           fixed-address 172.21.2.65; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA11-69 NEMANSKAJA ul.11-69
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-02-18 19:10:53
+    host modem2088945 { 
+           hardware ethernet 00:24:D1:03:B8:C6; 
+           fixed-address 172.21.0.171; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA21-113 NEMANSKAJA ul.21-113
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-09-10 15:05:54
+    host modem2089008 { 
+           hardware ethernet 00:26:24:95:C2:6E; 
+           fixed-address 172.21.2.68; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA14-77 NEMANSKAJA ul.14-77
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2018-01-15 14:47:36
+    host modem2089443 { 
+           hardware ethernet 00:26:24:95:BD:00; 
+           fixed-address 172.21.0.103; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA19-116 KUNCEVSHHINA ul.19-116
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-09-12 22:48:54
+    host modem2089453 { 
+           hardware ethernet 00:26:24:95:BD:04; 
+           fixed-address 172.21.0.61; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA25-34 NEMANSKAJA ul.25-34
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-01-02 17:07:48
+    host modem2090268 { 
+           hardware ethernet 00:26:24:95:BE:A4; 
+           fixed-address 172.21.0.228; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA19-91 KUNCEVSHHINA ul.19-91
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:51
+    host modem2090288 { 
+           hardware ethernet 00:26:24:95:BE:AC; 
+           fixed-address 172.21.0.67; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA77-95 NEMANSKAJA ul.77-95
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-11-25 17:14:46
+    host modem2104376 { 
+           hardware ethernet 48:44:87:23:4E:6C; 
+           fixed-address 172.21.0.122; 
+           filename "3m22.bin";
+    }
+    # MODEM:VANEEVA46- VOLS IBP Lobanka 40
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-04-05 12:52:04
+    host modem2104561 { 
+           hardware ethernet 00:26:24:A1:21:00; 
+           fixed-address 172.21.0.34; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA38-6 NEMANSKAJA ul.38-6
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-08-06 11:02:14
+    host modem2105371 { 
+           hardware ethernet 00:1E:69:2B:33:A2; 
+           fixed-address 172.21.0.83; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA14-59 KAMENNOGORSKAJA ul.14-59
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-04-14 17:08:57
+    host modem2138579 { 
+           hardware ethernet 48:44:87:23:53:0C; 
+           fixed-address 172.21.0.82; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA38-70 NEMANSKAJA ul.38-70
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-04-03 13:07:42
+    host modem2139834 { 
+           hardware ethernet 48:44:87:23:54:FC; 
+           fixed-address 172.21.0.87; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA10-285 KAMENNOGORSKAJA ul.10-285
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-09-26 15:39:54
+    host modem2139865 { 
+           hardware ethernet 00:24:D1:20:3D:38; 
+           fixed-address 172.21.2.107; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA25-9 NEMANSKAJA ul.25-9
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-04-22 16:29:17
+    host modem2139888 { 
+           hardware ethernet 48:44:87:23:54:94; 
+           fixed-address 172.21.0.96; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA38-34 NEMANSKAJA ul.38-34
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-08-29 22:20:41
+    host modem2139988 { 
+           hardware ethernet 00:1E:69:2B:42:CC; 
+           fixed-address 172.21.0.107; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA15-181 NEMANSKAJA ul.15-181
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-04-28 14:08:15
+    host modem2140255 { 
+           hardware ethernet 00:1E:69:17:FA:E2; 
+           fixed-address 172.21.0.105; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA77-56 NEMANSKAJA ul.77-56
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-04-09 21:56:05
+    host modem2147220 { 
+           hardware ethernet 00:1E:69:0E:7D:92; 
+           fixed-address 172.21.2.60; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA50-146 NEMANSKAJA ul.50-146
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2011-12-26 16:09:11
+    host modem2166753 { 
+           hardware ethernet 00:22:3A:FD:47:6F; 
+           fixed-address 172.21.1.253; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA13-31 NEMANSKAJA ul.13-31
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2012-01-30 14:43:29
+    host modem2174220 { 
+           hardware ethernet 00:18:9B:7E:A9:F9; 
+           fixed-address 172.21.0.214; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA21-71 NEMANSKAJA ul.21-71
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-08-27 14:17:34
+    host modem2186692 { 
+           hardware ethernet 00:11:E3:DE:0D:BB; 
+           fixed-address 172.21.0.66; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA10-62 KAMENNOGORSKAJA ul.10-62
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-12-02 14:55:08
+    host modem2187690 { 
+           hardware ethernet 48:44:87:25:AD:CC; 
+           fixed-address 172.21.2.4; 
+           filename "3m22.bin";
+    }
+    # MODEM:PRITYITSKOGO91-55 PRITYCKOGO ul.91-55
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-04-19 14:24:16
+    host modem2188789 { 
+           hardware ethernet 48:44:87:26:0A:00; 
+           fixed-address 172.21.2.55; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA9-163 NEMANSKAJA ul.9-163
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-02-21 11:44:23
+    host modem2188795 { 
+           hardware ethernet 48:44:87:26:14:C8; 
+           fixed-address 172.21.0.179; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA24-92 KAMENNOGORSKAJA ul.24-92-4
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-09-24 12:33:25
+    host modem2192625 { 
+           hardware ethernet 00:26:24:A1:22:E4; 
+           fixed-address 172.21.0.220; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA13-14 NEMANSKAJA ul.13-14
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-05-15 12:31:06
+    host modem2193619 { 
+           hardware ethernet 48:44:87:25:BE:BC; 
+           fixed-address 172.21.0.113; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA37-116 NEMANSKAJA ul.37-116
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-06-08 14:40:51
+    host modem2193621 { 
+           hardware ethernet 48:44:87:25:C6:90; 
+           fixed-address 172.21.0.254; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA19-44 NEMANSKAJA ul.19-44
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-04-18 11:42:49
+    host modem2194052 { 
+           hardware ethernet 00:26:24:A1:22:CA; 
+           fixed-address 172.21.0.69; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA20-41 NEMANSKAJA ul.20-41
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-07-30 13:39:10
+    host modem2194577 { 
+           hardware ethernet 48:44:87:26:0A:F8; 
+           fixed-address 172.21.2.84; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA10-1 KAMENNOGORSKAJA ul.10-1-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-04-01 13:42:30
+    host modem2198811 { 
+           hardware ethernet 00:18:9B:36:D5:8D; 
+           fixed-address 172.21.0.118; 
+           filename "3m22.bin";
+    }
+    # MODEM:PRITYITSKOGO91-179 PRITYCKOGO ul.91-179
+    # LAST EDIT BY:ANNA LAST EDIT TIME:2014-05-06 16:05:28
+    host modem2199332 { 
+           hardware ethernet 48:44:87:26:12:80; 
+           fixed-address 172.21.0.93; 
+           filename "3m22.bin";
+    }
+    # MODEM:PRITYITSKOGO91-239 PRITYCKOGO ul.91-239
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-09-08 18:02:53
+    host modem2209643 { 
+           hardware ethernet 48:44:87:26:12:DC; 
+           fixed-address 172.21.1.13; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA25-65 NEMANSKAJA ul.25-65
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-06-18 15:19:26
+    host modem2225784 { 
+           hardware ethernet 00:26:24:A1:22:3E; 
+           fixed-address 172.21.1.26; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAMENNOGORSKAYA34-72 KAMENNOGORSKAJA ul.34-72
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-11-28 11:29:39
+    host modem2227667 { 
+           hardware ethernet 00:26:24:A1:21:DE; 
+           fixed-address 172.21.0.57; 
+           filename "3m22.bin";
+    }
+    # MODEM:KUNTSEVSCHINA17-159 KUNCEVSHHINA ul.17-159
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2016-07-14 17:33:04
+    host modem2228177 { 
+           hardware ethernet 00:26:24:A1:21:F8; 
+           fixed-address 172.21.0.70; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA6-1 Test 252 cmtc
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2016-04-12 14:45:02
+    host modem2228656 { 
+           hardware ethernet 00:26:24:A1:22:FC; 
+           fixed-address 172.21.0.11; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA25-142 NEMANSKAJA ul.25-142
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-07-30 12:57:10
+    host modem2230022 { 
+           hardware ethernet 00:26:24:A1:21:EE; 
+           fixed-address 172.21.0.71; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA12-63 NEMANSKAJA ul.12-63
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-09-13 19:29:41
+    host modem2230481 { 
+           hardware ethernet 00:26:24:95:C3:52; 
+           fixed-address 172.21.0.86; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA11-19 NEMANSKAJA ul.11-19
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-12-15 16:18:52
+    host modem2231425 { 
+           hardware ethernet 00:26:24:A1:21:F4; 
+           fixed-address 172.21.0.89; 
+           filename "3m22.bin";
+    }
+    # MODEM:NEMANSKAYA50-79 NEMANSKAJA ul.50-79
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2018-02-03 11:29:41
+    host modem2235427 { 
+           hardware ethernet 48:44:87:26:13:BC; 
+           fixed-address 172.21.0.55; 
+           filename "3m22.bin";
+    }
+    # MODEM:KAZIMIROVSKAYA33-15 KAZIMIROVSKAJA ul.33-15
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2018-03-17 14:29:20
+    host modem2235647 { 
+           hardware ethernet 00:26:24:A1:21:F6; 
+           fixed-address 172.21.0.90; 
+           filename "3m22.bin";
+    }

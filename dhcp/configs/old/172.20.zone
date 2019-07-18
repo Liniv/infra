@@ -1,0 +1,1893 @@
+ host KALININGRADSKAYA6-19-MOD { 
+   hardware ethernet 00:24:d1:06:01:86; 
+  #  serial 00770-939306093 
+   fixed-address 172.20.2.135; 
+   filename "3m19.bin"; 
+  } 
+ 
+  host MELNIKAJTE16-41-MOD { 
+   hardware ethernet 00:1e:69:17:ab:e4; 
+  #  serial 00770-833404029 
+   fixed-address 172.20.3.1; 
+   filename "3m19.bin"; 
+  } 
+ 
+  host LOSIK-REGISTRATOR-MOD { 
+   hardware ethernet 00:1e:69:07:d9:1e; 
+  #  serial 00770-804506520 
+   fixed-address 172.20.9.66; 
+   filename "3m19.bin"; 
+  } 
+
+
+################################# MODEMS
+
+    # MODEM:LOGOYSKIY30/3-11 LOGOJSKIJ TR ul.30/3-11
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2011-04-12 20:57:12
+    host modem2007064 { 
+           hardware ethernet 00:24:D1:49:91:1E; 
+           fixed-address 172.20.0.66; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO9-28 KALINOVSKOGO ul.9-28
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-01-02 17:00:23
+    host modem2007084 { 
+           hardware ethernet 00:24:D1:49:91:28; 
+           fixed-address 172.20.0.68; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO21-43 KALINOVSKOGO ul.21-43
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-05-06 14:56:34
+    host modem2007284 { 
+           hardware ethernet 00:26:24:95:C0:1A; 
+           fixed-address 172.20.0.83; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-201 STOROZHEVSKAJA ul.8-201
+    # LAST EDIT BY:LOLKABKU LAST EDIT TIME:2018-01-03 12:32:58
+    host modem2007332 { 
+           hardware ethernet 00:26:24:95:C0:32; 
+           fixed-address 172.20.0.100; 
+           filename "3m19.bin";
+    }
+    # MODEM:MYASNIKOVA35-25 MJASNIKOVA ul.35-25
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-09-28 09:37:36
+    host modem2007368 { 
+           hardware ethernet 00:26:24:95:C0:44; 
+           fixed-address 172.20.1.45; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO71-25 KALINOVSKOGO ul.71-25
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-07-13 16:07:57
+    host modem2007582 { 
+           hardware ethernet 00:26:24:95:BC:DA; 
+           fixed-address 172.20.0.125; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI13-70 BEDY ul.13-70
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-06-14 23:50:44
+    host modem2007622 { 
+           hardware ethernet 00:26:24:95:C2:B2; 
+           fixed-address 172.20.0.90; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO23-16 KALINOVSKOGO ul.23-16
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2011-12-20 14:19:46
+    host modem2007746 { 
+           hardware ethernet 48:44:87:23:9E:74; 
+           fixed-address 172.20.0.142; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO41-44 KALINOVSKOGO ul.41-44
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-05-20 16:48:54
+    host modem2007789 { 
+           hardware ethernet 00:26:24:95:BF:FA; 
+           fixed-address 172.20.1.23; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI13-17 BEDY ul.13-17
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-02-22 10:27:17
+    host modem2007993 { 
+           hardware ethernet 00:26:24:95:C2:C4; 
+           fixed-address 172.20.0.98; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO21-64 KALINOVSKOGO ul.21-64
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-06-18 10:39:10
+    host modem2008217 { 
+           hardware ethernet 00:26:24:A1:22:6C; 
+           fixed-address 172.20.0.102; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-422 STOROZHEVSKAJA ul.8-422
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2011-08-16 11:52:12
+    host modem2008326 { 
+           hardware ethernet 00:26:24:95:BD:28; 
+           fixed-address 172.20.0.113; 
+           filename "3m19.bin";
+    }
+    # MODEM:NEMIGA6-95 NEMIGA ul.6-95
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-11-12 14:59:34
+    host modem2008342 { 
+           hardware ethernet 00:26:24:95:BD:30; 
+           fixed-address 172.20.0.56; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA49-79 VOLGOGRADSKAJA ul.49-79
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-11-21 14:29:41
+    host modem2009269 { 
+           hardware ethernet 00:26:24:95:C3:94; 
+           fixed-address 172.20.0.237; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI5-120 BEDY ul.5-120
+    # LAST EDIT BY:BOLZAN LAST EDIT TIME:2013-10-10 16:50:41
+    host modem2009509 { 
+           hardware ethernet 00:26:24:A1:20:B8; 
+           fixed-address 172.20.0.82; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO9-59 KALINOVSKOGO ul.9-59
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-01-30 15:31:28
+    host modem2009673 { 
+           hardware ethernet 00:26:24:A1:22:2A; 
+           fixed-address 172.20.0.187; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO61-10 KALINOVSKOGO ul.61-10
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-02-05 20:58:43
+    host modem2009777 { 
+           hardware ethernet 00:26:24:A1:21:AA; 
+           fixed-address 172.20.0.186; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI8-56 BEDY8-56-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:46
+    host modem2065209 { 
+           hardware ethernet 00:1E:69:08:34:84; 
+           fixed-address 172.20.2.3; 
+           filename "3m19.bin";
+    }
+    # MODEM:GALO4-71 GALO4-71-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:22
+    host modem2065210 { 
+           hardware ethernet 00:1E:69:0E:7D:08; 
+           fixed-address 172.20.2.4; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI27-64 BEDY27-64-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:10
+    host modem2065211 { 
+           hardware ethernet 00:18:9B:36:D4:CF; 
+           fixed-address 172.20.2.5; 
+           filename "3m19.bin";
+    }
+    # MODEM:NEMIGA6-68 NEMIGA6-68-MOD
+    # LAST EDIT BY:STRUKOVA LAST EDIT TIME:2014-12-12 19:58:36
+    host modem2065214 { 
+           hardware ethernet 00:18:9B:36:D4:E3; 
+           fixed-address 172.20.2.9; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- Vaneeva-neispr
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-05-16 13:49:10
+    host modem2065229 { 
+           hardware ethernet 00:18:9B:36:D5:19; 
+           fixed-address 172.20.0.20; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA25-33 CNYANSKAYA25-33-MOD
+    # LAST EDIT BY:NAUMOVICH LAST EDIT TIME:2013-07-22 16:09:49
+    host modem2065240 { 
+           hardware ethernet 00:E0:6F:AD:FF:40; 
+           fixed-address 172.20.2.85; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA21-76 CNIANSKAJA21-76-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:35
+    host modem2065246 { 
+           hardware ethernet 00:1E:69:17:AC:02; 
+           fixed-address 172.20.2.94; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-392 STOROZHEVSKAJA ul.8-392
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2015-08-11 11:18:28
+    host modem2065251 { 
+           hardware ethernet 00:1E:69:17:FA:74; 
+           fixed-address 172.20.1.41; 
+           filename "3m19.bin";
+    }
+    # MODEM:SURGANOVA49-286 SURGANOVA49-286-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:54
+    host modem2065256 { 
+           hardware ethernet 00:1E:69:17:FA:F6; 
+           fixed-address 172.20.2.106; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-290 STOROGHEVSKAJA8-290-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:04
+    host modem2065259 { 
+           hardware ethernet 00:1E:69:18:00:9A; 
+           fixed-address 172.20.2.109; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA5-78 CNIANSKAJA5-78-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:19
+    host modem2065272 { 
+           hardware ethernet 00:1E:69:2B:2F:B6; 
+           fixed-address 172.20.2.126; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-50 STOROGHEVSKAJA8-50-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:30
+    host modem2065275 { 
+           hardware ethernet 00:1E:69:2B:30:9E; 
+           fixed-address 172.20.2.130; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-352 STOROGEVSKAJA8-352-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:20
+    host modem2065278 { 
+           hardware ethernet 00:18:9B:7E:A4:5B; 
+           fixed-address 172.20.3.3; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA5-105 CNYANSKAJA5-105-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-06-24 18:43:05
+    host modem2065286 { 
+           hardware ethernet 00:18:9B:EE:38:A1; 
+           fixed-address 172.20.3.21; 
+           filename "3m19.bin";
+    }
+    # MODEM:KUYBYISHEVA48-5 KUIBISH48-5-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:31
+    host modem2065288 { 
+           hardware ethernet 00:11:E3:95:56:86; 
+           fixed-address 172.20.3.24; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI5-119 BEDY5-119-MOD
+    # LAST EDIT BY:BOGDANOVICH LAST EDIT TIME:2013-11-19 19:39:15
+    host modem2065289 { 
+           hardware ethernet 00:11:E3:95:70:96; 
+           fixed-address 172.20.3.25; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI8-42 BEDY8-42-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:48
+    host modem2065293 { 
+           hardware ethernet 00:18:9B:EE:3A:BF; 
+           fixed-address 172.20.3.33; 
+           filename "3m19.bin";
+    }
+    # MODEM:NEKRASOVA22-40 NEKRASOVA22-40-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:40
+    host modem2065294 { 
+           hardware ethernet 00:24:D1:20:3A:BE; 
+           fixed-address 172.20.3.37; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-315 STOROZHOVSKAYA8-315-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:44
+    host modem2065298 { 
+           hardware ethernet 00:11:E3:95:71:46; 
+           fixed-address 172.20.3.42; 
+           filename "3m19.bin";
+    }
+    # MODEM:MYASNIKOVA35-34 MIASNIKOVA35-34-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:23
+    host modem2065311 { 
+           hardware ethernet 00:18:9B:EE:2F:BD; 
+           fixed-address 172.20.3.65; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI21-7 BEDY21-7-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:31
+    host modem2065323 { 
+           hardware ethernet 00:1E:69:17:B5:AE; 
+           fixed-address 172.20.3.84; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-85 STOROGHEVSKAJA8-85-MOD
+    # LAST EDIT BY:GRAKOVICH LAST EDIT TIME:2011-10-18 10:42:57
+    host modem2065324 { 
+           hardware ethernet 00:1E:69:17:B5:AA; 
+           fixed-address 172.20.3.85; 
+           filename "3m19.bin";
+    }
+    # MODEM:NEKRASOVA22/2-9 NEKRASOVA22-2-9-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:39
+    host modem2065326 { 
+           hardware ethernet 00:11:E3:95:70:44; 
+           fixed-address 172.20.3.87; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI25-180 BEDY25-180-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:22
+    host modem2065330 { 
+           hardware ethernet 00:11:E3:95:70:D2; 
+           fixed-address 172.20.3.94; 
+           filename "3m19.bin";
+    }
+    # MODEM:BELOMORSKAYA23-100 BELOMORSKAJA ul.23-100
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-09-07 11:23:11
+    host modem2065337 { 
+           hardware ethernet 00:11:E3:95:70:BC; 
+           fixed-address 172.20.0.212; 
+           filename "3m19.bin";
+    }
+    # MODEM:NEMIGA6-79 NEMIGA6-79-MOD
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-04-18 13:11:36
+    host modem2065349 { 
+           hardware ethernet 00:11:E3:9D:40:21; 
+           fixed-address 172.20.3.121; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-354 STOROGHEVSKAJA8-354-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:47
+    host modem2065350 { 
+           hardware ethernet 00:1E:69:17:FB:84; 
+           fixed-address 172.20.3.124; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- VANEEVA ul.46-NEISPR
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-11-20 11:21:32
+    host modem2065362 { 
+           hardware ethernet 00:18:9B:47:31:F7; 
+           fixed-address 172.20.3.177; 
+           filename "3m19-5cpe.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-267 STOROGEVSKAYA8-267-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-02-14 21:30:28
+    host modem2065367 { 
+           hardware ethernet 00:18:9B:7E:A4:75; 
+           fixed-address 172.20.3.204; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-294 STOROGEVSKAYA8-294-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:25
+    host modem2065374 { 
+           hardware ethernet 00:18:9B:EE:3A:FD; 
+           fixed-address 172.20.3.220; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA5- uchastok 1 test
+    # LAST EDIT BY:AMELCHITS LAST EDIT TIME:2014-07-26 12:56:19
+    host modem2065376 { 
+           hardware ethernet 00:1E:69:17:FB:B0; 
+           fixed-address 172.20.0.244; 
+           filename "3m19.bin";
+    }
+    # MODEM:KARASTOYANOVOY3A-6 KARASTOJANOVOJ3A-6-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-11-04 16:56:36
+    host modem2065379 { 
+           hardware ethernet 00:18:9B:EE:32:CB; 
+           fixed-address 172.20.3.227; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA21-132 CNYANSKAJA21-132-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:05:03
+    host modem2065380 { 
+           hardware ethernet 00:18:9B:EE:32:D1; 
+           fixed-address 172.20.3.228; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY30/2-42 LOGOJSKIJ tr.30/2-42
+    # LAST EDIT BY:STRUKOVA LAST EDIT TIME:2016-11-24 11:43:18
+    host modem2065388 { 
+           hardware ethernet 00:1E:69:0D:6F:72; 
+           fixed-address 172.20.0.179; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-232 STOROGEVSKAYA8-232-MOD
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-09-21 11:55:59
+    host modem2065391 { 
+           hardware ethernet 00:1E:69:0E:7D:C6; 
+           fixed-address 172.20.3.249; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA23-24 CNYANSKAYA23-24-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-07-28 18:22:43
+    host modem2065392 { 
+           hardware ethernet 00:1E:69:0E:BB:34; 
+           fixed-address 172.20.3.250; 
+           filename "3m19.bin";
+    }
+    # MODEM:KUYBYISHEVA48-94 KUIBISHEVA48-94-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:18
+    host modem2065394 { 
+           hardware ethernet 00:1E:69:0E:7D:0A; 
+           fixed-address 172.20.3.253; 
+           filename "3m19.bin";
+    }
+    # MODEM:SURGANOVA49-224 SURGANOVA49-224-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:06:55
+    host modem2065396 { 
+           hardware ethernet 00:1E:69:17:FA:CA; 
+           fixed-address 172.20.6.2; 
+           filename "3m19.bin";
+    }
+    # MODEM:MYASNIKOVA35-2 MIASNIKOVA35-2-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:33
+    host modem2065401 { 
+           hardware ethernet 00:1E:69:2B:35:78; 
+           fixed-address 172.20.6.10; 
+           filename "3m19.bin";
+    }
+    # MODEM:GALO4-23 GALO4-23-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-05-31 16:45:00
+    host modem2065405 { 
+           hardware ethernet 00:1E:69:2B:33:94; 
+           fixed-address 172.20.6.15; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI25-150 BEDY25-150-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:40
+    host modem2065407 { 
+           hardware ethernet 00:1E:69:2B:35:4C; 
+           fixed-address 172.20.6.18; 
+           filename "3m19.bin";
+    }
+    # MODEM:SURGANOVA49-195 SURGANOVA49-195-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:07:59
+    host modem2065424 { 
+           hardware ethernet 00:1E:69:2B:4D:C8; 
+           fixed-address 172.20.6.47; 
+           filename "3m19.bin";
+    }
+    # MODEM:NEKRASOVA22/2-6 NEKRASOVA22-2-6-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:00
+    host modem2065425 { 
+           hardware ethernet 00:1E:69:2B:4D:B6; 
+           fixed-address 172.20.6.48; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA5-3 CNIYANSKAYA5-3-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-06-19 13:24:41
+    host modem2065426 { 
+           hardware ethernet 00:1E:69:2B:4E:6C; 
+           fixed-address 172.20.6.49; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI27-35 BEDY27-35-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:02
+    host modem2065427 { 
+           hardware ethernet 00:1E:69:2B:4E:60; 
+           fixed-address 172.20.6.52; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI5-31 BEDY5-31-MOD
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-05-14 18:41:53
+    host modem2065428 { 
+           hardware ethernet 00:1E:69:2B:4E:6A; 
+           fixed-address 172.20.0.160; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI6-64 BEDY6-64-MOD
+    # LAST EDIT BY:PAPKO LAST EDIT TIME:2011-10-14 14:36:14
+    host modem2065431 { 
+           hardware ethernet 00:18:9B:EE:32:9B; 
+           fixed-address 172.20.6.59; 
+           filename "3m19.bin";
+    }
+    # MODEM:BERESTYANSKAYA24-82 BERESTIANSK24-82-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-04-29 18:45:31
+    host modem2065434 { 
+           hardware ethernet 00:1E:69:2B:4E:4C; 
+           fixed-address 172.20.6.63; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH38-49 SEDYH38-49-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:23
+    host modem2065440 { 
+           hardware ethernet 00:1E:69:2B:4A:E0; 
+           fixed-address 172.20.6.72; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA21-57 VOLGOGRADSKAJA ul.21-57
+    # LAST EDIT BY:SHUBICH LAST EDIT TIME:2013-12-03 11:27:00
+    host modem2065442 { 
+           hardware ethernet 00:1E:69:2B:4A:E6; 
+           fixed-address 172.20.0.216; 
+           filename "3m19.bin";
+    }
+    # MODEM:KUYBYISHEVA48-175 KUJBYSHEVA48-175-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:24
+    host modem2065445 { 
+           hardware ethernet 00:1E:69:2B:3F:F0; 
+           fixed-address 172.20.6.78; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH36-8 SEDYH36-8-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:31
+    host modem2065452 { 
+           hardware ethernet 00:1E:69:2B:4B:74; 
+           fixed-address 172.20.6.86; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO91-42 KALINOVSKOGO ul.91-42
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-04-27 13:13:10
+    host modem2065455 { 
+           hardware ethernet 00:1E:69:2B:43:92; 
+           fixed-address 172.20.1.12; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH34-32 SEDYH34-32-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:38
+    host modem2065458 { 
+           hardware ethernet 00:1E:69:2B:4C:16; 
+           fixed-address 172.20.6.93; 
+           filename "3m19.bin";
+    }
+    # MODEM:MYASNIKOVA35-44 MIASNIKOVA35-44-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-09-29 11:11:29
+    host modem2065463 { 
+           hardware ethernet 00:1E:69:2B:39:72; 
+           fixed-address 172.20.6.99; 
+           filename "3m19.bin";
+    }
+    # MODEM:KAHOVSKAYA47-48 KAHOVSKAJA47-48-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:49
+    host modem2065465 { 
+           hardware ethernet 00:1E:69:2B:43:0C; 
+           fixed-address 172.20.6.101; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA23-54 CNIYANSKAYA23-54-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:50
+    host modem2065466 { 
+           hardware ethernet 00:1E:69:2B:43:46; 
+           fixed-address 172.20.6.102; 
+           filename "3m19.bin";
+    }
+    # MODEM:KUYBYISHEVA48-182 KUYBISHEVA48-182-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:08:54
+    host modem2065470 { 
+           hardware ethernet 00:1E:69:2B:4C:76; 
+           fixed-address 172.20.6.107; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO71-46 KALINOVSKOGO71-46-MOD
+    # LAST EDIT BY:GAPEEVA LAST EDIT TIME:2011-10-26 10:34:13
+    host modem2065475 { 
+           hardware ethernet 00:18:9B:7E:A4:D5; 
+           fixed-address 172.20.6.113; 
+           filename "3m19.bin";
+    }
+    # MODEM:NEKRASOVA22-17 NEKRASOVA22-17-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:04
+    host modem2065481 { 
+           hardware ethernet 00:24:D1:03:BA:68; 
+           fixed-address 172.20.6.120; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH60-65 SEDYH60-65-MOD
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-09-06 13:29:49
+    host modem2065486 { 
+           hardware ethernet 00:24:D1:03:BD:0A; 
+           fixed-address 172.20.6.126; 
+           filename "3m19.bin";
+    }
+    # MODEM:BOGDANOVICHA124-37 BOGDANOVICHA124-37-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:06
+    host modem2065488 { 
+           hardware ethernet 00:24:D1:03:B8:40; 
+           fixed-address 172.20.6.129; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-58 STOROGEVSKAYA8-58-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:08
+    host modem2065490 { 
+           hardware ethernet 00:24:D1:03:B9:38; 
+           fixed-address 172.20.6.131; 
+           filename "3m19.bin";
+    }
+    # MODEM:KARASTOYANOVOY3A-55 KARASTOJANOVOJ3A-55-MOD
+    # LAST EDIT BY:PAPKO LAST EDIT TIME:2011-09-22 16:10:31
+    host modem2065491 { 
+           hardware ethernet 00:24:D1:03:B9:2C; 
+           fixed-address 172.20.6.132; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA5-68 CNIYANSKAYA5-68-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:13
+    host modem2065497 { 
+           hardware ethernet 00:24:D1:03:BA:7A; 
+           fixed-address 172.20.6.138; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH44-74 SEDYH44-74-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:32
+    host modem2065506 { 
+           hardware ethernet 00:24:D1:06:01:A4; 
+           fixed-address 172.20.6.154; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO63-25 KALINOVSKOGO63-25-MOD
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-03-15 18:24:50
+    host modem2065508 { 
+           hardware ethernet 00:24:D1:03:BA:AA; 
+           fixed-address 172.20.6.157; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO53/2-89 KALINOVSKOGO53-2-89-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-10-06 08:46:44
+    host modem2065511 { 
+           hardware ethernet 00:24:D1:05:FE:16; 
+           fixed-address 172.20.6.160; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH56-36 SEDYH56-36-MOD
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-01-26 11:50:49
+    host modem2065513 { 
+           hardware ethernet 00:24:D1:05:FB:B8; 
+           fixed-address 172.20.1.0; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH34-55 SEDYH34-55-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-11-01 13:06:13
+    host modem2065515 { 
+           hardware ethernet 00:24:D1:05:FC:74; 
+           fixed-address 172.20.6.165; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-34 STOROGEVSKAYA8-34-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:41
+    host modem2065519 { 
+           hardware ethernet 00:24:D1:05:FB:C8; 
+           fixed-address 172.20.6.169; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-286 STOROGEVSKAYA8-286-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:41
+    host modem2065520 { 
+           hardware ethernet 00:1E:69:2B:34:94; 
+           fixed-address 172.20.6.170; 
+           filename "3m19.bin";
+    }
+    # MODEM:BOGDANOVICHA128-23 BOGDANOVICHA ul.128-23
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-01-02 17:11:16
+    host modem2065522 { 
+           hardware ethernet 00:24:D1:05:FF:C2; 
+           fixed-address 172.20.1.26; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI19-80 BEDY19-80-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-08-06 20:27:37
+    host modem2065524 { 
+           hardware ethernet 00:24:D1:05:FB:5A; 
+           fixed-address 172.20.6.174; 
+           filename "3m19.bin";
+    }
+    # MODEM:BERESTYANSKAYA24-48 BERESTIANSK24-48-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:09:53
+    host modem2065525 { 
+           hardware ethernet 00:24:D1:05:FC:AC; 
+           fixed-address 172.20.6.175; 
+           filename "3m19.bin";
+    }
+    # MODEM:KUYBYISHEVA48-137 KUYBISHEVA48-137-MOD
+    # LAST EDIT BY:PAPKO LAST EDIT TIME:2011-10-07 15:24:59
+    host modem2065534 { 
+           hardware ethernet 00:24:D1:20:39:5C; 
+           fixed-address 172.20.6.184; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH56-89 SEDYH56-89-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-11-22 14:32:24
+    host modem2065538 { 
+           hardware ethernet 00:1E:69:2B:39:A2; 
+           fixed-address 172.20.6.189; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY30/1-92 LOGOYSKIY30-1-92-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-07-29 09:33:01
+    host modem2065543 { 
+           hardware ethernet 00:24:D1:20:3A:10; 
+           fixed-address 172.20.6.194; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-93 STOROGEVSKAYA8-93-MOD
+    # LAST EDIT BY:DOROSHKO LAST EDIT TIME:2013-11-02 16:32:02
+    host modem2065548 { 
+           hardware ethernet 00:24:D1:20:3A:C4; 
+           fixed-address 172.20.6.201; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH14B-2 SEDYH14B-2-MOD
+    # LAST EDIT BY:CHERNUHO LAST EDIT TIME:2017-08-22 14:08:06
+    host modem2065554 { 
+           hardware ethernet 00:24:D1:43:97:92; 
+           fixed-address 172.20.6.207; 
+           filename "3m19.bin";
+    }
+    # MODEM:KUYBYISHEVA48-59 KUYBISHEVA48-59-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:15
+    host modem2065555 { 
+           hardware ethernet 00:24:D1:43:96:CA; 
+           fixed-address 172.20.6.208; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO33-47 KALINOVSKOGO33-47-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-05-19 10:56:06
+    host modem2065556 { 
+           hardware ethernet 00:24:D1:43:96:CE; 
+           fixed-address 172.20.0.225; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH6-25 SEDYH6-25-MOD
+    # LAST EDIT BY:DOROSHKO LAST EDIT TIME:2013-06-26 10:14:55
+    host modem2065557 { 
+           hardware ethernet 00:24:D1:43:97:38; 
+           fixed-address 172.20.6.210; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI13-36 BEDY13-36-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:16
+    host modem2065560 { 
+           hardware ethernet 00:24:D1:43:98:A0; 
+           fixed-address 172.20.6.213; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY26-53 LOGOYSKIY26-53-MOD
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-02-14 13:50:52
+    host modem2065565 { 
+           hardware ethernet 00:24:D1:43:98:D0; 
+           fixed-address 172.20.6.218; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY32/3-5 LOGOYSKIY32-3-5-MOD
+    # LAST EDIT BY:ZALOGO LAST EDIT TIME:2017-01-09 16:29:04
+    host modem2065567 { 
+           hardware ethernet 00:24:D1:43:98:D6; 
+           fixed-address 172.20.6.220; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO21-14 KALINOVSKOGO21-14-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-08-15 18:15:46
+    host modem2065569 { 
+           hardware ethernet 00:24:D1:43:98:E8; 
+           fixed-address 172.20.1.19; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY30/1-76 LOGOYSKIY30-1-76-MOD
+    # LAST EDIT BY:ZALOGO LAST EDIT TIME:2015-11-27 13:05:56
+    host modem2065571 { 
+           hardware ethernet 00:24:D1:43:97:6A; 
+           fixed-address 172.20.6.224; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY26-55 LOGOYSKIY26-55-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:18
+    host modem2065573 { 
+           hardware ethernet 00:24:D1:43:96:7E; 
+           fixed-address 172.20.6.226; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH14V-1 SEDYH14V-1-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-01-15 16:42:36
+    host modem2065579 { 
+           hardware ethernet 00:24:D1:43:9B:1A; 
+           fixed-address 172.20.6.232; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY28/3-6 LOGOYSKIY28-3-6-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:21
+    host modem2065583 { 
+           hardware ethernet 00:24:D1:43:9A:4E; 
+           fixed-address 172.20.6.236; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY28/3-16 LOGOYSKIY28-3-16-MOD
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-11-02 20:26:24
+    host modem2065584 { 
+           hardware ethernet 00:24:D1:43:9A:50; 
+           fixed-address 172.20.6.237; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO27-15 KALINOVSKOGO27-15-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-08-03 14:28:37
+    host modem2065595 { 
+           hardware ethernet 00:24:D1:43:9B:00; 
+           fixed-address 172.20.6.249; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY34/1-113 LOGOYSKIY34-1-113-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:24
+    host modem2065599 { 
+           hardware ethernet 00:24:D1:43:9A:EE; 
+           fixed-address 172.20.6.253; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO21-66 KALINOVSKOGO21-66-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:26
+    host modem2065605 { 
+           hardware ethernet 00:24:D1:43:9B:B8; 
+           fixed-address 172.20.7.5; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO53/1-27 KALINOVSKOGO53-1-27-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:27
+    host modem2065613 { 
+           hardware ethernet 00:24:D1:43:9A:C6; 
+           fixed-address 172.20.7.13; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO57/2-41 KALINOVSKOGO57-2-41-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:29
+    host modem2065621 { 
+           hardware ethernet 00:24:D1:43:9C:1E; 
+           fixed-address 172.20.7.21; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH60-32 SEDYH60-32-MOD
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-05-29 18:58:46
+    host modem2065624 { 
+           hardware ethernet 00:24:D1:43:9C:06; 
+           fixed-address 172.20.7.24; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY26-103 LOGOYSKIY26-103-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-06-11 17:55:40
+    host modem2065630 { 
+           hardware ethernet 00:24:D1:20:38:FA; 
+           fixed-address 172.20.7.31; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH24-45 SEDYH24-45-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:32
+    host modem2065633 { 
+           hardware ethernet 00:24:D1:43:9C:A0; 
+           fixed-address 172.20.7.34; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO75-38 KALINOVSKOGO75-38-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-04-29 21:57:02
+    host modem2065638 { 
+           hardware ethernet 00:24:D1:43:9B:F2; 
+           fixed-address 172.20.7.39; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH30-2 SEDYH30-2-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-05-27 17:20:51
+    host modem2065641 { 
+           hardware ethernet 00:22:3A:FD:45:FB; 
+           fixed-address 172.20.7.42; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI5-102 BEDY5-102-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:36
+    host modem2065643 { 
+           hardware ethernet 00:1E:69:17:B5:BE; 
+           fixed-address 172.20.7.44; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO23-33 KALINOVSKOGO23-33-MOD
+    # LAST EDIT BY:ANNA LAST EDIT TIME:2014-08-28 18:03:59
+    host modem2065647 { 
+           hardware ethernet 00:1E:69:18:00:8C; 
+           fixed-address 172.20.7.49; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO9-14 KALINOVSKOGO9-14-MOD
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-11-02 19:48:48
+    host modem2065655 { 
+           hardware ethernet 00:24:D1:43:99:F4; 
+           fixed-address 172.20.7.60; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH8-4 SEDYH8-4-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:50
+    host modem2065662 { 
+           hardware ethernet 00:24:D1:43:99:B4; 
+           fixed-address 172.20.7.68; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA21-139 CNJANSKAJA ul.21-139
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2012-04-03 11:31:03
+    host modem2065668 { 
+           hardware ethernet 00:24:D1:49:91:84; 
+           fixed-address 172.20.0.103; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY30/1-107 LOGOYSKIY30-1-107-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-10-06 18:03:46
+    host modem2065669 { 
+           hardware ethernet 00:22:3A:FD:4B:6B; 
+           fixed-address 172.20.7.75; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH26-60 SEDYH26-60-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:10:58
+    host modem2065675 { 
+           hardware ethernet 00:24:D1:43:97:5E; 
+           fixed-address 172.20.7.81; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO71-52 KALINOVSKOGO ul.71-52
+    # LAST EDIT BY:ZALOGO LAST EDIT TIME:2016-10-06 11:56:49
+    host modem2065677 { 
+           hardware ethernet 00:24:D1:43:99:16; 
+           fixed-address 172.20.0.69; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH14V-32 SEDYH14V-32-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-01-28 14:51:05
+    host modem2065685 { 
+           hardware ethernet 00:24:D1:43:9C:BC; 
+           fixed-address 172.20.7.91; 
+           filename "3m19.bin";
+    }
+    # MODEM:KARASTOYANOVOY3A-16 KARASTOJANOVOJ3A-16-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:13
+    host modem2065691 { 
+           hardware ethernet 00:24:D1:20:3A:D0; 
+           fixed-address 172.20.7.98; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO17-21 KALINOVSKOGO17-21-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:13
+    host modem2065693 { 
+           hardware ethernet 00:24:D1:20:3A:CC; 
+           fixed-address 172.20.7.100; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO15-25 KALINOVSKOGO15-25-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:13
+    host modem2065694 { 
+           hardware ethernet 00:24:D1:20:3A:DC; 
+           fixed-address 172.20.7.101; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO33-10 KALINOVSKOGO33-10-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-08-14 15:57:00
+    host modem2065695 { 
+           hardware ethernet 00:1E:69:2B:43:A0; 
+           fixed-address 172.20.7.102; 
+           filename "3m19.bin";
+    }
+    # MODEM:KUYBYISHEVA48-98 KUYBISHEVA48-98-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:16
+    host modem2065699 { 
+           hardware ethernet 00:24:D1:20:3D:A2; 
+           fixed-address 172.20.7.106; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO31-67 KALINOVSKOGO31-67-MOD
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-12-01 14:03:27
+    host modem2065702 { 
+           hardware ethernet 00:11:E3:95:70:56; 
+           fixed-address 172.20.7.110; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH26-63 SEDYH26-63-MOD
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2012-06-01 20:48:23
+    host modem2065704 { 
+           hardware ethernet 00:24:D1:20:3A:58; 
+           fixed-address 172.20.7.112; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO33-48 KALINOVSKOGO33-48-MOD
+    # LAST EDIT BY:ZALOGO LAST EDIT TIME:2016-07-25 12:33:42
+    host modem2065705 { 
+           hardware ethernet 00:26:24:95:C2:2A; 
+           fixed-address 172.20.7.113; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO5-59 KALINOVSKOGO5-59-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:21
+    host modem2065712 { 
+           hardware ethernet 00:1E:69:2B:32:20; 
+           fixed-address 172.20.7.120; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO3-33 KALINOVSKOGO ul.3-33
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2011-07-25 12:25:05
+    host modem2065714 { 
+           hardware ethernet 00:1E:69:2B:34:18; 
+           fixed-address 172.20.0.104; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY32/3-55 LOGOYSKIY32-3-55-3
+    # LAST EDIT BY:DOROSHKO LAST EDIT TIME:2013-07-05 13:06:34
+    host modem2065715 { 
+           hardware ethernet 00:1E:69:0D:6F:7C; 
+           fixed-address 172.20.7.123; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY32/3-55 LOGOYSKIY32-3-55-2-MOD
+    # LAST EDIT BY:NAUMOVICH LAST EDIT TIME:2013-12-20 21:12:18
+    host modem2065723 { 
+           hardware ethernet 00:26:24:95:BC:B2; 
+           fixed-address 172.20.7.132; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO29-2 KALINOVSKOGO29-2-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:26
+    host modem2065728 { 
+           hardware ethernet 00:26:24:95:BC:A0; 
+           fixed-address 172.20.7.137; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY32/2-63 LOGOYSKIY32-2-63-MOD
+    # LAST EDIT BY:MAX LAST EDIT TIME:2011-09-21 20:58:02
+    host modem2065739 { 
+           hardware ethernet 00:1E:69:2B:3F:E4; 
+           fixed-address 172.20.7.148; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO33-4 KALINOVSKOGO33-4-MOD
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-07-17 16:12:03
+    host modem2065740 { 
+           hardware ethernet 00:26:24:A1:21:20; 
+           fixed-address 172.20.7.149; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO31-10 KALINOVSKOGO31-10-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-01-15 14:56:41
+    host modem2065743 { 
+           hardware ethernet 00:26:24:A1:21:18; 
+           fixed-address 172.20.7.152; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY34/2-44 LOGOYSKIY34-2-44-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:34
+    host modem2065745 { 
+           hardware ethernet 00:24:D1:05:FC:46; 
+           fixed-address 172.20.7.154; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH8-7 SEDYKH ul.8-7
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-07-23 12:53:09
+    host modem2065752 { 
+           hardware ethernet 00:24:D1:20:3C:EE; 
+           fixed-address 172.20.0.195; 
+           filename "3m19.bin";
+    }
+    # MODEM:KAHOVSKAYA47-41 KAHOVSKAJA47-41-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-10-20 16:27:34
+    host modem2065753 { 
+           hardware ethernet 00:24:D1:20:3C:F2; 
+           fixed-address 172.20.7.163; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH14-45 SEDYH14-45-MOD
+    # LAST EDIT BY:ANNA LAST EDIT TIME:2014-07-24 16:14:49
+    host modem2065754 { 
+           hardware ethernet 00:24:D1:43:96:96; 
+           fixed-address 172.20.7.164; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH14B-5 SEDYH14B-5-MOD
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-10-28 11:19:48
+    host modem2065758 { 
+           hardware ethernet 00:26:24:95:C2:74; 
+           fixed-address 172.20.7.168; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO15-45 KALINOVSKOGO15-45-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:40
+    host modem2065762 { 
+           hardware ethernet 00:1E:69:2B:40:16; 
+           fixed-address 172.20.7.172; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH44-1 SEDYH44-1-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:40
+    host modem2065763 { 
+           hardware ethernet 00:1E:69:2B:4E:EC; 
+           fixed-address 172.20.7.173; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO57/2-15 KALINOVSKOGO57-2-15-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:40
+    host modem2065764 { 
+           hardware ethernet 00:24:D1:20:3C:FA; 
+           fixed-address 172.20.7.174; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH60-112 SEDYH60-112-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:41
+    host modem2065766 { 
+           hardware ethernet 00:26:24:95:C3:10; 
+           fixed-address 172.20.7.176; 
+           filename "3m19.bin";
+    }
+    # MODEM:KARASTOYANOVOY3A-79 KARASTOJANOVOJ3A-79-MOD
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-06-25 19:06:59
+    host modem2065772 { 
+           hardware ethernet 00:26:24:95:C1:44; 
+           fixed-address 172.20.7.182; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO23A-17 KALINOVSKOGO23A-17-MOD
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:44
+    host modem2065776 { 
+           hardware ethernet 00:24:D1:49:94:DC; 
+           fixed-address 172.20.7.186; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH18-14 SEDYKH ul.18-14
+    # LAST EDIT BY:STATKEVICH LAST EDIT TIME:2016-04-26 19:25:26
+    host modem2065827 { 
+           hardware ethernet 00:24:D1:43:98:52; 
+           fixed-address 172.20.0.222; 
+           filename "3m19.bin";
+    }
+    # MODEM:KARASTOYANOVOY3A-50 KARASTOJANOVOJ ul.3A-50
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-02-12 09:52:55
+    host modem2065894 { 
+           hardware ethernet 00:24:D1:43:9C:D4; 
+           fixed-address 172.20.0.185; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH32-39 SEDYKH ul.32-39
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-10-06 17:56:11
+    host modem2065915 { 
+           hardware ethernet 00:1E:69:17:FB:6C; 
+           fixed-address 172.20.1.2; 
+           filename "3m19.bin";
+    }
+    # MODEM:KUPRIYANOVA19- IBP Uch4 - Kupriyanova-19
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-06-26 12:17:44
+    host modem2065966 { 
+           hardware ethernet 00:1E:69:18:04:0E; 
+           fixed-address 172.20.0.146; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA25-25 VOLGOGRADSKAJA ul.25-25
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-10-01 16:31:16
+    host modem2066207 { 
+           hardware ethernet 00:18:9B:EE:2F:CD; 
+           fixed-address 172.20.0.96; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH8-2 SEDYKH ul.8-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-11-04 10:30:52
+    host modem2066217 { 
+           hardware ethernet 00:18:9B:47:25:FB; 
+           fixed-address 172.20.0.112; 
+           filename "3m24-5cpe.bin";
+    }
+    # MODEM:KALINOVSKOGO53/2-41 KALINOVSKOGO ul.53/2-41
+    # LAST EDIT BY:SKREBNEV LAST EDIT TIME:2013-05-23 17:57:18
+    host modem2066328 { 
+           hardware ethernet 00:18:9B:7E:A4:B7; 
+           fixed-address 172.20.0.236; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO107-62 KALINOVSKOGO ul.107-62
+    # LAST EDIT BY:TUTINAS LAST EDIT TIME:2014-09-17 14:55:44
+    host modem2066546 { 
+           hardware ethernet 00:1E:69:2B:33:E2; 
+           fixed-address 172.20.0.200; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH46-25 SEDYKH ul.46-25
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-01-10 15:44:08
+    host modem2066607 { 
+           hardware ethernet 00:1E:69:2B:3F:D0; 
+           fixed-address 172.20.0.159; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO35-35 KALINOVSKOGO ul.35-35
+    # LAST EDIT BY:SKREBNEV LAST EDIT TIME:2013-09-16 17:10:55
+    host modem2066637 { 
+           hardware ethernet 48:44:87:23:A2:F4; 
+           fixed-address 172.20.0.93; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA37A-40 VOLGOGRADSKAJA ul.37A-40
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-01-03 18:46:24
+    host modem2066655 { 
+           hardware ethernet 00:1E:69:2B:43:40; 
+           fixed-address 172.20.0.135; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA37A-51 VOLGOGRADSKAJA ul.37A-51
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2015-06-24 11:31:12
+    host modem2066944 { 
+           hardware ethernet 00:11:E3:95:70:DA; 
+           fixed-address 172.20.1.42; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH24-77 SEDYKH ul.24-77
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-10-14 19:55:29
+    host modem2067099 { 
+           hardware ethernet 00:1E:69:17:FB:54; 
+           fixed-address 172.20.0.193; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY32/1-34 LOGOJSKIJ tr.32/1-34
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-01-30 09:59:25
+    host modem2067107 { 
+           hardware ethernet 00:26:24:95:C1:42; 
+           fixed-address 172.20.1.39; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO63-31 KALINOVSKOGO ul.63-31
+    # LAST EDIT BY:MOISEVICH LAST EDIT TIME:2013-07-04 21:51:49
+    host modem2067216 { 
+           hardware ethernet 00:18:9B:3E:15:C7; 
+           fixed-address 172.20.0.163; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA21-53 CNJANSKAJA ul.21-53
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-03-13 20:17:10
+    host modem2067688 { 
+           hardware ethernet 00:24:D1:06:00:46; 
+           fixed-address 172.20.0.172; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA82-11 VOLGOGRADSKAJA ul.82-11
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-06-22 14:13:38
+    host modem2067769 { 
+           hardware ethernet 00:24:D1:20:3C:B8; 
+           fixed-address 172.20.1.47; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH36-37 SEDYKH ul.36-37
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-11-01 16:17:22
+    host modem2067912 { 
+           hardware ethernet 00:24:D1:43:98:A4; 
+           fixed-address 172.20.0.207; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA23-1 TEST Uchastok 5
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-11-19 14:49:15
+    host modem2067939 { 
+           hardware ethernet 00:24:D1:49:91:FA; 
+           fixed-address 172.20.0.167; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI13-106 BEDY ul.13-106
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-12-09 16:37:06
+    host modem2068005 { 
+           hardware ethernet 00:26:24:95:C2:16; 
+           fixed-address 172.20.0.194; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH26-31 SEDYKH ul.26-31
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-03-30 21:37:41
+    host modem2068015 { 
+           hardware ethernet 00:26:24:95:BD:F4; 
+           fixed-address 172.20.1.3; 
+           filename "3m19.bin";
+    }
+    # MODEM:SURGANOVA49-248 SURGANOVA ul.49-248
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2012-01-17 10:29:21
+    host modem2068241 { 
+           hardware ethernet 00:22:3A:FC:EB:2F; 
+           fixed-address 172.20.0.156; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA23- TSnyanskaya-proverit
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-11-30 15:05:03
+    host modem2068334 { 
+           hardware ethernet 00:24:D1:03:B9:F2; 
+           fixed-address 172.20.0.61; 
+           filename "nemiga6-116.bin";
+    }
+    # MODEM:VANEEVA46- VANEEVA ul.46-
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-05-21 10:59:32
+    host modem2068369 { 
+           hardware ethernet 00:24:D1:03:B8:F4; 
+           fixed-address 172.20.0.20; 
+           filename "3m19.bin";
+    }
+    # MODEM:KUYBYISHEVA48-14 KUJBYSHEVA ul.48-14
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-08-21 12:08:47
+    host modem2068379 { 
+           hardware ethernet 00:24:D1:05:FD:58; 
+           fixed-address 172.20.0.54; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO93-67 KALINOVSKOGO ul.93-67
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-11-08 17:39:12
+    host modem2068987 { 
+           hardware ethernet 00:1E:69:2B:42:DC; 
+           fixed-address 172.20.0.204; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO53/2-66 KALINOVSKOGO ul.53/2-66
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-03-21 17:19:01
+    host modem2069144 { 
+           hardware ethernet 00:1E:69:0D:61:52; 
+           fixed-address 172.20.1.30; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO21-34 KALINOVSKOGO ul.21-34
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-02-16 19:38:07
+    host modem2069206 { 
+           hardware ethernet 00:1E:69:2B:4D:9A; 
+           fixed-address 172.20.0.149; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI5-110 BEDY ul.5-110
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-06-01 15:05:40
+    host modem2069213 { 
+           hardware ethernet 00:1E:69:2B:4F:36; 
+           fixed-address 172.20.1.40; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO51-6 KALINOVSKOGO ul.51-6
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-04-30 16:53:10
+    host modem2069401 { 
+           hardware ethernet 00:1E:69:2B:3F:82; 
+           fixed-address 172.20.0.181; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY32/2-62 LOGOJSKIJ tr.32/2-62
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-11-22 15:43:20
+    host modem2069429 { 
+           hardware ethernet 00:24:D1:49:95:C8; 
+           fixed-address 172.20.1.25; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO15-44 KALINOVSKOGO ul.15-44
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-10-23 14:30:19
+    host modem2069435 { 
+           hardware ethernet 00:24:D1:49:95:00; 
+           fixed-address 172.20.0.105; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO23-57 KALINOVSKOGO ul.23-57
+    # LAST EDIT BY:MAX LAST EDIT TIME:2013-02-26 21:45:59
+    host modem2069449 { 
+           hardware ethernet 00:24:D1:49:91:F0; 
+           fixed-address 172.20.0.177; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO57/2-17 KALINOVSKOGO ul.57/2-17
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-01-14 14:17:23
+    host modem2069466 { 
+           hardware ethernet 00:26:24:95:BD:EE; 
+           fixed-address 172.20.1.36; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- Vaneeva-neispr
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-11-20 11:52:32
+    host modem2069675 { 
+           hardware ethernet 00:1E:69:0E:BB:A0; 
+           fixed-address 172.20.0.20; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-51 STOROZHEVSKAJA ul.8-51
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-11-28 15:41:36
+    host modem2069708 { 
+           hardware ethernet 00:1E:69:2B:34:C8; 
+           fixed-address 172.20.0.120; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- VANEEVA ul.46-
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-05-16 11:10:23
+    host modem2069722 { 
+           hardware ethernet 00:1E:69:2B:34:6A; 
+           fixed-address 172.20.0.20; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO61-35 KALINOVSKOGO ul.61-35
+    # LAST EDIT BY:BOGODYAZH LAST EDIT TIME:2017-07-21 12:33:02
+    host modem2069977 { 
+           hardware ethernet 00:24:D1:43:97:82; 
+           fixed-address 172.20.0.76; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA21-1 TSnyanskaya VOLS
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-02-12 10:57:55
+    host modem2069997 { 
+           hardware ethernet 00:1E:69:2B:31:E0; 
+           fixed-address 172.20.1.37; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- Vaneeva+
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-06-27 20:09:14
+    host modem2070009 { 
+           hardware ethernet 00:1E:69:2B:4B:5C; 
+           fixed-address 172.20.0.190; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-287 STOROZHEVSKAJA ul.8-287
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2013-02-12 12:15:17
+    host modem2070153 { 
+           hardware ethernet 00:22:3A:FC:E8:9F; 
+           fixed-address 172.20.0.75; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH26-65 SEDYKH ul.26-65
+    # LAST EDIT BY:VASILEVSKAYA LAST EDIT TIME:2015-05-05 14:49:14
+    host modem2070475 { 
+           hardware ethernet 00:24:D1:43:9A:26; 
+           fixed-address 172.20.0.182; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO23-12 KALINOVSKOGO ul.23-12
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-05-04 20:43:36
+    host modem2070633 { 
+           hardware ethernet 00:26:24:95:BD:9A; 
+           fixed-address 172.20.0.191; 
+           filename "3m19.bin";
+    }
+    # MODEM:CHAYKOVSKOGO6-8 CHAJKOVSKOGO pr-d6-8
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-03-29 13:47:50
+    host modem2070730 { 
+           hardware ethernet 00:24:D1:06:01:1A; 
+           fixed-address 172.20.1.9; 
+           filename "3m19.bin";
+    }
+    # MODEM:NEMIGA6-13 NEMIGA ul.6-13
+    # LAST EDIT BY:ANNA LAST EDIT TIME:2014-04-02 10:31:16
+    host modem2070796 { 
+           hardware ethernet 00:24:D1:43:97:28; 
+           fixed-address 172.20.0.219; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- Vaneeva+
+    # LAST EDIT BY:KROK LAST EDIT TIME:2012-12-04 15:44:35
+    host modem2070923 { 
+           hardware ethernet 00:1E:69:17:FA:CC; 
+           fixed-address 172.20.0.234; 
+           filename "nemiga6-116.bin";
+    }
+    # MODEM:KALINOVSKOGO93-25 KALINOVSKOGO ul.93-25
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-06-10 14:00:23
+    host modem2070949 { 
+           hardware ethernet 00:1E:69:17:FA:44; 
+           fixed-address 172.20.0.252; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO33-47 KALINOVSKOGO ul.33-47-2
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-05-19 10:58:04
+    host modem2070969 { 
+           hardware ethernet 00:1E:69:17:FA:8C; 
+           fixed-address 172.20.1.44; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO53/1-50 KALINOVSKOGO ul.53/1-50
+    # LAST EDIT BY:STATKEVICH LAST EDIT TIME:2016-03-09 16:02:50
+    host modem2070993 { 
+           hardware ethernet 00:1E:69:18:00:14; 
+           fixed-address 172.20.0.136; 
+           filename "3m19.bin";
+    }
+    # MODEM:JHILUNOVICHA10-1 VOLS TEST Berestyanskaya 24
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2014-02-07 19:26:43
+    host modem2070995 { 
+           hardware ethernet 00:1E:69:17:EA:DA; 
+           fixed-address 172.20.0.20; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH36-71 SEDYKH ul.36-71
+    # LAST EDIT BY:ANNA LAST EDIT TIME:2014-07-12 15:21:33
+    host modem2071026 { 
+           hardware ethernet 00:1E:69:2B:4F:34; 
+           fixed-address 172.20.1.18; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO53/3-11 KALINOVSKOGO ul.53/3-11
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-06-10 11:10:06
+    host modem2071034 { 
+           hardware ethernet 00:1E:69:2B:31:3A; 
+           fixed-address 172.20.0.106; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO107-37 KALINOVSKOGO ul.107-37
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-11-23 11:46:53
+    host modem2071084 { 
+           hardware ethernet 00:1E:69:2B:35:84; 
+           fixed-address 172.20.1.31; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH50-29 SEDYKH ul.50-29
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-06-28 13:31:09
+    host modem2071112 { 
+           hardware ethernet 00:1E:69:17:FB:1E; 
+           fixed-address 172.20.0.235; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH14B-1 SEDYKH ul.14B-1
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2012-08-30 13:07:55
+    host modem2071124 { 
+           hardware ethernet 00:18:9B:47:32:03; 
+           fixed-address 172.20.0.210; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH38-66 SEDYKH ul.38-66
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-06-12 13:08:09
+    host modem2071177 { 
+           hardware ethernet 00:1E:69:2B:4F:24; 
+           fixed-address 172.20.1.6; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA31A-40 VOLGOGRADSKAJA ul.31A-40
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-07-11 16:17:25
+    host modem2071277 { 
+           hardware ethernet 00:1E:69:2B:38:F4; 
+           fixed-address 172.20.1.4; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY34/2-79 LOGOJSKIJ tr.34/2-79-2
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-11-24 13:04:01
+    host modem2071452 { 
+           hardware ethernet 00:24:D1:06:01:DE; 
+           fixed-address 172.20.0.214; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH6-1 SEDYKH ul.6-1
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-08-13 16:40:00
+    host modem2071494 { 
+           hardware ethernet 00:22:3A:FD:47:EF; 
+           fixed-address 172.20.0.77; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA78-7 VOLGOGRADSKAJA ul.78-7
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-06-20 14:19:06
+    host modem2071557 { 
+           hardware ethernet 00:1E:69:2B:3F:F4; 
+           fixed-address 172.20.0.184; 
+           filename "3m19.bin";
+    }
+    # MODEM:BEDYI5-27 BEDY ul.5-27
+    # LAST EDIT BY:VYSOCKAY LAST EDIT TIME:2011-08-25 12:49:02
+    host modem2071641 { 
+           hardware ethernet 00:1E:69:2B:3F:DA; 
+           fixed-address 172.20.0.62; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA25B-8 VOLGOGRADSKAJA ul.25B-8
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-09-30 14:35:26
+    host modem2071747 { 
+           hardware ethernet 00:24:D1:03:BA:34; 
+           fixed-address 172.20.0.221; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY32/3-43 LOGOJSKIJ tr.32/3-43
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2016-10-13 16:13:47
+    host modem2071860 { 
+           hardware ethernet 00:24:D1:20:37:AC; 
+           fixed-address 172.20.0.73; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO17-28 KALINOVSKOGO ul.17-28
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2011-08-22 12:24:49
+    host modem2071889 { 
+           hardware ethernet 00:24:D1:43:9C:98; 
+           fixed-address 172.20.0.114; 
+           filename "3m19.bin";
+    }
+    # MODEM:POBEDITELEY1/2-24 POBEDITELEJ pr.1/2-24
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-05-18 12:58:19
+    host modem2071941 { 
+           hardware ethernet 00:1E:69:2B:31:32; 
+           fixed-address 172.20.0.92; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO57/2-43 KALINOVSKOGO ul.57/2-43
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:49
+    host modem2088324 { 
+           hardware ethernet 00:24:D1:20:3B:B8; 
+           fixed-address 172.20.0.55; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-301 STOROZHEVSKAJA ul.8-301
+    # LAST EDIT BY:SYSDBA LAST EDIT TIME:2011-04-11 15:11:49
+    host modem2088344 { 
+           hardware ethernet 48:44:87:23:56:C0; 
+           fixed-address 172.20.0.57; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO57/2-21 KALINOVSKOGO ul.57/2-21
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2012-12-17 19:41:39
+    host modem2088783 { 
+           hardware ethernet 00:24:D1:49:92:00; 
+           fixed-address 172.20.0.95; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO3-18 KALINOVSKOGO ul.3-18
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-04-15 10:29:27
+    host modem2089093 { 
+           hardware ethernet 00:24:D1:03:B9:A6; 
+           fixed-address 172.20.0.71; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO23A-21 KALINOVSKOGO ul.23A-21
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-02-23 10:50:08
+    host modem2089665 { 
+           hardware ethernet 00:1E:69:2B:4D:2E; 
+           fixed-address 172.20.0.169; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH14-59 SEDYKH ul.14-59
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2014-12-13 11:26:44
+    host modem2090214 { 
+           hardware ethernet 00:26:24:95:BE:8E; 
+           fixed-address 172.20.1.5; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- VOLS IBP Bagrationa 73
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-04-06 11:19:23
+    host modem2104552 { 
+           hardware ethernet 00:1E:69:08:34:30; 
+           fixed-address 172.20.0.3; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- VOLS IBP Horujhey 18
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-04-05 12:52:53
+    host modem2104554 { 
+           hardware ethernet 00:E0:6F:AD:E8:58; 
+           fixed-address 172.20.5.58; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- VOLS IBP Partizanskiy 32
+    # LAST EDIT BY:MORTEN LAST EDIT TIME:2011-04-05 12:51:12
+    host modem2104555 { 
+           hardware ethernet 00:E0:6F:AD:E1:58; 
+           fixed-address 172.20.5.57; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- VOLS TEST IP 33
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-06-08 17:06:57
+    host modem2139291 { 
+           hardware ethernet 00:24:D1:20:3B:20; 
+           fixed-address 172.20.0.8; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- Vaneeva-test+
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2013-05-02 11:37:51
+    host modem2139753 { 
+           hardware ethernet 00:26:24:95:BD:98; 
+           fixed-address 172.20.0.20; 
+           filename "3m24-10cpe.bin";
+    }
+    # MODEM:KALINOVSKOGO97-8 Vaneeva-Babak
+    # LAST EDIT BY:IGOR LAST EDIT TIME:2011-10-24 12:59:18
+    host modem2139877 { 
+           hardware ethernet 00:1E:69:0D:79:58; 
+           fixed-address 172.20.0.80; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY28/1-44 LOGOJSKIJ tr.28/1-44
+    # LAST EDIT BY:KARPOVICH LAST EDIT TIME:2013-01-27 17:31:58
+    host modem2140430 { 
+           hardware ethernet 00:1E:69:2B:42:C4; 
+           fixed-address 172.20.7.53; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- Vaneeva-test
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-07-04 16:50:14
+    host modem2164177 { 
+           hardware ethernet 00:1A:D0:00:00:3C; 
+           fixed-address 172.20.0.20; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO49-50 KALINOVSKOGO ul.49-50
+    # LAST EDIT BY:KUZMENKO LAST EDIT TIME:2012-01-30 14:52:38
+    host modem2174210 { 
+           hardware ethernet 00:1E:69:2B:4B:4E; 
+           fixed-address 172.20.0.110; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH44-75 SEDYKH ul.44-75
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-01-14 18:08:07
+    host modem2178143 { 
+           hardware ethernet 00:26:24:97:E1:24; 
+           fixed-address 172.20.0.139; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO85-3 KALINOVSKOGO ul.85-3
+    # LAST EDIT BY:SAVICH LAST EDIT TIME:2013-09-01 19:34:37
+    host modem2178147 { 
+           hardware ethernet 00:26:24:97:E1:26; 
+           fixed-address 172.20.0.141; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO103-13 KALINOVSKOGO ul.103-13
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-10-27 13:13:34
+    host modem2178155 { 
+           hardware ethernet 00:26:24:97:E1:2A; 
+           fixed-address 172.20.0.127; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY28/3-60 LOGOJSKIJ tr.28/3-60
+    # LAST EDIT BY:PIROG LAST EDIT TIME:2011-10-28 10:59:58
+    host modem2178156 { 
+           hardware ethernet 00:26:24:97:E1:2C; 
+           fixed-address 172.20.0.128; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- Vaneeva-Cisco
+    # LAST EDIT BY:SHULHA LAST EDIT TIME:2012-07-17 18:52:05
+    host modem2185391 { 
+           hardware ethernet 48:44:87:23:9B:8C; 
+           fixed-address 172.20.0.20; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- Vaneeva
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-07-12 19:20:19
+    host modem2185872 { 
+           hardware ethernet 00:18:9B:36:D4:DB; 
+           fixed-address 172.20.0.223; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- VANEEVA ul.46-
+    # LAST EDIT BY:KROK LAST EDIT TIME:2013-07-29 12:50:14
+    host modem2187697 { 
+           hardware ethernet 48:44:87:25:C5:18; 
+           fixed-address 172.20.1.15; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA21-49 CNJANSKAJA ul.21-49
+    # LAST EDIT BY:MAX LAST EDIT TIME:2012-08-10 15:18:26
+    host modem2192007 { 
+           hardware ethernet 48:44:87:25:C2:C8; 
+           fixed-address 172.20.0.176; 
+           filename "3m19.bin";
+    }
+    # MODEM:NOVGORODSKAYA7-23 NOVGORODSKAJA ul.7-23
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-06-05 13:02:25
+    host modem2194047 { 
+           hardware ethernet 00:26:24:A1:22:C0; 
+           fixed-address 172.20.0.87; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA21B-4 VOLGOGRADSKAJA ul.21B-4
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2015-02-12 11:36:37
+    host modem2194049 { 
+           hardware ethernet 00:26:24:A1:22:C4; 
+           fixed-address 172.20.0.140; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA25-113 CNJANSKAJA ul.25-113
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-08-09 19:44:57
+    host modem2194339 { 
+           hardware ethernet 48:44:87:25:AF:14; 
+           fixed-address 172.20.0.202; 
+           filename "3m19.bin";
+    }
+    # MODEM:BOGDANOVICHA124-75 BOGDANOVICHA ul.124-75
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2012-08-07 16:34:45
+    host modem2197734 { 
+           hardware ethernet 48:44:87:26:11:84; 
+           fixed-address 172.20.0.201; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO107-40 KALINOVSKOGO ul.107-40
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2013-08-14 11:49:15
+    host modem2199331 { 
+           hardware ethernet 48:44:87:26:12:08; 
+           fixed-address 172.20.1.17; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA47-18 VOLGOGRADSKAJA ul.47-18
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-04-30 13:43:20
+    host modem2206799 { 
+           hardware ethernet 00:1E:69:2B:43:A4; 
+           fixed-address 172.20.1.14; 
+           filename "3m19.bin";
+    }
+    # MODEM:VANEEVA46- VANEEVA ul.46-test
+    # LAST EDIT BY:KROK LAST EDIT TIME:2013-05-30 15:17:17
+    host modem2209092 { 
+           hardware ethernet 00:1E:6B:92:00:31; 
+           fixed-address 172.20.99.106; 
+           filename "3m19.bin";
+    }
+    # MODEM:TSNYANSKAYA23-1 Uchastok 5 master
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-11-21 14:55:20
+    host modem2222845 { 
+           hardware ethernet 00:24:D1:20:37:A2; 
+           fixed-address 172.20.0.231; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA37A-51 VOLGOGRADSKAJA ul.37A-51
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2015-06-24 11:20:18
+    host modem2224560 { 
+           hardware ethernet 00:26:24:A1:22:FE; 
+           fixed-address 172.20.1.33; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA23-15 VOLGOGRADSKAJA ul.23-15
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-05-27 10:35:01
+    host modem2225508 { 
+           hardware ethernet 00:26:24:A1:23:00; 
+           fixed-address 172.20.0.175; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO7-44 KALINOVSKOGO ul.7-44
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-01-18 16:53:29
+    host modem2225678 { 
+           hardware ethernet 00:26:24:A1:23:10; 
+           fixed-address 172.20.0.74; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO5-5 Uchastok 5 Test
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-10-02 14:41:02
+    host modem2226925 { 
+           hardware ethernet 00:26:24:A1:23:12; 
+           fixed-address 172.20.1.46; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO9-44 KALINOVSKOGO ul.9-44
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2015-10-17 14:51:39
+    host modem2227182 { 
+           hardware ethernet 00:26:24:97:E1:0C; 
+           fixed-address 172.20.0.58; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA37A-16 VOLGOGRADSKAJA ul.37A-16
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-03-19 11:24:57
+    host modem2228794 { 
+           hardware ethernet 00:18:9B:EE:33:4B; 
+           fixed-address 172.20.0.59; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA37A-48 VOLGOGRADSKAJA ul.37A-48
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-11-18 18:43:19
+    host modem2229344 { 
+           hardware ethernet 00:1E:69:2B:33:54; 
+           fixed-address 172.20.0.65; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH14V-9 SEDYKH ul.14V-9
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-07-28 16:00:23
+    host modem2229994 { 
+           hardware ethernet 00:24:D1:43:9C:3A; 
+           fixed-address 172.20.0.72; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY24-56 LOGOJSKIJ tr.24-56
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2018-01-26 11:22:24
+    host modem2232449 { 
+           hardware ethernet 00:24:D1:49:93:34; 
+           fixed-address 172.20.0.60; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA37A-48 VOLGOGRADSKAJA ul.37A-48
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-04-29 10:11:04
+    host modem2232841 { 
+           hardware ethernet 00:26:24:A1:23:18; 
+           fixed-address 172.20.0.65; 
+           filename "3m19.bin";
+    }
+    # MODEM:VOLGOGRADSKAYA37A-51 VOLGOGRADSKAJA ul.37A-51-2
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2017-05-05 10:48:18
+    host modem2232892 { 
+           hardware ethernet 00:24:D1:20:37:A2; 
+           fixed-address 172.20.0.64; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO35-13 KALINOVSKOGO ul.35-13
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-07-01 12:55:23
+    host modem2233557 { 
+           hardware ethernet 00:24:D1:20:3B:54; 
+           fixed-address 172.20.0.70; 
+           filename "3m19.bin";
+    }
+    # MODEM:KALINOVSKOGO53/3-1 KALINOVSKOGO ul.53/3-1
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-08-01 14:22:30
+    host modem2233787 { 
+           hardware ethernet 00:26:24:97:E0:42; 
+           fixed-address 172.20.0.78; 
+           filename "3m19.bin";
+    }
+    # MODEM:LOGOYSKIY32/1-41 LOGOJSKIJ tr.32/1-41
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2017-11-16 11:06:25
+    host modem2234871 { 
+           hardware ethernet 00:24:D1:20:3B:46; 
+           fixed-address 172.20.0.79; 
+           filename "3m19.bin";
+    }
+    # MODEM:SEDYIH14-46 SEDYKH ul.14-46
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-12-23 13:52:08
+    host modem2235136 { 
+           hardware ethernet 00:24:D1:20:3B:4E; 
+           fixed-address 172.20.0.63; 
+           filename "3m19.bin";
+    }
+    # MODEM:STOROJHEVSKAYA8-291 STOROZHEVSKAJA ul.8-291
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2018-01-03 18:07:56
+    host modem2235215 { 
+           hardware ethernet 00:24:D1:49:91:F4; 
+           fixed-address 172.20.0.67; 
+           filename "3m19.bin";
+    }

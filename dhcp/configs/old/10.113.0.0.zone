@@ -1,0 +1,135 @@
+
+################################# ABONENTS
+
+    # CODE:CHICHURINA18-91 LS:2236809112 FIO:Sazon A A
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2013-12-17 14:06:08
+    host abonent_3742_0 {
+        hardware ethernet 10:FE:ED:7F:98:8D;
+        fixed-address 10.113.0.8;
+    }
+    # CODE:CHICHURINA12-189 LS:2236018912 FIO:Krivelev M V
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2016-08-11 17:02:26
+    host abonent_3774_1 {
+        hardware ethernet 00:18:F3:46:D7:1D;
+        fixed-address 10.113.0.13;
+    }
+    # CODE:CHICHURINA12-189 LS:2236018912 FIO:Krivelev M V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-12-26 13:47:42
+    host abonent_3774_2 {
+        hardware ethernet 10:FE:ED:7F:88:19;
+        fixed-address 10.113.0.13;
+    }
+    # CODE:CHICHURINA6-21 LS:2133202112 FIO:Emelyanova K V
+    # LAST EDIT BY:CHERNYSH LAST EDIT TIME:2014-01-09 10:50:26
+    host abonent_3803_3 {
+        hardware ethernet 90:94:E4:39:38:C7;
+        fixed-address 10.113.0.18;
+    }
+    # CODE:CHICHURINA18-206 LS:2236820612 FIO:Peretyikin S A
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-01-14 12:28:58
+    host abonent_3822_4 {
+        hardware ethernet 10:FE:ED:B4:11:C5;
+        fixed-address 10.113.0.22;
+    }
+    # CODE:CHICHURINA20-39 LS:2238403912 FIO:Mitrofanov A P
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-01-21 16:09:49
+    host abonent_3854_5 {
+        hardware ethernet 10:FE:ED:B3:CC:01;
+        fixed-address 10.113.0.25;
+    }
+    # CODE:CHICHURINA8-61 LS:2133106112 FIO:Kupreychik S M
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-12-16 15:17:52
+    host abonent_3937_6 {
+        hardware ethernet 84:16:F9:2F:58:FD;
+        fixed-address 10.113.0.28;
+    }
+    # CODE:CHICHURINA18-90 LS:2236809012 FIO:Gaykov O L
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-02-21 11:47:25
+    host abonent_3951_7 {
+        hardware ethernet 10:FE:ED:B3:F2:35;
+        fixed-address 10.113.0.29;
+    }
+    # CODE:CHICHURINA8-98 LS:2133109812 FIO:Burlo YU A
+    # LAST EDIT BY:ANNA LAST EDIT TIME:2014-06-24 14:13:15
+    host abonent_4095_8 {
+        hardware ethernet C0:4A:00:BF:AD:29;
+        fixed-address 10.113.0.30;
+    }
+    # CODE:CHICHURINA6-38 LS:2133203812 FIO:Tonkaya G N
+    # LAST EDIT BY:KALOSCHA LAST EDIT TIME:2014-08-01 12:24:16
+    host abonent_4476_9 {
+        hardware ethernet C0:4A:00:BF:AA:65;
+        fixed-address 10.113.0.15;
+    }
+    # CODE:CHICHURINA14-7 LS:2236100712 FIO:Voytin S V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-08-07 16:54:40
+    host abonent_4488_10 {
+        hardware ethernet C0:4A:00:BF:AB:59;
+        fixed-address 10.113.0.33;
+    }
+    # CODE:CHICHURINA20-55 LS:2238405512 FIO:Bakanov A V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-08-19 11:51:31
+    host abonent_4528_11 {
+        hardware ethernet C0:4A:00:BF:A7:BF;
+        fixed-address 10.113.0.34;
+    }
+    # CODE:CHICHURINA14-91 LS:2236109112 FIO:SHarko O V
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2014-12-09 17:25:00
+    host abonent_4852_12 {
+        hardware ethernet C0:4A:00:BF:40:5F;
+        fixed-address 10.113.0.17;
+    }
+    # CODE:CHICHURINA20-77 LS:2238407712 FIO:Horometskiy S L
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-07-09 14:28:43
+    host abonent_5338_13 {
+        hardware ethernet C0:4A:00:BF:7C:43;
+        fixed-address 10.113.0.6;
+    }
+    # CODE:CHICHURINA6-78 LS:2133207812 FIO:JHegalo A L
+    # LAST EDIT BY:STRUKOVA LAST EDIT TIME:2017-09-05 15:09:38
+    host abonent_5446_14 {
+        hardware ethernet 84:16:F9:2F:BA:D1;
+        fixed-address 10.113.0.11;
+    }
+    # CODE:CHICHURINA8-128 LS:2133112812 FIO:Granchik B A
+    # LAST EDIT BY:STAINA LAST EDIT TIME:2015-10-08 13:28:16
+    host abonent_5516_15 {
+        hardware ethernet C0:4A:00:BF:AD:3D;
+        fixed-address 10.113.0.12;
+    }
+    # CODE:CHICHURINA6-2 LS:2133200222 FIO:Andrianov I S
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2015-10-28 12:18:01
+    host abonent_5559_16 {
+        hardware ethernet F8:1A:67:AD:CA:9B;
+        fixed-address 10.113.0.7;
+    }
+    # CODE:CHICHURINA20-122 LS:2238412212 FIO:Zubkova S L
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-09-09 12:46:54
+    host abonent_6115_17 {
+        hardware ethernet C0:4A:00:2D:E3:69;
+        fixed-address 10.113.0.16;
+    }
+    # CODE:CHICHURINA14-118 LS:2236111812 FIO:Butsenko E S
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2016-11-05 14:09:17
+    host abonent_6176_18 {
+        hardware ethernet C0:4A:00:BF:A2:F9;
+        fixed-address 10.113.0.23;
+    }
+    # CODE:CHICHURINA6-40 LS:2133204022 FIO:Prihodovskaya D N
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-11-25 15:06:13
+    host abonent_6814_19 {
+        hardware ethernet 00:0C:42:E8:FE:3C;
+        fixed-address 10.113.0.10;
+    }
+    # CODE:CHICHURINA6-40 LS:2133204022 FIO:Prihodovskaya D N
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2017-09-19 11:16:51
+    host abonent_6814_20 {
+        hardware ethernet 20:AA:4B:21:75:B3;
+        fixed-address 10.113.0.10;
+    }
+    # CODE:CHICHURINA6-40 LS:2133204022 FIO:Prihodovskaya D N
+    # LAST EDIT BY:KOVALEV LAST EDIT TIME:2017-09-16 12:16:30
+    host abonent_6814_21 {
+        hardware ethernet 84:16:F9:6E:2D:83;
+        fixed-address 10.113.0.10;
+    }

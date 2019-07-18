@@ -1,0 +1,16 @@
+
+
+################################# ABONENTS
+
+    # CODE:HORUJHEY18/1-1 LS:0000000112 FIO: 
+    # LAST EDIT BY:SEMIANOVICH LAST EDIT TIME:2013-11-13 12:33:17
+    host abonent_3540_0 {
+        hardware ethernet D8:D3:85:1F:5B:83;
+        fixed-address 172.30.254.54;
+    }
+    # CODE:HORUJHEY18/1-55 LS:1034105512 FIO:Borodich S N
+    # LAST EDIT BY:BULATOV LAST EDIT TIME:2015-06-05 19:50:18
+    host abonent_4067_1 {
+        hardware ethernet 20:89:84:8E:28:70;
+        fixed-address 10.102.16.119;
+    }
