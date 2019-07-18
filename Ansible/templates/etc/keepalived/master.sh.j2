@@ -1,0 +1,6 @@
+#!/bin/bash
+docker run --rm -itd --name nfcapd -p 9996:9996/udp -v /nfsshares/netflow_data:/data -v /etc/timezone:/etc/timezone -v /etc/localtime:/etc/localtime 10.90.2.111:5000/mtis/netflow
+ping localhost -c 5
+#service arpwatch start
+ping localhost -c 15
+docker restart nfcapd

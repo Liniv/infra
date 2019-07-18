@@ -1,0 +1,276 @@
+# Prepairing 3650 hosts (NOT AIX)
+- name: 3650 hosts (NOT AIX)
+  hosts: '3650'
+  gather_facts: false
+  tasks:
+    # update /etc/hosts file
+  - name: update /etc/hosts file
+    become: true
+    blockinfile:
+      dest: /etc/hosts
+      content: "{{ lookup('template', 'templates/etc/hosts.j2') }}"
+      state: present
+    # Install yum-ext packages
+  - name: Install yum-ext packages
+    yum:
+      name: "{{ packages }}"
+      state: installed
+    vars:
+      packages: ['ntp','nfs-utils','yum-utils', 'device-mapper-persistent-data', 'bash-completion', 'lvm2']
+    # set timezone to Europe/Minsk
+  - name: set timezone to Europe/Minsk
+    timezone:
+      name: Europe/Minsk
+    register: timezone Europe/Minsk
+    # update system time
+  - name: update system time
+    shell: |
+      ntpdate -u 10.90.11.2
+      hwclock -w
+    register: system time updated
+    # configure /etc/fstab on clients (map NFS shared volume)
+  - name: configure /etc/fstab on clients
+    action: mount name='/nfsshares' src='10.90.2.33:/app' fstype='nfs' opts='nfsvers=3,nolock,rw,soft,intr' state='mounted'
+    tags:
+      - nfs
+# Prepairing all cluster hosts
+- name: Prepairing all cluster hosts
+  hosts: docker-swarm
+  gather_facts: false
+  tasks:
+   # Stop and disable firewald.
+  - name: Stop and disable firewald.
+    service:
+       name: firewalld
+       state: stopped
+       enabled: False
+  # Disable SELinux
+  - selinux:
+      state: disabled
+  #Disable SWAP
+  - name: Disable SWAP
+    shell: |
+      swapoff -a
+      sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
+    register: SWAP disabled
+  # Permanently SET vm.max_map_count=262144 (portainer)
+  - sysctl:
+      name: vm.max_map_count
+      value: 262144
+      state: present
+  # Configure docker repository
+  - name: Configure docker repository
+    yum_repository:
+      name: docker-ce
+      description: Docker CE Stable - $basearch
+      file: external_repos
+      baseurl: https://download.docker.com/linux/centos/7/$basearch/stable
+      gpgcheck: 1
+      gpgkey: https://download.docker.com/linux/centos/gpg
+      enabled: 1
+      state: present
+# Yum Install docker-ce package
+  - name: Install docker-ce package
+    yum:
+      name: 'docker-ce-18.06.1.ce-3.el7'
+      state: installed
+  # configure docker deamon json file
+  - name: configure docker daemon.json
+    template:
+      src: templates/etc/docker/daemon.json.j2
+      dest: /etc/docker/daemon.json
+      mode: 0644
+      owner: root
+      group: root
+  # create group docker
+  - name: create group docker
+    group:
+      name: docker
+      state: present
+  # add user to docker group
+  - name: add user to docker group
+    shell: >
+      usermod -aG docker $USER
+  # Enable docker service
+  - name: Enable docker service
+    service:
+      name: docker
+      enabled: yes
+  # # Reload and restart docker service
+  # - name: Restart docker service
+  #   service:
+  #     name: docker
+  #     state: restarted
+  #     daemon_reload: yes
+  # Check if docker service is started
+  - name: Start docker service
+    service:
+      name: docker
+      state: started
+# Check if nodes in cluster yet
+- name:  Check nodes not in cluster
+  hosts: docker-swarm
+  become: true
+  tasks:
+    # Get Swarm status from nodes
+    - name: determine swarm status
+      shell: >
+        docker info | egrep '^Swarm' | cut -d ' ' -f2
+      register: swarm_status
+    # Worker Hosts not in swarm cluster - prepare list to bootstrap it
+    - name: create swarm_worker_bootstrap group
+      add_host:
+        hostname: "{{ item }}"
+        groups: swarm_worker_bootstrap
+      with_items:  "{{ groups['docker-swarm-node'] }}"
+      when: "'active' not in swarm_status.stdout_lines"
+      run_once: true
+    # Manager Hosts not in swarm cluster - prepare list to bootstrap it
+    - name: create swarm_manager_bootstrap group
+      add_host:
+        hostname: "{{ item }}"
+        groups: swarm_manager_bootstrap
+      with_items: "{{ groups['docker-swarm-manager'] }}"
+      when: "'active' not in swarm_status.stdout_lines"
+      run_once: true
+# Initiate Docker Swarm Cluster
+- name:  Initiate Docker Swarm Cluster
+  hosts: swarm_manager_bootstrap[0]
+  become: true
+  tasks:
+    - name: initialize swarm cluster
+      shell: >
+        docker swarm init
+      register: new_cluster_initiated
+    # Check add initialized host to first_manager_node tmp group
+    - name: add initialized host to first_manager_node tmp group
+      add_host:
+        hostname: "{{ groups['swarm_manager_bootstrap'][0] }}"
+        groups: first_manager_node
+      when: new_cluster_initiated is changed
+# Collect Swarm cluster data (tokens & etc)
+- name:  Collect Swarm cluster data (tokens & etc)
+  hosts: swarm_manager_bootstrap[0]
+  become: true
+  vars:
+    iface: "{{ swarm_iface | default('bond0') }}"
+  tasks:
+    # Get manager token
+    - name: retrieve swarm manager token
+      shell: docker swarm join-token -q manager
+      register: swarm_manager_token
+      when: "'first_manager_node' in groups"
+    # Get worker token
+    - name: retrieve swarm worker token
+      shell: docker swarm join-token -q worker
+      register: swarm_worker_token
+      when: "'first_manager_node' in groups"
+# Join Masters to cluster
+- name: Join Manager nodes to cluster
+  hosts: swarm_manager_bootstrap:!first_manager_node
+  become: true
+  vars:
+    token: "{{ hostvars[groups['first_manager_node'][0]]['swarm_manager_token']['stdout'] }}"
+  tasks:
+    - name: join manager nodes to cluster
+      shell: >
+        docker swarm join
+        --token {{ token }}
+        {{ hostvars[groups['first_manager_node'][0]]['ansible_ssh_host'] }}:2377
+# Join workers to cluster
+- name: Join worker nodes to cluster
+  hosts: swarm_worker_bootstrap
+  become: true
+  vars:
+    token: "{{ hostvars[groups['first_manager_node'][0]]['swarm_worker_token']['stdout'] }}"
+  tasks:
+    - name: join worker nodes to cluster
+      shell: >
+        docker swarm join
+        --token {{ token }}
+        {{ hostvars[groups['first_manager_node'][0]]['ansible_ssh_host'] }}:2377
+# keepalived on manager nodes
+- name: keepalived on manager nodes
+  tags: keepalived-confs
+  hosts: 'docker-swarm-manager'
+  gather_facts: false
+  tasks:
+    # Install yum-ext packages
+    - name: Install yum-ext packages
+      yum:
+        name: "{{ packages }}"
+        state: installed
+      vars:
+        packages: ['keepalived', 'arpwatch']
+    # clear keepalived
+    - name: clear keepalived
+      shell: |
+        cat /dev/null > /etc/sysconfig/keepalived
+        cat /dev/null > /etc/keepalived/keepalived.conf
+        cat /dev/null > /etc/keepalived/master.sh
+        cat /dev/null > /etc/keepalived/backup.sh
+        cat /dev/null > /etc/sysconfig/arpwatch
+        chmod 777 /etc/keepalived/master.sh
+        chmod 777 /etc/keepalived/backup.sh
+      register: keepalived cleared
+    # update /etc/sysconfig/arpwatch
+    - name: update /etc/sysconfig/arpwatch
+      become: true
+      blockinfile:
+        dest: /etc/sysconfig/arpwatch
+        content: "{{ lookup('template', 'templates/etc/sysconfig/arpwatch.j2') }}"
+        state: present
+    # update keepalived /etc/sysconfig/keepalived
+    - name: update keepalived /etc/sysconfig/keepalived
+      become: true
+      blockinfile:
+        dest: /etc/sysconfig/keepalived
+        content: "{{ lookup('template', 'templates/etc/sysconfig/keepalived.j2') }}"
+        state: present
+    # update keepalived /etc/keepalived/keepalived.conf
+    - name: update keepalived /etc/keepalived/keepalived.conf
+      become: true
+      blockinfile:
+        dest: /etc/keepalived/keepalived.conf
+        content: "{{ lookup('template', 'templates/etc/keepalived/keepalived.conf.j2') }}"
+        state: present
+    # update keepalived /etc/keepalived/master.sh
+    - name: update keepalived /etc/keepalived/master.sh
+      become: true
+      blockinfile:
+        dest: /etc/keepalived/master.sh
+        content: "{{ lookup('template', 'templates/etc/keepalived/master.sh.j2') }}"
+        state: present
+    # update keepalived /etc/keepalived/backup.sh
+    - name: update keepalived /etc/keepalived/backup.sh
+      become: true
+      blockinfile:
+        dest: /etc/keepalived/backup.sh
+        content: "{{ lookup('template', 'templates/etc/keepalived/backup.sh.j2') }}"
+        state: present
+        # Enable keepalived service
+    - name: Enable keepalived service
+      service:
+        name: keepalived
+        enabled: yes
+    # Reload and restart keepalived service
+    - name: Reload and restart keepalived service
+      service:
+        name: keepalived
+        state: restarted
+        daemon_reload: yes
+    # Check if keepalived service is started
+    - name: Check if keepalived service is started
+      service:
+        name: keepalived
+        state: started
+        # Disable arpwatch service
+    - name: Disable arpwatch service
+      service:
+        name: arpwatch
+        enabled: no
+    # Check if arpwatch service is stoppppppppppppppppppped
+    - name: Check if arpwatch service is stopped
+      service:
+        name: arpwatch
+        state: stopped

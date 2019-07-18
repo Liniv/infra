@@ -1,0 +1,42 @@
+! Configuration File for keepalived
+global_defs {
+    notification_email {
+    }
+
+    router_id LVS_SWARMCLUSTER
+}
+
+vrrp_instance VI_1 {
+    state {{ STATE }}
+    nopreempt
+    interface bond0
+    virtual_router_id 52
+    priority {{ KEEPALIVED_PRIORITY }}
+    advert_int 1
+    track_interface {
+        bond0
+    }
+    track_script {
+    }
+    authentication {
+        auth_type PASS
+        auth_pass zte-mt1s
+    }
+    
+    unicast_peer {
+    10.90.2.41
+    10.90.2.42
+    10.90.2.51
+    10.90.2.52
+    10.90.2.61
+    10.90.2.62
+    10.90.2.71
+    }
+
+    virtual_ipaddress {
+    10.90.2.111/24
+    }
+    notify_backup "/etc/keepalived/backup.sh"
+    notify_fault "/etc/keepalived/backup.sh"
+    notify_master "/etc/keepalived/master.sh"
+}
