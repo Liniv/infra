@@ -1,0 +1,37 @@
+version: "3"
+
+services:
+  lbsticky:
+    image: traefik
+    command: --api --web --docker --docker.swarmmode --docker.watch
+    ports:
+      - "80:80"
+      - "9090:8080"
+    volumes:
+      - ./traefik.toml:/etc/traefik/traefik.toml:ro
+      - /var/run/docker.sock:/var/run/docker.sock # So that Traefik can listen to the Docker events
+    deploy:
+      restart_policy:
+        condition: any
+      mode: replicated
+      replicas: 1
+      update_config:
+        delay: 2s
+      placement:
+         constraints: [node.role == manager]
+
+  wildflywapp:
+    image: mtis/wildflywapp
+    deploy:
+      labels:
+        - "traefik.web.port=8080"
+        - "traefik.web.frontend.rule=Host:3d-ztemtis-srv1"
+        - "traefik.backend.loadbalancer.sticky=true"
+      restart_policy:
+        condition: any
+      mode: replicated
+      replicas: 3
+      update_config:
+        delay: 2s
+      placement:
+         constraints: [node.role == manager]

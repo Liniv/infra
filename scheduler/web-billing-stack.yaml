@@ -1,0 +1,24 @@
+version: "3.7"
+services:
+  
+  scheduler:
+    hostname: web-scheduler
+    image: "10.90.2.111:5000/mtis/web-scheduler:latest"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./config/standalone.xml:/opt/jboss/wildfly/standalone/configuration/standalone.xml:ro
+    ports:
+      ['2443:8443','2991:9990']
+    networks:
+      mtis-swarm-network:
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints:
+          - 'node.role == manager'
+      update_config:
+        delay: 2s
+networks:
+  mtis-swarm-network:
+    external: true

@@ -1,0 +1,13 @@
+debug = false
+logLevel = "ERROR"
+defaultEntryPoints = ["http"]
+[entryPoints]
+  [entryPoints.http]
+  address = ":80"
+
+# Docker Swarm Mode Provider, see https://docs.traefik.io/configuration/backends/docker/#docker-swarm-mode
+[docker]
+endpoint = "tcp://127.0.0.1:2375"
+domain = "docker.localhost"
+watch = true
+swarmMode = true

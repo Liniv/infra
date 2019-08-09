@@ -1,0 +1,90 @@
+version: "3.7"
+services:
+  # load-balancer:
+  #   image: traefik
+  #   command:
+  #     - "--api"
+  #     - "--docker"
+  #     # - "--debug=true"
+  #     # - "--logLevel=DEBUG"
+  #     - "--entrypoints=Name:http Address::80 Redirect.EntryPoint:https"
+  #     - "--entrypoints=Name:https Address::443 TLS"
+  #     - "--defaultentrypoints=http,https"
+  #     - "--insecureSkipVerify=true"
+  #   volumes:
+  #     - /etc/localtime:/etc/localtime:ro
+  #     - /var/run/docker.sock:/var/run/docker.sock
+  #     # - ./traefik:/etc/traefik
+  #     # - /nfsshares/traefik_data/sslcerts:/ssl
+  #     # - /nfsshares/traefik_data/data:/data
+  #   networks:
+  #     mtis-swarm-network:
+  #   ports:
+  #     # - "80:80"
+  #     - "443:443"
+  #     # - "8080:8080"
+  #   deploy:
+  #     placement:
+  #       constraints:
+  #         - 'node.role == manager'
+  #     update_config:
+  #       parallelism: 1
+  #       delay: 10s
+  #     restart_policy:
+  #       condition: any
+  demo-1:
+    hostname: web-billing-demo1
+    image: "10.90.2.111:5000/mtis/web-billing:demo1"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /nfsshares/wildfly_data/jasper_data:/opt/jboss/jasper
+      - /nfsshares/wildfly_data/records_data:/opt/jboss/records
+      - ./config/standalone.xml:/opt/jboss/wildfly/standalone/configuration/standalone.xml:ro
+    ports:
+      ['443:8443','9991:9990']
+    networks:
+      mtis-swarm-network:
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints:
+          - 'node.role == manager'
+      update_config:
+        delay: 2s
+  demo-2:
+    hostname: web-billing:demo2
+    image: "10.90.2.111:5000/mtis/web-billing:demo2"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /nfsshares/wildfly_data/jasper_data:/opt/jboss/jasper
+      - /nfsshares/wildfly_data/records_data:/opt/jboss/records
+      - ./config/standalone-demo.xml:/opt/jboss/wildfly/standalone/configuration/standalone.xml:ro
+    ports:
+      ['1443:8443','9992:9990']
+    networks:
+      mtis-swarm-network:
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints:
+          - 'node.role == manager'
+      update_config:
+        delay: 2s
+
+        # labels:
+    #    - "traefik.enable=true"
+    #   #  - "traefik.backend=wildfly"
+    #    - "traefik.frontend.rule=PathPrefix:/mtis-web-billing/"
+    #   #  - "traefik.frontend.rule=AddPrefix:/mtis-web-billing/;PathPrefixStrip:/mtis-web-billing"
+    #    - "traefik.port=8443"
+    #    - "traefik.protocol=https"
+    #    - "traefik.frontend.entryPoints=https"
+    #    - "traefik.backend.loadbalancer.stickiness=true"
+    #   #  - "traefik.backend.loadbalancer.swarm=true"
+    #   #  - "traefik.backend.loadbalancer.method=drr"
+
+networks:
+  mtis-swarm-network:
+    external: true

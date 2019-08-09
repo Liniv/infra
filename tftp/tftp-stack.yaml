@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  tftp:
+     image: "10.90.2.111:5000/mtis/tftp:latest"
+     volumes:
+       - /etc/localtime:/etc/localtime:ro
+       - /nfsshares/tftp_data:/var/tftpboot
+     ports:
+       - "69:69/udp"
+     networks:
+       mtis-swarm-network:
+     deploy:
+       mode: replicated
+       replicas: 1
+       update_config:
+         delay: 2s
+
+networks:
+  mtis-swarm-network:
+    external: true

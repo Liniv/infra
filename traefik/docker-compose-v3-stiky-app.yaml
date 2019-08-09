@@ -1,0 +1,44 @@
+version: "3"
+ 
+services:
+ 
+  wildflywapp:
+    image: mtis/wildflywapp
+    networks:
+      - net
+    deploy:
+      restart_policy:
+        condition: any
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints: [node.role == manager]
+      update_config:
+        delay: 2s
+      labels:
+        - "traefik.port=8080"
+        - "traefik.frontend.rule=Host:3d-ztemtis-srv1;PathPrefix:/mtis-web-billing;"
+        - "traefik.backend.loadbalancer.sticky=true"
+
+  lbsticky:
+    image: traefik
+    command: --api --web --docker --docker.swarmmode --docker.watch
+    ports:
+      - "80:80"
+      - "9090:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    deploy:
+      restart_policy:
+        condition: any
+      mode: replicated
+      replicas: 1
+      update_config:
+        delay: 2s
+      placement:
+         constraints: [node.role == manager]
+    networks:
+      - net
+
+networks:
+  net:
