@@ -1,6 +1,7 @@
 #!/bin/sh
 set -e
 
+
 # This script is meant for quick & easy install via:
 #   $ curl -fsSL get.docker.com -o get-docker.sh
 #   $ sh get-docker.sh
